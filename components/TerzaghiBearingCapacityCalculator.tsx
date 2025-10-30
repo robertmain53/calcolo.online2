@@ -459,7 +459,7 @@ export default function TerzaghiBearingCapacityCalculator() {
             Parametri insufficienti
           </h3>
           <p className="text-sm text-red-800">
-            Controlla dimensioni, peso di volume (gamma > 0) e angolo di attrito (0 deg <= phi < 45 deg).
+            Controlla dimensioni, peso di volume (gamma &gt; 0) e angolo di attrito (0 deg &lt;= phi &lt; 45 deg).
           </p>
         </section>
       )}
