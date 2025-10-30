@@ -17,6 +17,7 @@ import {
   generateHowToSchema,
 } from '@/lib/structured-data';
 import ROICalculator from '@/components/ROICalculator';
+import SimplySupportedBeamCalculator from '@/components/SimplySupportedBeamCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -390,6 +391,7 @@ const howToContentBySlug: Record<
 };
 
 const calculatorComponents: Record<string, ComponentType | undefined> = {
+  'calcolo-trave-appoggiata': SimplySupportedBeamCalculator,
   'calcolo-roi-return-on-investment': ROICalculator,
 };
 
