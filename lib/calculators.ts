@@ -822,6 +822,186 @@ export const calculators: Calculator[] = [
     dateModified: '2025-02-20',
     schema: 'WebApplication',
   },
+  {
+    slug: 'guida-dlgs-81-08-testo-unico-sicurezza',
+    title: 'Guida al D.Lgs. 81/08: Il Testo Unico Sicurezza',
+    description:
+      'Struttura del Testo Unico, principi di prevenzione e obblighi della valutazione dei rischi per aziende e cantieri.',
+    metaDescription:
+      'Introduzione al D.Lgs. 81/08: struttura, ruoli e adempimenti per la sicurezza nei cantieri e nei luoghi di lavoro.',
+    category: 'guide',
+    keywords: [
+      'd.lgs. 81/08',
+      'testo unico sicurezza',
+      'valutazione rischi',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-18',
+    dateModified: '2025-02-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'figure-sicurezza-csp-cse-rspp',
+    title: 'Le Figure della Sicurezza: CSP, CSE e RSPP',
+    description:
+      'Ruoli, responsabilità e obblighi delle figure chiave della sicurezza nei cantieri e nelle aziende.',
+    metaDescription:
+      'Approfondimento sui ruoli CSP, CSE, RSPP e datore di lavoro: compiti e obblighi secondo D.Lgs. 81/08.',
+    category: 'guide',
+    keywords: [
+      'CSP',
+      'CSE',
+      'RSPP',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-18',
+    dateModified: '2025-02-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'differenza-psc-pos-pimus',
+    title: 'PSC, POS e PiMUS: Differenze e Obblighi',
+    description:
+      'Spiega cosa sono PSC, POS e PiMUS, chi li redige e quando sono obbligatori nei cantieri.',
+    metaDescription:
+      'Guida pratica alle differenze tra PSC, POS e PiMUS e agli obblighi normativi per imprese e coordinatori.',
+    category: 'guide',
+    keywords: [
+      'PSC',
+      'POS',
+      'PiMUS',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-18',
+    dateModified: '2025-02-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'come-calcolare-costi-sicurezza',
+    title: 'Come Calcolare i Costi della Sicurezza (Guida)',
+    description:
+      'Metodologia per stimare costi diretti e speciali della sicurezza con esempi di apprestamenti e DPI.',
+    metaDescription:
+      'Procedura per calcolare gli oneri della sicurezza da inserire in PSC e offerte: esempi di apprestamenti e DPI.',
+    category: 'guide',
+    keywords: [
+      'costi sicurezza',
+      'apprestamenti',
+      'PSC costi',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-18',
+    dateModified: '2025-02-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-metodo-niosh-mmc',
+    title: 'Valutazione Rischio MMC: Il Metodo NIOSH',
+    description:
+      'Spiegazione passo-passo del metodo NIOSH per la movimentazione manuale dei carichi con fattori di correzione.',
+    metaDescription:
+      'Guida applicativa del metodo NIOSH per la valutazione MMC: costanti, fattori di correzione e interpretazione dell’indice.',
+    category: 'guide',
+    keywords: [
+      'metodo NIOSH',
+      'MMC',
+      'movimentazione carichi',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-18',
+    dateModified: '2025-02-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'rischio-rumore-valori-limite-misure',
+    title: 'Rischio Rumore: da LEX, 8h alle Misure',
+    description:
+      'Come interpretare i valori limite di esposizione al rumore e scegliere le misure preventive e protettive adeguate.',
+    metaDescription:
+      'Valutazione rischio rumore: interpretazione di LEX,8h e Lpeak con focus su DPI, formazione e interventi tecnici.',
+    category: 'guide',
+    keywords: [
+      'lex 8h',
+      'rischio rumore',
+      'misure prevenzione',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-18',
+    dateModified: '2025-02-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'rischio-vibrazioni-spiegazione-hav-wbv',
+    title: 'Rischio Vibrazioni (HAV/WBV): Spiegazione',
+    description:
+      'Descrive valori d’azione e limite per vibrazioni mano-braccio e corpo intero con obblighi per il datore di lavoro.',
+    metaDescription:
+      'Guida alle vibrazioni HAV e WBV: valori limite A(8), valutazione e misure preventive secondo D.Lgs. 81/08.',
+    category: 'guide',
+    keywords: [
+      'rischio vibrazioni',
+      'HAV',
+      'WBV',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-18',
+    dateModified: '2025-02-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'lavori-quota-obblighi-dpi-anticaduta',
+    title: 'Lavori in Quota: Obblighi e DPI Anticaduta',
+    description:
+      'Panoramica sugli obblighi per i lavori in quota, differenza tra protezioni collettive e DPI e scelta dei sistemi anticaduta.',
+    metaDescription:
+      'Guida ai lavori in quota: obblighi, DPI anticaduta e sistemi di protezione collettiva secondo D.Lgs. 81/08.',
+    category: 'guide',
+    keywords: [
+      'lavori in quota',
+      'DPI anticaduta',
+      'protezione collettiva',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-18',
+    dateModified: '2025-02-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'cos-e-pimus-ponteggi',
+    title: 'Il PiMUS: Cos’è e Chi lo Redige',
+    description:
+      'Contenuti minimi, responsabilità e procedure per il Piano di Montaggio, Uso e Smontaggio dei ponteggi.',
+    metaDescription:
+      'Guida al PiMUS: contenuti obbligatori, ruolo del datore di lavoro e procedure per ponteggi sicuri.',
+    category: 'guide',
+    keywords: [
+      'PiMUS',
+      'ponteggi',
+      'piano montaggio',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-18',
+    dateModified: '2025-02-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-congruita-manodopera-dm-143-2021',
+    title: 'Congruità Manodopera: Come Funziona',
+    description:
+      'Spiega il funzionamento del DURC di congruità, calcolo dell’incidenza e gestione di eventuali scostamenti.',
+    metaDescription:
+      'Guida al D.M. 143/2021: calcolo della congruità della manodopera, soglie minime e gestione delle non conformità.',
+    category: 'guide',
+    keywords: [
+      'congruità manodopera',
+      'DM 143/2021',
+      'DURC congruità',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-18',
+    dateModified: '2025-02-26',
+    schema: 'WebApplication',
+  },
   // Add more calculators here following the same structure
   // Example:
   // {
