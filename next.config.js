@@ -5,8 +5,8 @@ const nextConfig = {
   
   // Enable static exports where possible
   output: 'standalone',
-  
-  // Compress all responses
+   
+  // Compress al l responses
   compress: true,
   
   // Optimize images
