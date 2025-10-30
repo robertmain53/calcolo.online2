@@ -1,0 +1,1116 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.enexsys.com/Informa/TeoricoHTML/Cap050/Par020/Par020.htm
+Subject: 
+Date: Thu, 30 Oct 2025 18:48:22 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--xBxlHFl5M4OUvs0vCBJXWYWdqVevVGQbmMCOUq7CoO----"
+
+
+------MultipartBoundary--xBxlHFl5M4OUvs0vCBJXWYWdqVevVGQbmMCOUq7CoO----
+Content-Type: text/html
+Content-ID: <frame-BE2F448C5872E3A7C1B12615C89F2202@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.enexsys.com/Informa/TeoricoHTML/Cap050/Par020/Par020.htm
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3Dwindows-1252"></head><body>
+  <div id=3D"nonScrollingHeader">
+    <h2>Verifiche elementi in C.A.</h2>
+  </div>
+
+  <div id=3D"Scrolling">
+      <p>Dopo aver condotto la fase di analisi della struttura, possono ess=
+ere mandate in esecuzione, una alla volta, le verifiche
+      degli elementi in c.a. tipo Trave, Pilastro, Trave di Fondazione, Set=
+to e Plinto, scegliendo il corrispondente comando dal
+      menu del <span class=3D"Programma">Verifica e Disegno C.A.</span>.</p=
+>
+
+      <p>In generale, prima di eseguire le verifiche, =E8 bene aver definit=
+o:</p>
+
+      <ol>
+        <li>I Fili Fissi.</li>
+
+        <li>I Criteri di Progetto degli Elementi;</li>
+
+        <li>I Criteri di Progetto della Struttura.</li>
+      </ol>
+
+      <p>I Criteri di Progetto degli Elementi si distinguono a seconda che =
+la sezione sia stata definita direttamente nel modello
+      o provenga dal database delle sezioni in c.a. Nel primo caso i criter=
+i vengono stabiliti espressamente con la fase di setup
+      dei dati di verifica nel <span class=3D"Programma">Verifica e Disegno=
+ C.A.</span>, mentre nel secondo caso corrispondono con
+      quelli predefiniti a suo tempo nel database stesso.</p>
+
+      <p>I Criteri di Progetto della Struttura sono definiti con i setup ge=
+nerali di verifica nel <span class=3D"Programma">Verifica
+      e Disegno C.A.</span>.</p>
+
+      <p class=3D"NotaBene">I criteri derivanti dall'applicazione della nor=
+mativa vigente prevalgono sempre su quelli definiti dall'utente.</p>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image002.gif"=
+></p>
+
+
+      <p class=3D"EneCaption">Fig. 1 Schema logico delle relazioni esistent=
+i tra il progetto ed i criteri di progetto.</p>
+
+      <p>In Fig. 1 si illustra lo schema logico delle relazioni esistenti t=
+ra il progetto, i criteri di progetto della struttura
+      ed i criteri di progetto degli elementi con sezioni di database e sez=
+ioni definite direttamente. Per esempio, ogni sezione
+      pilastro di database ha una propria tabella di armature e materiali c=
+he resta disponibile per l'impiego in pi=F9 progetti
+      perch=E9 residente nel database.</p>
+
+      <p>Per la verifica dei pali di fondazione consultare la sezione Pali =
+nel capitolo I Programmi di WinStrand nella Guida all'Uso.</p>
+
+      <p>Per le verifiche degli elementi piani in c.a., come le piastre in =
+c.a. o le platee di fondazione, consultare la sezione
+      Lastre nel capitolo I Programmi di WinStrand nella Guida all'Uso.</p>
+
+      <p>I programmi di verifica degli elementi in c.a. sono interattivi e =
+consentono di modificare le armature predisposte automaticamente
+      dai singoli algoritmi di verifica. L'aggiornamento automatico delle v=
+erifiche delle varie membrature, in accordo con quanto
+      disegnato, evita incongruenze fra le armature minime previste in fase=
+ di verifica e quelle predisposte successivamente dal
+      progettista in fase di disegno esecutivo.</p>
+
+      <p class=3D"NotaBene">In quest'ottica si consiglia di procedere alla =
+realizzazione delle relazioni delle verifiche e dei computi
+      solo al termine della fase di disegno in maniera da comprendere anche=
+ gli eventuali aggiornamenti delle armature introdotte
+      con <span class=3D"Programma">Verifica e Disegno C.A.</span></p>
+
+      <p>Con il comando Definizione calcolo (<span class=3D"Programma">Pre-=
+Processore</span> - <span class=3D"Menu"> Calcolo</span>)
+      =E8 possibile scegliere il metodo di verifica.</p>
+
+      <h3>Pilastri in C.A.</h3>
+      <p>Le armature dei pilastri sono progettate sempre simmetriche per ev=
+itare che, in fase di montaggio in cantiere, vi siano
+      errori di posizionamento della gabbia metallica.</p>
+
+      <p>La verifica viene eseguita, per ogni combinazione di carico previs=
+ta, nella sezione al piede ed in quella di sommit=E0
+      di ogni pilastro del modello. Le verifiche vengono condotte a pressof=
+lessione deviata, retta o retta con amplificazione
+      dei momenti in base a quanto definito nel setup delle verifiche.</p>
+
+      <p>La verifica a taglio viene condotta nei due piani principali local=
+i dell'elemento.</p>
+
+      <p>La procedura di verifica a pressoflessione deviata considera la co=
+ncomitanza delle componenti <b>N</b>, <b>M<sub>x</sub></b>
+      ed <b>M<sub>y</sub></b>. Con la scelta della pressoflessione retta, i=
+nvece, vengono eseguite due verifiche distinte: una
+      con <b>N</b> ed <b>M<sub>x</sub></b> ed l'altra con <b>N</b> ed <b>M<=
+sub>y</sub></b>. Una terza via, peraltro prevista negli
+      eurocodici, che tiene conto della concomitanza delle componenti dell'=
+azione interna agenti nei due piani di sollecitazione,
+      consiste nell'eseguire una verifica a pressoflessione retta secondo u=
+n piano e considerare un incremento percentuale della
+      componente flessionale agente in tale piano (pressoflessione retta co=
+n amplificazione: <b>N</b>+(<b>1</b>+<b>k</b>) <b>M<sub>x</sub></b>
+      e <b>N</b>+(<b>1</b>+<b>k</b>) <b>M<sub>y</sub></b>). L'Eurocodice co=
+nsidera questa tra le procedure possibili per la verifica
+      delle colonne impiegando un fattore di amplificazione <b>k</b> dei mo=
+menti pari al 30%. Per una giustificazione teorica
+      consultare <i>Clough e Penzien "Deterministic Analisys of heartquake =
+response"</i> McGraw-Hill 1993,Cap. 26-27.</p>
+
+      <p>Per i pilastri, quando previsto,&nbsp; si segue il criterio di ger=
+archia delle resistenze per cui i valori dei momenti
+      flettenti e del taglio sollecitanti non sono quelli derivanti diretta=
+mente dall'analisi strutturale ma dipendono anche dalle
+      sollecitazioni ultime interne alle travi e pilastri che si connettono=
+ al pilastro da verificare (e, quindi, dipendono anche
+      dalle armature disposte in questi elementi).</p>
+
+      <p>I criteri di progetto di un elemento pilastro sono dati caratteris=
+tici della relativa sezione. Per le sezioni di database
+      i criteri di progetto vengono specificati in fase di input della sezi=
+one nel database (vedi la sezione Gestore Sezioni C.A.
+      nel capitolo I Programmi di WinStrand) mentre per le sezioni definite=
+ direttamente si impiega il comando Setup dati di verifica pilastri
+      (<span class=3D"Programma">Verifica e Disegno C.A.</span> - <span cla=
+ss=3D"Menu">Pilastri</span>). I criteri di progetto dei
+      pilastri vanno a definire tra l'altro:</p>
+
+      <ul>
+        <li>Il numero minimo e massimo di ferri da predisporre per ogni spi=
+golo della sezione.</li>
+
+        <li>Se il diametro dei ferri di parete coincide o meno con quello d=
+elle barre di spigolo.</li>
+
+        <li>La percentuale di armatura minima e massima adottabile.</li>
+
+        <li>Se occorre prevedere il raddoppio delle staffe nei conci di est=
+remit=E0 dei pilastri.</li>
+      </ul>
+
+      <p>Con i criteri scelti vengono individuate una serie di tipologie di=
+ armature a flessione e taglio a formare una tabella
+      di armature che viene messa a disposizione dell'algoritmo di verifica=
+ dei pilastri. Per ogni sezione si dispone di una corrispondente
+      tabella.</p>
+
+      <p>Per le sezioni definite direttamente nel <span class=3D"Programma"=
+>Pre-Processore</span> (non di database) il criterio
+      di progetto dei pilastri viene individuato con il setup delle verific=
+he. In questo caso tutte le tipologie di sezione rispondono
+      inizialmente al medesimo criterio che conduce ad una singola tabella =
+di armature. In un secondo momento =E8 possibile
+      specializzare i criteri per ogni sezione operando le modifiche del ca=
+so.</p>
+
+      <p>L'algoritmo di verifica dei pilastri in c.a. procede nel seguente =
+modo:</p>
+
+      <ol>
+        <li>Selezione dell'<i>armatura di verifica minima</i> dalla tabella=
+ di armature collegata alla sezione.</li>
+
+        <li>Si esegue la verifica del pilastro e la procedura termina nel c=
+aso favorevole, altrimenti si procede con il punto 3.</li>
+
+        <li>Si seleziona nella tabella di armature, ordinata in base al cri=
+terio della sezione minima o del numero minimo di barre,
+        la disposizione successiva. Si torna quindi al punto 2 sino a quand=
+o anche l'ultima disposizione in lista fallisce la verifica
+        per cui si procede con il punto 4.</li>
+
+        <li>Verifica insoddisfatta.</li>
+      </ol>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image004.gif"=
+></p>
+
+
+      <p class=3D"EneCaption">Fig. 2 Disposizione armatura indispensabile p=
+er le sezioni tipo: 4 barre per le rettangolari, 8 per
+      quelle a T ed L e 6 per le circolari.</p>
+
+      <p class=3D"NotaBene">L'armatura indispensabile coincide con quella c=
+he nel programma viene indicata come "armatura di <i>Spigolo".</i></p>
+
+      <p class=3D"NotaBene">Nei pilastri non si tiene conto del coefficient=
+e di amplificazione dello sforzo assiale per pilastri snelli.</p>
+
+      <p>In riferimento alla normativa selezionata (dal D.M. 9 Gennaio 1996=
+ - "Norme tecniche per l'esecuzione delle opere
+      in cemento armato normale e precompresso e per le strutture metallich=
+e", sino al D.M. 14-01-2008 "Norme Tecniche
+      per le Costruzioni"), le verifiche dei pilastri tengono conto delle r=
+ispettive restrizioni, come ad esempio:</p>
+
+      <ul>
+        <li>L'area del ferro deve risultare maggiore dello 0.8 % dell'area =
+di calcestruzzo strettamente necessaria per carico assiale.</li>
+
+        <li>L'area di ferro deve essere compresa tra lo 0.3 % e il 6 % dell=
+'area di calcestruzzo effettiva della sezione (per
+        la circolare 10 Aprile 1997 n. 65/AA.GG., relativa alle zone sismic=
+he, tale intervallo diventa pari a [1%, 4% ]. La stessa
+        percentuale =E8 prevista da OPCM 3274/2003).</li>
+
+        <li>Nelle sezioni interamente compresse viene controllato che la te=
+nsione media non risulti superiore al 70 % della tensione
+        ammissibile del calcestruzzo. Con il metodo agli stati limite tale =
+prescrizione si traduce nella disposizione di armatura
+        longitudinale di sezione non minore di <b>0,15</b> <b>N<sub>Sd</sub=
+></b>/<b>fyd</b>.</li>
+
+        <li>Nelle sezioni con spessore inferiore a 25 cm la tensione ammiss=
+ibile viene ridotta in accordo con la normativa prescelta.</li>
+      </ul>
+
+      <h3>Travi e Travi di Fondazione in C.A.</h3>
+      <p>La procedura di verifica a flessione o pressoflessione, taglio e t=
+orsione, secondo il metodo delle Tensioni Ammissibili
+      o quello agli Stati Limite, =E8 in grado di individuare, se esiste tr=
+a le disposizioni d'armatura elencate nelle tabelle
+      di armatura, quella in grado di soddisfare tutte le prescrizioni di n=
+ormativa.</p>
+
+      <p>I criteri di progetto di un elemento trave sono dati caratteristic=
+i della relativa sezione. Per le sezioni di database
+      i criteri di progetto vengono specificati in fase di input della sezi=
+one nel database (vedi la sezione Gestore Sezioni C.A.
+      nel capitolo I Programmi di WinStrand) mentre per le sezioni definite=
+ direttamente si impiega il comando Setup dati di verifica travi
+      (<span class=3D"Programma">Verifica e Disegno C.A.</span> - <span cla=
+ss=3D"Menu">Travi</span>). Con i criteri scelti vengono
+      individuate una serie di tipologie di armature a flessione, taglio e =
+torsione a formare una tabella di armature che viene
+      messa a disposizione dell'algoritmo di verifica delle travi. Per ogni=
+ sezione si dispone di una corrispondente tabella.</p>
+
+      <p>Per le sezioni definite direttamente nel <span class=3D"Programma"=
+>Pre-Processore</span> (non di database) il criterio
+      di progetto delle travi viene individuato con il setup delle verifich=
+e nel <span class=3D"Programma">Verifica e Disegno C.A.</span>
+      In questo caso tutte le tipologie di sezione rispondono inizialmente =
+al medesimo criterio che conduce ad una singola tabella
+      di armature. In un secondo momento =E8 possibile specializzare i crit=
+eri per ogni sezione operando le modifiche del
+      caso.</p>
+
+      <h4>Verifiche a Flessione</h4>
+      <p>Il momento di verifica di ogni sezione proviene dal diagramma invi=
+luppo dei momenti flettenti relativamente a tutte le
+      combinazioni di carico definite. Tuttavia, per gli elementi tipo trav=
+e, l'utente ha facolt=E0 d'impostare un valore
+      di riferimento per il momento massimo in campata, in modo tale che il=
+ programma consideri il valore maggiore tra il momento
+      d'inviluppo delle combinazioni di carico e quello imposto come riferi=
+mento.</p>
+
+      <p>Il momento di riferimento viene valutato dal programma impiegando =
+la seguente relazione:</p>
+
+      <p class=3D"Equazione"> <b>M<sub>rif</sub></b> =3D <b>q<sub>Tot</sub>=
+ L<sup>2</sup></b> / <b>n</b></p>
+
+      <p>dove:</p>
+
+      <dl>
+        <dt>q<sub>Tot</sub></dt>
+
+        <dd>massimo carico totale medio agente sulla trave valutato conside=
+rando i carichi distribuiti agenti sulla luce della
+      trave nelle varie combinazioni di carico.</dd>
+
+        <dt>L
+        </dt><dd>luce della trave.</dd>
+
+        <dt>n</dt>
+
+        <dd>fattore definito dall'operatore.</dd>
+      </dl>
+
+      <p>In alternativa si definisce un incremento del momento di campata p=
+ari ad una quota percentuale di <b>M<sub>o</sub></b>.</p>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image006.gif"=
+></p>
+
+
+      <p class=3D"EneCaption">Fig. 3 L'incremento del momento in campata ri=
+sulta pari ad una quota di <b>M<sub>o</sub></b>.</p>
+
+      <p>Anche se nelle stampe si riportano solo i dati relativi alle due s=
+ezioni di estremit=E0 ed a quella in corrispondenza
+      del massimo momento flettente in campata, la trave viene verificata a=
+ flessione in molti punti di campionatura (vedi pagina
+      Diagrammi nel dialogo del comando Preferenze disponibile nel menu <sp=
+an class=3D"Menu">Utilit=E0</span>
+      nei moduli post-calcolo). Il primo punto di verifica coincide con que=
+llo pi=F9 vicino all'asse pilastro tra il punto
+      di filo pilastro e la soglia di spunto definita dall'utente. Lungo la=
+ campata si prevedono due sezioni di verifica posti
+      a cavallo del punto di applicazione di ogni carico concentrato (dista=
+nti rispettivamente 1 mm dal punto di carico). Nel
+      caso ci siano molti carichi concentrati, applicati tutti in un piccol=
+o tratto della luce, i punti di campionatura non vengono
+      pi=F9 equamente distribuiti lungo la trave ma polarizzati in gran par=
+te nel tratto in cui insistono i carichi (vedere
+      figura seguente).</p>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image008.gif"=
+></p>
+
+
+      <p class=3D"Immagine"><b> <i></i></b> <img src=3D"https://www.enexsys=
+.com/Informa/TeoricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_fil=
+es/image010.gif" x0000_i1029"=3D""> <b> <i></i></b></p>
+
+
+      <p class=3D"EneCaption">Fig. 4 Esempio di trave caricata in maniera d=
+a polarizzare la campionatura dei punti di verifica a
+      flessione della trave e soluzione da adottare.</p>
+
+      <p>In tale caso =E8 bene suddividere la trave in pi=F9 tratti in modo=
+ da consentire una campionatura pi=F9
+      omogenea e raffittita in grado di cogliere il reale andamento del dia=
+gramma dei momenti.</p>
+
+      <p class=3D"NotaBene">In generale il numero dei punti di campionatura=
+ deve essere pari al doppio del massimo numero di carichi
+      concentrati applicati pi=F9 due.</p>
+
+      <p>Cos=EC se si hanno 14 carichi concentrati lungo una stessa trave i=
+ punti di campionatura per le verifiche devono
+      essere almeno pari a 30 (14 x 2 + 2 =3D 30) o suddividere l'elemento =
+in modo congruente con quanto suddetto.</p>
+
+      <p>In verifica si tiene conto dello spunto del diagramma dei momenti =
+nelle sezioni di estremit=E0 (sezioni di appoggio).
+      La sezione di estremit=E0 della trave =E8 considerata quella sul filo=
+ pilastro (intersezione della campata con
+      la faccia del pilastro) ed =E8 in questa posizione che il diagramma d=
+el momento flettente viene preso in considerazione
+      (trascurando la parte che procede verso il nodo strutturale).</p>
+
+      <p>Nel caso di pilastri molto larghi, il momento di estremit=E0 viene=
+ valutato in corrispondenza della soglia di spunto
+      definita dall'utente al fine di non eccedere troppo con lo spunto dei=
+ diagrammi. Successivamente tale valore viene riportato
+      a filo pilastro: quindi il diagramma dei momenti che si va a consider=
+are diventa quello di figura, cio=E8 un diagramma
+      ricalcolato con sulle estremit=E0 il momento di spunto individuato.</=
+p>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image012.gif"=
+></p>
+
+
+      <p class=3D"EneCaption">Fig. 5 Diagramma dei momenti di verifica (in =
+tratteggio) e diagramma di calcolo (linea continua).</p>
+
+      <h4>Trazione estremit=E0 corrente inferiore</h4>
+      <p>Nella relazione sulle verifiche, in corrispondenza dei due punti d=
+i campionatura di estremit=E0 della trave, assieme
+      alle aree di ferro di estradosso e di intradosso, indicate rispettiva=
+mente con <b>AfE</b> ed <b>AfI</b>, vengono riportate
+      anche le aree di ferro valutate con l'espressione:</p>
+
+      <p class=3D"Equazione">(<b>A<sub>fT</sub></b>) =3D <b>T<sub>max</sub>=
+</b> /<span class=3D"SymbolStyle">&#963;</span> <b> <sub>amm</sub></b></p>
+
+      <p>dove:</p>
+
+      <dl>
+        <dt>T<sub>max</sub></dt>
+
+        <dd>taglio massimo sull'estremit=E0 della trave.</dd>
+
+        <dt> <span class=3D"SymbolStyle">&#963;</span> <sub>amm</sub></dt>
+
+        <dd>tensione ammissibile dell'acciaio utilizzato.</dd>
+      </dl>
+
+      <p>in ottemperanza alla normativa <span class=3D"FootNote"><a href=3D=
+"https://www.enexsys.com/Informa/TeoricoHTML/Cap050/Par020/TeoricoHTML/Cap0=
+50/Par020/#BiblioLoc001">[i]</a></span>.</p>
+
+
+      <p>Questo valore di riferimento diventa importante, ad esempio, nelle=
+ sezioni terminali di intradosso di una trave continua
+      appoggiata, cio=E8 in corrispondenza di quelle sezioni dove l'azione =
+flettente =E8 minima, se non nulla, mentre
+      l'azione tagliante =E8 rilevante.</p>
+
+      <p>Nell'ipotesi che il meccanismo resistente a taglio nella trave sia=
+ quello alla Morsch, tali aree di ferro servono ad
+      assorbire sugli appoggi la componente di trazione nel corrente inferi=
+ore trasmessa dalla biella di calcestruzzo compresso;
+      il loro impiego =E8 demandato alla sensibilit=E0 del progettista.</p>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image014.gif"=
+></p>
+
+
+      <p class=3D"EneCaption">Fig. 6 Armatura minima d'intradosso in corris=
+pondenza degli appoggi.</p>
+
+      <p>Tuttavia nelle campate intermedie tali sforzi si equilibrano, ovve=
+ro presuppongono la presenza di una biella tesa tale
+      da assorbire solo la differenza delle spinte provenienti dai due punt=
+oni delle campate opposte.</p>
+
+      <p>Le procedure di verifica non si occupano dei dettagli costruttivi,=
+ per cui nel caso di carichi sospesi all'intradosso
+      della trave o di carichi concentrati =E8 necessario disporre dell'arm=
+atura aggiuntiva nell'intorno del punto di applicazione,
+      rispetto a quella calcolata dal programma, in grado di assorbire inte=
+ramente gli sforzi locali di trazione.</p>
+
+      <p>Durante l'esecuzione delle verifiche la comparsa del messaggio "<i=
+>Trave Tozza</i>" segnala che la lunghezza
+      della trave =E8 minore di due volte la dimensione predominante della =
+sezione per cui si richiede una eventuale verifica
+      come elemento tozzo. Il programma predispone comunque un'armatura min=
+ima da regolamento.</p>
+
+      <p>Nelle travi di fondazione la verifica a flessione =E8 condotta nel=
+la stessa maniere descritta per le travi di elevazione.
+      Si differenzia, invece, il modo con cui si tiene in conto il rilassam=
+ento del calcestruzzo nel tempo: ci si riferisce esclusivamente
+      alla traslazione del diagramma della quantit=E0 definita come percent=
+uale del valore <b>M<sub>0</sub></b> (vedi Fig.
+      3).</p>
+
+      <h4>Taglio</h4>
+      <p>L'armatura a taglio viene progettata simmetrica rispetto alla mezz=
+eria della trave in base all'andamento dell'inviluppo
+      del diagramma del taglio nelle varie combinazioni di carico e conside=
+rando gli stessi punti di campionatura impiegati per
+      la flessione (vedi paragrafo Verifica a Flessione in questo capitolo)=
+.</p>
+
+      <p>Il setup dei Criteri di Progetto degli Elementi trave prevede per =
+l'armatura a taglio il sistema di armatura a Conci
+      e quello a Traliccio.</p>
+
+      <ul>
+        <li>Armatura a Conci</li>
+      </ul>
+
+      <p>Procedendo dalle estremit=E0 verso il punto di nullo del diagramma=
+, nel sistema a Conci vengono individuati nella
+      trave i conci <b>A</b>, <b>B</b>, <b>C</b> e <b>D</b> cos=EC definiti=
+:</p>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image016.gif"=
+></p>
+
+
+      <p class=3D"EneCaption">Fig. 7 Taglio: suddivisione della trave in co=
+nci. Seguendo il criterio dell'armatura simmetrica la
+      trave di figura viene armata al taglio con i conci omogenei <b>A-C</b=
+>-minimo-<b>C-A</b>.</p>
+
+      <ol>
+        <li>I conci <b>A</b> e <b>B</b>, sempre presenti, si estendono per =
+una lunghezza pari al 70% dell'altezza utile della
+        sezione a partire dagli appoggi. Tale estensione pu=F2 essere maggi=
+ormente estesa in funzione dei particolari costruttivi
+        imposti dalle normative adottate in verifica.</li>
+
+        <li>I conci <b>C</b> e <b>D</b>, quando presenti, coprono i tratti =
+dalla fine dei precedenti sino all'ascissa dove viene
+        riscontrata la <span class=3D"SymbolStyle">&#964;</span> <sub>b0</s=
+ub>. Se tale valore non viene individuato, perch=E8
+        la tensione alla fine dei conci <b>A</b> e <b>B</b> =E9 gi=E0 infer=
+iore, i suddetti tratti vengono omessi. Gli
+        intervalli <b>C</b> e <b>D</b> vengono considerati solo se si esten=
+dono per un tratto lungo almeno due volte il passo minimo
+        delle staffe.</li>
+
+        <li>L'ulteriore, eventuale, concio di chiusura centrale, armato con=
+ il minimo previsto dal regolamento, completa la suddivisione
+        andando a coprire la zona con <span class=3D"SymbolStyle">&#964;</s=
+pan> &lt; <span class=3D"SymbolStyle">&#964;</span> <sub>b0</sub>.</li>
+      </ol>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image118.gif"=
+></p>
+
+
+      <p class=3D"EneCaption">Fig. 8 Esempi di suddivisione in conci con ar=
+matura omogenea.</p>
+
+      <p>In questo modo si ottengono i conci che individuano l'armatura min=
+ima al taglio valutabile con i relativi scorrimenti.
+      Per passare a quella simmetrica, si confrontano i conci <b>A</b> con =
+<b>B</b> e <b>C</b> con <b>D</b> e si considerano quelli
+      che danno gli scorrimenti maggiori.</p>
+
+      <p>La disposizione simmetrica delle armature viene preferita a quella=
+ corrispondente al minimo impiego di acciaio in quanto
+      offre il vantaggio di snellire la fase di montaggio della gabbia meta=
+llica in cantiere ed evita che le gabbie possano essere
+      montante a rovescio.</p>
+
+      <p>Il ritmo delle staffe ed il numero di bracci viene individuato dal=
+la procedura di verifica all'interno della Tabella
+      di Disposizioni di Staffe prevista per l'elemento in esame.</p>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image024.gif"=
+></p>
+
+
+      <p class=3D"EneCaption">Fig. 9 Staffe con 2, 4 e 6 bracci.</p>
+
+      <p>L'algoritmo di Progetto/Verifica delle staffe per un dato concio d=
+etermina l'armatura trasversale impiegando il seguente iter:</p>
+
+      <ol>
+        <li>Valuta lo scorrimento che deriva dal concio in esame, detraendo=
+ anche l'eventuale quota da attribuire ai ferri piegati.</li>
+
+        <li>Considera la disposizione di staffe riportata in testa alla Tab=
+ella delle Staffe associata alla trave in esame.</li>
+
+        <li>Verifica che la disposizione corrente sia sufficiente ad assorb=
+ire lo scorrimento nel concio corrente; se il risultato
+        =E8 positivo si passa al concio successivo sino a completare la tra=
+ve per passare poi al punto 5, altrimenti si procede
+        con il punto 4.</li>
+
+        <li>Individua nella Tabella delle Staffe la disposizione disponibil=
+e successiva e torna al punto 3 sino a quando non si
+        =E8 impiegato, senza successo, anche l'ultima disposizione prevista=
+ in Tabella per cui la procedura termina con la
+        verifica non soddisfatta.</li>
+
+        <li>Se si =E8 consentito l'uso di ferri piegati (cavallotti), la pr=
+ocedura li considera andando a coprire la parte
+        di scorrimento eccedente la quota gravante sulle staffe e la verifi=
+ca =E8 conclusa positivamente.</li>
+      </ol>
+
+      <p>Si tenga presente che:</p>
+
+      <ol>
+        <li>I ferri piegati vengono inseriti solo quando non si riesce a fa=
+rne a meno per la verifica per cui tendenzialmente
+        si cerca di evitarli.</li>
+
+        <li>La procedura di verifica prevede la possibilit=E0 di avere, nel=
+la stessa trave, due diversi tipi di staffe in
+        termini di diametro e numero di bracci.</li>
+
+        <li>Quando il passo delle staffe presenti nei conci si differenzia =
+per pochi centimetri (1 - 2 cm al massimo), la procedura
+        di ottimizzazione interviene ad omogeneizzare tali intervalli in ma=
+niera da semplificare le operazioni di montaggio delle
+        gabbie metalliche in cantiere. Per esempio, se nel concio centrale =
+si ha un'armatura minima da regolamento con staffe da
+        8 mm con passo 25 cm e nei conci di tipo C ed A si hanno i passi ri=
+spettivamente pari a 15 cm e 14 cm, la procedura ottimizza
+        il tutto conservando il passo delle staffe centrali a 25 cm ma port=
+ando a 12.5 cm quello delle staffe negli altri due tipi
+        di conci, in maniera da ottenere anche il raddoppio d'armatura nei =
+pressi delle estremit=E0 della trave.</li>
+      </ol>
+
+      <p>Le prescrizioni di minimo dipendono, naturalmente, dalla norma tec=
+nica adottata.<br></p>
+
+      <ul>
+        <li>Sistema a Traliccio</li>
+      </ul>
+
+      <p>Il sistema a Traliccio prevede una disposizione uniforme di staffe=
+ predefinita, scelta tra quelle disponibili nella Tabella
+      delle Staffe per l'elemento in esame, a cui si aggiungono le staffe d=
+i raffittimento nei punti del diagramma di scorrimento
+      scoperti dalla disposizione principale.</p>
+
+      <p>Nelle travi di fondazione la verifica a taglio =E8 condotta nella =
+stessa maniera descritta per le travi. Per le
+      travi di fondazione occorre dimensionare in modo opportuno il diametr=
+o ed il passo della staffa da adottare nella flangia
+      a contatto con il suolo, come nelle sezioni a T rovescia. In questo c=
+aso, quando la larghezza della sezione raggiunge una
+      dimensione rilevante, =E8 necessario predisposrre un'armatura a staff=
+e nella flangia capace di far fronte alla flessione
+      in direzione ortogonale all'asse della trave dovuta alla tensione di =
+contatto con il suolo (funzionamento a mensola delle
+      flange). Questa verifica non =E8 tenuta in conto in automatico dalla =
+procedura di verifica.</p>
+
+      <h4>Torsione</h4>
+      <p>La verifica a torsione =E8 opzionale per cui quando viene richiest=
+a si procede ad una verifica a Taglio e Torsione.</p>
+
+      <p>Ci possono essere casi in cui anche livelli molto bassi di momento=
+ torcente possono condurre a non soddisfare le verifiche.
+      =C8 utile allora individuare i casi in cui procedere alla verifica a =
+torsione ed evitare di eseguirla comunque indifferentemente.
+      Nell'Eurocodice 2 (versione 2005, Parte 1-1, vedi punto 6.3.1) si esp=
+one il principio che la verifica a torsione =E8
+      da valutarsi senza dubbio quando =E8 fondamentale per l'equilibrio st=
+atico del sistema mentre nel caso in cui la componente
+      torcente in una trave, ad esempio, deriva esclusivamente dalla congru=
+enza dei movimenti con gli elementi ad essa vicini
+      diventa trascurabile alla luce dell'equilibrio statico. In questo cas=
+o, quindi, una reale verifica a torsione non risulta
+      necessaria e si procede ad una adeguata valutazione dell'armatura min=
+ima da disporre al fine di limitare le fessurazioni
+      ed accrescerne la durabilit=E0.</p>
+
+      <p>Nel modello, in genere, possono esserci localmente delle situazion=
+i che meritano una valutazione pi=F9 accurata
+      dell'effetto torcente. =C8 il caso, ad esempio, di una trave di bordo=
+ che sostiene un balcone a sbalzo. La maniera
+      pi=F9 efficiente per condurre le verifiche sulle travi del modello su=
+ddetto consiste nel chiedere la verifica a torsione
+      solo per quei casi specifici e non su tutte le travi.</p>
+
+      <p>Allo scopo =E8 possibile definire una specifica sezione per cui =
+=E8 richiesta la verifica a torsione e che
+      abbia il ruolo di trave di bordo a sostegno di sbalzi. Nella realizza=
+zione del modello viene assegnata questa sezione specifica
+      solo alle travi che richiedono la verifica a torsione mentre a tutte =
+le altre si associano sezioni per cui la verifica a
+      torsione non =E8 prevista.</p>
+
+      <p>Nelle travi di fondazione la verifica a torsione =E8 condotta nell=
+a stessa maniera descritta per le travi.</p>
+
+      <h3>Setti in c.a.</h3>
+      <h4>Verifica a Pressoflessione</h4>
+      <p>I setti vengono verificati nella sezione al piede ed in quella di =
+sommit=E0 a pressoflessione retta nel piano dell'elemento
+      per ogni combinazione dei carichi prevista. I valori delle componenti=
+ sollecitanti, <b>N</b> ed <b>M</b>, vengono valutati
+      in funzione degli sforzi normali agenti nei quattro nodi del setto se=
+condo il seguente criterio:</p>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image026.gif"=
+></p>
+
+
+      <p class=3D"EneCaption">Fig. 10 Setto: dalle componenti nodali a quel=
+le sulle sezioni di verifica dell'elemento.</p>
+
+      <ol>
+        <li>Lo sforzo normale sulla sezione deriva dalla somma degli sforzi=
+ agenti sui nodi adiacenti per cui<br> <b>N.somm</b>
+        =3D <b>N</b> <sub>j</sub> + <b>N</b> <sub> <b>k</b> <br></sub> <b>N=
+.base</b> =3D <b>N</b> <sub>i</sub> + <b>N</b> <sub>l</sub></li>
+
+        <li>L'azione flettente sulla sezione viene computata come sommatori=
+a dei momenti delle forze nodali rispetto al punto
+        baricentrico della sezione stessa, cio=E8<br> <b>M.somm</b> =3D (<b=
+>N</b> <sub>j</sub> - <b>N</b> <sub>k</sub>) <b>B</b>
+        / <b>2</b> + <b>M</b> <sub>j</sub> + <b>M</b> <sub>k</sub> <br> <b>=
+M.base</b> =3D (<b>N</b> <sub>i</sub> - <b>N</b> <sub>l</sub>)
+        <b>B</b> / <b>2</b> + <b>M</b> <sub>i</sub> + <b>M</b> <sub>l</sub>=
+</li>
+
+        <li>La sezione di verifica coincide con quella rettangolare avente =
+come base lo spessore <b>S</b> del setto, visibile
+        in pianta, e come altezza la larghezza <b>B</b> del setto.</li>
+      </ol>
+
+      <p>In un telaio =E8 possibile inserire una parete di taglio costituit=
+a da un singolo elemento setto per ogni interpiano
+      oppure da una mesh di elementi setto per ogni interpiano (=E8 frequen=
+te l'impiego di una coppia di setti connessi lungo
+      un bordo verticale comune). Le informazioni sulle componenti nodali i=
+n una mesh di setti possono risentire delle componenti
+      di scambio per congruenza dei movimenti lungo il bordo comune dei set=
+ti. Per questo =E8 possibile attingere le informazioni
+      sulle sollecitazioni interne alla parete di taglio con il comando Ten=
+sioni nel piano del setto (<span class=3D"Programma">Post-Processore</span>
+      - <span class=3D"Menu">Setti</span>) che basa la valutazione di <b>N<=
+/b> ed <b>M</b> in funzione dell'integrazione delle tensioni
+      normali che si sviluppano sulle facce orizzontali dei setti. In sinte=
+si le sollecitazioni interne nelle pareti di taglio
+      con cui condurre le verifiche risentono del tipo di modellazione (set=
+to unico, mesh di setti) e si possono valutare attraverso
+      le componenti nodali (adatto per il setto unico) o per integrazione d=
+elle tensioni normali (in genere adatto per le mesh
+      di setti). Le integrazioni per=F2 non sono sempre attendibili nella s=
+ezione a livello di fondazione ed in quella a
+      livello di copertura (in altre parole nelle sezioni di estremit=E0 de=
+lla parete di taglio) perch=E9 non si rispettano
+      le condizioni del De Sant Venant.</p>
+
+      <p>Per ulteriori dettagli consultare la documentazione del comando Te=
+nsioni nel piano del setto.</p>
+
+      <p>Il setto viene armato con una rete di barre diffuse sulle due facc=
+e principali dell'elemento e da un raffittimento nelle
+      zone di estremit=E0 a costituire due pilastri fittizi con sezione qua=
+drata pari allo spessore della parete.</p>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image028.gif"=
+></p>
+
+
+      <p>Tutta l'armatura presente nella sezione viene presa in considerazi=
+one nella verifica a pressoflessione della sezione del setto.</p>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image030.gif"=
+></p>
+
+
+      <p class=3D"EneCaption">Fig. 11 Le armature predisposte nell'elemento=
+ Setto.</p>
+
+      <p>Nel setto di fondazione =E8 presente la flangia di contatto con il=
+ terreno la quale non viene verificata ed armata.
+      Occorre dimensionare in modo opportuno il diametro ed il passo della =
+staffa da adottare nella flangia a contatto con il
+      suolo in modo che sia capace di far fronte alla flessione in direzion=
+e ortogonale al piano del setto dovuta alla tensione
+      di contatto con il suolo (funzionamento a mensola delle flange). Ques=
+ta verifica non =E8 tenuta in conto in automatico
+      dalla procedura di verifica del setto.</p>
+
+      <p>Per la determinazione della tensione media nella sezione reagente =
+di calcestruzzo si prende in considerazione la sola
+      componente di sforzo normale incidente sulla parte compressa della se=
+zione del setto.</p>
+
+      <p>Per le verifiche agli stati limite in cui si prevedono gli effetti=
+ della gerarchia delle resistenze si impiegano le modalit=E0
+      di verifica a pressoflessione e taglio indicate dalle specifiche norm=
+ative (inviluppi di diagramma, traslazione per il tratto
+      pari all'altezza critica della cerniera plastica, ecc.). Maggiori det=
+tagli sono disponibili nella guida dei comandi.</p>
+
+      <h4>Verifica a Taglio</h4>
+      <p>La verifica a taglio nel piano del setto viene condotta seguendo d=
+ue criteri in dipendenza del rapporto <b>h</b>/<b>b</b>
+      ovvero della snellezza del setto.</p>
+
+      <p>Se <b>h</b>/<b>b</b> &gt; <b>2</b> viene condotta una verifica a t=
+aglio classica ossia viene valutata <span class=3D"SymbolStyle">&#964;</spa=
+n>
+      =3D <b>T</b> /(<b>0.9 B S</b>) considerando l'elemento snello.</p>
+
+      <p>Se <b>h</b>/<b>b</b> &lt; <b>2</b> l'elemento viene considerato to=
+zzo ed in mancanza di una specifica norma viene considerato
+      un meccanismo a biella previsto nella normativa per gli elementi pref=
+abbricati. Considerando</p>
+
+      <dl>
+        <dt>N</dt>
+
+        <dd>sforzo normale sul pannello</dd>
+
+        <dt>T</dt>
+
+        <dd>taglio nel piano del pannello</dd>
+
+        <dt>A</dt>
+
+        <dd>sezione del pannello</dd>
+
+        <dt>A.taglio</dt>
+
+        <dd>area a taglio del pannello</dd>
+      </dl>
+
+      <p>si ha che:</p>
+
+      <p class=3D"Equazione"> <span class=3D"SymbolStyle">&#963;</span> =3D=
+ <b>N</b>/<b>A</b></p>
+
+      <p class=3D"Equazione"> <span class=3D"SymbolStyle">&#964;</span> =3D=
+ <b>T</b>/<b>A.taglio</b></p>
+
+      <p class=3D"Equazione"> <span class=3D"SymbolStyle">&#963;</span> <su=
+b>id</sub> =3D <b>0.5</b> [ <span class=3D"SymbolStyle">&#963;</span>
+      - ( <span class=3D"SymbolStyle">&#963;</span> <sup>2</sup> + <b>4</b>=
+ <span class=3D"SymbolStyle">&#964;</span> <sup>2</sup>)<span class=3D"Supe=
+rscript">?</span> ]</p>
+
+      <p class=3D"Equazione"> <span class=3D"SymbolStyle">&#963;</span> <su=
+b>id</sub> &lt;=3D <b>f<sub>ctk</sub></b> (tensione caratteristica
+      a trazione del cls)</p>
+
+      <p>I criteri di progetto di un elemento setto sono dati caratteristic=
+i della relativa sezione. Per le sezioni di database
+      i criteri di progetto vengono specificati in fase di input della sezi=
+one nel database (vedi la sezione Gestore Sezioni C.A.
+      nel capitolo I Programmi di WinStrand) mentre per le sezioni definite=
+ direttamente si impiega il comando Setup dati di verifica setti
+      (<span class=3D"Programma">Verifica e Disegno C.A.</span> - <span cla=
+ss=3D"Menu">Setti</span>).</p>
+
+      <p>Con i criteri scelti vengono individuate una serie di tipologie di=
+ armature a formare una tabella di armature che viene
+      messa a disposizione dell'algoritmo di verifica dei setti. Per ogni s=
+ezione si dispone di una corrispondente tabella.</p>
+
+      <p>Per le sezioni definite direttamente nel <span class=3D"Programma"=
+>Pre-Processore</span> (non di database) il criterio
+      di progetto dei setti viene individuato con il setup delle verifiche.=
+ In questo caso tutte le tipologie di sezione rispondono
+      inizialmente al medesimo criterio che conduce ad una singola tabella =
+di armature. In un secondo momento =E8 possibile
+      specializzare i criteri per ogni sezione operando le modifiche del ca=
+so.</p>
+
+      <p>L'algoritmo di verifica dei setti in c.a. percorre il seguente ite=
+r:</p>
+
+      <ol>
+        <li>Selezione dell'armatura di verifica minima dalla tabella di arm=
+ature collegata alla sezione.</li>
+
+        <li>Esecuzione della verifica a pressoflessione retta delle sezioni=
+ di testa e di piede e la procedura termina nel caso
+        favorevole, altrimenti</li>
+
+        <li>Si seleziona nella tabella di armature, ordinate in base al cri=
+terio della sezione minima o del numero minimo di barre,
+        la disposizione successiva. Si torna quindi al punto 2 sino a quand=
+o anche l'ultima disposizione in lista fallisce la verificaper
+        cui si procede con il punto 4.</li>
+
+        <li>Verifica insoddisfatta.</li>
+      </ol>
+
+      <p>Nei setti non vengono condotte le verifiche per Taglio ortogonale =
+al piano medio del setto, per Momento Torcente e quella
+      per i Momenti Flettenti agenti fuori piano dell'elemento stesso.</p>
+
+      <h3>Plinti</h3>
+      <p>Nella sezione di contatto plinto-pilastro agiscono le reazioni vin=
+colari trasmesse dal plinto (<b>T<sub>x</sub></b>,
+      <b>T<sub>y</sub></b>, <b>M<sub>z</sub></b>) assieme alle componenti d=
+elle azioni interne scambiate tra i due elementi (<b>N</b>,
+      <b>M<sub>x</sub></b>, <b>M<sub>z</sub></b>).</p>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image032.gif"=
+></p>
+
+
+      <p class=3D"EneCaption">Fig. 12 Reazioni vincolari ed Azioni Interne =
+dovute alla presenza del Plinto.</p>
+
+      <p>Alla base del plinto le tensioni del terreno vengono valutate tene=
+ndo conto anche dei momenti di trasporto indotti dai
+      tagli <b>T<sub>x</sub></b> e <b>T<sub>y</sub></b> agenti nella sezion=
+e di testa del plinto per cui si ha:</p>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image034.gif"=
+></p>
+
+
+      <p class=3D"EneCaption">Fig. 13 Calcolo dei momenti di trasporto indo=
+tti dai tagli T<sub>x</sub> e T<sub>y</sub> agenti nella
+      sezione di testa del plinto.</p>
+
+      <p class=3D"Equazione"> <b>Mvx</b> =3D <b>M<sub>x</sub></b> - <b>T<su=
+b>y</sub> H</b></p>
+
+      <p class=3D"Equazione"> <b>Mvy</b> =3D <b>M<sub>y</sub></b> + <b>T<su=
+b>x</sub> H</b></p>
+
+      <h4>Flessione</h4>
+      <p>Indicando con <span class=3D"SymbolStyle">&#945;</span> l'angolo i=
+n gradi sessadecimali compreso tra la base del plinto
+      e la congiungente lo spigolo di detta base con l'attacco del pilastro=
+ (vedi figura seguente), in generale possono presentarsi
+      i seguenti casi:</p>
+
+      <ul>
+        <li>L'angolo <span class=3D"SymbolStyle">&#945;</span> =E8 maggiore=
+ di trenta gradi ( <span class=3D"SymbolStyle">&#945;</span>
+        <b>&gt;</b> 30 gradi). In questo caso la verifica a flessione =E8 c=
+ondotta considerando il plinto TOZZO. Indicando
+        con <span class=3D"SymbolStyle">&#963;</span>t la sigma massima nel=
+ terreno, supposta costante e pari al valore massimo in
+        favore di sicurezza, essa fornisce una reazione complessiva <b>Rt</=
+b> mediante la quale viene calcolato lo sforzo <b>F</b>
+        nella biella di acciaio teso secondo la formula:</li>
+      </ul>
+
+      <p class=3D"Equazione"> <b>F</b> =3D <b>Rt</b> (<b>B</b>-<b>b</b>)/(<=
+b>8 H</b>)</p>
+
+      <p>da cui l'area di ferro necessaria =E8</p>
+
+      <p class=3D"Equazione"> <b>Af</b> =3D <b>F</b>/<span class=3D"SymbolS=
+tyle">&#963;</span> <sub>amm</sub></p>
+
+      <p>dove <b>B</b> =E8 la dimensione dell'area di impronta del plinto e=
+ <b>b</b> =E8 la dimensione del pilastro
+      nella stessa direzione.</p>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image036.gif"=
+></p>
+
+
+      <p class=3D"EneCaption">Fig. 14 Calcolo a biella per plinti tozzi.</p=
+>
+
+      <ul>
+        <li>L'angolo <span class=3D"SymbolStyle">&#945;</span> =E8 minore d=
+i trenta gradi ( <span class=3D"SymbolStyle">&#945;</span>
+        &lt; 30 gradi). In questo caso il plinto viene considerato SNELLO e=
+ il progetto-verifica procede in maniera consueta con
+        un calcolo a mensola incastrata considerando la sezione della menso=
+la equivalente con le seguenti dimensioni:</li>
+      </ul>
+
+      <p>- per il plinto svasato</p>
+
+      <p class=3D"Equazione"> <b>s<sub>1</sub></b> =3D <b>H<sub>zoc</sub></=
+b> - <b>copr</b></p>
+
+      <p class=3D"Equazione"> <b>s<sub>2</sub></b> =3D <b>H<sub>plin</sub><=
+/b> - <b>H<sub>zoc</sub></b> - <b>copr</b></p>
+
+      <p class=3D"Equazione"> <b>H</b> <sub>equiv</sub> =3D <b>s<sub>1</sub=
+></b> + <b>s<sub>2</sub></b> (<b>2 B</b> + <b>b</b>) / (<b>3 B</b>)</p>
+
+      <p class=3D"Equazione"> <b>B</b> <sub>equiv</sub> =3D (<b>2</b>/<b>3<=
+/b>) <b>B H</b> <sub>equiv</sub> / (<b>s<sub>1</sub></b>
+      + <b>s<sub>2</sub></b>)</p>
+
+      <p>- per il plinto cubico o a pozzetto</p>
+
+      <p class=3D"Equazione"> <b>d</b> =3D <b>H<sub>plin</sub></b> - <b>cop=
+r</b></p>
+
+      <p class=3D"Equazione"> <b>s<sub>1</sub></b> =3D <b>d</b> / <b>3</b><=
+/p>
+
+      <p class=3D"Equazione"> <b>s<sub>2</sub></b> =3D <b>2 d</b> / <b>3</b=
+></p>
+
+      <p class=3D"Equazione"> <b>H</b> <sub>equiv</sub> =3D <b>s<sub>1</sub=
+></b> + <b>s<sub>2</sub></b> (<b>2 B</b> + <b>b</b>) / (<b>3 B</b>)</p>
+
+      <p class=3D"Equazione"> <b>B</b> <sub>equiv</sub> =3D (<b>2</b>/<b>3<=
+/b>) <b>B H</b> <sub>equiv</sub> / (<b>s<sub>1</sub></b>
+      + <b>s<sub>2</sub></b>)</p>
+
+      <p>dove</p>
+
+      <p><b>copr</b>: spessore del copriferro</p>
+
+      <p>e per gli altri simboli vedi figura.</p>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image038.gif"=
+></p>
+
+
+      <p class=3D"EneCaption">Fig. 15 Calcolo a mensola per plinti snelli.<=
+/p>
+
+      <p>Ai fini delle verifiche, la pressione sul terreno =E8 distribuita =
+uniformemente su tutta l'area di impronta del
+      plinto con un'intensit=E0 pari a quella massima.</p>
+
+      <p>Le verifiche vengono sempre condotte lungo le due direzioni princi=
+pali dell'elemento ed, in funzione delle dimensioni
+      del plinto riscontrate secondo ciascuna di esse, viene eseguito il re=
+lativo tipo di verifica <i>a biella</i> (plinto tozzo)
+      o <i>a mensola incastrata</i> (plinto snello).</p>
+
+      <p>Generalmente, le armature strettamente necessarie alla verifica de=
+l plinto risultano piccole, pertanto, poich=E8
+      ci=F2 implicherebbe l'impiego di tondini con un passo troppo elevato,=
+ l'operatore pu=F2 fissare l'interasse massimo
+      tra i ferri in modo da garantire una disposizione di armature secondo=
+ la normale prassi costruttiva.</p>
+
+      <p>I criteri di progetto di un elemento plinto sono dati caratteristi=
+ci della relativa sezione. Per le sezioni di database
+      i criteri di progetto vengono specificati in fase di input della sezi=
+one nel database (vedi la sezione Gestore Sezioni C.A.
+      nel capitolo I Programmi di WinStrand) mentre per le sezioni definite=
+ direttamente si impiega il comando Setup dati di verifica plinti
+      (<span class=3D"Programma">Verifica e Disegno C.A.</span> - <span cla=
+ss=3D"Menu">Plinti</span>).</p>
+
+      <p>Con i criteri scelti vengono individuate una serie di tipologie di=
+ armature a flessione e punzonamento a formare una
+      tabella di armature che viene messa a disposizione dell'algoritmo di =
+verifica dei plinti. Per ogni sezione si dispone di
+      una corrispondente tabella.</p>
+
+      <p>Per le sezioni definite direttamente nel <span class=3D"Programma"=
+>Pre-Processore</span> (non di database) il criterio
+      di progetto dei plinti viene individuato con il setup delle verifiche=
+. In questo caso tutte le tipologie di sezione rispondono
+      inizialmente al medesimo criterio che conduce ad una singola tabella =
+di armature. In un secondo momento =E8 possibile
+      specializzare i criteri per ogni sezione operando le modifiche del ca=
+so.</p>
+
+      <h4>Punzonamento nel plinto a bicchiere</h4>
+      <p>Nel plinto a bicchiere la verifica a punzonamento viene eseguita i=
+n corrispondenza del perimetro critico che si individua
+      all'intradosso del plinto proiettando con un angolo di diffusione <sp=
+an class=3D"SymbolStyle">&#946;</span> il perimetro del
+      pozzetto individuato dalle intersezioni del piano medio di ogni paret=
+e del pozzetto con l'estradosso dello zoccolo del plinto.</p>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image040.gif"=
+></p>
+
+
+      <p class=3D"EneCaption">Fig. 16 Individuazione del perimetro critico.=
+</p>
+
+      <p>Quando l'area di carico ha una geometria molto allungata =E8 noto =
+che il problema del punzonamento si localizza
+      intorno agli spigoli.</p>
+
+      <p class=3D"Immagine"><img src=3D"https://www.enexsys.com/Informa/Teo=
+ricoHTML/Cap050/Par020/TeoricoHTML/Cap050/Par020/Par020_files/image042.gif"=
+></p>
+
+
+      <p class=3D"EneCaption">Fig. 17 Perimetro critico nel caso non standa=
+rd.</p>
+
+      <p>Il perimetro critico in questi casi viene individuato secondo le i=
+ndicazioni dell'Eurocodice 2 punto 4.3.4.2.1.</p>
+
+      <p>L'algoritmo di verifica dei plinti in c.a. percorre il seguente it=
+er:</p>
+
+      <ol>
+        <li>Selezione dell'armatura di verifica minima dalla tabella di arm=
+ature collegata alla sezione;</li>
+
+        <li>Esecuzione della verifica del plinto e la procedura termina nel=
+ caso favorevole, altrimenti</li>
+
+        <li>Si seleziona nella tabella di armature, ordinate in base al cri=
+terio della sezione minima o del numero minimo di barre,
+        la disposizione successiva, se esiste. Si torna quindi al punto 2 s=
+e esiste una disposizione nuova da impiegare, altrimenti
+        si procede con il punto 4.</li>
+
+        <li>Verifica insoddisfatta.</li>
+      </ol>
+
+      <p>Per i plinti a bicchiere (quelli provvisti del pozzetto di alloggi=
+amento del pilastro prefabbricato) =E8 prevista
+      anche la verifica delle pareti del pozzetto. Dettagli su questo argom=
+ento sono disponibili nella documentazione del comando
+      Controllo risultati plinti (<span class=3D"Programma">Verifica e Dise=
+gno C.A.</span> - <span class=3D"Menu">Plinti</span>).</p>
+
+      <h3>Pali</h3>
+      <p><span class=3D"Programma">Pali</span> esegue la verifica a pressof=
+lessione deviata dei pali o gruppi di pali presenti
+      nel modello. Come descritto pi=F9 in dettaglio nel capitolo I Program=
+mi di WinStrand-Pali, a cui si rimanda, il programma
+      =E8 in grado di verificare un determinato tipo di palo sollecitato da=
+lle azioni di calcolo precedentemente determinate
+      dal solutore <span class=3D"Programma">CodeCal</span> o da quelle spe=
+cificate direttamente in input dall'utente.</p>
+
+      <hr width=3D"20%" align=3D"left" style=3D"page-break-after:avoid">
+      <p><span class=3D"FootNote"><a name=3D"BiblioLoc001">[i]</a></span> P=
+unto 5.3.1. del D.M. 14 Febbraio 1992 "Norme tecniche
+      per l'esecuzione di strutture in cemento armato normale e precompress=
+o e per strutture metalliche" a cui il D.M. 9
+      Gennaio 1996 fa riferimento per il metodo alle tensioni ammissibili. =
+Analoghe indicazioni sono disponibili nelle norme pi=F9
+      recenti come il D.M. 14-01-2008.</p>
+
+      </div>=20
+</body></html>
+------MultipartBoundary--xBxlHFl5M4OUvs0vCBJXWYWdqVevVGQbmMCOUq7CoO------

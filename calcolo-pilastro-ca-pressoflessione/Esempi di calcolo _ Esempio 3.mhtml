@@ -1,0 +1,1632 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://help.geostru.eu/rcsec/it/esempio_3.htm
+Subject: Esempi di calcolo > Esempio 3
+Date: Thu, 30 Oct 2025 18:47:39 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--VGp16ziYfkrygd9BLxWX40IEG3TUrWrp44Qrdhl9br----"
+
+
+------MultipartBoundary--VGp16ziYfkrygd9BLxWX40IEG3TUrWrp44Qrdhl9br----
+Content-Type: text/html
+Content-ID: <frame-521F5136FD73135E4EF8D6C0C45D304F@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://help.geostru.eu/rcsec/it/esempio_3.htm
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
+"cid:css-ff4bfbe4-023c-4e3d-9b18-c2d3b8548dee@mhtml.blink" /><link rel=3D"s=
+tylesheet" type=3D"text/css" href=3D"cid:css-cda4e274-bf2e-4547-afb7-8d6d76=
+943bf8@mhtml.blink" />
+   <title>Esempi di calcolo &gt; Esempio 3</title>
+   <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">
+     =20
+   <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+   <meta name=3D"generator" content=3D"Help &amp; Manual">
+   <meta name=3D"keywords" content=3D"">
+   <meta name=3D"description" content=3D"Per un esempio sulla presso flessi=
+one deviata si =C3=A8 considerata la sezione in figura relativa ad un pilas=
+tro rettangolare 40=C2=B460 &nbsp;armata con 8F16 con staffe e legature F8 =
+&nbsp;(Ca">
+   <link type=3D"text/css" href=3D"https://help.geostru.eu/rcsec/it/default=
+.css" rel=3D"stylesheet">
+   <link type=3D"text/css" href=3D"https://help.geostru.eu/rcsec/it/custom.=
+css" rel=3D"stylesheet">
+
+  =20
+  =20
+  =20
+  =20
+  =20
+
+  =20
+  =20
+  =20
+</head>
+<body>
+
+
+<div id=3D"printheader"><h1 class=3D"p_Heading1"><span class=3D"f_Heading1"=
+>Esempio 3</span></h1>
+</div>
+<div id=3D"idheader" style=3D"position: relative;">
+<div id=3D"idheaderbg">
+<table style=3D"width:100%;border:none;margin:0px;" cellspacing=3D"0" cellp=
+adding=3D"0">=20
+  <tbody><tr>
+    <td class=3D"topichead" style=3D"text-align:left; vertical-align:bottom=
+">
+      <p class=3D"sync-toc" style=3D"display: block;">&lt;&lt; <a rel=3D"no=
+follow" href=3D"https://help.geostru.eu/rcsec/it/index.html?esempio_3.htm" =
+target=3D"_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+      <p class=3D"crumbs" style=3D"display: none;"><b>Navigation:</b>&nbsp;
+     =20
+      <a href=3D"https://help.geostru.eu/rcsec/it/esempi_di_calcolo.htm">Es=
+empi di calcolo</a>&nbsp;&gt;</p>
+  =20
+      <h1 class=3D"p_Heading1"><span class=3D"f_Heading1">Esempio 3</span><=
+/h1>
+
+    </td>
+    <td class=3D"topichead" id=3D"idnav">
+     =20
+      <a href=3D"https://help.geostru.eu/rcsec/it/esempio_2.htm" title=3D"P=
+revious Topic"><span class=3D"hmbtnprev"></span></a>
+      <a href=3D"https://help.geostru.eu/rcsec/it/esempi_di_calcolo.htm" ti=
+tle=3D"Parent Chapter"><span class=3D"hmbtntop"></span></a>
+      <a href=3D"https://help.geostru.eu/rcsec/it/esempio_4.htm" title=3D"N=
+ext Topic"><span class=3D"hmbtnnext"></span></a>
+     =20
+    </td>
+  </tr> =20
+</tbody></table>
+</div>
+</div> =20
+
+<div id=3D"idcontent" style=3D"margin-top: 0px;"><div id=3D"innerdiv">
+<!-- Ask Internet Explorer 6.users to update their obsolete and dangerous b=
+rowser -->=20
+<!--[if lt IE 7]><div style=3D' clear: both; height: 59px; padding:0 0 0 15=
+px; position: relative;'><a href=3D"http://windows.microsoft.com/en-US/inte=
+rnet-explorer/products/ie/home?ocid=3Die6_countdown_bannercode"><img src=3D=
+"http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000=
+_us.jpg" border=3D"0" height=3D"42" width=3D"820" alt=3D"You are using an o=
+utdated browser. For a faster, safer browsing experience, upgrade for free =
+today." /></a></div><![endif]-->
+
+<!--ZOOMRESTART-->
+<p style=3D"line-height: 1.20; margin: 0 0 0 0;"><span style=3D"width:48px;=
+display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<im=
+g alt=3D"Eempio3" width=3D"222" height=3D"222" style=3D"margin:0;width:222p=
+x;height:222px;border:none" src=3D"https://help.geostru.eu/rcsec/it/eempio3=
+.png"></p>
+<p class=3D"p_Normal">Per un esempio sulla presso flessione deviata si =C3=
+=A8 considerata la sezione in figura relativa ad un pilastro rettangolare 4=
+0=C2=B460 &nbsp;armata con 8<span style=3D"font-family: GreekC;">F</span>16=
+ con staffe e legature <span style=3D"font-family: GreekC;">F</span>8 &nbsp=
+;(Calcestruzzo C28/35. Acciaio C450C).</p>
+<p class=3D"p_Normal">Il calcolo =C3=A8 stato effettuato per le seguenti 3 =
+combinazioni allo stato limite ultimo: </p>
+<p style=3D"line-height: 1.20; margin: 0 0 0 0;"><span style=3D"font-size: =
+10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</spa=
+n></p>
+<div style=3D"text-align: justify; text-indent: 0; line-height: 1.44; paddi=
+ng: 0 0 0 0; margin: 0 19px 0 19px;"><table style=3D"border:none; border-sp=
+acing:0; border-collapse:collapse;">
+<tbody><tr>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">N</span><span style=3D"font-size: 7pt; font-family: 'Times New R=
+oman',Times,Georgia,serif; vertical-align: sub;">Ed</span></p>
+<p style=3D"text-align: center; line-height: 1.20; margin: 0 0 0 0;"><span =
+style=3D"font-family: 'Times New Roman',Times,Georgia,serif;">(daN)</span><=
+/p>
+</td>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">Mx</span><span style=3D"font-size: 7pt; font-family: 'Times New =
+Roman',Times,Georgia,serif; vertical-align: sub;">Ed</span></p>
+<p style=3D"text-align: center; line-height: 1.20; margin: 0 0 0 0;"><span =
+style=3D"font-family: 'Times New Roman',Times,Georgia,serif;">(daNm)</span>=
+</p>
+</td>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">My</span><span style=3D"font-size: 7pt; font-family: 'Times New =
+Roman',Times,Georgia,serif; vertical-align: sub;">Ed</span></p>
+<p style=3D"text-align: center; line-height: 1.20; margin: 0 0 0 0;"><span =
+style=3D"font-family: 'Times New Roman',Times,Georgia,serif;">(daNm)</span>=
+</p>
+</td>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">Vy</span><span style=3D"font-size: 7pt; font-family: 'Times New =
+Roman',Times,Georgia,serif; vertical-align: sub;">Ed</span></p>
+<p style=3D"text-align: center; line-height: 1.20; margin: 0 0 0 0;"><span =
+style=3D"font-family: 'Times New Roman',Times,Georgia,serif;">(daN)</span><=
+/p>
+</td>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">Vx</span><span style=3D"font-size: 7pt; font-family: 'Times New =
+Roman',Times,Georgia,serif; vertical-align: sub;">Ed</span></p>
+<p style=3D"text-align: center; line-height: 1.20; margin: 0 0 0 0;"><span =
+style=3D"font-family: 'Times New Roman',Times,Georgia,serif;">(daN)</span><=
+/p>
+</td>
+</tr>
+<tr>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">50000</span></p>
+</td>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">14000</span></p>
+</td>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">11000</span></p>
+</td>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">14000</span></p>
+</td>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">11000</span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">50000</span></p>
+</td>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">20000</span></p>
+</td>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">0</span></p>
+</td>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">14000</span></p>
+</td>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">0</span></p>
+</td>
+</tr>
+<tr>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">50000</span></p>
+</td>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">0</span></p>
+</td>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">15714</span></p>
+</td>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">0</span></p>
+</td>
+<td style=3D"vertical-align:top; width:84px; height:19px; padding:2px; bord=
+er:solid thin #000000;"><p style=3D"text-align: center; line-height: 1.20; =
+margin: 0 0 0 0;"><span style=3D"font-family: 'Times New Roman',Times,Georg=
+ia,serif;">11000</span></p>
+</td>
+</tr>
+</tbody></table>
+</div>
+<p style=3D"line-height: 1.20; margin: 0 0 0 0;"><span style=3D"font-size: =
+10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</spa=
+n></p>
+<p class=3D"p_Normal">Si noti che solo la prima combinazione =C3=A8 deviata=
+ mentre la restanti due sono rette con i valori dei momenti incrementati de=
+l 30% e quelli del taglio disaccoppiati in modo da poter effettuare i succe=
+ssivi confronti.</p>
+<p class=3D"p_Normal">I risultati del calcolo sono riportati nella sottorip=
+ortata relazione di calcolo fornita dal programma.</p>
+<p class=3D"p_Normal">Le NTC consentono il calcolo della pressoflessione de=
+viata anche a mezzo della (4.1.19):</p>
+<p style=3D"line-height: 1.20; margin: 0 0 0 0;"><span style=3D"font-size: =
+10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</spa=
+n></p>
+<p style=3D"text-align: center; line-height: 1.20; margin: 0 0 0 0;"><img s=
+rc=3D"https://help.geostru.eu/rcsec/it/embim37.gif" width=3D"161" height=3D=
+"57" style=3D"margin:1px; border:none" alt=3D""></p>
+<p style=3D"line-height: 1.20; margin: 0 0 0 0;"><span style=3D"font-size: =
+10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</spa=
+n></p>
+<p class=3D"p_Normal">in cui =CE=B1 nel nostro caso,per <span style=3D"font=
+-size: 10pt; font-family: GreekC;">n</span><span style=3D"font-size: 10pt;"=
+> =3D 0.157, &nbsp;vale 1,048</span>. Quindi avendo a disposizione (dai ris=
+ultati delle combinazioni rette 2 e 3) anche i momenti resistenti in flessi=
+one retta ed applicando la (4.1.19), si ha:</p>
+<p class=3D"p_Normal">&nbsp;</p>
+<p class=3D"p_Normal"> &nbsp;(14000/22845)1,048 + (11000/17900)1,048 =3D 1.=
+2 &gt; &nbsp;1 </p>
+<p style=3D"line-height: 1.20; margin: 0 0 0 0;"><span style=3D"font-size: =
+10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</spa=
+n></p>
+<p class=3D"p_Normal">Quindi la verifica semplificata proposta dalla normat=
+iva non sarebbe soddisfatta per ben il 20% risultando in questo caso eccess=
+ivamente conservativa.</p>
+<p class=3D"p_Normal">In zona sismica le NTC consentono, altres=C3=AC, &nbs=
+p;che la verifica a presso-flessione deviata &nbsp;possa essere &nbsp;sosti=
+tuita da due verifiche a presso-flessione retta &nbsp;in cui la resistenza =
+sia ridotta al 70% di quella effettiva: ci=C3=B2 che equivale ad incrementa=
+re gli sforzi di progetto di 1/0,7 =3D 1,4286. Si sono cos=C3=AC ricavati g=
+li sforzi retti =E2=80=9Cequivalenti=E2=80=9D inseriti nella seconda e terz=
+a combinazione. Nella citato paragrafo normativo si fa riferimento ai soli =
+momenti flettenti (lo sforzo normale non va incrementato in quanto la misur=
+a della sicurezza va sempre effettuata a sforzo normale costante). Il tabul=
+ato di verifica di seguito riportato mostra che nelle verifiche a pressofle=
+ssione retta (seconda e terza combinazione) le misure della sicurezza (1,14=
+ e 1,14) risultano entrambe maggiori di quella a presso-flessione deviata &=
+nbsp;(1,06). Anche in questo caso la verifica semplificata di normativa ris=
+ulta pi=C3=B9 conservativa.</p>
+<p class=3D"p_Normal">&nbsp;</p>
+<p class=3D"p_Normal">Nulla si dice in normativa circa la verifica a taglio=
+ in presenza delle due componenti V<span style=3D"font-size: 7pt; vertical-=
+align: sub;">x</span>,V<span style=3D"font-size: 7pt; vertical-align: sub;"=
+>y</span>. Anche per il taglio, a scopo di confronto, la &nbsp;verifica a t=
+aglio deviato di cui alla prima combinazione =C3=A8 stata disaccoppiato nel=
+le due verifiche separate di tipo retto inserite nella seconda e terza comb=
+inazione.</p>
+<p class=3D"p_Normal">Dalla relazione di calcolo si pu=C3=B2 notare che l=
+=E2=80=99armatura trasversale strettamente necessaria per la prima combinaz=
+ione &nbsp;deviata =C3=A8 pari a 5.5 cm=C2=B2/m risultando nettamente super=
+iore a quella necessaria per entrambe le sollecitazione rette pari a &nbsp;=
+superiore a quella della seconda e terza combinazione (rette) pari per entr=
+ambe a 3,5 cm=C2=B2/m. </p>
+<p class=3D"p_Normal">Da quanto detto si deduce che per il taglio biassiale=
+ non ci sono sufficienti indicazioni normative per la sua sostituzione con =
+due tagli equivalenti in sollecitazione retta (manca cio=C3=A8 almeno una s=
+emplificazione basata un diagramma di interazione conservativo).</p>
+<p class=3D"p_Normal">Nella valutazione del taglio resistente lato trazione=
+ =C3=A8 stata considerata la legatura in funzione della sua efficacia (vedi=
+ <a href=3D"https://help.geostru.eu/rcsec/it/verifica_per_taglio_biassiale.=
+htm" class=3D"topiclink">Verifica per taglio biassiale</a>). Infatti nelle =
+due combinazioni rette l'area efficace (a metro lineare di trave) attribuit=
+a alle legature (vedi ternini tra parentesi relatifi ad A<span style=3D"fon=
+t-size: 7pt; vertical-align: sub;">eff</span>) =C3=A8 nulla per la seconda =
+combinaziore retta (la legatura =C3=A8 parallela all'asse neutro e quindi i=
+nefficace), vale invece 2,8 cm=C2=B2/m =3D 0,5 *100/18) per la terza combin=
+azione in cui l'area della legatura viene contata per intero in quanto orto=
+gonale all'asse neutro. Nel caso della prima combinazione l'area efficace d=
+ella legatura viene presa in conto solo parzialmente in quanto obliqua risp=
+etto all'asse neutro deviato. </p>
+<p style=3D"line-height: 1.20; margin: 0 0 0 0;"><span style=3D"font-size: =
+10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</spa=
+n></p>
+<p style=3D"line-height: 1.20; margin: 0 0 0 0;"><span style=3D"font-size: =
+10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</spa=
+n></p>
+<p class=3D"p_Normal"><span style=3D"font-size: 10pt; font-family: Arial,He=
+lvetica,sans-serif; color: #000000;">DATI GENERALI SEZIONE RETTANGOLARE DI =
+PILASTRO IN C.A. &nbsp;</span></p>
+<p class=3D"p_Normal"><span style=3D"font-size: 10pt; font-family: Arial,He=
+lvetica,sans-serif; color: #000000;">NOME SEZIONE: ESEMPIO_3</span></p>
+<p class=3D"p_Normal"><span style=3D"font-size: 10pt; font-family: Arial,He=
+lvetica,sans-serif; color: #000000;">(Percorso File: C:\L\SORGENTI2017\RC-S=
+EC-2017_NEW\ESEMPI\ESEMPIO_3.sez)</span></p>
+<p class=3D"p_Normal"><span style=3D"font-size: 10pt; font-family: Arial,He=
+lvetica,sans-serif; color: #000000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Descriz=
+ione Sezione: &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Metodo =
+di calcolo resistenza: &nbsp; &nbsp; &nbsp; &nbsp;Stati Limite Ultimi</span=
+></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Normati=
+va di riferimento: &nbsp; &nbsp; &nbsp; &nbsp;N.T.C.</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Tipolog=
+ia sezione: &nbsp; &nbsp; &nbsp; &nbsp;Pilastro rettangolare ad armatura si=
+mmetrica</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Percors=
+o sollecitazione: &nbsp; &nbsp; &nbsp; &nbsp;A Sforzo Norm. costante</span>=
+</p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Riferim=
+ento Sforzi assegnati: &nbsp; &nbsp; &nbsp; &nbsp;Assi x,y principali d'ine=
+rzia</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Riferim=
+ento alla sismicit=C3=A0: &nbsp; &nbsp; &nbsp; &nbsp;Zona non sismica</span=
+></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">CARATTE=
+RISTICHE DI RESISTENZA DEI MATERIALI IMPIEGATI</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">CALCEST=
+RUZZO - &nbsp; &nbsp; &nbsp; &nbsp;Classe:  &nbsp; &nbsp; &nbsp; &nbsp;C28/=
+35 &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">Resistenza compress. di progetto fcd: &nbsp; &nbsp; &n=
+bsp; &nbsp;158.60 &nbsp; &nbsp; &nbsp; &nbsp;daN/cm=C2=B2</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">Resistenza compress. ridotta fcd': &nbsp; &nbsp; &nbsp=
+; &nbsp;79.30 &nbsp; &nbsp; &nbsp; &nbsp;daN/cm=C2=B2</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">Deform. unitaria max resistenza ec2: &nbsp; &nbsp; &nb=
+sp; &nbsp;0.0020 &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">Deformazione unitaria ultima ecu: &nbsp; &nbsp; &nbsp;=
+ &nbsp;0.0035 &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">Diagramma tensioni-deformaz.: &nbsp; &nbsp; &nbsp; &nb=
+sp;Parabola-Rettangolo &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">Modulo Elastico Normale &nbsp;Ec: &nbsp; &nbsp; &nbsp;=
+ &nbsp;323080 &nbsp; &nbsp; &nbsp; &nbsp;daN/cm=C2=B2</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">Resis. media a trazione fctm: &nbsp; &nbsp; &nbsp; &nb=
+sp;28.80 &nbsp; &nbsp; &nbsp; &nbsp;daN/cm=C2=B2</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">ACCIAIO=
+ - &nbsp; &nbsp; &nbsp; &nbsp;Tipo: &nbsp; &nbsp; &nbsp; &nbsp;B450C &nbsp;=
+ &nbsp; &nbsp; &nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">Resist. caratt. a snervamento fyk: &nbsp; &nbsp; &nbsp=
+; &nbsp;4500.0 &nbsp; &nbsp; &nbsp; &nbsp;daN/cm=C2=B2</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">Resist. caratt. a rottura ftk: &nbsp; &nbsp; &nbsp; &n=
+bsp;4500.0 &nbsp; &nbsp; &nbsp; &nbsp;daN/cm=C2=B2</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">Resist. a snerv. di progetto fyd: &nbsp; &nbsp; &nbsp;=
+ &nbsp;3913.0 &nbsp; &nbsp; &nbsp; &nbsp;daN/cm=C2=B2</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">Resist. ultima di progetto ftd: &nbsp; &nbsp; &nbsp; &=
+nbsp;3913.0 &nbsp; &nbsp; &nbsp; &nbsp;daN/cm=C2=B2</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">Deform. ultima di progetto Epu: &nbsp; &nbsp; &nbsp; &=
+nbsp;0.068 &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">Modulo Elastico &nbsp;Ef: &nbsp; &nbsp; &nbsp; &nbsp;2=
+000000 &nbsp; &nbsp; &nbsp; &nbsp;daN/cm=C2=B2</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">Diagramma tensioni-deformaz.: &nbsp; &nbsp; &nbsp; &nb=
+sp;Bilineare finito &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">CARATTE=
+RISTICHE GEOMETRICHE ED ARMATURE SEZIONE </span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Base: &=
+nbsp; &nbsp; &nbsp; &nbsp;40.0 &nbsp; &nbsp; &nbsp; &nbsp;cm</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Altezza=
+: &nbsp; &nbsp; &nbsp; &nbsp;50.0 &nbsp; &nbsp; &nbsp; &nbsp;cm</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N=C2=B0=
+totale barre: &nbsp; &nbsp; &nbsp; &nbsp;8 &nbsp; &nbsp; &nbsp; &nbsp;</spa=
+n></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Diametr=
+o barre: &nbsp; &nbsp; &nbsp; &nbsp;16 &nbsp; &nbsp; &nbsp; &nbsp;mm</span>=
+</p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Coprife=
+rro (dal baric.barre): &nbsp; &nbsp; &nbsp; &nbsp;4.0 &nbsp; &nbsp; &nbsp; =
+&nbsp;cm</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;"> &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; Coordinate Barre nei vertici &n=
+bsp; </span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N=C2=B0=
+Barra &nbsp; &nbsp; &nbsp; &nbsp;X [cm] &nbsp; &nbsp; &nbsp; &nbsp;Y [cm]</=
+span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 1 &nbs=
+p; &nbsp; &nbsp; &nbsp;-16.0 &nbsp; &nbsp; &nbsp; &nbsp;-21.0</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 2 &nbs=
+p; &nbsp; &nbsp; &nbsp;-16.0 &nbsp; &nbsp; &nbsp; &nbsp;21.0</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 3 &nbs=
+p; &nbsp; &nbsp; &nbsp;16.0 &nbsp; &nbsp; &nbsp; &nbsp;21.0</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 4 &nbs=
+p; &nbsp; &nbsp; &nbsp;16.0 &nbsp; &nbsp; &nbsp; &nbsp;-21.0</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">DATI GE=
+NERAZIONI LINEARI DI BARRE</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N=C2=B0=
+Gen. &nbsp; &nbsp; &nbsp; &nbsp;Numero assegnato alla singola generazione l=
+ineare di barre</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N=C2=B0=
+Barra Ini. &nbsp; &nbsp; &nbsp; &nbsp;Numero della barra iniziale cui si ri=
+ferisce la generazione</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N=C2=B0=
+Barra Fin. &nbsp; &nbsp; &nbsp; &nbsp;Numero della barra finale cui si rife=
+risce la generazione</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N=C2=B0=
+Barre &nbsp; &nbsp; &nbsp; &nbsp;Numero di barre generate equidistanti cui =
+si riferisce la generazione</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">=C3=98 =
+&nbsp; &nbsp; &nbsp; &nbsp;Diametro in mm delle barre della generazione</sp=
+an></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N=C2=B0=
+Gen. &nbsp; &nbsp; &nbsp; &nbsp;N=C2=B0Barra Ini. &nbsp; &nbsp; &nbsp; &nbs=
+p;N=C2=B0Barra Fin. &nbsp; &nbsp; &nbsp; &nbsp;N=C2=B0Barre &nbsp; &nbsp; &=
+nbsp; &nbsp;=C3=98</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 1 &nbs=
+p; &nbsp; &nbsp; &nbsp;1 &nbsp; &nbsp; &nbsp; &nbsp;4 &nbsp; &nbsp; &nbsp; =
+&nbsp;1 &nbsp; &nbsp; &nbsp; &nbsp;16</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 2 &nbs=
+p; &nbsp; &nbsp; &nbsp;2 &nbsp; &nbsp; &nbsp; &nbsp;3 &nbsp; &nbsp; &nbsp; =
+&nbsp;1 &nbsp; &nbsp; &nbsp; &nbsp;16</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 3 &nbs=
+p; &nbsp; &nbsp; &nbsp;1 &nbsp; &nbsp; &nbsp; &nbsp;2 &nbsp; &nbsp; &nbsp; =
+&nbsp;1 &nbsp; &nbsp; &nbsp; &nbsp;16</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 4 &nbs=
+p; &nbsp; &nbsp; &nbsp;4 &nbsp; &nbsp; &nbsp; &nbsp;3 &nbsp; &nbsp; &nbsp; =
+&nbsp;1 &nbsp; &nbsp; &nbsp; &nbsp;16</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">ARMATUR=
+E A TAGLIO</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Diametr=
+o staffe: &nbsp; &nbsp; &nbsp; &nbsp;8 &nbsp; &nbsp; &nbsp; &nbsp;mm</span>=
+</p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Passo s=
+taffe e legature: &nbsp; &nbsp; &nbsp; &nbsp;18.0 &nbsp; &nbsp; &nbsp; &nbs=
+p;cm</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Staffe:=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Una sola staffa chi=
+usa perimetrale</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N=C2=B0=
+ Legature in dir. X: &nbsp; &nbsp; &nbsp; &nbsp; 1 &nbsp; &nbsp; &nbsp; &nb=
+sp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N=C2=B0=
+ Legature in dir. Y: &nbsp; &nbsp; &nbsp; &nbsp; 0 &nbsp; &nbsp; &nbsp; &nb=
+sp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Coordin=
+ate Barre generate di estremit=C3=A0 delle legature:</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N=C2=B0=
+Barra &nbsp; &nbsp; &nbsp; &nbsp;X[cm] &nbsp; &nbsp; &nbsp; &nbsp;Y[cm]</sp=
+an></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">7 &nbsp=
+; &nbsp; &nbsp; &nbsp;-16.0 &nbsp; &nbsp; &nbsp; &nbsp;0.0</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">8 &nbsp=
+; &nbsp; &nbsp; &nbsp;16.0 &nbsp; &nbsp; &nbsp; &nbsp;0.0</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">CALCOLO=
+ DI RESISTENZA - SFORZI PER OGNI COMBINAZIONE ASSEGNATA</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N &nbsp=
+; &nbsp; &nbsp; &nbsp;Sforzo normale [daN] applicato nel baricentro (posit.=
+ se di compress.)</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Mx &nbs=
+p; &nbsp; &nbsp; &nbsp;Momento flettente [daNm] intorno all'asse x baric. d=
+ella sezione</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">con verso positivo se tale da comprimere il lembo sup.=
+ della sezione</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">My &nbs=
+p; &nbsp; &nbsp; &nbsp;Momento flettente [daNm] intorno all'asse y baric. d=
+ella sezione</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">con verso positivo se tale da comprimere il lembo dest=
+ro della sezione</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Vy &nbs=
+p; &nbsp; &nbsp; &nbsp;Taglio [daN] in direzione parallela all'asse y baric=
+. della sezione</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Vx &nbs=
+p; &nbsp; &nbsp; &nbsp;Taglio [daN] in direzione parallela all'asse x baric=
+. della sezione</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N=C2=B0=
+Comb. &nbsp; &nbsp; &nbsp; &nbsp;N &nbsp; &nbsp; &nbsp; &nbsp;Mx &nbsp; &nb=
+sp; &nbsp; &nbsp;My &nbsp; &nbsp; &nbsp; &nbsp;Vy &nbsp; &nbsp; &nbsp; &nbs=
+p;Vx</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 1 &nbs=
+p; &nbsp; &nbsp; &nbsp;50000 &nbsp; &nbsp; &nbsp; &nbsp;14000 &nbsp; &nbsp;=
+ &nbsp; &nbsp;11000 &nbsp; &nbsp; &nbsp; &nbsp;14000 &nbsp; &nbsp; &nbsp; &=
+nbsp;11000</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 2 &nbs=
+p; &nbsp; &nbsp; &nbsp;50000 &nbsp; &nbsp; &nbsp; &nbsp;20000 &nbsp; &nbsp;=
+ &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; &nbsp;14000 &nbsp; &nbsp; &nbsp; &nbsp=
+;0</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 3 &nbs=
+p; &nbsp; &nbsp; &nbsp;50000 &nbsp; &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nb=
+sp; &nbsp;15714 &nbsp; &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; &nbsp;110=
+00</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">RISULTA=
+TI DEL CALCOLO</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Sezione=
+ verificata per tutte le combinazioni assegnate</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Coprife=
+rro netto minimo barre longitudinali: &nbsp; &nbsp; &nbsp; &nbsp;3.2  &nbsp=
+; &nbsp; &nbsp; &nbsp;cm</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Interfe=
+rro netto minimo barre longitudinali: &nbsp; &nbsp; &nbsp; &nbsp;14.4 &nbsp=
+; &nbsp; &nbsp; &nbsp;cm</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Coprife=
+rro netto minimo staffe: &nbsp; &nbsp; &nbsp; &nbsp;2.4  &nbsp; &nbsp; &nbs=
+p; &nbsp;cm</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">VERIFIC=
+HE DI RESISTENZA IN PRESSO-TENSO FLESSIONE ALLO STATO LIMITE ULTIMO</span><=
+/p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Ver &nb=
+sp; &nbsp; &nbsp; &nbsp;S =3D combinazione verificata / N =3D combin. non v=
+erificata</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N Sn &n=
+bsp; &nbsp; &nbsp; &nbsp;Sforzo normale assegnato [daN] nel baricentro sezi=
+one cls. (positivo se di compressione)</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Mx Sn &=
+nbsp; &nbsp; &nbsp; &nbsp;Componente momento assegnato [daNm] riferito all'=
+asse x princ. d'inerzia</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">My Sn &=
+nbsp; &nbsp; &nbsp; &nbsp;Componente momento assegnato [daNm] riferito all'=
+asse y princ. d'inerzia</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N Res &=
+nbsp; &nbsp; &nbsp; &nbsp;Sforzo normale resistente [daN] baricentrico (pos=
+itivo se di compress.)</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Mx Res =
+&nbsp; &nbsp; &nbsp; &nbsp;Momento flettente resistente [daNm] riferito all=
+'asse x princ. d'inerzia</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">My res =
+&nbsp; &nbsp; &nbsp; &nbsp;Momento flettente resistente [daNm] riferito all=
+'asse y princ. d'inerzia</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Mis.Sic=
+. &nbsp; &nbsp; &nbsp; &nbsp;Misura sicurezza =3D rapporto vettoriale tra (=
+N r,Mx Res,My Res) e (N,Mx,My)</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> &nbsp;=
+ &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp;Verifica positiva se tale rappo=
+rto risulta &gt;=3D1.000</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">As Tota=
+le &nbsp; &nbsp; &nbsp; &nbsp;Area totale barre longitudinali [cm=C2=B2]. [=
+Tra parentesi il valore minimo di normativa]</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N=C2=B0=
+Comb &nbsp; &nbsp; &nbsp; &nbsp;Ver &nbsp; &nbsp; &nbsp; &nbsp;N &nbsp; &nb=
+sp; &nbsp; &nbsp;Mx &nbsp; &nbsp; &nbsp; &nbsp;My &nbsp; &nbsp; &nbsp; &nbs=
+p;N Res &nbsp; &nbsp; &nbsp; &nbsp;Mx Res &nbsp; &nbsp; &nbsp; &nbsp;My Res=
+ &nbsp; &nbsp; &nbsp; &nbsp;Mis.Sic. &nbsp; &nbsp; &nbsp; &nbsp;As Totale</=
+span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 1 &nbs=
+p; &nbsp; &nbsp; &nbsp;S &nbsp; &nbsp; &nbsp; &nbsp;50000 &nbsp; &nbsp; &nb=
+sp; &nbsp;14000 &nbsp; &nbsp; &nbsp; &nbsp;11000 &nbsp; &nbsp; &nbsp; &nbsp=
+;49997 &nbsp; &nbsp; &nbsp; &nbsp;14809 &nbsp; &nbsp; &nbsp; &nbsp;11714 &n=
+bsp; &nbsp; &nbsp; &nbsp;1.06 &nbsp; &nbsp; &nbsp; &nbsp;16.1(6.0) &nbsp; &=
+nbsp; &nbsp; &nbsp; </span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 2 &nbs=
+p; &nbsp; &nbsp; &nbsp;S &nbsp; &nbsp; &nbsp; &nbsp;50000 &nbsp; &nbsp; &nb=
+sp; &nbsp;20000 &nbsp; &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; &nbsp;499=
+86 &nbsp; &nbsp; &nbsp; &nbsp;22845 &nbsp; &nbsp; &nbsp; &nbsp;0 &nbsp; &nb=
+sp; &nbsp; &nbsp;1.14 &nbsp; &nbsp; &nbsp; &nbsp;16.1(6.0) &nbsp; &nbsp; &n=
+bsp; &nbsp; </span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 3 &nbs=
+p; &nbsp; &nbsp; &nbsp;S &nbsp; &nbsp; &nbsp; &nbsp;50000 &nbsp; &nbsp; &nb=
+sp; &nbsp;0 &nbsp; &nbsp; &nbsp; &nbsp;15714 &nbsp; &nbsp; &nbsp; &nbsp;500=
+03 &nbsp; &nbsp; &nbsp; &nbsp;0 &nbsp; &nbsp; &nbsp; &nbsp;17900 &nbsp; &nb=
+sp; &nbsp; &nbsp;1.14 &nbsp; &nbsp; &nbsp; &nbsp;16.1(6.0) &nbsp; &nbsp; &n=
+bsp; &nbsp; </span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">METODO =
+AGLI STATI LIMITE ULTIMI - DEFORMAZIONI UNITARIE ALLO STATO ULTIMO</span></=
+p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">ec max =
+&nbsp; &nbsp; &nbsp; &nbsp;Deform. unit. massima del conglomerato a compres=
+sione</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">Deform. unit. massima del conglomerato a compressione<=
+/span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Xc max =
+&nbsp; &nbsp; &nbsp; &nbsp;Ascissa &nbsp;in cm della fibra corrisp. a ec ma=
+x (sistema rif. X,Y,O sez.)</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Yc max =
+&nbsp; &nbsp; &nbsp; &nbsp;Ordinata in cm della fibra corrisp. a ec max (si=
+stema rif. X,Y,O sez.)</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">es min =
+&nbsp; &nbsp; &nbsp; &nbsp;Deform. unit. minima nell'acciaio (negativa se d=
+i trazione)</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Xs min =
+&nbsp; &nbsp; &nbsp; &nbsp;Ascissa &nbsp;in cm della barra corrisp. a es mi=
+n (sistema rif. X,Y,O sez.)</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Ys min =
+&nbsp; &nbsp; &nbsp; &nbsp;Ordinata in cm della barra corrisp. a es min (si=
+stema rif. X,Y,O sez.)</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">es max =
+&nbsp; &nbsp; &nbsp; &nbsp;Deform. unit. massima nell'acciaio (positiva se =
+di compress.)</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Xs max =
+&nbsp; &nbsp; &nbsp; &nbsp;Ascissa &nbsp;in cm della barra corrisp. a es ma=
+x (sistema rif. X,Y,O sez.)</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Ys max =
+&nbsp; &nbsp; &nbsp; &nbsp;Ordinata in cm della barra corrisp. a es max (si=
+stema rif. X,Y,O sez.)</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N=C2=B0=
+Comb &nbsp; &nbsp; &nbsp; &nbsp;ec max &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp;Xc max &nbsp; &nbsp; &nbsp; &nbsp;Yc max &nbsp; &nbsp; &=
+nbsp; &nbsp;es min &nbsp; &nbsp; &nbsp; &nbsp;Xs min &nbsp; &nbsp; &nbsp; &=
+nbsp;Ys min &nbsp; &nbsp; &nbsp; &nbsp;es max &nbsp; &nbsp; &nbsp; &nbsp;Xs=
+ max &nbsp; &nbsp; &nbsp; &nbsp;Ys max</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 1 &nbs=
+p; &nbsp; &nbsp; &nbsp;0.00350 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp;20.0 &nbsp; &nbsp; &nbsp; &nbsp;25.0 &nbsp; &nbsp; &nbsp; &nbsp;=
+0.00270 &nbsp; &nbsp; &nbsp; &nbsp;16.0 &nbsp; &nbsp; &nbsp; &nbsp;21.0 &nb=
+sp; &nbsp; &nbsp; &nbsp;-0.00459 &nbsp; &nbsp; &nbsp; &nbsp;-16.0 &nbsp; &n=
+bsp; &nbsp; &nbsp;-21.0</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 2 &nbs=
+p; &nbsp; &nbsp; &nbsp;0.00350 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp;-20.0 &nbsp; &nbsp; &nbsp; &nbsp;25.0 &nbsp; &nbsp; &nbsp; &nbsp=
+;0.00241 &nbsp; &nbsp; &nbsp; &nbsp;-16.0 &nbsp; &nbsp; &nbsp; &nbsp;21.0 &=
+nbsp; &nbsp; &nbsp; &nbsp;-0.00908 &nbsp; &nbsp; &nbsp; &nbsp;-16.0 &nbsp; =
+&nbsp; &nbsp; &nbsp;-21.0</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 3 &nbs=
+p; &nbsp; &nbsp; &nbsp;0.00350 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp;20.0 &nbsp; &nbsp; &nbsp; &nbsp;25.0 &nbsp; &nbsp; &nbsp; &nbsp;=
+0.00213 &nbsp; &nbsp; &nbsp; &nbsp;16.0 &nbsp; &nbsp; &nbsp; &nbsp;21.0 &nb=
+sp; &nbsp; &nbsp; &nbsp;-0.00879 &nbsp; &nbsp; &nbsp; &nbsp;-16.0 &nbsp; &n=
+bsp; &nbsp; &nbsp;-21.0</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">POSIZIO=
+NE ASSE NEUTRO PER OGNI COMB. DI RESISTENZA</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">a, b, c=
+ &nbsp; &nbsp; &nbsp; &nbsp;Coeff. a, b, c &nbsp;nell'eq. dell'asse neutro =
+aX+bY+c=3D0 nel rif. X,Y,O gen.</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">x/d &nb=
+sp; &nbsp; &nbsp; &nbsp;Rapp. di duttilit=C3=A0 (travi e solette)[=C2=A7 4.=
+1.2.1.2.1 NTC]: deve essere &lt; 0.45</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">C.Rid. =
+&nbsp; &nbsp; &nbsp; &nbsp;Coeff. di riduz. momenti per sola flessione in t=
+ravi continue</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N=C2=B0=
+Comb &nbsp; &nbsp; &nbsp; &nbsp;a &nbsp; &nbsp; &nbsp; &nbsp;b &nbsp; &nbsp=
+; &nbsp; &nbsp;c &nbsp; &nbsp; &nbsp; &nbsp;x/d &nbsp; &nbsp; &nbsp; &nbsp;=
+C.Rid.</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 1 &nbs=
+p; &nbsp; &nbsp; &nbsp;0.000112862 &nbsp; &nbsp; &nbsp; &nbsp;0.000087483 &=
+nbsp; &nbsp; &nbsp; &nbsp;-0.000944315 &nbsp; &nbsp; &nbsp; &nbsp;---- &nbs=
+p; &nbsp; &nbsp; &nbsp;----</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 2 &nbs=
+p; &nbsp; &nbsp; &nbsp;0.000000000 &nbsp; &nbsp; &nbsp; &nbsp;0.000273431 &=
+nbsp; &nbsp; &nbsp; &nbsp;-0.003335766 &nbsp; &nbsp; &nbsp; &nbsp;---- &nbs=
+p; &nbsp; &nbsp; &nbsp;----</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 3 &nbs=
+p; &nbsp; &nbsp; &nbsp;0.000341496 &nbsp; &nbsp; &nbsp; &nbsp;0.000000000 &=
+nbsp; &nbsp; &nbsp; &nbsp;-0.003329915 &nbsp; &nbsp; &nbsp; &nbsp;---- &nbs=
+p; &nbsp; &nbsp; &nbsp;----</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">  &nbsp; &nbsp; &nbsp; &nbsp;VERIFICHE A TAGLIO</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Diam. S=
+taffe: &nbsp; &nbsp; &nbsp; &nbsp;8 &nbsp;mm</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Diam. L=
+egature: &nbsp; &nbsp; &nbsp; &nbsp;8 &nbsp;mm</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Passo s=
+taffe e legature: &nbsp; &nbsp; &nbsp; &nbsp;18.0 cm &nbsp; [Passo massimo =
+di normativa =3D 19.2 cm]</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Ver &nb=
+sp; &nbsp; &nbsp; &nbsp;S =3D comb. verificata a taglio / N =3D comb. non v=
+erificata</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Ved &nb=
+sp; &nbsp; &nbsp; &nbsp;Taglio di progetto [daN] =3D proiez. di Vx e Vy sul=
+la normale all'asse neutro</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Vcd &nb=
+sp; &nbsp; &nbsp; &nbsp;Taglio resistente ultimo [daN] lato conglomerato co=
+mpresso</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Vwd &nb=
+sp; &nbsp; &nbsp; &nbsp;Taglio resistente [daN] assorbito dalle staffe</spa=
+n></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">d | z &=
+nbsp; &nbsp; &nbsp; &nbsp;Altezza utile media pesata sezione ortogonale all=
+'asse neutro | Braccio coppia interna [cm]</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">Vengono prese nella media le strisce con almeno un est=
+remo compresso.</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; =
+&nbsp;<span style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-ser=
+if; color: #000000;">I pesi della media sono costituiti dalle stesse lunghe=
+zze delle strisce.</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">bw &nbs=
+p; &nbsp; &nbsp; &nbsp;Larghezza media resistente a taglio [cm] misurate pa=
+rallel. all'asse neutro</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp=
+; &nbsp; &nbsp; &nbsp;E' data dal rapporto tra l'area delle sopradette stri=
+sce resistenti e Dmed.</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Ctg &nb=
+sp; &nbsp; &nbsp; &nbsp;Cotangente dell'angolo di inclinazione dei puntoni =
+di conglomerato</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Acw &nb=
+sp; &nbsp; &nbsp; &nbsp;Coefficiente maggiorativo della resistenza a taglio=
+ per compressione</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">Ast &nb=
+sp; &nbsp; &nbsp; &nbsp;Area staffe+legature &nbsp;strettam. necessarie a t=
+aglio per metro di pil.[cm=C2=B2/m]</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">A.Eff &=
+nbsp; &nbsp; &nbsp; &nbsp;Area staffe+legature efficaci nella direzione del=
+ taglio di combinaz.[cm=C2=B2/m]</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp=
+; &nbsp; &nbsp; &nbsp;Tra parentesi =C3=A8 indicata la quota dell'area rela=
+tiva alle sole legature.</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp=
+; &nbsp; &nbsp; &nbsp;L'area della legatura =C3=A8 ridotta col fattore L/d_=
+max con L=3Dlungh.legat.proietta-</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp=
+; &nbsp; &nbsp; &nbsp;ta sulla direz. del taglio e d_max=3D massima altezza=
+ utile nella direz.del taglio.</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;">N=C2=B0=
+Comb &nbsp; &nbsp; &nbsp; &nbsp;Ver &nbsp; &nbsp; &nbsp; &nbsp;Ved &nbsp; &=
+nbsp; &nbsp; &nbsp;Vcd &nbsp; &nbsp; &nbsp; &nbsp;Vwd &nbsp; &nbsp; &nbsp; =
+&nbsp;d | z &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;bw &nbsp; &nbsp; &nbs=
+p; &nbsp;Ctg &nbsp; &nbsp; &nbsp; &nbsp;Acw &nbsp; &nbsp; &nbsp; &nbsp;Ast =
+&nbsp; &nbsp; &nbsp; &nbsp;A.Eff &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 1 &nbs=
+p; &nbsp; &nbsp; &nbsp;S &nbsp; &nbsp; &nbsp; &nbsp;17271 &nbsp; &nbsp; &nb=
+sp; &nbsp;45866 &nbsp; &nbsp; &nbsp; &nbsp;22029 &nbsp; &nbsp; &nbsp; &nbsp=
+;37.8| 32.3 &nbsp; &nbsp; &nbsp; &nbsp;44.8 &nbsp; &nbsp; &nbsp; &nbsp;2.50=
+0 &nbsp; &nbsp; &nbsp; &nbsp;1.158 &nbsp; &nbsp; &nbsp; &nbsp;5.5 &nbsp; &n=
+bsp; &nbsp; &nbsp;7.0(1.4) &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 2 &nbs=
+p; &nbsp; &nbsp; &nbsp;S &nbsp; &nbsp; &nbsp; &nbsp;14000 &nbsp; &nbsp; &nb=
+sp; &nbsp;51762 &nbsp; &nbsp; &nbsp; &nbsp;22335 &nbsp; &nbsp; &nbsp; &nbsp=
+;46.0| 40.9 &nbsp; &nbsp; &nbsp; &nbsp;40.0 &nbsp; &nbsp; &nbsp; &nbsp;2.50=
+0 &nbsp; &nbsp; &nbsp; &nbsp;1.158 &nbsp; &nbsp; &nbsp; &nbsp;3.5 &nbsp; &n=
+bsp; &nbsp; &nbsp;5.6(0.0) &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"width:48px;display:inline-block">&nbsp;</span><span style=3D"font-si=
+ze: 10pt; font-family: Arial,Helvetica,sans-serif; color: #000000;"> 3 &nbs=
+p; &nbsp; &nbsp; &nbsp;S &nbsp; &nbsp; &nbsp; &nbsp;11000 &nbsp; &nbsp; &nb=
+sp; &nbsp;50491 &nbsp; &nbsp; &nbsp; &nbsp;26144 &nbsp; &nbsp; &nbsp; &nbsp=
+;36.0| 31.9 &nbsp; &nbsp; &nbsp; &nbsp;50.0 &nbsp; &nbsp; &nbsp; &nbsp;2.50=
+0 &nbsp; &nbsp; &nbsp; &nbsp;1.158 &nbsp; &nbsp; &nbsp; &nbsp;3.5 &nbsp; &n=
+bsp; &nbsp; &nbsp;8.4(2.8) &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p style=3D"text-align: center; line-height: 1.20; margin: 0 0 0 0;"><span =
+style=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #=
+000000;">&nbsp;</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<div style=3D"text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0=
+ 0 0 0;"><table style=3D"width:100%; background-image:url('introduction_tab=
+lebg45442984.png'); border:none; border-spacing:0;">
+<tbody><tr>
+<td style=3D"vertical-align:middle; height:28px; padding:0; border:none"><b=
+r>
+</td>
+</tr>
+</tbody></table>
+</div>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 9pt;">=C2=A9 &nbsp;Geostru</span></p>
+<p style=3D"text-align: left; line-height: 1.20; margin: 0 0 0 0;"><span st=
+yle=3D"font-size: 10pt; font-family: Arial,Helvetica,sans-serif; color: #00=
+0000;">&nbsp;</span></p>
+<p class=3D"p_Normal">&nbsp;</p>
+
+<!--ZOOMSTOP-->
+</div></div>
+
+
+
+</body></html>
+------MultipartBoundary--VGp16ziYfkrygd9BLxWX40IEG3TUrWrp44Qrdhl9br----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://help.geostru.eu/rcsec/it/introduction_tablebg45442984.png
+
+iVBORw0KGgoAAAANSUhEUgAAAJsAAAAxCAIAAABChExTAAAABmJLR0QAAAAAAAD5Q7t/AAAACXBI
+WXMAAA7EAAAOxAGVKw4bAAAAeklEQVR42u3UMREAIAwEQQoMIIEG/zZosICUYCNk9iT8TtIjoqlQ
+3QRERVRERVREiYqoiIqoiBIVUREVURElKqIiKqIiSlR/i+5zrVBKdM1pBV9XiUXHMIIbFVERFVER
+JSqiIiqiIkpUREVUREWUqIiKqIiKKFERVZoeThQGwuEQjG0AAAAASUVORK5CYII=
+
+------MultipartBoundary--VGp16ziYfkrygd9BLxWX40IEG3TUrWrp44Qrdhl9br----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://help.geostru.eu/rcsec/it/embim37.gif
+
+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
+Ow==
+
+------MultipartBoundary--VGp16ziYfkrygd9BLxWX40IEG3TUrWrp44Qrdhl9br----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://help.geostru.eu/rcsec/it/eempio3.png
+
+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
+Fqg4im6q7e4AAAAASUVORK5CYII=
+
+------MultipartBoundary--VGp16ziYfkrygd9BLxWX40IEG3TUrWrp44Qrdhl9br----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://help.geostru.eu/rcsec/it/custom.css
+
+@charset "utf-8";
+
+a { color: rgb(0, 0, 255); text-decoration: none; }
+
+a:visited { color: rgb(0, 0, 255); }
+
+a:hover { color: rgb(228, 100, 28); text-decoration: underline; }
+
+a.weblink { color: rgb(0, 0, 255); text-decoration: underline; }
+
+a.weblink:visited { color: rgb(0, 0, 255); }
+
+a.weblink:hover { color: rgb(228, 100, 28); }
+
+a.popuplink { color: rgb(255, 0, 0); text-decoration: none; }
+
+a.popuplink:visited { color: rgb(255, 0, 0); }
+
+a.popuplink:hover { color: rgb(255, 0, 0); text-decoration: underline; }
+
+a.filelink { color: rgb(4, 188, 20); text-decoration: none; }
+
+a.filelink:visited { color: rgb(4, 188, 20); }
+
+a.filelink:hover { color: rgb(4, 188, 20); text-decoration: underline; }
+
+a.inline-toggle { color: green; text-decoration: none; font-weight: bold; f=
+ont-family: "Times New Roman", serif; }
+
+a.inline-toggle:visited { color: green; }
+
+a.inline-toggle:hover { text-decoration: underline; }
+
+.fsmall { font-size: 10px; font-family: Verdana, Helvetica, sans-serif; tex=
+t-align: center; margin: 10px 0px 0px; }
+
+.crumbs { font-size: 9pt; margin-bottom: 3px; margin-top: 0px; color: rgb(0=
+, 0, 0); }
+
+.crumbs a { text-decoration: underline; color: rgb(0, 0, 0); }
+
+.crumbs a:visited { text-decoration: underline; color: rgb(0, 0, 0); }
+
+.crumbs a:hover { color: rgb(228, 100, 28); }
+
+@media screen {
+  #idcontent { width: 100%; position: relative; padding: 0px !important; }
+  #innerdiv { padding: 10px 5px 5px 10px !important; }
+  .topichead { padding: 5px; }
+  .navlinks { font-size: 10pt; }
+  .navlinks a { text-decoration: none; color: blue; }
+  .navlinks a:visited { text-decoration: none; color: blue; }
+  .navlinks a:hover { text-decoration: underline; color: blue; }
+  html.nonscroll { overflow: hidden; }
+  body.nonscroll { overflow: hidden; height: 100%; }
+  div.nonscroll { overflow: auto scroll; }
+}
+------MultipartBoundary--VGp16ziYfkrygd9BLxWX40IEG3TUrWrp44Qrdhl9br----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://help.geostru.eu/rcsec/it/default.css
+
+@charset "utf-8";
+
+hr { color: rgb(0, 0, 0); }
+
+body, table, tr, th { font-size: 11pt; font-family: Verdana, Geneva, Arial,=
+ sans-serif; font-style: normal; font-weight: normal; color: rgb(0, 0, 0); =
+text-decoration: none; }
+
+span.f_CodeExample { font-size: 8pt; font-family: "Courier New", Courier, m=
+onospace; }
+
+span.f_Comment { }
+
+span.f_CourierFixed { font-size: 9pt; font-family: "Courier New", Courier, =
+monospace; }
+
+span.f_Heading1 { font-size: 16pt; font-weight: bold; color: rgb(0, 0, 128)=
+; }
+
+span.f_Heading12 { font-size: 12pt; font-weight: bold; color: rgb(0, 0, 128=
+); }
+
+span.f_ImageCaption { font-size: 8pt; font-weight: bold; }
+
+span.f_Notes { }
+
+p, p.p_Normal, div.p_Normal, li.p_Normal { text-align: justify; text-indent=
+: 0px; line-height: 1.44; padding: 0px; margin: 0px 19px; }
+
+.p_CodeExample { font-size: 8pt; text-align: left; line-height: 1; white-sp=
+ace: nowrap; break-inside: avoid; margin: 0px; }
+
+.p_Comment { font-size: 11pt; }
+
+.p_Heading1 { font-size: 100%; font-weight: normal; text-align: justify; te=
+xt-indent: 0px; line-height: 1.44; padding: 0px; margin: 0px; }
+
+.p_Heading12 { font-size: 100%; font-weight: normal; text-align: justify; t=
+ext-indent: 0px; line-height: 1.44; padding: 0px; margin: 0px; }
+
+.p_ImageCaption { font-size: 8pt; }
+
+.p_Notes { font-size: 11pt; }
+
+div.hmrotate90 { display: inline-block; -webkit-writing-mode: vertical-rl; =
+writing-mode: vertical-rl; }
+
+div.hmrotate270 { display: inline-block; -webkit-writing-mode: vertical-rl;=
+ writing-mode: vertical-rl; transform: rotate(180deg); }
+
+#hmpopupdiv { display: none; position: absolute; z-index: 1000; background-=
+color: rgb(255, 255, 255); padding: 6px; border: 1px solid rgb(0, 0, 0); bo=
+rder-radius: 5px; box-shadow: rgb(136, 136, 136) 5px 5px 5px; }
+
+#hmlightbox { border: none; padding: 8px; background: rgb(255, 255, 255); f=
+ont-size: 110%; font-weight: bold; color: rgb(119, 119, 119); box-shadow: r=
+gb(136, 136, 136) 5px 5px 5px; }
+
+a.dropdown-toggle { cursor: pointer; }
+
+a.inline-toggle { cursor: pointer; }
+
+img.dropdown-toggle-icon { cursor: pointer; }
+
+.hmImageMap a.hmHotspotRect { display: block; position: absolute; border: 1=
+px solid transparent; background: rgb(0, 0, 0); opacity: 0.01; }
+
+.hmImageMap a.hmHotspotEllipse { display: block; position: absolute; border=
+-radius: 50%; border: 1px solid transparent; background: rgb(0, 0, 0); opac=
+ity: 0.01; }
+
+.hmImageMap:hover a.hmHotspotRect { opacity: 0.3; }
+
+.hmImageMap:hover a.hmHotspotEllipse { opacity: 0.3; }
+
+a.hmHotspotRect:hover { border: 1px solid rgb(0, 0, 0); background: rgb(255=
+, 255, 255); opacity: 0.3; }
+
+a.hmHotspotEllipse:hover { border: 1px solid rgb(0, 0, 0); background: rgb(=
+255, 255, 255); opacity: 0.3; }
+------MultipartBoundary--VGp16ziYfkrygd9BLxWX40IEG3TUrWrp44Qrdhl9br----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-cda4e274-bf2e-4547-afb7-8d6d76943bf8@mhtml.blink
+
+@charset "utf-8";
+
+div#idheader, img.dropdown-toggle-icon, p.help-url { display: none; }
+------MultipartBoundary--VGp16ziYfkrygd9BLxWX40IEG3TUrWrp44Qrdhl9br----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://help.geostru.eu/rcsec/it/hm_webhelp_buttons_black.png
+
+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
+
+------MultipartBoundary--VGp16ziYfkrygd9BLxWX40IEG3TUrWrp44Qrdhl9br----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ff4bfbe4-023c-4e3d-9b18-c2d3b8548dee@mhtml.blink
+
+@charset "utf-8";
+
+html, body { margin: 0px; padding: 0px; background: rgb(255, 255, 255); }
+
+div#printheader { display: none; }
+
+#idheader { width: 100%; height: auto; padding: 0px; margin: 0px; position:=
+ fixed; top: 0px; z-index: 2; }
+
+#idheader table { background: rgb(240, 240, 240); min-height: 59px; }
+
+#idheader h1 span { color: rgb(0, 0, 0); }
+
+#idnav { text-align: right; width: 126px; vertical-align: middle; }
+
+#idnav a { text-decoration: none; }
+
+#idnav span { display: inline-block; width: 24px; height: 24px; margin-left=
+: 4px; background: url("hm_webhelp_buttons_grey.png") left top no-repeat; }
+
+#idnav a span { background-image: url("hm_webhelp_buttons_black.png"); }
+
+#idnav a span:hover { background-image: url("hm_webhelp_buttons_brightblue.=
+png"); }
+
+#idnav span.hmbtnprev { background-position: 0px -32px; }
+
+#idnav span.hmbtnnext { background-position: -24px -32px; }
+
+#idnav span.hmbtntop { background-position: -48px -32px; }
+
+#idnav span.hmbtntoggle { width: 20px; background-position: -70px -32px; }
+
+#idnav span.hmbtnprint { background-position: -88px -32px; }
+
+#callout-table, #overview-table { display: block; position: relative; top: =
+0px; left: 0px; }
+
+#callout-icon { display: block; position: absolute; top: -11px; left: -11px=
+; }
+
+#callout-icon-flag { display: block; position: absolute; top: -11px; left: =
+-8px; }
+
+#callout-table a { text-decoration: none; color: blue; }
+
+#callout-table a:visited { text-decoration: none; color: blue; }
+
+#overview-table a { text-decoration: none; color: black; }
+
+#overview-table a:visited { text-decoration: none; color: black; }
+
+#callout-table a:hover, #overview-table a:hover { text-decoration: underlin=
+e; }
+
+p.help-url { margin: 20px 0px 5px; text-align: center; font-size: 80%; text=
+-decoration: none; }
+
+#switchtoggles { text-align: right; padding: 0px 2px 0px 0px; font-size: 90=
+%; }
+
+.sync-toc { color: rgb(0, 0, 0); font-size: 8pt; font-weight: normal; displ=
+ay: none; }
+
+.sync-toc a { color: rgb(0, 0, 0); text-decoration: none; font-weight: norm=
+al; }
+
+.sync-toc a:visited { color: rgb(0, 0, 0); }
+
+.sync-toc a:hover { text-decoration: underline; }
+
+a.hmanchor { display: inline-block; margin-top: -4em; padding-top: 4em; }
+------MultipartBoundary--VGp16ziYfkrygd9BLxWX40IEG3TUrWrp44Qrdhl9br------

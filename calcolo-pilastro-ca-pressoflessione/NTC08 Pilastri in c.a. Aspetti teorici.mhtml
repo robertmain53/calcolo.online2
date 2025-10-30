@@ -1,0 +1,3127 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria.htm
+Subject: NTC08 Pilastri in c.a. Aspetti teorici
+Date: Thu, 30 Oct 2025 18:47:47 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----"
+
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: text/html
+Content-ID: <frame-50CFC7DC3355BB171E987B63793BDB88@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria.htm
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns:st1=3D"u=
+rn:schemas-microsoft-com:office:smarttags" xmlns=3D"http://www.w3.org/TR/RE=
+C-html40"><head><meta http-equiv=3D"Content-Type" content=3D"text/html; cha=
+rset=3Dwindows-1252"><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid=
+:css-2bd90683-3e3c-44e1-a3ff-e309f34ae8dd@mhtml.blink" />
+
+<meta content=3D"Pilastro cemento armato stati limite eurocodice EC2 diagra=
+mma interazione" name=3D"keywords">
+<meta name=3D"ProgId" content=3D"Word.Document">
+<meta name=3D"Generator" content=3D"Microsoft Word 12">
+<meta name=3D"Originator" content=3D"Microsoft Word 12">
+<link rel=3D"File-List" href=3D"https://digilander.libero.it/carlopala/08pi=
+lastro/teoria_file/filelist.xml">
+<link rel=3D"Edit-Time-Data" href=3D"https://digilander.libero.it/carlopala=
+/08pilastro/teoria_file/editdata.mso">
+<link rel=3D"OLE-Object-Data" href=3D"https://digilander.libero.it/carlopal=
+a/08pilastro/teoria_file/oledata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>NTC08 Pilastri in c.a. Aspetti teorici</title>
+</head><body lang=3D"IT" link=3D"blue" vlink=3D"purple" style=3D"tab-interv=
+al:35.4pt; background-image: url('pilimag/quadret.gif');"><o:smarttagtype n=
+amespaceuri=3D"urn:schemas-microsoft-com:office:smarttags" name=3D"metricco=
+nverter">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Carlo PALATELLA</o:Author>
+  <o:LastAuthor>Personal Computer</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>92</o:TotalTime>
+  <o:LastPrinted>2009-12-01T11:24:00Z</o:LastPrinted>
+  <o:Created>2009-12-22T18:30:00Z</o:Created>
+  <o:LastSaved>2009-12-22T18:30:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>918</o:Words>
+  <o:Characters>5236</o:Characters>
+  <o:Company>Personal Computer</o:Company>
+  <o:Lines>43</o:Lines>
+  <o:Paragraphs>12</o:Paragraphs>
+  <o:CharactersWithSpaces>6142</o:CharactersWithSpaces>
+  <o:Version>12.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=3D"themeData" href=3D"https://digilander.libero.it/carlopala/08pi=
+lastro/teoria_file/themedata.thmx">
+<link rel=3D"colorSchemeMapping" href=3D"https://digilander.libero.it/carlo=
+pala/08pilastro/teoria_file/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:HyphenationZone>14</w:HyphenationZone>
+  <w:DrawingGridHorizontalSpacing>2,85 pt</w:DrawingGridHorizontalSpacing>
+  <w:DrawingGridVerticalSpacing>2,85 pt</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEve=
+ry>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:UseMarginsForDrawingGridOrigin/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>IT</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:DrawingGridVerticalOrigin>99,25 pt</w:DrawingGridVerticalOrigin>
+  <w:Compatibility>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+   <w:UseWord97LineBreakingRules/>
+   <w:SelectEntireFieldWithStartOrEnd/>
+   <w:UseWord2002TableStyleRules/>
+   <w:DontUseIndentAsNumberingTabStop/>
+   <w:FELineBreak11/>
+   <w:WW11IndentRules/>
+   <w:DontAutofitConstrainedTables/>
+   <w:AutofitLikeWW11/>
+   <w:HangulWidthLikeWW11/>
+   <w:UseNormalStyleForList/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val=3D"Cambria Math"/>
+   <m:brkBin m:val=3D"before"/>
+   <m:brkBinSub m:val=3D"&#45;-"/>
+   <m:smallFrac m:val=3D"off"/>
+   <m:dispDef/>
+   <m:lMargin m:val=3D"0"/>
+   <m:rMargin m:val=3D"0"/>
+   <m:defJc m:val=3D"centerGroup"/>
+   <m:wrapIndent m:val=3D"1440"/>
+   <m:intLim m:val=3D"subSup"/>
+   <m:naryLim m:val=3D"undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState=3D"false" DefUnhideWhenUsed=3D"true"
+  DefSemiHidden=3D"true" DefQFormat=3D"false" DefPriority=3D"99"
+  LatentStyleCount=3D"267">
+  <w:LsdException Locked=3D"false" Priority=3D"0" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Normal"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"heading 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"=
+heading 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"=
+heading 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"=
+heading 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"=
+heading 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"=
+heading 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"=
+heading 7"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"=
+heading 8"/>
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" Name=3D"=
+heading 9"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 7"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 8"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 9"/>
+  <w:LsdException Locked=3D"false" Priority=3D"35" QFormat=3D"true" Name=3D=
+"caption"/>
+  <w:LsdException Locked=3D"false" Priority=3D"10" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Title"/>
+  <w:LsdException Locked=3D"false" Priority=3D"0" Name=3D"Default Paragraph=
+ Font"/>
+  <w:LsdException Locked=3D"false" Priority=3D"0" Name=3D"Body Text"/>
+  <w:LsdException Locked=3D"false" Priority=3D"11" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtitle"/>
+  <w:LsdException Locked=3D"false" Priority=3D"22" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Strong"/>
+  <w:LsdException Locked=3D"false" Priority=3D"20" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Emphasis"/>
+  <w:LsdException Locked=3D"false" Priority=3D"0" Name=3D"No List"/>
+  <w:LsdException Locked=3D"false" Priority=3D"59" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Table Grid"/>
+  <w:LsdException Locked=3D"false" UnhideWhenUsed=3D"false" Name=3D"Placeho=
+lder Text"/>
+  <w:LsdException Locked=3D"false" Priority=3D"1" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"No Spacing"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light List"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Dark List"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 1"/>
+  <w:LsdException Locked=3D"false" UnhideWhenUsed=3D"false" Name=3D"Revisio=
+n"/>
+  <w:LsdException Locked=3D"false" Priority=3D"34" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"List Paragraph"/>
+  <w:LsdException Locked=3D"false" Priority=3D"29" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Quote"/>
+  <w:LsdException Locked=3D"false" Priority=3D"30" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Quote"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 1"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 2"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 3"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 4"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 5"/>
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 6"/>
+  <w:LsdException Locked=3D"false" Priority=3D"19" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtle Emphasis"/>
+  <w:LsdException Locked=3D"false" Priority=3D"21" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Emphasis"/>
+  <w:LsdException Locked=3D"false" Priority=3D"31" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtle Reference"/>
+  <w:LsdException Locked=3D"false" Priority=3D"32" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Reference"/>
+  <w:LsdException Locked=3D"false" Priority=3D"33" SemiHidden=3D"false"
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Book Title"/>
+  <w:LsdException Locked=3D"false" Priority=3D"37" Name=3D"Bibliography"/>
+  <w:LsdException Locked=3D"false" Priority=3D"39" QFormat=3D"true" Name=3D=
+"TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid=3D"clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=3Dieooui></objec=
+t>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tabella normale";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+.style1 {
+	font-family: "Comic Sans MS";
+	font-size: 9pt;
+}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"3074"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1"/>
+ </o:shapelayout></xml><![endif]-->
+
+
+
+
+<div class=3D"Section1">
+
+<p class=3D"MsoNormal" style=3D"text-align:justify;background:#D9D9D9"><!--=
+[if gte vml 1]><v:shapetype
+ id=3D"_x0000_t75" coordsize=3D"21600,21600" o:spt=3D"75" o:preferrelative=
+=3D"t"
+ path=3D"m@4@5l@4@11@9@11@9@5xe" filled=3D"f" stroked=3D"f">
+ <v:stroke joinstyle=3D"miter"/>
+ <v:formulas>
+  <v:f eqn=3D"if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn=3D"sum @0 1 0"/>
+  <v:f eqn=3D"sum 0 0 @1"/>
+  <v:f eqn=3D"prod @2 1 2"/>
+  <v:f eqn=3D"prod @3 21600 pixelWidth"/>
+  <v:f eqn=3D"prod @3 21600 pixelHeight"/>
+  <v:f eqn=3D"sum @0 0 1"/>
+  <v:f eqn=3D"prod @6 1 2"/>
+  <v:f eqn=3D"prod @7 21600 pixelWidth"/>
+  <v:f eqn=3D"sum @8 21600 0"/>
+  <v:f eqn=3D"prod @7 21600 pixelHeight"/>
+  <v:f eqn=3D"sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok=3D"f" gradientshapeok=3D"t" o:connecttype=3D"rect"/>
+ <o:lock v:ext=3D"edit" aspectratio=3D"t"/>
+</v:shapetype><v:shape id=3D"_x0000_s1026" type=3D"#_x0000_t75" style=3D'po=
+sition:absolute;
+ left:0;text-align:left;margin-left:5.65pt;margin-top:56.5pt;width:42.95pt;
+ height:42.65pt;z-index:1;mso-position-horizontal:right;
+ mso-position-vertical-relative:page'>
+ <v:imagedata src=3D"teoria_file/image001.emz" o:title=3D""/>
+ <w:wrap type=3D"square" side=3D"left" anchory=3D"page"/>
+</v:shape><![endif]--><span style=3D"font-size:14.0pt;font-family:
+&quot;Comic Sans MS&quot;">NTC08. Progetto di un pilastro in c.a. <span sty=
+le=3D"color:
+black;layout-grid-mode:line">Aspetti teorici.<o:p></o:p></span></span></p>
+
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<div align=3D"center">
+
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"655" style=3D"width:491.4pt;border-collapse:collapse;mso-pa=
+dding-alt:0cm 3.5pt 0cm 3.5pt">
+ <tbody><tr style=3D"mso-yfti-irow:0;mso-yfti-firstrow:yes;height:266.4pt">
+  <td width=3D"174" valign=3D"top" style=3D"width:130.5pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:266.4pt">
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><i st=
+yle=3D"mso-bidi-font-style:normal"><!--[if gte vml 1]><v:shape id=3D"_x0000=
+_i1025"
+   type=3D"#_x0000_t75" style=3D'width:72.75pt;height:178.5pt'>
+   <v:imagedata src=3D"teoria_file/image003.gif" o:title=3D"PilastroPressoi=
+nfl"/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"97" height=3D"238" sr=
+c=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image003=
+.gif" v:shapes=3D"_x0000_i1025"><!--[endif]--><o:p></o:p></i></p>
+  <table class=3D"MsoNormalTable" border=3D"1" cellspacing=3D"0" cellpaddin=
+g=3D"0" align=3D"left" width=3D"144" style=3D"width:108.0pt;border-collapse=
+:collapse;border:none;
+   mso-border-alt:solid black .75pt;mso-table-overlap:never;mso-table-lspac=
+e:
+   7.05pt;margin-left:4.8pt;mso-table-rspace:7.05pt;margin-right:4.8pt;
+   mso-table-anchor-vertical:paragraph;mso-table-anchor-horizontal:column;
+   mso-table-left:center;mso-table-top:.05pt;mso-padding-alt:0cm 1.5pt 0cm =
+1.5pt;
+   mso-border-insideh:.75pt solid black;mso-border-insidev:.75pt solid blac=
+k">
+   <tbody><tr style=3D"mso-yfti-irow:0;mso-yfti-firstrow:yes;height:12.5pt"=
+>
+    <td width=3D"144" colspan=3D"3" style=3D"width:108.0pt;border:solid bla=
+ck 1.0pt;
+    mso-border-alt:solid black .75pt;background:#DFDFDF;mso-shading:windowt=
+ext;
+    mso-pattern:gray-125 auto;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an lang=3D"EN-GB" style=3D"font-family:&quot;Comic Sans MS&quot;;color:blac=
+k;mso-ansi-language:EN-GB;
+    mso-bidi-font-weight:bold">Staffe<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:1;height:12.5pt">
+    <td width=3D"48" style=3D"width:36.0pt;border:solid black 1.0pt;border-=
+top:none;
+    mso-border-top-alt:solid black .75pt;mso-border-alt:solid black .75pt;
+    background:#DFDFDF;mso-shading:windowtext;mso-pattern:gray-125 auto;
+    padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:Symbol;color:black;mso-bidi-font-weight:bold">f</sp=
+an><sub><span style=3D"font-family:&quot;Comic Sans MS&quot;;color:black;ms=
+o-bidi-font-weight:bold">long.</span></sub><span style=3D"font-family:&quot=
+;Arial&quot;,&quot;sans-serif&quot;;mso-bidi-font-family:&quot;Times New Ro=
+man&quot;;
+    color:black;mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;background:#DFDFDF;mso-shading:windowtext;mso-pattern=
+:
+    gray-125 auto;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:Symbol;color:black;mso-bidi-font-weight:bold">f</sp=
+an><sub><span style=3D"font-family:&quot;Comic Sans MS&quot;;color:black;ms=
+o-bidi-font-weight:bold">staffe</span></sub><span lang=3D"EN-GB" style=3D"f=
+ont-family:&quot;Comic Sans MS&quot;;color:black;mso-ansi-language:
+    EN-GB;mso-bidi-font-weight:bold"><o:p></o:p></span></p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;background:#DFDFDF;mso-shading:windowtext;mso-pattern=
+:
+    gray-125 auto;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an lang=3D"EN-GB" style=3D"font-family:&quot;Comic Sans MS&quot;;color:blac=
+k;mso-ansi-language:EN-GB;
+    mso-bidi-font-weight:bold">s<sub><o:p>max</o:p></sub></span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:2;height:12.5pt">
+    <td width=3D"48" style=3D"width:36.0pt;border:solid black 1.0pt;border-=
+top:none;
+    mso-border-top-alt:solid black .75pt;mso-border-alt:solid black .75pt;
+    background:#DFDFDF;mso-shading:windowtext;mso-pattern:gray-125 auto;
+    padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an lang=3D"EN-GB" style=3D"font-family:&quot;Comic Sans MS&quot;;color:blac=
+k;mso-ansi-language:EN-GB">mm<o:p></o:p></span></p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;background:#DFDFDF;mso-shading:windowtext;mso-pattern=
+:
+    gray-125 auto;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an lang=3D"EN-GB" style=3D"font-family:&quot;Comic Sans MS&quot;;color:blac=
+k;mso-ansi-language:EN-GB">mm<o:p></o:p></span></p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;background:#DFDFDF;mso-shading:windowtext;mso-pattern=
+:
+    gray-125 auto;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an lang=3D"EN-GB" style=3D"font-family:&quot;Comic Sans MS&quot;;color:blac=
+k;mso-ansi-language:EN-GB">mm<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:3;height:12.5pt">
+    <td width=3D"48" style=3D"width:36.0pt;border:solid black 1.0pt;border-=
+top:none;
+    mso-border-top-alt:solid black .75pt;mso-border-alt:solid black .75pt;
+    padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">12<o:p></o:p></span></p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">6<o:p></o:p></span></p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">144</span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:4;height:12.5pt">
+    <td width=3D"48" style=3D"width:36.0pt;border:solid black 1.0pt;border-=
+top:none;
+    mso-border-top-alt:solid black .75pt;mso-border-alt:solid black .75pt;
+    padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">14<o:p></o:p></span></p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">6<o:p></o:p></span></p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">168</span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:5;height:12.5pt">
+    <td width=3D"48" style=3D"width:36.0pt;border:solid black 1.0pt;border-=
+top:none;
+    mso-border-top-alt:solid black .75pt;mso-border-alt:solid black .75pt;
+    padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">16<o:p></o:p></span></p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">6<o:p></o:p></span></p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">192</span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:6;height:12.5pt">
+    <td width=3D"48" style=3D"width:36.0pt;border:solid black 1.0pt;border-=
+top:none;
+    mso-border-top-alt:solid black .75pt;mso-border-alt:solid black .75pt;
+    padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">18<o:p></o:p></span></p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">6<o:p></o:p></span></p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"style1" align=3D"center" style=3D"text-align:center">216</p=
+>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:7;height:12.5pt">
+    <td width=3D"48" style=3D"width:36.0pt;border:solid black 1.0pt;border-=
+top:none;
+    mso-border-top-alt:solid black .75pt;mso-border-alt:solid black .75pt;
+    padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">20<o:p></o:p></span></p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"style1" align=3D"center" style=3D"text-align:center; height=
+: 18px;">6</p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">2</span><span class=3D"style1">40</span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:8;height:12.5pt">
+    <td width=3D"48" style=3D"width:36.0pt;border:solid black 1.0pt;border-=
+top:none;
+    mso-border-top-alt:solid black .75pt;mso-border-alt:solid black .75pt;
+    padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">22<o:p></o:p></span></p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"style1" align=3D"center" style=3D"text-align:center">6</p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"style1" align=3D"center" style=3D"text-align:center">250</p=
+>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:9;height:12.5pt">
+    <td width=3D"48" style=3D"width:36.0pt;border:solid black 1.0pt;border-=
+top:none;
+    mso-border-top-alt:solid black .75pt;mso-border-alt:solid black .75pt;
+    padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">24<o:p></o:p></span></p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"style1" align=3D"center" style=3D"text-align:center">6</p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">2</span><span class=3D"style1">50</span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:10;mso-yfti-lastrow:yes;height:12.5pt">
+    <td width=3D"48" style=3D"width:36.0pt;border:solid black 1.0pt;border-=
+top:none;
+    mso-border-top-alt:solid black .75pt;mso-border-alt:solid black .75pt;
+    padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">26<o:p></o:p></span></p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"style1" align=3D"center" style=3D"text-align:center">8</p>
+    </td>
+    <td width=3D"48" style=3D"width:36.0pt;border-top:none;border-left:none=
+;
+    border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;mso-bord=
+er-top-alt:
+    solid black .75pt;mso-border-left-alt:solid black .75pt;mso-border-alt:
+    solid black .75pt;padding:0cm 1.5pt 0cm 1.5pt;height:12.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;mso-bidi-font-size:10.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;
+    color:black">250<o:p></o:p></span></p>
+    </td>
+   </tr>
+  </tbody></table>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><o:p>=
+</o:p></p>
+  </td>
+  <td width=3D"481" valign=3D"top" style=3D"width:360.9pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:266.4pt">
+  <p class=3D"MsoNormal" style=3D"text-align:justify;background:#D9D9D9"><s=
+pan style=3D"font-family:&quot;Comic Sans MS&quot;">Prescrizioni normative.=
+</span><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-family:=
+&quot;Arial&quot;,&quot;sans-serif&quot;;
+  mso-bidi-font-family:&quot;Times New Roman&quot;;color:black;layout-grid-=
+mode:line"><o:p></o:p></span></b></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"color:=
+black;
+  layout-grid-mode:line"><o:p>&nbsp;</o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">Le Norme Tecniche prevedono numerose
+  <a href=3D"https://digilander.libero.it/carlopala/08pilastro/tabelle.htm"=
+>prescrizioni</a> relative al calcolo dei pilastri tra le quali si segnalan=
+o le
+  seguenti:<o:p></o:p></span></p>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;;color:black;
+  layout-grid-mode:line">Armatura longitudinale:<o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;;color:black;layout-grid-mod=
+e:line"><span style=3D"mso-spacerun:yes">&nbsp;</span><sub><!--[if gte vml =
+1]><v:shape id=3D"_x0000_i1026"
+   type=3D"#_x0000_t75" style=3D'width:72.75pt;height:32.25pt' o:ole=3D""
+   fillcolor=3D"window">
+   <v:imagedata src=3D"teoria_file/image004.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"97" height=3D"43" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image005.=
+gif" v:shapes=3D"_x0000_i1026"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i102=
+6"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015521">
+   </o:OLEObject>
+  </xml><![endif]--><o:p></o:p></span></p>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;;color:black;
+  layout-grid-mode:line">diametro minimo delle barre: <st1:metricconverter =
+productid=3D"12 mm" w:st=3D"on">12 mm</st1:metricconverter><o:p></o:p></spa=
+n></p>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;;color:black;
+  layout-grid-mode:line">percentuale di armatura </span><sub><!--[if gte vm=
+l 1]><v:shape
+   id=3D"_x0000_i1027" type=3D"#_x0000_t75" style=3D'width:120pt;height:30p=
+t' o:ole=3D"">
+   <v:imagedata src=3D"teoria_file/image006.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"160" height=3D"40" sr=
+c=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image007=
+.gif" v:shapes=3D"_x0000_i1027"><!--[endif]--></sub><!--[if gte mso 9]><xml=
+>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i102=
+7"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015522">
+   </o:OLEObject>
+  </xml><![endif]--></p>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;">Interasse barre
+  &#8804; <st1:metricconverter productid=3D"300 mm" w:st=3D"on">300 mm</st1=
+:metricconverter><o:p></o:p></span></p>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;">Armatura
+  trasversale:<o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:Symbol;mso-ascii-font-family:&quot;Times New Roman&qu=
+ot;;mso-hansi-font-family:
+  &quot;Times New Roman&quot;;mso-char-type:symbol;mso-symbol-font-family:S=
+ymbol"><span style=3D"mso-char-type:symbol;mso-symbol-font-family:Symbol">f=
+</span></span><sub><span style=3D"font-family:&quot;Comic Sans MS&quot;">st=
+affe </span></sub><span style=3D"font-family:Symbol;mso-ascii-font-family:&=
+quot;Comic Sans MS&quot;;mso-hansi-font-family:
+  &quot;Comic Sans MS&quot;;mso-char-type:symbol;mso-symbol-font-family:Sym=
+bol"><span style=3D"mso-char-type:symbol;mso-symbol-font-family:Symbol">=B3=
+</span></span><span style=3D"font-family:&quot;Comic Sans MS&quot;"> <st1:m=
+etricconverter productid=3D"6 mm" w:st=3D"on">6 mm</st1:metricconverter><o:=
+p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:Symbol;mso-ascii-font-family:&quot;Times New Roman&qu=
+ot;;mso-hansi-font-family:
+  &quot;Times New Roman&quot;;mso-char-type:symbol;mso-symbol-font-family:S=
+ymbol"><span style=3D"mso-char-type:symbol;mso-symbol-font-family:Symbol">f=
+</span></span><sub><span style=3D"font-family:&quot;Comic Sans MS&quot;">st=
+affe </span></sub><span style=3D"font-family:Symbol;mso-ascii-font-family:&=
+quot;Comic Sans MS&quot;;mso-hansi-font-family:
+  &quot;Comic Sans MS&quot;;mso-char-type:symbol;mso-symbol-font-family:Sym=
+bol"><span style=3D"mso-char-type:symbol;mso-symbol-font-family:Symbol">=B3=
+</span></span><span style=3D"font-family:&quot;Comic Sans MS&quot;"><span s=
+tyle=3D"mso-spacerun:yes">&nbsp; </span><sub><!--[if gte vml 1]><v:shape
+   id=3D"_x0000_i1028" type=3D"#_x0000_t75" style=3D'width:63.75pt;height:2=
+6.25pt'
+   o:ole=3D"">
+   <v:imagedata src=3D"teoria_file/image008.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"85" height=3D"35" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image009.=
+gif" v:shapes=3D"_x0000_i1028"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i102=
+8"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015523">
+   </o:OLEObject>
+  </xml><![endif]--></span><sub><o:p></o:p></sub></p>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;">Passo delle
+  staffe s </span><span style=3D"font-family:Symbol;mso-ascii-font-family:&=
+quot;Comic Sans MS&quot;;
+  mso-hansi-font-family:&quot;Comic Sans MS&quot;;mso-char-type:symbol;mso-=
+symbol-font-family:
+  Symbol"><span style=3D"mso-char-type:symbol;mso-symbol-font-family:Symbol=
+">=A3</span></span><span style=3D"font-family:&quot;Comic Sans MS&quot;"> 1=
+2</span> <span style=3D"font-family:Symbol;
+  mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:&=
+quot;Times New Roman&quot;;
+  mso-char-type:symbol;mso-symbol-font-family:Symbol"><span style=3D"mso-ch=
+ar-type:
+  symbol;mso-symbol-font-family:Symbol">f</span></span> <sub><span style=3D=
+"font-family:&quot;Comic Sans MS&quot;">min</span></sub><span style=3D"font=
+-family:
+  &quot;Comic Sans MS&quot;"> <sub>longitudinali</sub> con<span style=3D"ms=
+o-spacerun:yes">&nbsp; </span>s </span><span style=3D"font-family:Symbol;
+  mso-ascii-font-family:&quot;Comic Sans MS&quot;;mso-hansi-font-family:&qu=
+ot;Comic Sans MS&quot;;
+  mso-char-type:symbol;mso-symbol-font-family:Symbol"><span style=3D"mso-ch=
+ar-type:
+  symbol;mso-symbol-font-family:Symbol">=A3</span></span><span style=3D"fon=
+t-family:
+  &quot;Comic Sans MS&quot;"> <st1:metricconverter productid=3D"250 mm" w:s=
+t=3D"on">250 mm</st1:metricconverter><o:p></o:p></span></p>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;"><o:p>&nbsp;</o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;">Nel
+  caso di pilastri soggetti a compressione assiale, si deve comunque assume=
+re
+  una componente flettente dello sforzo <o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;">M<sub>Sd</sub> =3D N<sub>S=
+d</sub> e<o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;">con
+  eccentricit=E0 e pari almeno a 0,05h &#8805; 20mm (con h altezza della
+  sezione).<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D"mso-yfti-irow:1;height:172.3pt">
+  <td width=3D"174" valign=3D"top" style=3D"width:130.5pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:172.3pt">
+  <p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+  <p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+  <p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+  <p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><i st=
+yle=3D"mso-bidi-font-style:normal"><o:p>&nbsp;</o:p></i></p>
+  </td>
+  <td width=3D"481" valign=3D"top" style=3D"width:360.9pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:172.3pt">
+  <p class=3D"MsoNormal" style=3D"text-align:justify;background:#D9D9D9"><s=
+pan style=3D"font-family:&quot;Comic Sans MS&quot;">Il rapporto meccanico d=
+i armatura.</span><b style=3D"mso-bidi-font-weight:normal"><span style=3D"f=
+ont-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  mso-bidi-font-family:&quot;Times New Roman&quot;;color:black;layout-grid-=
+mode:line"><o:p></o:p></span></b></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"color:=
+black;
+  layout-grid-mode:line"><o:p>&nbsp;</o:p></span></p>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;">Il rapporto
+  meccanico dell'armatura =E8 dato dal rapporto tra la forza offerta dall=
+=92acciaio<o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;"><!--[if gte vml 1]><v:shap=
+e id=3D"_x0000_i1033"
+   type=3D"#_x0000_t75" style=3D'width:41.25pt;height:17.25pt' o:ole=3D""
+   fillcolor=3D"window">
+   <v:imagedata src=3D"teoria_file/image010.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"55" height=3D"23" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image011.=
+gif" v:shapes=3D"_x0000_i1033"><!--[endif]--><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i103=
+3"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015524">
+   </o:OLEObject>
+  </xml><![endif]--><o:p></o:p></span></p>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;">e quella
+  sopportata dal calcestruzzo<o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;"><!--[if gte vml 1]><v:shap=
+e id=3D"_x0000_i1034"
+   type=3D"#_x0000_t75" style=3D'width:41.25pt;height:15.75pt' o:ole=3D""
+   fillcolor=3D"window">
+   <v:imagedata src=3D"teoria_file/image012.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"55" height=3D"21" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image013.=
+gif" v:shapes=3D"_x0000_i1034"><!--[endif]--><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i103=
+4"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015525">
+   </o:OLEObject>
+  </xml><![endif]--><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;;color:black;layout-grid-mod=
+e:line"><sub><!--[if gte vml 1]><v:shape
+   id=3D"_x0000_i1035" type=3D"#_x0000_t75" style=3D'width:45.75pt;height:3=
+2.25pt'
+   o:ole=3D"" fillcolor=3D"window">
+   <v:imagedata src=3D"teoria_file/image014.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"61" height=3D"43" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image015.=
+gif" v:shapes=3D"_x0000_i1035"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i103=
+5"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015526">
+   </o:OLEObject>
+  </xml><![endif]--><sub><!--[if gte vml 1]><v:shape id=3D"_x0000_i1036" ty=
+pe=3D"#_x0000_t75"
+   style=3D'width:30.75pt;height:32.25pt' o:ole=3D"" fillcolor=3D"window">
+   <v:imagedata src=3D"teoria_file/image016.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"41" height=3D"43" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image017.=
+gif" v:shapes=3D"_x0000_i1036"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i103=
+6"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015527">
+   </o:OLEObject>
+  </xml><![endif]--><sub><!--[if gte vml 1]><v:shape id=3D"_x0000_i1037" ty=
+pe=3D"#_x0000_t75"
+   style=3D'width:21pt;height:26.25pt' o:ole=3D"" fillcolor=3D"window">
+   <v:imagedata src=3D"teoria_file/image018.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"28" height=3D"35" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image019.=
+gif" v:shapes=3D"_x0000_i1037"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i103=
+7"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015528">
+   </o:OLEObject>
+  </xml><![endif]--><o:p></o:p></span></p>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;">Ai rapporti
+  geometrici di armatura rispettivamente massimo (</span><span style=3D"fon=
+t-family:Symbol">r</span><sub><span style=3D"font-family:&quot;Comic Sans M=
+S&quot;">max
+  </span></sub><span style=3D"font-family:&quot;Comic Sans MS&quot;">=3D 0,=
+04) e minimo (</span><span style=3D"font-family:Symbol">r</span><sub><span =
+style=3D"font-family:&quot;Comic Sans MS&quot;">min
+  </span></sub><span style=3D"font-family:&quot;Comic Sans MS&quot;">=3D 0,=
+003) corrispondono
+  i valori di </span><span style=3D"font-family:Symbol">w</span><sub><span =
+style=3D"font-family:&quot;Comic Sans MS&quot;">max</span></sub><span style=
+=3D"font-family:
+  &quot;Comic Sans MS&quot;"> e </span><span style=3D"font-family:Symbol">w=
+</span><sub><span style=3D"font-family:&quot;Comic Sans MS&quot;">min</span=
+></sub><span style=3D"font-family:
+  &quot;Comic Sans MS&quot;"> calcolati con<span style=3D"mso-spacerun:yes"=
+>&nbsp; </span>f<sub>yd</sub>
+  =3D 391 N/mm<sup>2</sup>, riportati nella tabella seguente.<span style=3D=
+"color:black;layout-grid-mode:line"><o:p></o:p></span></span></p>
+  </td>
+ </tr>
+ <tr style=3D"mso-yfti-irow:2;height:318.55pt">
+  <td width=3D"174" valign=3D"top" style=3D"width:130.5pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:318.55pt">
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><o:p>=
+&nbsp;</o:p></p>
+  </td>
+  <td width=3D"481" valign=3D"top" style=3D"width:360.9pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:318.55pt">
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;"><o:p>&nbsp;</o:p></span></p>
+  <div align=3D"center">
+  <table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" width=3D"156" style=3D"width:116.8pt;border-collapse:collapse;mso-y=
+fti-tbllook:1184;
+   mso-padding-alt:0cm 3.5pt 0cm 3.5pt">
+   <tbody><tr style=3D"mso-yfti-irow:0;mso-yfti-firstrow:yes;height:17.5pt"=
+>
+    <td width=3D"65" nowrap=3D"" style=3D"width:48.7pt;border:solid windowt=
+ext 1.0pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt;
+    height:17.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;font-family:&quot;Comic Sans MS&quot;;color:bla=
+ck">R</span><sub><span style=3D"font-family:&quot;Comic Sans MS&quot;;color=
+:black">ck</span></sub><span style=3D"font-size:9.0pt;font-family:&quot;Com=
+ic Sans MS&quot;;color:black"> [N/mm<sup>2</sup>]<o:p></o:p></span></p>
+    </td>
+    <td width=3D"45" nowrap=3D"" style=3D"width:34.05pt;border:solid window=
+text 1.0pt;
+    border-left:none;mso-border-top-alt:solid windowtext .5pt;mso-border-bo=
+ttom-alt:
+    solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+    background:#8DB4E3;padding:0cm 3.5pt 0cm 3.5pt;height:17.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;font-family:Symbol;color:black">w</span><sub><s=
+pan style=3D"font-family:&quot;Comic Sans MS&quot;;color:black">max</span><=
+/sub><span style=3D"font-size:9.0pt;font-family:&quot;Comic Sans MS&quot;;c=
+olor:black"><o:p></o:p></span></p>
+    </td>
+    <td width=3D"45" style=3D"width:34.05pt;border:solid windowtext 1.0pt;b=
+order-left:
+    none;mso-border-top-alt:solid windowtext .5pt;mso-border-bottom-alt:sol=
+id windowtext .5pt;
+    mso-border-right-alt:solid windowtext .5pt;background:#8DB4E3;padding:0=
+cm 3.5pt 0cm 3.5pt;
+    height:17.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;font-family:Symbol;color:black">w</span><sub><s=
+pan style=3D"font-family:&quot;Comic Sans MS&quot;;color:black">min</span><=
+/sub><span style=3D"font-size:9.0pt;font-family:&quot;Comic Sans MS&quot;;c=
+olor:black"><o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:1;height:6.5pt">
+    <td width=3D"65" nowrap=3D"" valign=3D"bottom" style=3D"width:48.7pt;bo=
+rder:solid windowtext 1.0pt;
+    border-top:none;mso-border-left-alt:solid windowtext .5pt;mso-border-bo=
+ttom-alt:
+    solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+    background:#E3E3E3;padding:0cm 3.5pt 0cm 3.5pt;height:6.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;mso-bidi-font-weight:bold=
+">15<o:p></o:p></span></p>
+    </td>
+    <td width=3D"45" nowrap=3D"" valign=3D"bottom" style=3D"width:34.05pt;b=
+order-top:none;
+    border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:6.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;color:black">2,22<o:p></o=
+:p></span></p>
+    </td>
+    <td width=3D"45" valign=3D"bottom" style=3D"width:34.05pt;border-top:no=
+ne;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:6.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;font-family:&quot;Comic Sans MS&quot;;color:bla=
+ck">0,17<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:2;height:6.0pt">
+    <td width=3D"65" nowrap=3D"" valign=3D"bottom" style=3D"width:48.7pt;bo=
+rder:solid windowtext 1.0pt;
+    border-top:none;mso-border-left-alt:solid windowtext .5pt;mso-border-bo=
+ttom-alt:
+    solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+    background:#E3E3E3;padding:0cm 3.5pt 0cm 3.5pt;height:6.0pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;mso-bidi-font-weight:bold=
+">20<o:p></o:p></span></p>
+    </td>
+    <td width=3D"45" nowrap=3D"" valign=3D"bottom" style=3D"width:34.05pt;b=
+order-top:none;
+    border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:6.0pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;color:black">1,66<o:p></o=
+:p></span></p>
+    </td>
+    <td width=3D"45" valign=3D"bottom" style=3D"width:34.05pt;border-top:no=
+ne;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:6.0pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;font-family:&quot;Comic Sans MS&quot;;color:bla=
+ck">0,12<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:3;height:5.55pt">
+    <td width=3D"65" nowrap=3D"" valign=3D"bottom" style=3D"width:48.7pt;bo=
+rder:solid windowtext 1.0pt;
+    border-top:none;mso-border-left-alt:solid windowtext .5pt;mso-border-bo=
+ttom-alt:
+    solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+    background:#E3E3E3;padding:0cm 3.5pt 0cm 3.5pt;height:5.55pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;mso-bidi-font-weight:bold=
+">25<o:p></o:p></span></p>
+    </td>
+    <td width=3D"45" nowrap=3D"" valign=3D"bottom" style=3D"width:34.05pt;b=
+order-top:none;
+    border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:5.55pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;color:black">1,33<o:p></o=
+:p></span></p>
+    </td>
+    <td width=3D"45" valign=3D"bottom" style=3D"width:34.05pt;border-top:no=
+ne;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:5.55pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;font-family:&quot;Comic Sans MS&quot;;color:bla=
+ck">0,11<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:4;height:5.7pt">
+    <td width=3D"65" nowrap=3D"" valign=3D"bottom" style=3D"width:48.7pt;bo=
+rder:solid windowtext 1.0pt;
+    border-top:none;mso-border-left-alt:solid windowtext .5pt;mso-border-bo=
+ttom-alt:
+    solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+    background:#E3E3E3;padding:0cm 3.5pt 0cm 3.5pt;height:5.7pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;mso-bidi-font-weight:bold=
+">30<o:p></o:p></span></p>
+    </td>
+    <td width=3D"45" nowrap=3D"" valign=3D"bottom" style=3D"width:34.05pt;b=
+order-top:none;
+    border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:5.7pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;color:black">1,11<o:p></o=
+:p></span></p>
+    </td>
+    <td width=3D"45" valign=3D"bottom" style=3D"width:34.05pt;border-top:no=
+ne;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:5.7pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;font-family:&quot;Comic Sans MS&quot;;color:bla=
+ck">0,11<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:5;height:5.2pt">
+    <td width=3D"65" nowrap=3D"" valign=3D"bottom" style=3D"width:48.7pt;bo=
+rder:solid windowtext 1.0pt;
+    border-top:none;mso-border-left-alt:solid windowtext .5pt;mso-border-bo=
+ttom-alt:
+    solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+    background:#E3E3E3;padding:0cm 3.5pt 0cm 3.5pt;height:5.2pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;mso-bidi-font-weight:bold=
+">35<o:p></o:p></span></p>
+    </td>
+    <td width=3D"45" nowrap=3D"" valign=3D"bottom" style=3D"width:34.05pt;b=
+order-top:none;
+    border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:5.2pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;color:black">0,95<o:p></o=
+:p></span></p>
+    </td>
+    <td width=3D"45" valign=3D"bottom" style=3D"width:34.05pt;border-top:no=
+ne;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:5.2pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;font-family:&quot;Comic Sans MS&quot;;color:bla=
+ck">0,11<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:6;height:3.0pt">
+    <td width=3D"65" nowrap=3D"" valign=3D"bottom" style=3D"width:48.7pt;bo=
+rder:solid windowtext 1.0pt;
+    border-top:none;mso-border-left-alt:solid windowtext .5pt;mso-border-bo=
+ttom-alt:
+    solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+    background:#E3E3E3;padding:0cm 3.5pt 0cm 3.5pt;height:3.0pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;mso-bidi-font-weight:bold=
+">40<o:p></o:p></span></p>
+    </td>
+    <td width=3D"45" nowrap=3D"" valign=3D"bottom" style=3D"width:34.05pt;b=
+order-top:none;
+    border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:3.0pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;color:black">0,83<o:p></o=
+:p></span></p>
+    </td>
+    <td width=3D"45" valign=3D"bottom" style=3D"width:34.05pt;border-top:no=
+ne;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:3.0pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;font-family:&quot;Comic Sans MS&quot;;color:bla=
+ck">0,11<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:7;height:11.3pt">
+    <td width=3D"65" nowrap=3D"" valign=3D"bottom" style=3D"width:48.7pt;bo=
+rder:solid windowtext 1.0pt;
+    border-top:none;mso-border-left-alt:solid windowtext .5pt;mso-border-bo=
+ttom-alt:
+    solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+    background:#E3E3E3;padding:0cm 3.5pt 0cm 3.5pt;height:11.3pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;mso-bidi-font-weight:bold=
+">45<o:p></o:p></span></p>
+    </td>
+    <td width=3D"45" nowrap=3D"" valign=3D"bottom" style=3D"width:34.05pt;b=
+order-top:none;
+    border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:11.3pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;color:black">0,74<o:p></o=
+:p></span></p>
+    </td>
+    <td width=3D"45" valign=3D"bottom" style=3D"width:34.05pt;border-top:no=
+ne;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:11.3pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;font-family:&quot;Comic Sans MS&quot;;color:bla=
+ck">0,11<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:8;height:11.5pt">
+    <td width=3D"65" nowrap=3D"" valign=3D"bottom" style=3D"width:48.7pt;bo=
+rder:solid windowtext 1.0pt;
+    border-top:none;mso-border-left-alt:solid windowtext .5pt;mso-border-bo=
+ttom-alt:
+    solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+    background:#E3E3E3;padding:0cm 3.5pt 0cm 3.5pt;height:11.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;mso-bidi-font-weight:bold=
+">50<o:p></o:p></span></p>
+    </td>
+    <td width=3D"45" nowrap=3D"" valign=3D"bottom" style=3D"width:34.05pt;b=
+order-top:none;
+    border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:11.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;color:black">0,67<o:p></o=
+:p></span></p>
+    </td>
+    <td width=3D"45" valign=3D"bottom" style=3D"width:34.05pt;border-top:no=
+ne;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:11.5pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;font-family:&quot;Comic Sans MS&quot;;color:bla=
+ck">0,11<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:9;height:11.0pt">
+    <td width=3D"65" nowrap=3D"" valign=3D"bottom" style=3D"width:48.7pt;bo=
+rder:solid windowtext 1.0pt;
+    border-top:none;mso-border-left-alt:solid windowtext .5pt;mso-border-bo=
+ttom-alt:
+    solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+    background:#E3E3E3;padding:0cm 3.5pt 0cm 3.5pt;height:11.0pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;mso-bidi-font-weight:bold=
+">55<o:p></o:p></span></p>
+    </td>
+    <td width=3D"45" nowrap=3D"" valign=3D"bottom" style=3D"width:34.05pt;b=
+order-top:none;
+    border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:11.0pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;color:black">0,60<o:p></o=
+:p></span></p>
+    </td>
+    <td width=3D"45" valign=3D"bottom" style=3D"width:34.05pt;border-top:no=
+ne;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:11.0pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;font-family:&quot;Comic Sans MS&quot;;color:bla=
+ck">0,11<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style=3D"mso-yfti-irow:10;mso-yfti-lastrow:yes;height:3.4pt">
+    <td width=3D"65" nowrap=3D"" valign=3D"bottom" style=3D"width:48.7pt;bo=
+rder:solid windowtext 1.0pt;
+    border-top:none;mso-border-left-alt:solid windowtext .5pt;mso-border-bo=
+ttom-alt:
+    solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+    background:#E3E3E3;padding:0cm 3.5pt 0cm 3.5pt;height:3.4pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;mso-bidi-font-weight:bold=
+">60<o:p></o:p></span></p>
+    </td>
+    <td width=3D"45" nowrap=3D"" valign=3D"bottom" style=3D"width:34.05pt;b=
+order-top:none;
+    border-left:none;border-bottom:solid windowtext 1.0pt;border-right:soli=
+d windowtext 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:3.4pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-family:&quot;Comic Sans MS&quot;;color:black">0,55<o:p></o=
+:p></span></p>
+    </td>
+    <td width=3D"45" valign=3D"bottom" style=3D"width:34.05pt;border-top:no=
+ne;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext=
+ 1.0pt;
+    mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid =
+windowtext .5pt;
+    padding:0cm 3.5pt 0cm 3.5pt;height:3.4pt">
+    <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><sp=
+an style=3D"font-size:9.0pt;font-family:&quot;Comic Sans MS&quot;;color:bla=
+ck">0,11<o:p></o:p></span></p>
+    </td>
+   </tr>
+  </tbody></table>
+  </div>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;"><o:p>&nbsp;</o:p></span></p>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;">Nel calcolo del
+  rapporto meccanico minimo di armatura </span><span style=3D"font-family:S=
+ymbol">w</span><sub><span style=3D"font-family:&quot;Comic Sans MS&quot;">m=
+in </span></sub><span style=3D"font-family:
+  &quot;Comic Sans MS&quot;">occorre ricordare che all=92acciaio deve esser=
+e affidato
+  almeno il 10% dello sforzo normale N<sub>Sd</sub>. E=92, pertanto:<o:p></=
+o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;"><sub><!--[if gte vml 1]><v=
+:shape id=3D"_x0000_i1038"
+   type=3D"#_x0000_t75" style=3D'width:66pt;height:15.75pt' o:ole=3D"" fill=
+color=3D"window">
+   <v:imagedata src=3D"teoria_file/image020.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"88" height=3D"21" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image021.=
+gif" v:shapes=3D"_x0000_i1038"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i103=
+8"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015529">
+   </o:OLEObject>
+  </xml><![endif]--><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;"><sub><!--[if gte vml 1]><v=
+:shape id=3D"_x0000_i1039"
+   type=3D"#_x0000_t75" style=3D'width:69pt;height:15.75pt' o:ole=3D"" fill=
+color=3D"window">
+   <v:imagedata src=3D"teoria_file/image022.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"92" height=3D"21" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image023.=
+gif" v:shapes=3D"_x0000_i1039"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i103=
+9"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015530">
+   </o:OLEObject>
+  </xml><![endif]--><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;;color:black;layout-grid-mod=
+e:line"><sub><!--[if gte vml 1]><v:shape
+   id=3D"_x0000_i1040" type=3D"#_x0000_t75" style=3D'width:129.75pt;height:=
+30pt'
+   o:ole=3D"" fillcolor=3D"window">
+   <v:imagedata src=3D"teoria_file/image024.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"173" height=3D"40" sr=
+c=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image025=
+.gif" v:shapes=3D"_x0000_i1040"><!--[endif]--></sub><!--[if gte mso 9]><xml=
+>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i104=
+0"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015532">
+   </o:OLEObject>
+  </xml><![endif]--></span><span style=3D"font-family:&quot;Comic Sans MS&q=
+uot;"><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;"><o:p>&nbsp;</o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D"mso-yfti-irow:3;height:158.25pt">
+  <td width=3D"174" valign=3D"top" style=3D"width:130.5pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:158.25pt">
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><!--[=
+if gte vml 1]><v:shape
+   id=3D"_x0000_i1041" type=3D"#_x0000_t75" style=3D'width:75pt;height:178.=
+5pt'
+   o:ole=3D"">
+   <v:imagedata src=3D"teoria_file/image026.gif" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"100" height=3D"238" s=
+rc=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image02=
+6.gif" v:shapes=3D"_x0000_i1041"><!--[endif]--><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"PBrush" ShapeID=3D"_x0000_i1041"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015533">
+   </o:OLEObject>
+  </xml><![endif]--></p>
+  </td>
+  <td width=3D"481" valign=3D"top" style=3D"width:360.9pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:158.25pt">
+  <p class=3D"MsoNormal" style=3D"text-align:justify;background:#D9D9D9"><s=
+pan style=3D"font-family:&quot;Comic Sans MS&quot;">Progetto a compressione=
+ semplice
+  (percentuale di armatura minima).</span><b style=3D"mso-bidi-font-weight:=
+normal"><span style=3D"font-family:&quot;Arial&quot;,&quot;sans-serif&quot;=
+;mso-bidi-font-family:&quot;Times New Roman&quot;;
+  color:black;layout-grid-mode:line"><o:p></o:p></span></b></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"color:=
+black;
+  layout-grid-mode:line"><o:p>&nbsp;</o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">Lo sforzo normale di progetto N<sub>Sd=
+</sub>
+  deve essere equilibrato dalla risultante S delle tensioni dell'acciaio e
+  dalla risultante C delle tensioni del calcestruzzo</span><span style=3D"c=
+olor:black;layout-grid-mode:line"> <o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ lang=3D"EN-US" style=3D"font-family:&quot;Comic Sans MS&quot;;color:black;=
+mso-ansi-language:EN-US;
+  layout-grid-mode:line">N<sub>Sd</sub> =3D C + S con</span><span lang=3D"E=
+N-GB" style=3D"color:black;mso-ansi-language:EN-GB;layout-grid-mode:line"><=
+o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ lang=3D"EN-US" style=3D"font-family:&quot;Comic Sans MS&quot;;color:black;=
+mso-ansi-language:EN-US;
+  layout-grid-mode:line">S =3D A<sub>s</sub> f<sub>yd</sub></span><span lan=
+g=3D"EN-GB" style=3D"color:black;mso-ansi-language:EN-GB;layout-grid-mode:l=
+ine"><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;;color:black;layout-grid-mod=
+e:line">C =3D A<sub>c</sub>
+  f<sub>cd</sub>.</span><span style=3D"color:black;layout-grid-mode:line"><=
+o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">A<sub>s</sub> pu=F2 essere calcolata
+  imponendo il minimo fissato dalle Norme Tecniche <o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;;color:black;layout-grid-mod=
+e:line"><sub><!--[if gte vml 1]><v:shape
+   id=3D"_x0000_i1042" type=3D"#_x0000_t75" style=3D'width:74.25pt;height:3=
+2.25pt'
+   o:ole=3D"" fillcolor=3D"window">
+   <v:imagedata src=3D"teoria_file/image027.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"99" height=3D"43" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image028.=
+gif" v:shapes=3D"_x0000_i1042"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i104=
+2"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015534">
+   </o:OLEObject>
+  </xml><![endif]--></span><span style=3D"color:black;layout-grid-mode:line=
+"><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">realizzando l'armatura con barre di
+  diametro minimo pari a <st1:metricconverter productid=3D"12 mm" w:st=3D"o=
+n">12 mm</st1:metricconverter>.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D"mso-yfti-irow:4;height:155.25pt">
+  <td width=3D"174" style=3D"width:130.5pt;padding:0cm 3.5pt 0cm 3.5pt;heig=
+ht:155.25pt">
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><!--[=
+if gte vml 1]><v:shape
+   id=3D"_x0000_i1043" type=3D"#_x0000_t75" style=3D'width:119.25pt;height:=
+42.75pt'>
+   <v:imagedata src=3D"teoria_file/image029.gif" o:title=3D"Pilastri arm si=
+mm"/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"159" height=3D"57" sr=
+c=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image029=
+.gif" v:shapes=3D"_x0000_i1043"><!--[endif]--></p>
+  </td>
+  <td width=3D"481" valign=3D"top" style=3D"width:360.9pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:155.25pt">
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">La <a href=3D"https://digilander.liber=
+o.it/carlopala/08pilastro/tabelle.htm">tabella</a> allegata riporta le aree=
+ delle
+  armature corrispondenti a combinazioni di 4, 8 e 12 tondi; sono state esc=
+luse
+  le combinazioni con 6 tondi perch=E9 quest'ultime richiederebbero un diag=
+ramma
+  di interazione diverso da quello presente in questa unit=E0 didattica. Pe=
+r
+  l'acciaio B450C sono utilizzabili diametri</span><span style=3D"layout-gr=
+id-mode:
+  line"> </span><span style=3D"font-family:Symbol;layout-grid-mode:line">f =
+<span style=3D"mso-spacerun:yes">&nbsp;</span>=A3 <span style=3D"mso-spacer=
+un:yes">&nbsp;</span></span><span style=3D"font-family:&quot;Comic Sans MS&=
+quot;;layout-grid-mode:line">40</span><span style=3D"layout-grid-mode:line"=
+> </span><span style=3D"font-family:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">mm.</span><span style=3D"layout-grid-m=
+ode:
+  line"><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">Fissato il valore di A<sub>s</sub> , s=
+i
+  ricava C dalla</span><span style=3D"layout-grid-mode:line"><o:p></o:p></s=
+pan></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;;color:black;layout-grid-mod=
+e:line">C =3D N<sub>Sd</sub>
+  - A<sub>s</sub> f<sub>yd</sub><o:p></o:p></span></p>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;;color:black;
+  layout-grid-mode:line">e infine</span><span style=3D"layout-grid-mode:lin=
+e"><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"layout-grid-mode:line"><sub><!--[if gte vml 1]><v:shape id=3D"_x0=
+000_i1044"
+   type=3D"#_x0000_t75" style=3D'width:75pt;height:32.25pt' o:ole=3D"" fill=
+color=3D"window">
+   <v:imagedata src=3D"teoria_file/image030.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"100" height=3D"43" sr=
+c=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image031=
+.gif" v:shapes=3D"_x0000_i1044"><!--[endif]--></sub><!--[if gte mso 9]><xml=
+>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i104=
+4"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015535">
+   </o:OLEObject>
+  </xml><![endif]-->.</span><span style=3D"font-family:&quot;Comic Sans MS&=
+quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style=3D"mso-yfti-irow:5;height:155.7pt">
+  <td width=3D"174" valign=3D"top" style=3D"width:130.5pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:155.7pt">
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><i st=
+yle=3D"mso-bidi-font-style:normal"><o:p>&nbsp;</o:p></i></p>
+  </td>
+  <td width=3D"481" valign=3D"top" style=3D"width:360.9pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:155.7pt">
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">I valori delle dimensioni b e h del
+  pilastro possono essere ottenuti dalla <a href=3D"https://digilander.libe=
+ro.it/carlopala/08pilastro/tabelle.htm">tabella</a> allegata costruita con
+  l'ipotesi di variazione dei lati di <st1:metricconverter productid=3D"5 i=
+n" w:st=3D"on">5 in</st1:metricconverter> <st1:metricconverter productid=3D=
+"5 cm" w:st=3D"on">5 cm</st1:metricconverter> da <st1:metricconverter produ=
+ctid=3D"20 a" w:st=3D"on">20 a</st1:metricconverter> <st1:metricconverter p=
+roductid=3D"60 cm" w:st=3D"on">60 cm</st1:metricconverter>.</span><span sty=
+le=3D"layout-grid-mode:
+  line"><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">Occorre ora effettuare il controllo de=
+l rapporto
+  geometrico di armatura</span><span style=3D"layout-grid-mode:line"><o:p><=
+/o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"layout-grid-mode:line"><sub><!--[if gte vml 1]><v:shape id=3D"_x0=
+000_i1045"
+   type=3D"#_x0000_t75" style=3D'width:33pt;height:27pt' o:ole=3D"" fillcol=
+or=3D"window">
+   <v:imagedata src=3D"teoria_file/image032.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"44" height=3D"36" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image033.=
+gif" v:shapes=3D"_x0000_i1045"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i104=
+5"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015536">
+   </o:OLEObject>
+  </xml><![endif]--><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">verificando che risulti compreso tra l=
+o 0,003
+  e lo 0,04 (tra lo 0,3% e il 4%).</span><span style=3D"layout-grid-mode:li=
+ne"><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">Le staffe, di diametro</span><span sty=
+le=3D"layout-grid-mode:line"> </span><span style=3D"font-family:Symbol;
+  layout-grid-mode:line">f</span><sub><span style=3D"font-family:&quot;Comi=
+c Sans MS&quot;;
+  layout-grid-mode:line">st</span></sub><span style=3D"font-family:&quot;Co=
+mic Sans MS&quot;;
+  layout-grid-mode:line"> <span style=3D"color:black">almeno pari a <st1:me=
+tricconverter productid=3D"6 mm" w:st=3D"on">6 mm</st1:metricconverter> e c=
+omunque non
+  inferiore a</span></span><span style=3D"layout-grid-mode:line"> </span><s=
+pan style=3D"font-family:&quot;Comic Sans MS&quot;;color:black;layout-grid-=
+mode:line"><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:Symbol;
+  layout-grid-mode:line">f</span><sub><span style=3D"font-family:&quot;Comi=
+c Sans MS&quot;;
+  layout-grid-mode:line">longitudinale</span><span style=3D"layout-grid-mod=
+e:
+  line"> </span></sub><span style=3D"font-family:&quot;Comic Sans MS&quot;;=
+layout-grid-mode:
+  line">/ 4, <span style=3D"color:black">hanno un passo s non maggiore di <=
+st1:metricconverter productid=3D"25 cm" w:st=3D"on">25 cm</st1:metricconver=
+ter> e comunque non
+  superiore a 12</span></span><span style=3D"layout-grid-mode:line"> </span=
+><span style=3D"font-family:Symbol;layout-grid-mode:line">f</span><sub><spa=
+n style=3D"font-family:&quot;Comic Sans MS&quot;;layout-grid-mode:line">lon=
+gitudinale.</span><span style=3D"layout-grid-mode:line"><o:p></o:p></span><=
+/sub></p>
+  </td>
+ </tr>
+ <tr style=3D"mso-yfti-irow:6;height:182.15pt">
+  <td width=3D"174" valign=3D"top" style=3D"width:130.5pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:182.15pt">
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><o:p>=
+&nbsp;</o:p></p>
+  </td>
+  <td width=3D"481" valign=3D"top" style=3D"width:360.9pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:182.15pt">
+  <p class=3D"MsoNormal" style=3D"text-align:justify;background:#D9D9D9"><s=
+pan style=3D"font-family:&quot;Comic Sans MS&quot;">Progetto a sezione obbl=
+igata.</span><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-f=
+amily:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  mso-bidi-font-family:&quot;Times New Roman&quot;;color:black;layout-grid-=
+mode:line"><o:p></o:p></span></b></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">Un secondo criterio potrebbe essere qu=
+ello
+  di assegnare preventivamente le dimensioni del pilastro, ad esempio per
+  limitarne l=92ingombro.<o:p></o:p></span></p>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;;color:black;
+  layout-grid-mode:line">In questo caso A<sub>c</sub> =E8 prestabilito e
+  l=92armatura si pu=F2 ricavare attraverso l=92espressione<o:p></o:p></spa=
+n></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;"><sub><!--[if gte vml 1]><v=
+:shape id=3D"_x0000_i1046"
+   type=3D"#_x0000_t75" style=3D'width:81pt;height:33pt' o:ole=3D"">
+   <v:imagedata src=3D"teoria_file/image034.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"108" height=3D"44" sr=
+c=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image035=
+.gif" v:shapes=3D"_x0000_i1046"><!--[endif]--></sub><!--[if gte mso 9]><xml=
+>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i104=
+6"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015537">
+   </o:OLEObject>
+  </xml><![endif]--><o:p></o:p></span></p>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;">Ovviamente
+  devono risultare soddisfatte anche le disposizioni delle Norme Tecniche<o=
+:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;;color:black;layout-grid-mod=
+e:line"><sub><!--[if gte vml 1]><v:shape
+   id=3D"_x0000_i1047" type=3D"#_x0000_t75" style=3D'width:72.75pt;height:3=
+2.25pt'
+   o:ole=3D"" fillcolor=3D"window">
+   <v:imagedata src=3D"teoria_file/image004.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"97" height=3D"43" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image005.=
+gif" v:shapes=3D"_x0000_i1047"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i104=
+7"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015538">
+   </o:OLEObject>
+  </xml><![endif]--><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;"><sub><!--[if gte vml 1]><v=
+:shape id=3D"_x0000_i1048"
+   type=3D"#_x0000_t75" style=3D'width:69.75pt;height:15pt' o:ole=3D"">
+   <v:imagedata src=3D"teoria_file/image036.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"93" height=3D"20" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image037.=
+gif" v:shapes=3D"_x0000_i1048"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i104=
+8"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015539">
+   </o:OLEObject>
+  </xml><![endif]--><o:p></o:p></span></p>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;">In definitiva si
+  ottiene<span style=3D"color:black;layout-grid-mode:line"><o:p></o:p></spa=
+n></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;"><sub><!--[if gte vml 1]><v=
+:shape id=3D"_x0000_i1049"
+   type=3D"#_x0000_t75" style=3D'width:188.25pt;height:37.5pt' o:ole=3D"">
+   <v:imagedata src=3D"teoria_file/image038.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"251" height=3D"50" sr=
+c=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image039=
+.gif" v:shapes=3D"_x0000_i1049"><!--[endif]--></sub><!--[if gte mso 9]><xml=
+>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i104=
+9"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015540">
+   </o:OLEObject>
+  </xml><![endif]--><span style=3D"color:black;layout-grid-mode:line"><o:p>=
+</o:p></span></span></p>
+  </td>
+ </tr>
+ <tr style=3D"mso-yfti-irow:7">
+  <td width=3D"174" style=3D"width:130.5pt;padding:0cm 3.5pt 0cm 3.5pt">
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><i st=
+yle=3D"mso-bidi-font-style:normal"><!--[if gte vml 1]><v:shape id=3D"_x0000=
+_i1050"
+   type=3D"#_x0000_t75" style=3D'width:72.75pt;height:178.5pt'>
+   <v:imagedata src=3D"teoria_file/image003.gif" o:title=3D"PilastroPressoi=
+nfl"/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"97" height=3D"238" sr=
+c=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image003=
+.gif" v:shapes=3D"_x0000_i1050"><!--[endif]--><o:p></o:p></i></p>
+  </td>
+  <td width=3D"481" valign=3D"top" style=3D"width:360.9pt;padding:0cm 3.5pt=
+ 0cm 3.5pt">
+  <p class=3D"MsoNormal" style=3D"text-align:justify;background:#D9D9D9"><s=
+pan style=3D"font-family:&quot;Comic Sans MS&quot;">Verifica a pressoflessi=
+one.</span><span style=3D"layout-grid-mode:line"><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"layout=
+-grid-mode:
+  line"><o:p>&nbsp;</o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">Si calcola il momento M<sub>Sd</sub> =
+=3D N<sub>Sd</sub>
+  e, nella quale l'eccentricit=E0 <i>e</i> =E8 pari al massimo dei seguenti=
+ valori:<o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-size:8.0pt;mso-bidi-font-size:10.0pt"><sub><!--[if gte vml 1=
+]><v:shape
+   id=3D"_x0000_i1051" type=3D"#_x0000_t75" style=3D'width:116.25pt;height:=
+15.75pt'
+   o:ole=3D"" fillcolor=3D"window">
+   <v:imagedata src=3D"teoria_file/image040.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"155" height=3D"21" sr=
+c=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image041=
+.gif" v:shapes=3D"_x0000_i1051"><!--[endif]--></sub><!--[if gte mso 9]><xml=
+>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i105=
+1"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015541">
+   </o:OLEObject>
+  </xml><![endif]--><span style=3D"mso-spacerun:yes">&nbsp;</span><o:p></o:=
+p></span></p>
+  <p class=3D"MsoNormal"><span style=3D"font-family:&quot;Comic Sans MS&quo=
+t;">nella quale e<sub>0</sub>
+  =E8 l=92eventuale eccentricit=E0 di progetto.<o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">Determinate le grandezze adimensionali=
+</span><span style=3D"layout-grid-mode:line"><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"layout-grid-mode:line"><sub><!--[if gte vml 1]><v:shape id=3D"_x0=
+000_i1052"
+   type=3D"#_x0000_t75" style=3D'width:45pt;height:30pt' o:ole=3D"" fillcol=
+or=3D"window">
+   <v:imagedata src=3D"teoria_file/image042.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"60" height=3D"40" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image043.=
+gif" v:shapes=3D"_x0000_i1052"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i105=
+2"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015542">
+   </o:OLEObject>
+  </xml><![endif]--><span style=3D"mso-spacerun:yes">&nbsp;</span></span><s=
+pan style=3D"font-family:&quot;Comic Sans MS&quot;;color:black;layout-grid-=
+mode:line">(sforzo
+  normale ridotto)</span><span style=3D"layout-grid-mode:line"><o:p></o:p><=
+/span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"layout-grid-mode:line"><sub><!--[if gte vml 1]><v:shape id=3D"_x0=
+000_i1053"
+   type=3D"#_x0000_t75" style=3D'width:45.75pt;height:32.25pt' o:ole=3D""
+   fillcolor=3D"window">
+   <v:imagedata src=3D"teoria_file/image044.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"61" height=3D"43" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image045.=
+gif" v:shapes=3D"_x0000_i1053"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i105=
+3"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015543">
+   </o:OLEObject>
+  </xml><![endif]--><span style=3D"mso-spacerun:yes">&nbsp;</span></span><s=
+pan style=3D"font-family:&quot;Comic Sans MS&quot;;color:black;layout-grid-=
+mode:line">(rapporto
+  meccanica di armatura)</span><span style=3D"layout-grid-mode:line"><o:p><=
+/o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><b style=3D"mso-bidi-=
+font-weight:
+  normal"><i style=3D"mso-bidi-font-style:normal"><span style=3D"font-famil=
+y:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  mso-bidi-font-family:&quot;Times New Roman&quot;;layout-grid-mode:line"><=
+o:p>&nbsp;</o:p></span></i></b></p>
+  </td>
+ </tr>
+ <tr style=3D"mso-yfti-irow:8">
+  <td width=3D"174" valign=3D"top" style=3D"width:130.5pt;padding:0cm 3.5pt=
+ 0cm 3.5pt">
+  <p class=3D"MsoNormal"><i style=3D"mso-bidi-font-style:normal">L'uso del =
+diagramma
+  di interazione per la verifica a pressoflessione.<o:p></o:p></i></p>
+  <p class=3D"MsoNormal"><i style=3D"mso-bidi-font-style:normal"><o:p>&nbsp=
+;</o:p></i></p>
+  <p class=3D"MsoNormal"><!--[if gte vml 1]><v:shape id=3D"_x0000_i1054" ty=
+pe=3D"#_x0000_t75"
+   style=3D'width:123.75pt;height:54.75pt' o:ole=3D"">
+   <v:imagedata src=3D"teoria_file/image046.png" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"165" height=3D"73" sr=
+c=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image047=
+.jpg" v:shapes=3D"_x0000_i1054"><!--[endif]--><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"PBrush" ShapeID=3D"_x0000_i1054"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015544">
+   </o:OLEObject>
+  </xml><![endif]--></p>
+  <p class=3D"MsoNormal"><i style=3D"mso-bidi-font-style:normal">Si conduce=
+ la
+  verticale a partire dal valore di <span style=3D"font-family:Symbol;mso-a=
+scii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:
+  &quot;Times New Roman&quot;;mso-char-type:symbol;mso-symbol-font-family:S=
+ymbol"><span style=3D"mso-char-type:symbol;mso-symbol-font-family:Symbol">n=
+</span></span>
+  fino a raggiungere la curva corrispondente a </i><i style=3D"mso-bidi-fon=
+t-style:
+  normal"><span style=3D"font-family:Symbol;mso-ascii-font-family:&quot;Tim=
+es New Roman&quot;;
+  mso-hansi-font-family:&quot;Times New Roman&quot;;mso-char-type:symbol;ms=
+o-symbol-font-family:
+  Symbol"><span style=3D"mso-char-type:symbol;mso-symbol-font-family:Symbol=
+">w</span></span>.<o:p></o:p></i></p>
+  <p class=3D"MsoNormal"><i style=3D"mso-bidi-font-style:normal">Dal punto
+  trovato,procedendo in orizzontale, si raggiunge l'asse <span style=3D"fon=
+t-family:Symbol;
+  mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:&=
+quot;Times New Roman&quot;;
+  mso-char-type:symbol;mso-symbol-font-family:Symbol"><span style=3D"mso-ch=
+ar-type:
+  symbol;mso-symbol-font-family:Symbol">m</span></span><span style=3D"mso-s=
+pacerun:yes">&nbsp; </span>e si legge il valore del momento ridotto.<o:p></=
+o:p></i></p>
+  </td>
+  <td width=3D"481" valign=3D"top" style=3D"width:360.9pt;padding:0cm 3.5pt=
+ 0cm 3.5pt">
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">attraverso il <a href=3D"https://digil=
+ander.libero.it/carlopala/08pilastro/diaginte.htm">diagramma di interazione=
+</a> si
+  ricava il momento ridotto</span><span style=3D"layout-grid-mode:line"> <o=
+:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"layout-grid-mode:line"><sub><!--[if gte vml 1]><v:shape id=3D"_x0=
+000_i1055"
+   type=3D"#_x0000_t75" style=3D'width:48.75pt;height:30pt' o:ole=3D"" fill=
+color=3D"window">
+   <v:imagedata src=3D"teoria_file/image048.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"65" height=3D"40" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image049.=
+gif" v:shapes=3D"_x0000_i1055"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i105=
+5"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015545">
+   </o:OLEObject>
+  </xml><![endif]--><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">Il momento massimo sopportabile dalla
+  sezione =E8 dato da</span><span style=3D"layout-grid-mode:line"><o:p></o:=
+p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;;layout-grid-mode:line">M<su=
+b>Rd</sub> =3D </span><span style=3D"font-family:Symbol;layout-grid-mode:li=
+ne">m</span><span style=3D"font-family:&quot;Comic Sans MS&quot;;layout-gri=
+d-mode:line"> bh<sup>2</sup>f<sub>cd</sub>.<o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">Se risulta</span><span style=3D"layout=
+-grid-mode:
+  line"> <o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;;layout-grid-mode:line">M<su=
+b>Sd</sub></span><sub><span style=3D"layout-grid-mode:line"> </span><span s=
+tyle=3D"font-family:
+  Symbol;layout-grid-mode:line">=A3</span><span style=3D"layout-grid-mode:l=
+ine"> </span></sub><span style=3D"font-family:&quot;Comic Sans MS&quot;;lay=
+out-grid-mode:line">M<sub>Rd</sub></span><span style=3D"layout-grid-mode:li=
+ne"><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">la verifica =E8 soddisfatta; in caso
+  contrario occorre aumentare l'armatura procedendo al progetto a
+  pressoflessione.</span><span style=3D"layout-grid-mode:line"><o:p></o:p><=
+/span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><o:p>&nbsp;</o:p></p>
+  </td>
+ </tr>
+ <tr style=3D"mso-yfti-irow:9;height:164.25pt">
+  <td width=3D"174" valign=3D"top" style=3D"width:130.5pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:164.25pt">
+  <p class=3D"MsoNormal"><i style=3D"mso-bidi-font-style:normal"><o:p>&nbsp=
+;</o:p></i></p>
+  <p class=3D"MsoNormal"><i style=3D"mso-bidi-font-style:normal">L'uso del =
+diagramma
+  di interazione per il progetto dell'armatura metallica.<o:p></o:p></i></p=
+>
+  <p class=3D"MsoNormal"><!--[if gte vml 1]><v:shape id=3D"_x0000_i1056" ty=
+pe=3D"#_x0000_t75"
+   style=3D'width:123.75pt;height:54.75pt' o:ole=3D"">
+   <v:imagedata src=3D"teoria_file/image050.gif" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"165" height=3D"73" sr=
+c=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image050=
+.gif" v:shapes=3D"_x0000_i1056"><!--[endif]--><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"PBrush" ShapeID=3D"_x0000_i1056"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015546">
+   </o:OLEObject>
+  </xml><![endif]--></p>
+  <p class=3D"MsoNormal"><i style=3D"mso-bidi-font-style:normal">Si conduco=
+no
+  l'orizzontale dal valore di <span style=3D"font-family:Symbol;mso-ascii-f=
+ont-family:&quot;Times New Roman&quot;;mso-hansi-font-family:
+  &quot;Times New Roman&quot;;mso-char-type:symbol;mso-symbol-font-family:S=
+ymbol"><span style=3D"mso-char-type:symbol;mso-symbol-font-family:Symbol">m=
+</span></span><span style=3D"mso-spacerun:yes">&nbsp; </span>e la verticale=
+ dal valore di <span style=3D"font-family:Symbol;
+  mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:&=
+quot;Times New Roman&quot;;
+  mso-char-type:symbol;mso-symbol-font-family:Symbol"><span style=3D"mso-ch=
+ar-type:
+  symbol;mso-symbol-font-family:Symbol">n</span></span>. <o:p></o:p> </i></=
+p>
+  <p class=3D"MsoNormal"><i style=3D"mso-bidi-font-style:normal">Si individ=
+ua la
+  curva passante per il punto di incontro, ricavando il valore corrisponden=
+te
+  di <span style=3D"font-family:Symbol;
+  mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:&=
+quot;Times New Roman&quot;;
+  mso-char-type:symbol;mso-symbol-font-family:Symbol"><span style=3D"mso-ch=
+ar-type:
+  symbol;mso-symbol-font-family:Symbol">w</span></span>.</i></p>
+  </td>
+  <td width=3D"481" valign=3D"top" style=3D"width:360.9pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:164.25pt">
+  <p class=3D"MsoNormal" style=3D"text-align:justify;background:#D9D9D9"><s=
+pan style=3D"font-family:&quot;Comic Sans MS&quot;">Progetto dell'armatura =
+a pressoflessione.</span><b style=3D"mso-bidi-font-weight:normal"><i style=
+=3D"mso-bidi-font-style:normal"><span style=3D"font-family:&quot;Arial&quot=
+;,&quot;sans-serif&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;
+  layout-grid-mode:line"><o:p></o:p></span></i></b></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"layout=
+-grid-mode:
+  line"><o:p>&nbsp;</o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">Si calcola il valore del momento ridot=
+to</span><span style=3D"layout-grid-mode:line"><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"layout-grid-mode:line"><sub><!--[if gte vml 1]><v:shape id=3D"_x0=
+000_i1057"
+   type=3D"#_x0000_t75" style=3D'width:48.75pt;height:30pt' o:ole=3D"" fill=
+color=3D"window">
+   <v:imagedata src=3D"teoria_file/image051.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"65" height=3D"40" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image049.=
+gif" v:shapes=3D"_x0000_i1057"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i105=
+7"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015547">
+   </o:OLEObject>
+  </xml><![endif]--><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">e, dal diagramma di interazione con</s=
+pan><span style=3D"layout-grid-mode:line"> </span><span style=3D"font-famil=
+y:Symbol;
+  layout-grid-mode:line">n </span><span style=3D"font-family:&quot;Comic Sa=
+ns MS&quot;;
+  color:black;layout-grid-mode:line">e</span><span style=3D"layout-grid-mod=
+e:
+  line"> </span><span style=3D"font-family:Symbol;layout-grid-mode:line">m =
+</span><span style=3D"font-family:&quot;Comic Sans MS&quot;;color:black;lay=
+out-grid-mode:line">si
+  ricava il rapporto meccanico di armatura</span><span style=3D"layout-grid=
+-mode:
+  line"> </span><span style=3D"font-family:Symbol;layout-grid-mode:line">w.=
+</span><span style=3D"layout-grid-mode:line"><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">L'armatura dell'acciaio A<sub>s</sub> =
+=E8
+  data da</span><span style=3D"layout-grid-mode:line"><o:p></o:p></span></p=
+>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"layout-grid-mode:line"><sub><!--[if gte vml 1]><v:shape id=3D"_x0=
+000_i1029"
+   type=3D"#_x0000_t75" style=3D'width:57.75pt;height:33pt' o:ole=3D"" fill=
+color=3D"window">
+   <v:imagedata src=3D"teoria_file/image052.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"77" height=3D"44" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image053.=
+gif" v:shapes=3D"_x0000_i1029"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i102=
+9"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015548">
+   </o:OLEObject>
+  </xml><![endif]--><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">e per la sua realizzazione ci si pu=F2
+  avvalere della <a href=3D"https://digilander.libero.it/carlopala/08pilast=
+ro/tabelle.htm">tabella</a> allegata.</span><span style=3D"layout-grid-mode=
+:line"><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><o:p>&nbsp;</o:p></p>
+  </td>
+ </tr>
+ <tr style=3D"mso-yfti-irow:10;mso-yfti-lastrow:yes;height:294.75pt">
+  <td width=3D"174" valign=3D"top" style=3D"width:130.5pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:294.75pt">
+  <p class=3D"MsoNormal"><i style=3D"mso-bidi-font-style:normal"><o:p>&nbsp=
+;</o:p></i></p>
+  </td>
+  <td width=3D"481" valign=3D"top" style=3D"width:360.9pt;padding:0cm 3.5pt=
+ 0cm 3.5pt;
+  height:294.75pt">
+  <p class=3D"MsoNormal" style=3D"text-align:justify;background:#D9D9D9"><s=
+pan style=3D"font-family:&quot;Comic Sans MS&quot;">Il diagramma di interaz=
+ione.</span><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-fa=
+mily:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  mso-bidi-font-family:&quot;Times New Roman&quot;;color:black;layout-grid-=
+mode:line"><o:p></o:p></span></b></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">Il diagramma riporta i valori delle
+  sollecitazioni ridotte</span><span style=3D"layout-grid-mode:line"> <sub>=
+<!--[if gte vml 1]><v:shape
+   id=3D"_x0000_i1030" type=3D"#_x0000_t75" style=3D'width:45pt;height:30pt=
+' o:ole=3D""
+   fillcolor=3D"window">
+   <v:imagedata src=3D"teoria_file/image054.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"60" height=3D"40" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image043.=
+gif" v:shapes=3D"_x0000_i1030"><!--[endif]--></sub></span><span style=3D"fo=
+nt-family:
+  &quot;Comic Sans MS&quot;;color:black;layout-grid-mode:line"> </span><spa=
+n style=3D"layout-grid-mode:line"><sub><!--[if gte vml 1]><v:shape id=3D"_x=
+0000_i1031"
+   type=3D"#_x0000_t75" style=3D'width:48.75pt;height:30pt' o:ole=3D"" fill=
+color=3D"window">
+   <v:imagedata src=3D"teoria_file/image055.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"65" height=3D"40" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image049.=
+gif" v:shapes=3D"_x0000_i1031"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i103=
+1"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015551">
+   </o:OLEObject>
+  </xml><![endif]--></span><span style=3D"font-family:&quot;Comic Sans MS&q=
+uot;;
+  color:black;layout-grid-mode:line">calcolati al variare del rapporto
+  meccanico dell'armatura</span><span style=3D"layout-grid-mode:line"> <sub=
+><!--[if gte vml 1]><v:shape
+   id=3D"_x0000_i1032" type=3D"#_x0000_t75" style=3D'width:45.75pt;height:3=
+2.25pt'
+   o:ole=3D"" fillcolor=3D"window">
+   <v:imagedata src=3D"teoria_file/image056.wmz" o:title=3D""/>
+  </v:shape><![endif]--><!--[if !vml]--><img width=3D"61" height=3D"43" src=
+=3D"https://digilander.libero.it/carlopala/08pilastro/teoria_file/image045.=
+gif" v:shapes=3D"_x0000_i1032"><!--[endif]--></sub><!--[if gte mso 9]><xml>
+   <o:OLEObject Type=3D"Embed" ProgID=3D"Equation.3" ShapeID=3D"_x0000_i103=
+2"
+    DrawAspect=3D"Content" ObjectID=3D"_1323015552">
+   </o:OLEObject>
+  </xml><![endif]-->.<o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">I valori di</span><span style=3D"layou=
+t-grid-mode:
+  line"> </span><span style=3D"font-family:Symbol;layout-grid-mode:line">w<=
+/span><span style=3D"layout-grid-mode:line"> </span><span style=3D"font-fam=
+ily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">variano da 0 (pilastro non armato) a 1=
+.</span><span style=3D"layout-grid-mode:line"><o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  color:black;layout-grid-mode:line">Il diagramma =E8 tracciato per un
+  determinato valore di</span><span style=3D"color:black;layout-grid-mode:l=
+ine"> </span><span style=3D"font-family:Symbol;color:black;layout-grid-mode=
+:line">d</span><span style=3D"color:black;layout-grid-mode:line">.</span><s=
+pan style=3D"layout-grid-mode:
+  line"> </span><span style=3D"font-family:&quot;Comic Sans MS&quot;;color:=
+black;
+  layout-grid-mode:line">Il coefficiente</span><span style=3D"layout-grid-m=
+ode:
+  line"> <o:p></o:p></span></p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:Symbol;layout-grid-mode:line">d</span><span style=3D"=
+layout-grid-mode:line"> =3D </span><span style=3D"font-family:&quot;Comic S=
+ans MS&quot;;
+  color:black;layout-grid-mode:line">d'/h<o:p></o:p></span></p>
+  <p class=3D"MsoBodyText">tiene conto della posizione delle armature, risu=
+ltando
+  d' la distanza del baricentro delle armature rispetto al lato della sezio=
+ne </p>
+  <p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span=
+ style=3D"font-family:&quot;Comic Sans MS&quot;;layout-grid-mode:line">d' =
+=3D copriferro + </span><span style=3D"font-family:Symbol;layout-grid-mode:=
+line">f</span><sub><span style=3D"font-family:&quot;Comic Sans MS&quot;;lay=
+out-grid-mode:line">staffe</span></sub><span style=3D"font-family:&quot;Com=
+ic Sans MS&quot;;layout-grid-mode:line">+ </span><span style=3D"font-family=
+:Symbol;layout-grid-mode:line">f</span><sub><span style=3D"font-family:&quo=
+t;Comic Sans MS&quot;;layout-grid-mode:line">longitudinali</span></sub><spa=
+n style=3D"font-family:&quot;Comic Sans MS&quot;;layout-grid-mode:line"> / =
+2<o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  layout-grid-mode:line">Al crescere di </span><span style=3D"font-family:S=
+ymbol;
+  layout-grid-mode:line">d </span><span style=3D"font-family:&quot;Comic Sa=
+ns MS&quot;;
+  layout-grid-mode:line">le armature sono pi=F9 vicine al baricentro della
+  sezione e conseguentemente producono un momento resistente M<sub>Rd</sub>
+  minore.<o:p></o:p></span></p>
+  <p class=3D"MsoNormal" style=3D"text-align:justify"><span style=3D"font-f=
+amily:&quot;Comic Sans MS&quot;;
+  layout-grid-mode:line">Se non si dispone di un diagramma di interazione
+  esattamente corrispondente al rapporto </span><span style=3D"font-family:=
+Symbol;
+  layout-grid-mode:line">d</span><span style=3D"font-family:&quot;Comic San=
+s MS&quot;;
+  layout-grid-mode:line"> della sezione in esame =E8 perci=F2 preferibile l=
+=92impiego
+  di un diagramma costruito con un </span><span style=3D"font-family:Symbol=
+;
+  layout-grid-mode:line">d</span><span style=3D"font-family:&quot;Comic San=
+s MS&quot;;
+  layout-grid-mode:line"> maggiore:</span><span style=3D"font-family:Symbol=
+;
+  layout-grid-mode:line"> </span><span style=3D"font-family:&quot;Comic San=
+s MS&quot;;
+  layout-grid-mode:line"><span style=3D"mso-spacerun:yes">&nbsp;</span>i va=
+lori
+  presenti su un diagramma con un<span style=3D"mso-spacerun:yes">&nbsp; </=
+span></span><span style=3D"font-family:Symbol;layout-grid-mode:line">d</spa=
+n><span style=3D"font-family:&quot;Comic Sans MS&quot;;layout-grid-mode:lin=
+e"> minore
+  risulterebbero, infatti, superiori quelli reali e ci=F2 andrebbe a svanta=
+ggio
+  di stabilit=E0.</span><span style=3D"font-family:&quot;Comic Sans MS&quot=
+;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+</div>
+
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+
+</div>
+
+<p align=3D"center"><font size=3D"1" color=3D"#000080"><em>=A9 1997-2009 Ca=
+rlo PALATELLA</em></font><a href=3D"https://digilander.libero.it/carlopala/=
+08pilastro/index.htm"><img src=3D"https://digilander.libero.it/carlopala/08=
+pilastro/pilimag/index.gif" alt=3D"Home Page" align=3D"middle" border=3D"0"=
+ width=3D"43" height=3D"40"></a></p>
+
+<!-- DIV 728x90 IAM -->
+<div id=3D"ad72890bottom" align=3D"center"></div>=20
+<!-- START Digilander F -->
+
+
+
+<!-- Begin Nielsen DCR SDK -->
+
+<!-- End Nielsen DCR SDK -->
+
+<!--  Libero COMSCORE start - Version 1.53 -->
+
+
+
+
+<!-- Libero COMSCORE end -->
+
+<!-- IOL Analytics -->
+
+
+
+
+<!-- /IOL Analytics -->
+
+<!-- BEGIN Global site tag (gtag.js) - Google Analytics 4 -->
+
+
+<!-- END Global site tag (gtag.js) - Google Analytics 4 -->
+
+<div id=3D"adinterstitial"></div>
+
+
+
+</o:smarttagtype><iframe src=3D"cid:frame-FC0546542D8C0C42C183328D1ABB8AC0@=
+mhtml.blink" height=3D"0" width=3D"0" id=3D"lsframe" style=3D"display: none=
+;"></iframe></body></html>
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/pilimag/index.gif
+
+R0lGODlhKwAoAPcAAAAAAAAAMwAAZgAAmQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBmAABmMwBm
+ZgBmmQBmzABm/wCZAACZMwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/MwD/ZgD/
+mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNmZjNmmTNm
+zDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/MzP/ZjP/mTP/zDP/
+/2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz/2ZmAGZmM2ZmZmZmmWZmzGZm/2aZ
+AGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbMmWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkA
+M5kAZpkAmZkAzJkA/5kzAJkzM5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZAJmZM5mZ
+ZpmZmZmZzJmZ/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswA
+mcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZM8yZZsyZmcyZ
+zMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A
+//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9mmf9mzP9m//+ZAP+ZM/+ZZv+Zmf+ZzP+Z///M
+AP/MM//MZv/Mmf/MzP/M////AP//M///Zv//mf//zP///wAAAA0NDRoaGigoKDU1NUNDQ1BQUF1d
+XWtra3h4eIaGhpOTk6Ghoa6urru7u8nJydbW1uTk5PHx8f///5gAAIgAAEAAAEcAAAEAADAAAAAA
+AK8BR98CAkdd4PjzAEAAYa4AAC9/UEB/Uwp5KTrROvAF14cRrBYKSiH5BAEAANcALAAAAAArACgA
+QAj/AK8JHHhNXZ4qTxIqXMiwYcIq4dQRnDjRYLg1GDNi1KOHVTlWpfSQIaMRYzhvEimqtFhSI6I9
+evaQbGkSpcqb11ql2DnlXKBz58yVuuSpKLpz6NCZM7czRSucAtOZM/WiqdWrWLNm5XMuHU6D4Ghq
+HLkGCMmRaMmcTAlVIEuaiISWAlpO7Nq2BMmF28tXD7FMn4h9wueJmGDB4PjuFccWJ7pSUrReVbJE
+8k4XpVipHGS5s2esfNCtzBNOhwULQNaQ0VGmTEmyLe/iLZgHHNmzZMXpKRVo3DiMMzPKxvu2JCJo
+rKApV44IuOqRw9uynEnGbMbjzcWuiQ61uEZBhgdn/zKcvSR34nykSLFjGFQp5aXeQwtMDJR6LI2J
+nzMVOQUfVuboEUg66XgCyYH4dEWgUoI01QdeQe3x2YQ7SZEZRaZQqKFVKMwlkQsohCjiiCSWaOKJ
+JGIx2jc5tNjFizm8KKOMLs7YBTg2zQaWaaippgNNsJmXI3G1aacaNOegpZqQ+X1FWloZjbRbOeeU
+4kmQwg0pHWlilbMUckLhpuR5N3l3XXzmIBkfOTSROdpFY810HHPauUmRmSWVYU5wbWrZHZc0gZcJ
+PpmAUh6Ts9EGkWLhgBceJJgYRowgjIaTh5+JCoROe3TE50kpypRSh2GmqGNqphQ1WCEoxOzhjTlV
+znRVzh6GpbfTIKgWdI6qKQTliThJXXIgJJegQ2A6rKCDBU9NrsQKf03xgYW0WGChnhIHQjEtH9xW
+a9VTUKVzDh8bdsaHKec0K5WE5XpmYX7okNvuhHuUIppb/c07oRRUqnOOvu1Kgc4JBBds8MEIJ6ww
+wlEEBAA7
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image053.gif
+
+R0lGODlhTQAsAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIABABH
+ACQAhQAAAAAAAAQAAwgKDQ0KCAMAAwoEAA0LCgAAAwQAAAQIDQ0IBAAABAoLDQMABAMGCwoLCgMA
+AAAECgMDAAQABAsGAw0LCwgDAAgDAwgGCgMGCAQECgADCAsLDQ0ICAoEBAgICAoICwoIDQoEAwME
+BAgECAECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwb/QIBwSCwaj8jiQTAoEgpNoyGAiCav2KySqUwojAtG
+Q0suJwmOMfHglT7M8DgADUkE3oDlYPpdBP4BYnKDQn4Pfl9zEYIGEnkCEwphagZ4hINPUWhjBxRq
+emxvm0KVl4QVbwtvBl+dahYXCmxfowClpnKoAAtfrHmeQqBtmaSWuGYLjhUKFhhNeqSOxLPFx3JT
+D9jBdn+Jo7Bf4EcWGUe61ugAFY67GhtGBBEcHenHqh4D6+tFsIFq9Zc+qBF44B2RBQhAQAFoyk8A
+SX/YCYElgRrDi7vEwDJmpB+gABIxXmHzcZ7IepMKCULiEVBIAB9jypxJs2aAjUPiJTp5rFY1WQMr
+edZbJhSjAZNGqVg51i8owJRF692Kas3hH6dUL03NemwrV1NevxIKK/Yax4nlymoBZyFEHhHtDKot
+M2JAXX0v52IhQOIdQbl6tfhymDcwyxL0DMNRNSgIADs=
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image050.gif
+
+R0lGODlhrgBNAHcAMSH/C01TT0ZGSUNFOS4wDQAAAAFzUkdCAK7OHOkAIf8LTVNPRkZJQ0U5LjAX
+AAAAC21zT1BNU09GRklDRTkuMEI8pPUAIf8LTVNPRkZJQ0U5LjAVAAAACXBIWXMAAA7DAAAOxAGI
+Lj6jACwAAAAArgBNAIcAAAAAAEAAAIAAAP8AIAAAIEAAIIAAIP8AQAAAQEAAQIAAQP8AYAAAYEAA
+YIAAYP8AgAAAgEAAgIAAgP8AoAAAoEAAoIAAoP8AwAAAwEAAwIAAwP8A/wAA/0AA/4AA//8gAAAg
+AEAgAIAgAP8gIAAgIEAgIIAgIP8gQAAgQEAgQIAgQP8gYAAgYEAgYIAgYP8ggAAggEAggIAggP8g
+oAAgoEAgoIAgoP8gwAAgwEAgwIAgwP8g/wAg/0Ag/4Ag//9AAABAAEBAAIBAAP9AIABAIEBAIIBA
+IP9AQABAQEBAQIBAQP9AYABAYEBAYIBAYP9AgABAgEBAgIBAgP9AoABAoEBAoIBAoP9AwABAwEBA
+wIBAwP9A/wBA/0BA/4BA//9gAABgAEBgAIBgAP9gIABgIEBgIIBgIP9gQABgQEBgQIBgQP9gYABg
+YEBgYIBgYP9ggABggEBggIBggP9goABgoEBgoIBgoP9gwABgwEBgwIBgwP9g/wBg/0Bg/4Bg//+A
+AACAAECAAICAAP+AIACAIECAIICAIP+AQACAQECAQICAQP+AYACAYECAYICAYP+AgACAgECAgICA
+gP+AoACAoECAoICAoP+AwACAwECAwICAwP+A/wCA/0CA/4CA//+gAACgAECgAICgAP+gIACgIECg
+IICgIP+gQACgQECgQICgQP+gYACgYECgYICgYP+ggACggECggICggP+goACgoECgoICgoP+gwACg
+wECgwICgwP+g/wCg/0Cg/4Cg///AAADAAEDAAIDAAP/AIADAIEDAIIDAIP/AQADAQEDAQIDAQP/A
+YADAYEDAYIDAYP/AgADAgEDAgIDAgP/AoADAoEDAoIDAoP/AwADAwEDAwIDAwP/A/wDA/0DA/4DA
+////AAD/AED/AID/AP//IAD/IED/IID/IP//QAD/QED/QID/QP//YAD/YED/YID/YP//gAD/gED/
+gID/gP//oAD/oED/oID/oP//wAD/wED/wID/wP///wD//0D//4D///8I/wD/CRxIsKDBgwgTKlzI
+sKHDhxAjSpxIkSKAihgzatzIEePFfx8HAhjZsaTJkygjfgwJciTJlDBjyuS40iDLmThz6kRY0+bO
+n0B19ix4M6jRoxtr3iyq0KVTpkij5nQJ0mfDlwQvQpXKFeVWgV/BQh3atazXhV+xHgxJ1axbmmgT
+hq1KVO3buyWZ2uUpF6/fjkW1Xm0696/hvlnBDo57uPFDlmwXM3ZMGTFdxQwLX67MWSRmzzydPu5M
+umpgm2r3ytVcuqtqyHpbjm7deKxYxKpD0/6bW3DTrKxZ797pG3Vm1LkTDy9LVmThtJmFL08Zmehm
+y7onTwcK2fp1vsfRSv/frnGp8u9rHSYHTX7m6c/oraoPnxDEQBD226tMf13v0/XyrVYfQfnpN196
+7znnk3AAopffgwYeuFZst/HX4HnYCQThPwVGmCFwfK0H22Nh3bRhhx4GaN1Ycy3VVnS/EWgffil+
+CJp/kqkYI3g1XrVVdYk9R5h6P47XHnTsYSakeBJO2COP/CUJ5I5MwmhjjUie1x19OVIZ5JNJ6kiX
+eaG9SGSXl104XJYr6mimmWhG+Z2RlbFZl5yvVdgkblAe6aV3ViU34p7Z9TmdnXciqJ1YDYoIn5i0
+Ifqlk4sCNxc4UKZF51uSgoapcVwWehA4pH76aHzNkdYpZqW26uqrsMb/KuuspJ566palrbqZqUrG
+aeOrbCbIma5kfrbkbAQBy5htw/6JobHPGmplQeCspKmzfhFrIaCW/ieRXbyi95KuZmmrKLeyeQcn
+fQCEu5ld5HJlLqWA9gYiRIK5O6a0Ybo1L6gLIvqUj//omy6/tsqLbcKmiYqwnhbqm2q0FEf1r7r0
+Lnwvt+GmpvGmZ13J8JSKHRvqTdVOfO3DxC0s6LMTQ5pdUZ++7LJUq9qJq8lnGoQpgCWKjFPOf07J
+82A0W6txfAe3LLKkzRX5X6NSdrx0vKCOR/SVxfW7brfC7usuuVhjjO/NT1MIMZEqfyTx1UsHSqK9
+D3eqdEVf12Qw2XHftYisaP0GLvjanoHMbWoGM920zIorpxmLNteNquFy+/xjpRUzPGmo6r75sa1q
+qgTVzwIKHa+aUAMup3xhn8RUzZ+bDpfsLXmMXbEx0Ty44hdP1HvtkcNHObIC8fr77iAfr6Tn9f7E
+ktW0S+577NKq7nhQIY1N/ero+qq5tqp37Xzx3GfOO9zIb++m9dgXLP375SsI/NT012///fjnr//+
+I5XK//8A1B+YKpI4Tg1vgIc5IAIdExAAOw==
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image049.gif
+
+R0lGODlhQQAoAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIAAwA8
+ACIAhQAAAAAAAAADCAsLDQAAAwgKDQoEAA0IBAQIDQ0LCwgDAAMGCw0LCgQAAA0KCAMAAAMDAwAE
+CgMABAQEAAsGAwAABAgGAwoGAwsLCwoLDQMAAwgICAgGCgsGBAgECAMGCAQECgoEBAQAAwgGBAsI
+CAQGCAMECgoLCgMDAAQABA0ICAECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwb/QIBwSCwaj8WDYCA8EArIqHRKFRqe1gCiyu1GEwot
+ABxYeM9oRqMMcDwgEbSc65BM4pSKZTnvRykCFwIYChEHFRl+ikUGCw4aGw8Ij1CLi2oIahCIYGaW
+ipQABgFxoqWffXWJFGIAhxYBWGMcqJYdBQkeAwcfILWLtwcRFMOnv3OjiCEZDL7HfbcMIiMBpFLS
+UMLPitiuxmNh1dXf20Td2l7i6uvs7e7q599k6uTlQpiiAiSV9l5q1SUe8Hl2YJw/Z3O6EQllxIEJ
+IqNkNXzYR+EQfEkGukIkxaEfVUUwDkE3pFG/OifWeMI2agsAVtYKiuP4zA1HA3GkoUBwKNERVpP2
+GKTwiU2NGZA/PZUT6hNMpgZbkBoBunToPREF8DGcqnSbQpxtNEARyajrs3/VXIJ0eoStkQS0+p0h
+1qSXXC8HFqgoQIzuXS7LhCxr9peLTJ4GAQQBADs=
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image047.jpg
+
+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
+eh7ArpU+7+J/nRQB/9k=
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image045.gif
+
+R0lGODlhPQArAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIABAA3
+ACQAhQAAAAAAAAMGCwoEAAsGAwAAAwgKDQ0KCAMAAAADCAsLDQ0IBAAABAoLDQ0LCwgDAAgICAMA
+AwAECg0LCgQAAAQIDQMABAgGCgoICwoIDQMGCAQECgoEAwMEBAoEBAgECAgDAwQAAwoLCgMDAAQA
+BA0ICAECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwb/QIBwSCwaj0OCAAkYBAoGpnTKPCASiuOC0aB6vwDH
+I8A9DpbgNHNRgESixEVgTu6q7+GHZEKpmNF4eFsNYoBEZ4F4fHQBWEaIiWqDQpNFkJFfhUNWfpaG
+mFMHFnZCiANlYp1FDhegXwSqQw4YABMZAAsaG65fA45EHAbBBBLEvFNidUUHHbseDRO7x4EDfnIB
+EtN4Dh9Z2pELn0VyAnKx318Hb0KipHmM2OhESrhL1Wnw+fr78PQLfvdkjWGUTR6lbLAcgIBj0IsT
+AQ8bSiQyIQRDdusePbmorSJHPudwlWnYrgjIR+K+iRJBIQAaj06sMRqJzkqZAdkqjqhQ6ZLBSwkk
+7Hjks6Rkk5QdgwpJddKoT3lAhVpsmvEpOo+lsqmLcvLoxEVzOpVMlSdkmFYTpxjDpSutlHAlDBBb
+6/bIMyHPotVFco3nnIJBAAA7
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image043.gif
+
+R0lGODlhPAAoAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIAAwA3
+ACIAhQAAAAAAAAMAAwgKDQMABAoLDQMAAAADCAsLDQ0LCgQAAAQIDQ0KCAMGCw0LCwgDAAgICAQA
+Aw0IBAAABAoEAAAECgsGAwgGCgMECgMGCAQECgAAAwQGCwoEBAQABAoEAwgDAwoLCgMDAA0ICAEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwb/QIBwSCwajwCGYEBkEArIqHR6ZBgOiGFCsaB6v0Zr
+oDF0PMjgtFcJMXQBZrR6jkxEBpIJNE7vG+1MFFgAFHJ+foBwDxWEhod0SkwAWxWFj4eRQ2KOl2lO
+UJpuABYBAW8OF51+DBhEEhkaqn4SARsDFhW4spgcHQUJsbtqpLV4pYxGFrYAeaDCaltvCR7OZqXX
+yM9FFG8AH5Jf1+Lj5OXkZqcg4Nbi2dpDglkWg+9g7PT1+Vp3RZlGFMXqJSISzUgzfZ+KFNzG6ZmT
+EArGCAEEsAuta3rqWclIgZEdEQsONtI3idrEO1vIJBypbxoodAVXWmppchJKLkmWCJmZb2DHLZxM
+FvIUGLHUm4ToFHUrgookFV3MYDmVIqHBiFu53E0t4kuIL2BbkVwMeUxIEAA7
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image041.gif
+
+R0lGODlhmwAVAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIAAACX
+ABEAhQAAAAAAAAsLDQ0LCwgGCgoEAAQIDQ0IBAMGCw0KCAgIDQsGBAgKDQoEAwgDAAoGCAADCAsG
+AwAECg0LCgQAAAAABAoLDQMAAwMECgQDCAgDBAQAAwAAAwMABAoKCAMAAAMDAwgDAwMECAsKCAMD
+AAgEAAMDCAoEBAQECggICAQGCwgECA0ICAMGCgsGCAECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwb/QIBwSCwaiw/BcclsOp/QqLQ4IEyvzIIBy+16v8YD
+AnxNKMjotNq4YKydDbd34AgEIEphxC55G/cBfX98QhMUdnYVFkQJF3KMGH5LExl5XHRjAAV4mpwF
+gpKbSp9Fopp9mEyGW1Qai5JFCZFpB4qNchMbj2u3hbpDvQC5DHSsR6tHcVN7HLtQB6AAzM5DBZlG
+dHgRnACpwB0eHxIHAWMJ4OLk15rr23ne0tyYhiB2zUXDBQHGmvxOpANCUGsSARRAgUdIGTG079QQ
+eAAOcBAxQtw5CxIpWuzwymE1UPAUdnOAwJCiiCeH5CJhoFZHa1Fumew4EhGhIREyyaSQ8lmA/3se
+R66TyODiMKJGfy0RGRIkyWDIVFIwxxHnOoIQSgTCUlBP1q1SyHGLlyeqkIs7DaB1ZPYPN7PuClHw
+V4wIsotWo+wZS4SOTbBCoOm5YwkKnWgA8CauOuQAnmHFHAuA7MAfI8aKF7/KfNaR3bmJPQvREvMD
+K8lSEphQksB0YL6TQJdC5QCx5FWYbs+FaARg7dkj+/QyhHi4bADKStuB7YRSntbLBZADDPNhHUQp
+9ZUzYhT0p+5bRFYnov3aME12rgEC/G1R3W6uYBlJbuTEIvsoaco/4vIZ8y8ToADAAilgEMEWYkS0
+BX5gJKDCEQOsoAR+Oe3nRIVQkLYGC25sUzlCCyuUIEEbAbGUhgv6CWFfhIVZ6OIlVgzIgH0NiCAA
+iQ78x4Vz3H2w3YtAcpFcHG0sQIIdBsSRYBAAOw==
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image039.gif
+
+R0lGODlh+wAyAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIAAwD3
+ACwAhQAAAAAAAAADCAsLDQ0LCgQAAAQIDQoEAAAECgMGCwsGAwQDCA0LCwgECAgDBAoLDQ0KCAMA
+AAAABAQAAwgKDQ0IBAQECggDAAoEBAsGBAQGCAoEAwAAAw0GAwMGDQAECAgGCgMAAwMECgMGCA0I
+CAQGCwQICwADBAADAwMDAAMGCggICA0KCwMDCAgEAAsIBAoIBAgGBAsEAwoICwoIDQMEBAgDAwME
+CAECAwECAwECAwECAwECAwECAwECAwECAwb/QIBwSCwaj0hkRTBIOp/QqHRKrVqvWCKhYMh6rwfE
+d0wum8/oQwLNBlS67bh8Trcq4HUsYdHM+/+AaAwNfYFSd4aJiotQb4xODA4PRRAReEIKEpNlBBMU
+SAoBAZeGlaSZm49eBBaqSKxGlZpEFaNlDBe2sZaqsqluuq5ZGL/CbmtFWwFiQ6ZltQHIRQpMqsrM
+Qs7GWBmf20KOyQUaEdJb0qsFCGFH7Nbj5UPn31fh3xukAFsGFRze82MU+KNWCEAoUaLyAdrX718B
+dPSkdPAQEZ+RfQAOzAKYbk1DI+4eYdQ4iWNEiRTpWRTXBRcTk1dwIUwIEqIijC4HwDz5ZGLF/3wY
+9anDZRPkTFHYKi0DQBQkNkZBtyBoyhPlz4tcmkX4cKEoFYHeMj4VEhJq1mxbu1a1eqVTWDTdsF6C
+pnAKrqeoiNz1Ai3aNH9D+toMCo4mFsFGEAdGKE1mAMDyPDmxR0Vm3TFxk0mmNeogHAYgpEAI8dat
+AmZUi4BuBBigzFluWj/U/BaYAc9CVj/5aJL37NifAJ4GB9ny5MuTRXnFXPsJBBG0RrTim4BE8+Fu
+pD/hWAG2m42/vxdL8jz69CTcYad/sF61WmB+k1CWIrXsmcxTag1EgH3Y+GPWndafEt4R1t0kB8pz
+VhT6USDgWIkVeFaCQjAkISnz1AchLciBMv9QNWzgRwUEJRADC1+GDUGMECaeRxaIBsHYHkEKLocE
+iS0WcQCMNFb4W49CJQCkSQc89glYQCbWIVYeQQZXc04c5A80G5JBF5XT8ChjeHkNGd4TUlKAJRFA
+eomMmWbmlgt4TUIJzpJ65TITnEgUeRQzIq4VhZd40MjnHH/GWMg+gWplgpwIXTafcxEsldoZK+kp
+BYUAjBYWjZRaOkempIHjnaWcNnfACY2K8WgRPk0B1hD2UWHnTMxEKsRRtNZq66245koreguWWQ1h
+QOqKK699ggjsS73CyCoKTrY6RKpR7DVEXk9K+tUs2mACYl7ZysEtL9NiC+63XQRVSQp4eVf/xKLk
+dRqZmyRy46a1A2KSKFkqIArHQcGYUa9B92Z0ZsD2pqiUKBq4W+FmSpJBUgYriHAHCwNA3EJBUOTp
+b4psdEvgf1XgBoXHR1Daxr/shryvAC6o0MALtwkAMxUak0EyGv+2Y6No4O5ZpY47f1FBdbWlXMWO
+FVNADAYwGNCN0UfUHJCy1kZJtaQrNuzFaw9sQEE3GcTgtJh0CiH1F85W3c7PVdG1btmAyEoGvxyr
+TeZRcPME7TZyl5G23UT8DTgAexvTt8NB263G4EkULszhYwg+uOR2O+4K5GizPbnmlaf0jQyemyEt
+40aMTjoRlqsyNBun5hYa4K0z9brdZ0PlmaIgM+hDQ3a3281A7gTsXoF2vksSUSQgk+G11w+eDsDy
+DvLHOT0nRoRIHBDU0EqOp2e/PXu96wm1SHzIcUAXY55+PnzTbzMIxt+Mn8X7zqtGyOnXAwCxxOh7
+1EXWgfBaG1ZXP1okjicE1FbLGuACBHSDATZIQd5Ed4GrFfCCZJBKEbpBjA3cIGk5waAIR2gEr4Et
+BQnx2uqCAAA7
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image037.gif
+
+R0lGODlhXQAUAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIAAwBY
+AA4AhQAAAAAAAAMGCwsGAwAECg0LCwgDAA0KCAMAAAADCAsLDQoEAAAABAoLDQMAAwgKDQ0LCgQA
+Aw0IBAAAAwgICAQAAAQIDQMABAQGCwsGBAMECg0KCwMDCAgEAAMGCggECAsIBA0ICAoEBAoIBAoE
+AwgGBAECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwb/QIBQOBAMj8ikckkMBAjLgRM6lD6HBcM0WWQCDoiE
+wksuL8SABfV4HquF7TT1nTUOwWhlNsBolP9KBw4PQhARhHeDhYeCiIaIQ29Ce31LEhMUioCbRHl1
+RwOeBgKhYwCfVQF2AJeZkEdZBBAVFpyckqejbGt1uKhSE5Cxs7VJEn2otpNaTltwvLqR0AK+0UIS
+qtfI1kOzzQF5ymSlhbSgecTkAMRIpd7N4dp+rJXie99rBxfz+vNC/f/2AfyyD4kEMcfmJYRlDUwx
+cWToGFgjLdccKLHWmauTzOGRgXBWJTmAASIcJ6sencwWCeUdBC5BphHpZUGfDBQ0DLCwQQFORA6m
+TF6LJ1TJAIpcioXq4OEDCAuhnhaF83CqMQEhXiVpk+GBiAYiRljoKqGq1bNIvnqh1IDEg64ZSox9
+UBatXYNOLAQBADs=
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image035.gif
+
+R0lGODlhbAAsAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIABABn
+ACQAhQAAAAAAAAMAAwgKDQMABAoLDQsGAwMGCwoEAA0KCAAAAwMAAAADCAsLDQ0LCgQAAAQIDQ0I
+BAAABA0LCwgDAAgICAQAAwAECggGCgMECgMGCAQECg0ICAQGCwoEBAsGBA0KCwMDCAgEAAMGCggE
+CAsIBAoIBAoEAwgGBAoICwoIDQMEBAECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwb/QIBwSCwaj0hjQjAgJgiFpDRpOCQRAUVzyu12EwtG
+Y+h4QLzf8NgYkUTR8PgQHLAKJxS73IgPuI8IenuDU0sVC2cAeIKEABEKFUxFEQGVfm+NmWQWA21R
+i5qKFBdliUWBoalCDpwACGKujIOeoEaoqqGsTXgXsVx9lgG9ZA/BsKeyuHtLW2UXt42eQtLIyprM
+cwt1mbUAYKZD0NaDT5jeiAAGlYkTGF7lROKi4EPtR1Xj7xlEERobmgaGFQk4zZ8SNfm6UNISkGC0
+Axy2DIkAcUBDgXcoXEr4roOHAg7+Nfp4hCSAjyEnQZLEkUolLZSEZYpJj2ZMjLxKtdyZilYerkLA
+LGHkmaqMsTVEk8KhRk1O0EoYg0mdSrWq1atYK3X7prTrFyjxkglJ0MGrWSQI3HyokMEABBAN1oZA
+2hWLFqVuhRhgIGIEiRIQ9gI221Tpq7gDPnowAeFDJ3pE5fHs4+bEAMcfUDR+3DVmpT9nQ6MVK7q0
+5NKoT6MWrXr12dauu+KBrMhdbK8TUgBwoMKRwdteLVu+CNxrghX/UIosbvjMTeZKJ5CgC10pxXFB
+AAA7
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image033.gif
+
+R0lGODlhLAAkAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIAAgAn
+AB4AhAAAAAAAAAMGCw0KCAMAAAADCAsLDQ0LCwgDAAsGAwAABAoLDQ0IBAAAAwgICAMAAwgKDQAE
+Cg0LCgQAAAQIDQMABAoEAAoEAwQABAQAAwMDAAMDCAoLCgECAwECAwECAwXFICCOZGmeiXCubCsO
+RGG4tHsggbLU/Mk0jgekRxTdIpIJpUhk6G4qZi0ZqAZkUppzB9hmW9ARbPldDSpckSVaJlp0bVqC
+HKdZsKNblV3Ww0cXQz9DRjhWARFfEhhca3Uni1wpeYZWiSOHmZpVEhlDkY8mnRoBDYShJKCokIxS
+nacvQiYDGzNMryVJdHVnaSK6qGccEwFRrxYBu18wcBaJoxRebaqvSSq9cao3FMDY060A1UoAA7LT
+nmqJ5Z/j08RVZNjbIiEAOw==
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image031.gif
+
+R0lGODlhZAArAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIABABf
+ACQAhQAAAAAAAAMAAwgKDQMABAoLDQsGAwMGCwoEAA0KCAAAAwMAAAADCAsLDQ0LCgQAAAQIDQ0I
+BAAABA0LCwgDAAgICAQAAwAECggGCgMECgMGCAQECgoICwoIDQoEAwQGCwoEBAMEBAgECA0ICAEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwb/QIBwSCwaj8OEYEBMEArIqHRoOEgRAQVzyu0KEwtG
+Y+h4QLxosBgZkUDR8Cg4YBVOKPV49B5wIxF5eoJfAhULZwB3gYNEEQoVS0YRAZR9b4xwDhYDbVCK
+mEV3F2WIRoCggppMCGunqEKdn0eur2iqiRQXALRTfJUBumQPv2umi7VTSltlF7yYnbB+xshpkV8L
+dK+yAGClRM7Uck9Nh0IGlIgTGGnjQ6cI0nfeQ+rhaRmNGhuoBvN2HAAcdAAQQZ89NJO0GLiw8BWr
+MUU8DJC4sKGRKgePJPgAooCDfZj4SGsSYl/Hj0bUQMx4LgsnSsEy7jozCVgoCpZk6pQyQcTKiyOO
+IG3ZSbTRMSKiSBVd6iUWHp44f8VkSq0MsZ96fmndyrWr169gfxGUBg2Jr0pTqWp7es2fWqZOLu2y
+YvGt3SIRDowYaheLFrUd7w4pq7am26XgBFOtSWmkYrWJHzONLLko5co7L2OWqXmzPXlH6nneabEg
+yNEZ8+6tmBY1tcAATp52Hc5wzdaDggAAOw==
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image029.gif
+
+R0lGODlhnwA5AHcAMSH/C01TT0ZGSUNFOS4wDQAAAAFzUkdCAkDAfcUAIf8LTVNPRkZJQ0U5LjAY
+AAAADG1zT1BNU09GRklDRTkuMBACIMXeACH/C01TT0ZGSUNFOS4wFQAAAAlwSFlzAAAOxAAADsQB
+lSsOGwAsAAAAAJ8AOQCEAAAAgAAAAIAAgIAAAACAgACAAICAwMDAgICA/wAAAP8A//8AAAD//wD/
+AP//////AQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDBP/w
+yUmrvTjrzbv/YCiOZGmeaKqubOu+cCzPdG3fI6DvfO//QCAmSCwadcOjcgnYAA7QqHRKrVqpzcvz
+yu12s5atd0w+gIfl9BetbmPZ7rjZKZefKeK6+j7J68t8FX5/Y4EPg4RrWolphn2MgHCQimGThXRT
+OomamZJQnJ+IVaBmg4ameaRcpKpzGn48f7FSp5k7oa1Yt6WqtbS7s6vAu1GOErDEdsmulb+cwVez
+0MyCts/Lo8O9mL+bpp6l3YWp34u24l6s5RmilrTg7p3m8VbGh/TR8PjUePuj3P6K6cPnC52eVvba
+0SsY8JOnaW6mJWz4bh5FhrwUkpEIsCHGgB//c0VcN3BhyXgf/U2k6NCix5PuVrJMuY8mwY4gYVqy
+afIVy5bNZuqcJPPiUEg8UeJUeZRR0phLazbdNJVQ0Zcuc2Zl6vPn051VZUW9uVVqWbLsfvJ75DXs
+wbE9gxo9G9dtna9E7dqBq5RuX7mhvL3pKtQvVJcQ23AkPBewVsCJ9yy7+rha26wiFZM0DJZzXs9I
++R52zJW02bTnrG5mazBz6sDyHKvbSG4w6mLYNG9DrE1jRlywHvZON7zibeCyJgu/5hr5b+OWcTP3
+LU05Y9jJbUfHbVBY97XHdH2vVzu23jh4Q4N2KrqzabTbsR6XH79yv8vz7bNuXL/0+Yj/KRbgKR5O
+MGEgEUkcqGAPCS7oIA4QRijhhBRWaOGFGGao4YYcdujhhyCG6EIEADs=
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image028.gif
+
+R0lGODlhYwArAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIAAwBe
+ACQAhQAAAAAAAAMAAwgKDQMABAoLDQMAAAADCAsLDQ0LCgQAAAQIDQ0KCAMGCw0LCwgDAAgICAQA
+Aw0IBAAABAoEAAAECgsGAwgGCgMECgMGCAQECgAAAwQGCwoEBAsGBA0KCwMDCAgEAAMGCggECAsI
+BAoIBAoEAwgGBAoICwoIDQMEBAECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwb/QIBwSCwaj8ikcnlkCAZEBqHArFqvWCvDcEAME4pF
+dkwuK7eBxtDxUJvf8KwTYhAD2O64fn9MRAYSE1R4fIWGflAUXQAUeYaPb4h3DxWMjpCYck9CYBWN
+maCaUEJol6GnSFJUQ1tiFgEBdg4XRxammK8BlUUWgkO5u1gMGEQSGRpGW4uhil4UwYwBvoyLz2MS
+ARsDFhXcRWzSq5lOo5KsUwDknH9kDBwdBQnIxRsQm6AWy4RDgVT5XpNuJcmlDZsuImwqgLGTyZqQ
+fUL6MQoGcU+/imPAwYIFbeKaNkT+eXwIkg+YjQGW4Vq2MOQikQBaEkFJs6ZNABJxTiOjcWNHtVWk
+0P1aBDSdUD0QW53hAMdawiISljmlVKiokE8UfHmAgMHCgg8ItoIAOIYCLDeIzGYbpVbgI69DQ4gY
+QWJBvroWVb4xq81MMwAeBsDrUGJBYAkMmyY2k5Png3AATAwI7OGEYUCLUS35pMed5jgGYe38TPoI
+59KoTbtNTfo069euX6eOLZs0m8x3aNVG5QBFzBQ4j+3WLFkyN2/DTzFQgQyevOSoKIgx2BH6Iwcj
+yFo/JWE1gCAAOw==
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image026.gif
+
+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
+ZkxcNSNoPSckIAA7
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image025.gif
+
+R0lGODlhrQAoAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIAAwCp
+ACIAhQAAAAAAAAsGAwAECgAABAoLDQ0KCAMAAwgKDQMABA0IBAADCAsLDQoEAAMAAA0LCgQAAAQI
+DQQAAwMGCw0LCwgDAAgICAAAAwQGCwYEAAgGCgsGBAMECg0KCwMDCAMGCAQECggEAAMGCggECAsI
+BAoEBAoIBAoEAwgGBAgDAwMDAAMECAECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwb/QIBwSCwaj8ikcskkCgKBgVFAKAyfUaPhgCAaEtam
+eEwulxXQwIJhHjfWgIZ02AhUhW+2vGhwwIUPEBFthIWGSnmHTVtdAA8SjUJfVoyAkF4OARNDFBWb
+iqChY5OiSgJ/nZ9CCnenbACpXgcWDoOwnqW5ukQKF5G7dHO3qgCsVntCsUOPCMbDwNCiWHZhu8jP
+V3DXypZdiQ3E0eKHDXe7roCCTnDojurLl51S4OP1h4G2uqQA+0Lo+/34cUk3gJ69g2bwQdsjr4iC
+PwwrCJM0UFKmcAgzYrLV6c8QAxhE1dEELwMUX3igYAzYZxAWjho0IkST5tMGCxwEROjA4KaH/1el
+HgI9ZIADrw8gCmGZeMUcACrVZGYLIWIEiQinrupqkA8UGl8CBoQl9I1pHXNno0oFsAFBiQIlTERo
+q6Dr2kUY3j5IaqaSo0tewHwUfFfICQRtN6CY28xu4SNYfNFkKqYdt1VOnRXThMbx48/jtuHilfmO
+34BNOqWBQjmU6tWtQRN5nWai6HDtnrLbpGATV12rgwsfDoUM8ePIkysvPqadwnVA0QngPeg3Gdqs
+gWHPIjvJ9okACWeLDkeBFJ0UUvz6GLK7e0URKQsdMj+Opjqqbubc2dPCz/cAmjGSKsyMhJKB6xVx
+ClVWYbWAVm30kV00Sx0xklMVyvILarvU1/xGW2/FxVhdEQrWWzRlFWEQOil+5AdQz6Ho2RiHJbYY
+XTMqwUw9fu1IUSP49AgYPxdxMlqA1sSmi2VH7pMKk6psQQtHRyJZio+hCcONX51EcBs8zdxxmZWh
+aJalkaoo0wsCX3YThzYYkXmIh+I4904yFdSm2ysx7tiQQXKW6ZQ44anlZqEfVRRIQXEGSogyT+QI
+SnxHdBbMLeBVRCRJjoYSCBR36KdTMdQB8FYhA7pZB2WpBhZVS09BAVOniixYVQgDtJWeCpKaQSco
+RR3FF62FgFjACSv0hEBHQ8HXKyFfIRDWWMQWUiNiKsh62ImOgqTXsNWGW+tJzUx4UBAAOw==
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image023.gif
+
+R0lGODlhXAAVAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIAAwBY
+AA4AhQAAAAAAAAMAAA0KCAAECgsGAwoEAAAABAoLDQMAAwgKDQMABA0IBAMGCwADCAsLDQ0LCgQA
+AAQIDQQAAw0LCwgDAAgICAAAAwsGBAMECgoEBAgGCggEAAMGCggECAgDAwMDAAMGCAQECgoEAwME
+CAQGCwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwb/QIBwIAgECMKkcslsLgtGJNNgPCCS0ONykFAoB4ur
+Mwm+MhrjtBpgcDzY0qQBDSi42XdDHEC8CyEREmoQE15rh05choSGfF1/gYp/hWRFdAAUFZdOeoie
+THZvmJpkYUKZDaGnpEMJFgKCo5tMjJ+2Qp2rl5KjErmySYwMVsBjw2K3SZlGzHu/qMqsDBcKz6wA
+tW1vc2kMfsmIqtiBSstRdX6AsdiUmUjcxsTgq8znpWJlTbX5fKatixEIwHMCrU6AdfOadHLXhMFB
+OUgYknk0xNKgCFWuYLCQoYCgMwAYCNKAzBOVAHSyaVlycha/irGyxKKwwYkdDh08cCCAQQGFQw8g
+EM7zJiohkwEZlDAIIcJJT5IjSDzomelbQgNCjSoNQK0AAa9ORijoiQGEEQliQWpdq2ZACZIQmrKd
+uzYLNYdHggAAOw==
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image021.gif
+
+R0lGODlhWAAVAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIAAwBT
+AA4AhQAAAAAAAA0IBAADCAsLDQsGAwAECgAABAoLDQ0KCAMAAwgKDQMABAoEAAMAAA0LCgQAAAQI
+DQQAAwMGCw0LCwgDAAAAAwgICAQGCwgGCgsGBAMECg0KCwMDCAMGCAQECggEAAMGCggECAsIBAoE
+BAoIBAoEAwgGBAECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwb/QIBQECgOCMKkcslsCgtFQ7NwQCShAakyoVhsGVan
+sHEUm8/jckObbASqaeR66ygLH5CIOQFG+5tcXgAPEoJJfFaBd4WHDgETSRQVkGICFoZ/mQV2kpRJ
+AnCbSACdhwoXDnqkk2dYb2GZZ3NCpUqgVrOrnoQLt7qZDXB/kkXFbAC5tVdqbMq8yGqeaHiqsWKi
+d3lL2NiD2oteklIN0mfUmcTFWV9hiNtl7gDx8l3ZBuRiCam0FXbWYnPEMRFgJ2CFY4qE6Htkhkix
+cgox/FPihiG4ipfGFCk3T94+LKooZBCj4cKGAhE4ECjZYdREW/5eHtpgy8OHawNAhBAxIsKmM54y
+KVYL+inApQIGkJJcQAIBiRIRNPQaSrQqkwQYmj646cTEAqkaTkSdarXslSKXHBoIAgA7
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image019.gif
+
+R0lGODlhHAAjAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAEAAwAX
+AB0AhAAAAAAAAA0IBAADCAsLDQoEAA0KCAMABAoLDQAAAwgKDQsGAwAABA0LCgQAAAQIDQMAAA0L
+CwgDAAMGCwAECgQAAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwVkICCOZAkIQToQZjsW
+qyuLxoHMs5Ao+LykAcat5yoIia2G44E0KZlEAwQakcSQKOCkye16v7MqMEUBu8bogHhcNrvfOCm5
+W7sJts1GhfcttL16fF4CR18CV4OFXlV4P1BISimFIQA7
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image017.gif
+
+R0lGODlhKQArAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAEABAAl
+ACQAhAAAAAAAAAoEAAAAAwgKDQ0IBAAABAoLDQMGCw0LCwgDAAQIDQgGCgoICw0LCgoIDQMGCAQE
+CgoEAwsGAwAECg0KCAMEBAoEBAgECAsLDQQABAQAAwMDAAMDCA0ICAECAwW1ICCOZGmSQjAQZ+u2
+hXG8dA0IiK2bReAHsp3wlhsOccZjMalDMpvL5yuhWJwSDKkp0QA4HoACJKI1SQjnCUVdLlUs5MvB
+QW6jrL0AxT5KYDJ8JwVRQ1Q+hDqGP3olZ2ErgSIOGjNEI4uYmYo/eyOTlROIZQ4bLJ+RXhscKiyo
+py8pkEavMEFMFR2ALk6oYYu2qLy9lsMiwr3HwaJ8VFYlWKhsYWORgx4EatJ8ciJydNU+C3mdIQA7
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image015.gif
+
+R0lGODlhPQArAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIABAA4
+ACQAhQAAAAAAAAMGCwoEAAsGAwAAAwgKDQ0KCAMAAAADCAsLDQ0IBAAABAoLDQ0LCwgDAAgICAMA
+AwAECg0LCgQAAAQIDQMABAgGCgoICwoIDQMGCAQECgoEAwMEBAoEBAgECAgDAwQAAwoLCgMDAAQA
+BA0ICAECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwb/QIBwSCwaj0OCACkcBAoGpnTKPCASCuSC0aB6vwDH
+I8BFDpbgNHNRgESixUVgTu6q7+GHZEKpmNF4eFsNYoBFZ4F4fHQBWEeIiWqDQpNGkJFfhUNWfpaG
+mFMHFnZNSwNleZ1FDhegXwSqRA4YABMZAAsaG65fA45FHAbBBBLEvFNidUYHHbseDRO7x4kDfnIB
+EtOBDh9Z2pgLn3EBAnKx32AHb0KipHmM2OhFSrim51Tw+fr78PQLftVkjWGUTd6QBdlgOQABx2Av
+ck7EOXQ4IURDdussPbn4rSJHPvcqOWxXBKSniewsiKBATohHJ9YYoZJnpcyAbBVHVKh0iSIJSTse
++SwhCaCnwQk/hYipYJKoUXlIgVpsmvEpOo9NsqmLYrKoxI4s53QiuTQVElYovRjDpSvtlHAlDBBb
+6xbJMyHPotVdI/ZawSAAOw==
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image013.gif
+
+R0lGODlhNwAVAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIAAwAz
+AA4AhAAAAAAAAAMAAA0KCAAECg0LCgQAAwgKDQMAAwoEAAAAAwMABAoLDQ0IBAMGCwQAAAQIDQAA
+BAoLCgMDAA0LCwgDAAQABAADCAsLDQsGAwgGCgMGCAQECg0ICAoEBAECAwWzICAOQhAQYqquQGEc
+64DAbBIoNDssDNA4rKDIlRs+IKxGpCckCp8j3qpwrAGfCRT0uZM8AleiDdkwmZYs51ZIQmdbhglE
+yUxcg3QhpWI2aYcWTERUQDt1d0kXGGtNgSJ7EFRIhiJ2T3lBe30nKgWOcAeSADI0lnoVVxkBSIyg
+lSikLVUApk1fAWitsmaslJAAvywUGrrFjBlaDRscxs1CPx0HyMjO1SoeTNgFzNbWZavfBCEAOw==
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image011.gif
+
+R0lGODlhNwAXAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIAAwAy
+ABEAhAAAAAAAAAgDAA0LCwAECg0LCgQAAwgKDQsGAwQIDQ0KCAMAAAMGCw0IBAADCAsLDQMAAwQA
+AAoEAAAAAwAABAoLDQgGCgoICwoIDQMGCAQECgoEAwMEBAoEBAgECAECAwW5ICAOQmASYqqubGEc
+rIiYSQwoS23vKxnoKxyQRWLwjqmGychCOB47BQSG5BUiBAmKpbViqzzE5OCEpmYmmg2XfoJTV2Nj
+zN1Wr26RJJ22A3x8Q3pMYFJUVWwoRXVvN1Mpe3wBfmKHXSuXMXFJk28klBQVKp88bCZ0b4YqLgcS
+oX8ChKMWjbUIgn8XAAUYAA0ZGrW1EnkpGwfHCATKwmA+ryoKHMEdFQXBzdmQNUqd2tkDHmbf5A2y
+IiEAOw==
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image009.gif
+
+R0lGODlhVQAjAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAMAAwBQ
+AB0AhQAAAAAAAAAABAoLDQoEAAsGAw0KCAMABA0IBAADCAsLDQAAAwgKDQ0LCwgDBAgDAAMGCgoI
+BAAECgQICwoKCAMDCAMGCwgDAwMDAwMDBAQIDQQGCwgECAgGCg0LCgQAAwsGBAgICAMECgoEBA0K
+CwgGBAMGCAQECgMAAAgEAAMDAAoEAwsIBAADBAQEBAQAAAQICgMECAQECAsLCgMEBAMAAwYEAAsI
+CgoGBAECAwECAwECAwECAwECAwECAwECAwb/QIAQUBAMhsikcslsOp9QACFgjFqv2KzQcDhqv+Av
+ohoum51j73nNLiQU7PjZDZfbv/S7Hot47/9PUwELDICGWA0OaoeMAImLjYaPkYwND1SQlHcFEA4R
+EpplAaOkpUIEE55+oXqoDhQVdax2nJ4Ws3oNFxgZmVkIGlAGGw0cskMNHcNJwE0FhEkeH4VDICEi
+BcEIt80jmc3N1rFIJApTAiUM4CYn5dYY3MEFoEgGKNBIk0NuKRAcKRJAMNClIpgSYPNWMHDDQkOB
+URa6DfCGUMI8hAFauFDn0EK2IR5ewJiWRJ8Qgd5WxFAg0NIqZhooahCIYIIxYBJlevNwAhgIUhks
+NgKbcmsIgQQzSD5RKBCEilEaFG5bgtEITYc0anAE4O1hAA0IRknwaQMqxgD0EBCSRk3TDRxtz4QE
+xVaTJbRyBJWih8tO3b53/gKWI3hwmCAAOw==
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image007.gif
+
+R0lGODlhoAAoAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIAAwCb
+ACIAhQAAAAAAAAMGCw0KCAMAAAADCAsLDQ0LCwgDAAsGAwAABAoLDQ0IBAAAAwgICAMAAwgKDQAE
+Cg0LCgQAAAQIDQMABAoEAAQAAwsLCwQICgoKCAsLCgoEAwQABAMDAAMDCA0ICAoEBAECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwb/QIBwSCwaj8ikcolMCJjQqHRKrVqvyAGhYMB6v+Cw
+OHlABBSLsXrNbhcZDccD4q7b79JyRDKh4P+AgAxoZU+Bh4hjfAGMAVyJkJFVg2kAlJKYmUiFQ1p+
+mqCaAxWVQhaGoWsJDXRCDIx+l2CvAbFoaxa3RQm6AAmMEUS/AcFWw8VDZcBEtLalQlqsQhIXEAwF
+GAioRBafUdTW2Nqq3txnlRaPFsXpXetF3UvtAO9D75wA4NfZ2/kTGdWmVRulgRQSC9KggCNoENej
+IqPSDJgjEMLEVuDgJTRyseKRegsrFHxGr8CGgK5gnVJSZqOSZivVKOs15FKCh4VudgGAj0jL/1bC
+cI7bFQAVzH5wIGSE2FAJH2RClBVlSvLOpXo8tWHtWeQpPGRcf7ns1NRfsKXC+h3pWIQDnaRpN5lp
+RCyMTnpgteZVC4Att71GXql1Ao/usiELCTjaiXjCQyISOqBDlXjxFMOYDQftctcfhc58yvl7vHla
+nyOdK2qxjBjlkAQRylDgmqvqNMlCCOeOjWD20KyGoWK5GxEaqeJ9y9ZOghz5G9KwZXNFm68aOK5L
+MkauBO767zrXdt5DwC6YnirjkYXOuq17temuLRWjJdxCcMgXPATYyGD+YTv27ddKgNsQaESAjQhn
+CiOGVDYVM/7Vdcd2eOiWCjOkhUKhHVpkmFVKPBdC8wFjbcxkW4go4gGHHECl6OIdeqz34ozgEfId
+jTiGsUgjHubo4yS6yPLjkFT05AmRSErhHD18JemkFLA9KSUUDAgAQotTZklECCdqmWUzWQYBADs=
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image005.gif
+
+R0lGODlhYQArAHcAMSH+GlNvZnR3YXJlOiBNaWNyb3NvZnQgT2ZmaWNlACH5BAEAAAAALAIAAwBc
+ACQAhQAAAAAAAAMAAwgKDQMABAoLDQMAAAADCAsLDQ0LCgQAAAQIDQ0KCAMGCw0LCwgDAAgICAQA
+Aw0IBAAABAoEAAAECgsGAwgGCgMECgMGCAQECgAAAwQGCwoEBAsGBA0KCwMDCAgEAAMGCggECAsI
+BAoIBAoEAwgGBAoICwoIDQMEBAECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwECAwEC
+AwECAwECAwECAwECAwECAwECAwECAwECAwb/QIBwSCwaj8ikcklkCAZNQoFJrVqvTIbhgBgmFAus
+eExGagONoeORLrvfVifEEAas2/C8vpiIDCQTU3d7hHt9UBRcABR4hY5kh3YPFYuNj5dxT0JfFYyY
+n5lQQmeWoKZGDFJNdEIWAQF1DhdHFqWPrgGURRaBQ7i6cRhEEhkaqFtdn4ldFMCLAb2Lis1YEgEb
+AxYV2kVr0FOYTqKRQ6lT4pt+YgwcHQUJxsMbEJqYFoqSjYBT98mDVbiwWctFZE2FL3UuURPyT8i+
+RcAa5tknUYy3V6+cLcxHpB9ENWwMKcAYAN8tfAg7KvIIIOUQkjBjygTwkGa0MRcxOjM3SpUvr0U8
+AQSF01BLwiPs3FAzWEQCvqWT9gyttKiXBwgYLCz4gOAqiGRYKLxqc0jsNVFmbTnS+jOEiBEkFtyL
+O9FkGbHY7iryMMBdhxIL+Eo4epfwmJo4H3wDYGIAXw8nAv8xfAqJpzxJK5cZ+Oqm5s9FLoMeHVot
+ac2iT5NOrRo069aV11CWBduUAxQtU9AsVttU48bauPX+xECFMXfwhoOiEGagM+WFHIwAC/2TBNNC
+ggAAOw==
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/teoria_file/image003.gif
+
+R0lGODlhYQDvAHcAMSH/C01TT0ZGSUNFOS4wDQAAAAFzUkdCAkDAfcUAIf8LTVNPRkZJQ0U5LjAY
+AAAADG1zT1BNU09GRklDRTkuMBACIMXeACH/C01TT0ZGSUNFOS4wFQAAAAlwSFlzAAAOzgAADtgB
+0sdwIAAsAAAAAGEA7wCEAAAAgAAAAIAAgIAAAACAgACAAICAwMDAgICA/wAAAP8A//8AAAD//wD/
+AP//////AQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDAQIDBP/w
+yUmrvTjrzbv/4AZw40iZYaqqaFa27SrPWHyVD2rTfK/hOp9wtqvgcpLiacg0kpBJaA5AdTavyskx
+aVJmr7IvMta1UKvgNBcmQgfV4LdUJBXDP+y5fay9+2BofTVLcn5ES1GJNWdajIZMjoqPkx57lENb
+N3OXcIGLnI9noqORoGqeN5amYZtOqqunsHdir7IptLaxdLlxT7ygtb9/wk24xJi+x8O7yj3GzX7B
+0HikqNN4LqTXK1mj29xt0t/PnNXm5+jp6uuiNAAH8PHyAAz19u/y+fr7/Pn09vXw8ROXpN+BfwAF
+GlzIEOE9gwRzQAQYkKHFhQ4r9ouoUF9GBh3/L4qE9zHkPHcTKZocabEkRJQbKYJkSfOgzJUkYQ68
+WZOly4069/3seXGoUE2VhLJbylTdUStJPcqcSrWq1asqn04pJUJp069gqWidEgKnzaxEi/IEGuWV
+WaNpUyZ8iQiP3IdxG64dCDXqTrR572rkW9ev0L2B/85lG0bwzMQxAY9l4dhsYrj+Tlj7URly5MWE
+W3V4i9jzvNKZBYEgLdl0PMwnC4/u7Nof6tiyu37GW/v17deN3NLuTfJ3TiLDicMGjnz3YOXGD/ad
+7fwx8bOgJwuvbjnw8uOqDUttXfu79Ny6FfOGTh63JOrqn/c2T0Z0Da9h87PTrsrkR6wABniV/3/B
+bXafR/ol6JRHmpWV3HzRBbFdfNaxlx2D6HHG3XXFtcdcePAd5qFn9E1HwoPlRRjUeBemOOJ5jW3I
+YYnBrYaiazTal56ILeKoIoghsrgehC/WZ6OM1+UIpIYUdpdXjlydiKSFQ6YWY5McYlele5RNSWSP
+H74nJZYz/rgkkzxuaZqSOh5IZpJmirmjkPK5CCZ4cqJJZ4VfqoknH+KRpOCg5vB3pG0CJqroVASu
+YeAN+BEqaaNcOOilnX7CmEmQiN4JGZsTplmnj0WaOGenmV4WZ5uQXkqqpxzduOaqt8hKYpxR6onq
+qLOWmuepp72oqq+/umDrp6uGuqeTcbHJqv8Rxw4La42Hisonprz+WaurvU7b3JtUZgtjsa2C26e4
+RtrF7a3EkmtGtN4la6m52F7LpbK72tttpvVZ4t+kABuqbr6LFgwgpd4EehDAk45VC2ueSsvvmcD6
+Jmy87XZJ76sTf/uaxT0y64+5CsU6j0CYieXTSkaprO280qFcWgk+SWQtyja/fGgXIK/Hs0g/L3tc
+ySxUU6A6RyPt6FJJa/PN01BHLfXUVFdt9dVY2xIR1ltXnXDTDIftNAk7iJwlUXZsWtDZSWLzLtvK
+uQ0t3PPJfQLddVdSLt4k2q2FP2IHzOUPe2tp8OECduRv4f8h7jhVivu9tsWBJyjf4m9TLqj/y3CL
+0mHkemf++cIBmf3kP2KhbmUydwd7RkKmo+3Q63xiPjfl5rEL++WS5/x57siqpPrgLjBe+uyx90QF
+7MOHyUzrmi8PUvKyl34W6KMZ/5jnZ6N8xujEDyL69ULNmBL2rP/t+kDKYcR76LeDXz6OetXeu+Lo
+rtnS+9mP3zz7l1GL/eAHPfltxDtA41/6JmfAA6bFbP8b1/PUp7mWoM0nCpwgA8lXlJrELoK2KyAH
+OziS5IHwfogynciod0ICUrCBFoTTAK8EwxgCEG0ZFJ/2WOhAHM6QcG6q4QMP8sAcImWHJCJJEX+Y
+DWvgT1/K+54P0Ve89zyRevMj4uZKaEQz/4Doip+ahxYxyEQdkiGFARTjGBNYxiOecX3m42IbzRAl
+MGYJgl0cmBAvw7n9zfGIIowg30RERSDGb4RPGlYhq3hIQXpQiU/Koxf9Jy4SQnKJi9RhICvZEI80
+S5KmsqPybuhBUKJHlDR5yxRXp0HfIbKEnSzlHyfZSE5mESOyzCQgX/hKG/pSgLqk5SahSEpLApOV
+hhwmBEfJxmCGEo3GTGUzkclIZUbzkX505imhiUsE1k+bS0JlMZv1TWpqkpeOVGMSz2fOXW4wnZfU
+X2TAKSdxqrM882ynMNHJKyxGcpbPhCP36Ma9FvavljORXh9nhLp3GHSBrmwo8tgmveOZMvGcKQSe
+xEp30XpmNDq6u8dDW3nFik6PosgbaTL5mdCGEtSlKq0mS/Ex0M5JMabnfOfxKgeWjormiY8LalXo
++VOCCfWoRC0b4Hg6KH0GdJCfQiFUo+rCDU71gVK96pOw8UatNosa4/OqB0fTDs0wlalVzdpq1MpW
+Z8yCYqsoBDLcVQ64Fi0QXRNCWZ+1VrpeQq7uAJQe+IoFwbJBHG4Iz6NmUQZJLJZsW+jCYztRBTlM
+9geAwCti3ZFZHWy2G4R151pBm9detJUFZGmG2v7Q2MIitrS0hK0RCBK2unSWUESQLVR0Wylw8FY1
+vF3taYd7iQgAADs=
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://digilander.libero.it/carlopala/08pilastro/pilimag/quadret.gif
+
+R0lGODlhIQAhAPcAAAAAADMAAGYAAJkAAMwAAP8AAAAzADMzAGYzAJkzAMwzAP8zAABmADNmAGZm
+AJlmAMxmAP9mAACZADOZAGaZAJmZAMyZAP+ZAADMADPMAGbMAJnMAMzMAP/MAAD/ADP/AGb/AJn/
+AMz/AP//AAAAMzMAM2YAM5kAM8wAM/8AMwAzMzMzM2YzM5kzM8wzM/8zMwBmMzNmM2ZmM5lmM8xm
+M/9mMwCZMzOZM2aZM5mZM8yZM/+ZMwDMMzPMM2bMM5nMM8zMM//MMwD/MzP/M2b/M5n/M8z/M///
+MwAAZjMAZmYAZpkAZswAZv8AZgAzZjMzZmYzZpkzZswzZv8zZgBmZjNmZmZmZplmZsxmZv9mZgCZ
+ZjOZZmaZZpmZZsyZZv+ZZgDMZjPMZmbMZpnMZszMZv/MZgD/ZjP/Zmb/Zpn/Zsz/Zv//ZgAAmTMA
+mWYAmZkAmcwAmf8AmQAzmTMzmWYzmZkzmcwzmf8zmQBmmTNmmWZmmZlmmcxmmf9mmQCZmTOZmWaZ
+mZmZmcyZmf+ZmQDMmTPMmWbMmZnMmczMmf/MmQD/mTP/mWb/mZn/mcz/mf//mQAAzDMAzGYAzJkA
+zMwAzP8AzAAzzDMzzGYzzJkzzMwzzP8zzABmzDNmzGZmzJlmzMxmzP9mzACZzDOZzGaZzJmZzMyZ
+zP+ZzADMzDPMzGbMzJnMzMzMzP/MzAD/zDP/zGb/zJn/zMz/zP//zAAA/zMA/2YA/5kA/8wA//8A
+/wAz/zMz/2Yz/5kz/8wz//8z/wBm/zNm/2Zm/5lm/8xm//9m/wCZ/zOZ/2aZ/5mZ/8yZ//+Z/wDM
+/zPM/2bM/5nM/8zM///M/wD//zP//2b//5n//8z//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAPgALAAAAAAhACEA
+AAhyAK8JHCiQFcGDCA0iXMiwoUOGCh8WlEixosOIEjFa3FhR40WOIBNeM0iSFcmRKE+WVJkypMuJ
+HV/KFBlzpk2UNW/K9NiQp86NPhcG/Ulx6EGjRD/mTNqzpUmWUEeadIqTadOlVrEqzWoR6UCvXL92
+ZRgQADs=
+
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2bd90683-3e3c-44e1-a3ff-e309f34ae8dd@mhtml.blink
+
+@charset "windows-1252";
+
+@font-face { font-family: Wingdings; }
+
+@font-face { font-family: "Cambria Math"; }
+
+@font-face { font-family: Tahoma; }
+
+@font-face { font-family: "Comic Sans MS"; }
+
+p.MsoNormal, li.MsoNormal, div.MsoNormal { margin: 0cm 0cm 0.0001pt; font-s=
+ize: 10pt; font-family: "Times New Roman", "serif"; }
+
+p.MsoHeader, li.MsoHeader, div.MsoHeader { margin: 0cm 0cm 0.0001pt; font-s=
+ize: 10pt; font-family: "Times New Roman", "serif"; }
+
+p.MsoFooter, li.MsoFooter, div.MsoFooter { margin: 0cm 0cm 0.0001pt; font-s=
+ize: 10pt; font-family: "Times New Roman", "serif"; }
+
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText { margin: 0cm 0cm 0.0001pt; =
+text-align: justify; font-size: 10pt; font-family: "Comic Sans MS"; color: =
+black; }
+
+a:link, span.MsoHyperlink { color: blue; text-decoration: underline; }
+
+a:visited, span.MsoHyperlinkFollowed { color: purple; text-decoration: unde=
+rline; }
+
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate { margin: 0cm 0cm 0.0001pt; fon=
+t-size: 8pt; font-family: Tahoma, "sans-serif"; }
+
+span.CorpodeltestoCarattere { font-family: "Comic Sans MS"; color: black; }
+
+@page { }
+
+@page Section1 { size: 595.3pt 841.9pt; margin: 70.85pt 2cm 2cm; }
+
+div.Section1 { page: Section1; }
+
+ol { margin-bottom: 0cm; }
+
+ul { margin-bottom: 0cm; }
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb----
+Content-Type: text/html
+Content-ID: <frame-FC0546542D8C0C42C183328D1ABB8AC0@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://cdn-gl.imrworldwide.com/novms/html/ls.html
+
+<!DOCTYPE html><!-- BuildVersion 6.1.0.0 --><html xmlns=3D"http://www.w3.or=
+g/1999/xhtml"><head><meta http-equiv=3D"Content-Type" content=3D"text/html;=
+ charset=3DUTF-8">
+	=09
+	</head>
+	<body>
+	=09
+=09
+</body></html>
+------MultipartBoundary--repQfyP3Vvh3cG7rNKjNQrK1I01z5yUW2xyKw8Iwdb------
