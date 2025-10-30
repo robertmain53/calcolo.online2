@@ -793,6 +793,186 @@ export const calculators: Calculator[] = [
     schema: 'WebApplication',
   },
   {
+    slug: 'calcolo-coordinate-polari',
+    title: 'Calcolo Coordinate (Trasporto e Polare)',
+    description:
+      'Calcola le coordinate planimetriche di punti rilevati con metodo polare a partire da punto stazione, azimut e distanza.',
+    metaDescription:
+      'Strumento per calcolare nuove coordinate planimetriche mediante trasporto polare da punto noto e rilievo topografico.',
+    category: 'topografia-matematica',
+    keywords: [
+      'coordinate polari',
+      'metodo polare',
+      'trasporto coordinate',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-22',
+    dateModified: '2025-03-24',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'risoluzione-triangolo-qualsiasi',
+    title: 'Risoluzione Triangolo Qualsiasi',
+    description:
+      'Risolve un triangolo generico calcolando lati e angoli mancanti tramite teoremi dei seni e del coseno.',
+    metaDescription:
+      'Calcolatore per risolvere triangoli qualsiasi con applicazione dei teoremi di Eulero (seno) e Carnot (coseno).',
+    category: 'topografia-matematica',
+    keywords: [
+      'triangolo qualsiasi',
+      'teorema dei seni',
+      'teorema del coseno',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-22',
+    dateModified: '2025-03-24',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-azimut-distanza-due-punti',
+    title: 'Calcolo Azimut e Distanza (Tra due Punti)',
+    description:
+      'Calcola distanza planimetrica e azimut tra due punti di coordinate note per la pianificazione topografica.',
+    metaDescription:
+      'Calcolatore di azimut e distanza tra coordinate note: ΔX, ΔY e angolo di direzione per rilievi topografici.',
+    category: 'topografia-matematica',
+    keywords: [
+      'azimut',
+      'distanza',
+      'coordinate piane',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-22',
+    dateModified: '2025-03-24',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-pendenza-percentuale-gradi',
+    title: 'Calcolo Pendenza (Percentuale e Gradi)',
+    description:
+      'Converte la pendenza tra percentuale, gradi e rapporto 1:N a partire da dislivello e distanza orizzontale.',
+    metaDescription:
+      'Calcolo della pendenza in percentuale, gradi e rapporto 1:N con dislivello e distanza orizzontale.',
+    category: 'topografia-matematica',
+    keywords: [
+      'pendenza',
+      'dislivello',
+      'rapporto 1:N',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-22',
+    dateModified: '2025-03-24',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-area-poligono-gauss',
+    title: 'Calcolo Area (Formula di Gauss)',
+    description:
+      'Calcola l’area di poligoni irregolari a partire dalle coordinate dei vertici utilizzando la formula di Gauss.',
+    metaDescription:
+      'Calcolatore area poligoni da coordinate con formula di Gauss per particelle catastali e rilievi topografici.',
+    category: 'topografia-matematica',
+    keywords: [
+      'area poligono',
+      'formula di Gauss',
+      'coordinate topografiche',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-22',
+    dateModified: '2025-03-24',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-aree-volumi-solidi',
+    title: 'Calcolo Aree e Volumi Solidi (Formulario)',
+    description:
+      'Calcolatore multi-uso per le principali figure piane e solide: cerchio, trapezio, cilindro, cono, sfera e altri solidi utili in cantiere.',
+    metaDescription:
+      'Formulario interattivo per calcolare aree e volumi di figure geometriche piane e solide per computi metrici.',
+    category: 'topografia-matematica',
+    keywords: [
+      'calcolo aree',
+      'calcolo volumi',
+      'figure geometriche',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-22',
+    dateModified: '2025-03-24',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-scala-riduzione-mappa',
+    title: 'Calcolo Scala di Riduzione (Mappa)',
+    description:
+      'Calcola distanza reale, distanza su mappa o fattore di scala conoscendo gli altri due valori per cartografia e rilievi.',
+    metaDescription:
+      'Calcolatore scala cartografica: converti distanze reali e su mappa e determina il fattore di scala (1:N).',
+    category: 'topografia-matematica',
+    keywords: [
+      'scala cartografica',
+      'fattore di scala',
+      'distanza reale',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-22',
+    dateModified: '2025-03-24',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-livellazione-geometrica',
+    title: 'Calcolo Livellazione Geometrica',
+    description:
+      'Calcola quote e dislivelli da letture alla stadia nelle livellazioni dal mezzo o da stazione, con compensazione errori.',
+    metaDescription:
+      'Tool per livellazione geometrica: calcolo delle quote dei punti a partire da letture indietro e avanti.',
+    category: 'topografia-matematica',
+    keywords: [
+      'livellazione geometrica',
+      'letture alla stadia',
+      'dislivelli',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-22',
+    dateModified: '2025-03-24',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolatore-trigonometrico-sin-cos-tan',
+    title: 'Calcolatore Trigonometrico (Seno, Coseno, Tangente)',
+    description:
+      'Calcolatrice rapida per funzioni trigonometriche fondamentali e inverse in gradi o radianti con conversioni immediate.',
+    metaDescription:
+      'Calcolatore trigonometrico online: seno, coseno, tangente e funzioni inverse in gradi e radianti.',
+    category: 'topografia-matematica',
+    keywords: [
+      'calcolatrice trigonometrica',
+      'sin cos tan',
+      'funzioni inverse',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-22',
+    dateModified: '2025-03-24',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-lunghezza-corda-arco-cerchio',
+    title: 'Calcolo Lunghezza Corda e Arco di Cerchio',
+    description:
+      'Calcola la lunghezza della corda, dell’arco e la freccia di un segmento circolare conoscendo raggio e angolo al centro.',
+    metaDescription:
+      'Calcolatore per corde e archi di cerchio: determina lunghezze e frecce in funzione di raggio e angolo centrale.',
+    category: 'topografia-matematica',
+    keywords: [
+      'corda cerchio',
+      'arco cerchio',
+      'freccia segmento circolare',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-22',
+    dateModified: '2025-03-24',
+    schema: 'SoftwareApplication',
+  },
+  {
     slug: 'calcolo-tariffa-oraria-professionista',
     title: 'Calcolo Tariffa Oraria Professionista',
     description:
@@ -2584,6 +2764,186 @@ export const calculators: Calculator[] = [
     author: defaultAuthors.accountant,
     datePublished: '2024-12-18',
     dateModified: '2025-03-22',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-teorema-seni-coseno-carnot-topografia',
+    title: 'Teoremi di Seni (Eulero) e Coseno (Carnot)',
+    description:
+      'Spiega i teoremi dei seni e del coseno con applicazioni pratiche alla risoluzione dei triangoli nel rilievo topografico.',
+    metaDescription:
+      'Guida ai teoremi di seno e coseno per la risoluzione dei triangoli in topografia con esempi pratici.',
+    category: 'guide',
+    keywords: [
+      'teorema dei seni',
+      'teorema del coseno',
+      'triangoli topografia',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-24',
+    dateModified: '2025-03-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'differenza-azimut-angolo-direzione-topografia',
+    title: "Capire l'Azimut e l'Angolo di Direzione",
+    description:
+      'Differenzia azimut e angolo di direzione e illustra come calcolarli e usarli nel trasporto delle coordinate.',
+    metaDescription:
+      'Guida su azimut e angolo di direzione in topografia: definizioni, calcolo e utilizzo nel rilievo.',
+    category: 'guide',
+    keywords: [
+      'azimut',
+      'angolo di direzione',
+      'trasporto coordinate',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-24',
+    dateModified: '2025-03-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'metodi-rilievo-topografico-triangolazione-poligonazione',
+    title: 'Metodi di Rilievo Topografico: Panoramica',
+    description:
+      'Panoramica dei principali metodi di rilievo: triangolazione, poligonazione e intersezione con suggerimenti pratici.',
+    metaDescription:
+      'Guida ai metodi di rilievo topografico: triangolazione, poligonazione aperta/chiusa e intersezioni.',
+    category: 'guide',
+    keywords: [
+      'triangolazione',
+      'poligonazione',
+      'rilievo topografico',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-24',
+    dateModified: '2025-03-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'calcolo-area-formula-gauss-coordinate',
+    title: "Come Calcolare l'Area con la Formula di Gauss",
+    description:
+      'Spiega passo-passo la formula di Gauss per calcolare aree di poligoni da coordinate catastali.',
+    metaDescription:
+      'Guida alla formula di Gauss per il calcolo dell’area da coordinate plano-altimetriche.',
+    category: 'guide',
+    keywords: [
+      'formula Gauss',
+      'area coordinate',
+      'particelle catastali',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-24',
+    dateModified: '2025-03-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-livellazione-geometrica-dal-mezzo',
+    title: 'La Livellazione Geometrica: Guida Pratica',
+    description:
+      'Descrive procedure e formule per livellazioni dal mezzo con compensazione degli errori di chiusura.',
+    metaDescription:
+      'Guida operativa alla livellazione geometrica: letture indietro/avanti, compensazione e calcolo quote.',
+    category: 'guide',
+    keywords: [
+      'livellazione geometrica',
+      'calcolo quote',
+      'errori di chiusura',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-24',
+    dateModified: '2025-03-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'convertire-pendenza-gradi-percentuale-rapporto',
+    title: 'Pendenza: Gradi, Percentuale e Rapporto',
+    description:
+      'Mostra come convertire la pendenza tra gradi, percentuale e rapporto 1:N con formule e tabelle di riferimento.',
+    metaDescription:
+      'Guida alla conversione della pendenza tra gradi, percentuali e rapporti per progettazione stradale e topografica.',
+    category: 'guide',
+    keywords: [
+      'pendenza',
+      'conversione gradi percentuale',
+      'rapporto 1:N',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-24',
+    dateModified: '2025-03-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'differenza-geodetica-topografia-piano',
+    title: 'Geodetica vs Topografia: Capire la Differenza',
+    description:
+      'Spiega differenze tra topografia piana e geodesia e quando è necessario considerare l’ellissoide terrestre.',
+    metaDescription:
+      'Guida alla differenza tra topografia piana e geodesia: precisione, ambiti d’uso e sistemi di riferimento.',
+    category: 'guide',
+    keywords: [
+      'geodesia',
+      'topografia piana',
+      'ellissoide',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-24',
+    dateModified: '2025-03-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'sistemi-coordinate-gauss-boaga-utm-wgs84',
+    title: 'Sistemi di Coordinate: Gauss-Boaga e UTM',
+    description:
+      'Descrive i principali sistemi di coordinate utilizzati in Italia, differenze tra fusi e trasformazioni comuni.',
+    metaDescription:
+      'Guida ai sistemi di coordinate Gauss-Boaga e UTM WGS84 per cartografia e catasto.',
+    category: 'guide',
+    keywords: [
+      'Gauss-Boaga',
+      'UTM',
+      'trasformazione coordinate',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-24',
+    dateModified: '2025-03-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'spiegazione-cerchio-goniometrico-trigonometria',
+    title: 'Trigonometria Semplice: il Cerchio Goniometrico',
+    description:
+      'Ripasso sulle funzioni trigonometriche tramite il cerchio goniometrico per applicazioni topografiche e geometriche.',
+    metaDescription:
+      'Guida al cerchio goniometrico per comprendere seno, coseno e tangente con esempi applicativi.',
+    category: 'guide',
+    keywords: [
+      'cerchio goniometrico',
+      'funzioni trigonometriche',
+      'topografia',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-24',
+    dateModified: '2025-03-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'formulario-aree-volumi-figure-piane-solide',
+    title: 'Formulario Aree e Volumi: Guida Rapida',
+    description:
+      'Raccoglie formule essenziali per il calcolo di aree e volumi utili nei computi metrici e nella progettazione.',
+    metaDescription:
+      'Formulario rapido per aree e volumi di figure piane e solide, utile in topografia e cantiere.',
+    category: 'guide',
+    keywords: [
+      'formulario aree',
+      'volumi solidi',
+      'computo metrico',
+    ],
+    author: defaultAuthors.surveySpecialist,
+    datePublished: '2024-12-24',
+    dateModified: '2025-03-26',
     schema: 'WebApplication',
   },
   {
