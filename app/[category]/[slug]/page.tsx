@@ -103,8 +103,10 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: CalculatorPageProps): Promise<Metadata> {
+  const categoryParam = params?.category ?? '';
+  const categorySlug = categoryParam.toString().toLowerCase();
   const calculator = getCalculatorBySlug(params.slug);
-  if (!calculator || calculator.category !== params.category) {
+  if (!calculator || calculator.category !== categorySlug) {
     return {};
   }
 
@@ -153,21 +155,23 @@ export async function generateMetadata({
 }
 
 export default function CalculatorPage({ params }: CalculatorPageProps) {
+  const categoryParam = params?.category ?? '';
+  const categorySlug = categoryParam.toString().toLowerCase();
   const calculator = getCalculatorBySlug(params.slug);
 
-  if (!calculator || calculator.category !== params.category) {
+  if (!calculator || calculator.category !== categorySlug) {
     notFound();
   }
 
   const fullUrl = `${siteConfig.url}${getCalculatorPath(calculator)}`;
-  const categoryMeta = categoryMetadata[calculator.category];
+  const categoryMeta = categoryMetadata[categorySlug];
   const CalculatorComponent = calculatorComponents[calculator.slug];
 
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', url: siteConfig.url },
     {
       name: categoryMeta ? categoryMeta.title : calculator.category,
-      url: `${siteConfig.url}/${calculator.category}`,
+      url: `${siteConfig.url}/${categorySlug}`,
     },
     { name: calculator.title, url: fullUrl },
   ]);
@@ -232,7 +236,7 @@ export default function CalculatorPage({ params }: CalculatorPageProps) {
             Home
           </Link>
           <span>/</span>
-          <Link href={`/${calculator.category}`} className="hover:text-blue-600">
+          <Link href={`/${categorySlug}`} className="hover:text-blue-600">
             {categoryMeta ? categoryMeta.title : calculator.category}
           </Link>
           <span>/</span>

@@ -28,8 +28,9 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: CategoryPageProps): Promise<Metadata> {
-  const { category } = params;
-  const meta = categoryMetadata[category];
+  const categoryParam = params?.category ?? '';
+  const categorySlug = categoryParam.toString().toLowerCase();
+  const meta = categoryMetadata[categorySlug];
 
   if (!meta) {
     return {
@@ -37,8 +38,8 @@ export async function generateMetadata({
     };
   }
 
-  const calculators = getCalculatorsByCategory(category);
-  const url = `${siteConfig.url}/${category}`;
+  const calculators = getCalculatorsByCategory(categorySlug);
+  const url = `${siteConfig.url}/${categorySlug}`;
 
   return {
     title: meta.title,
@@ -69,9 +70,10 @@ export async function generateMetadata({
 }
 
 export default function CategoryPage({ params }: CategoryPageProps) {
-  const { category } = params;
-  const meta = categoryMetadata[category];
-  const calculators = getCalculatorsByCategory(category);
+  const categoryParam = params?.category ?? '';
+  const categorySlug = categoryParam.toString().toLowerCase();
+  const meta = categoryMetadata[categorySlug];
+  const calculators = getCalculatorsByCategory(categorySlug);
 
   if (!meta || calculators.length === 0) {
     notFound();
@@ -80,7 +82,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
   // Generate breadcrumb schema
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', url: siteConfig.url },
-    { name: meta.title, url: `${siteConfig.url}/${category}` },
+    { name: meta.title, url: `${siteConfig.url}/${categorySlug}` },
   ]);
 
   return (
