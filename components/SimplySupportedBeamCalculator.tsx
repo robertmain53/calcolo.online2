@@ -300,7 +300,7 @@ export default function SimplySupportedBeamCalculator() {
               className="calculator-input"
             />
             <p className="text-xs text-gray-500 mt-1">
-              Interasse netto tra gli appoggi semplici (0 &lt; L <= 30 m).
+              Interasse netto tra gli appoggi semplici (0 &lt; L &le; 30 m).
             </p>
           </div>
 
