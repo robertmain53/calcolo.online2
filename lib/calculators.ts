@@ -577,6 +577,186 @@ export const calculators: Calculator[] = [
     schema: 'SoftwareApplication',
   },
   {
+    slug: 'calcolo-portata-velocita-diametro',
+    title: 'Calcolo Portata-Velocità-Diametro',
+    description:
+      'Calcola portata, velocità o diametro di una condotta pressurizzata a partire dagli altri due parametri tramite l’equazione di continuità.',
+    metaDescription:
+      'Calcolatore per portata, velocità e diametro nelle condotte con l’equazione di continuità Q = V·A.',
+    category: 'ingegneria-idraulica',
+    keywords: [
+      'portata condotta',
+      'velocità fluido',
+      'equazione di continuità',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-05',
+    dateModified: '2025-03-10',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-perdite-carico-darcy-weisbach',
+    title: 'Calcolo Perdite di Carico (Darcy-Weisbach)',
+    description:
+      'Stima le perdite di carico distribuite e localizzate di una tubazione utilizzando la formula di Darcy-Weisbach.',
+    metaDescription:
+      'Calcolo delle perdite di carico in tubazioni con fattore d’attrito Darcy-Weisbach e coefficienti localizzati.',
+    category: 'ingegneria-idraulica',
+    keywords: [
+      'perdite di carico',
+      'Darcy-Weisbach',
+      'tubazioni',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-05',
+    dateModified: '2025-03-10',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'dimensionamento-rete-idrosanitaria-uni-9182',
+    title: 'Dimensionamento Rete Idrosanitaria (UNI 9182)',
+    description:
+      'Determina il diametro delle tubazioni di adduzione acqua calda e fredda in base alle unità di carico previste dalla UNI 9182.',
+    metaDescription:
+      'Calcolo diametri rete idrica secondo UNI 9182 con unità di carico e velocità consentite.',
+    category: 'ingegneria-idraulica',
+    keywords: [
+      'UNI 9182',
+      'rete idrosanitaria',
+      'diametro tubazioni acqua',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-05',
+    dateModified: '2025-03-10',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'dimensionamento-rete-scarico-uni-12056',
+    title: 'Dimensionamento Rete di Scarico (UNI EN 12056)',
+    description:
+      'Calcola i diametri delle reti di scarico per acque nere e grigie basandosi sulle unità di scarico e sulle pendenze minime.',
+    metaDescription:
+      'Dimensionamento delle reti di scarico secondo UNI EN 12056 con unità di scarico e pendenze minime.',
+    category: 'ingegneria-idraulica',
+    keywords: [
+      'rete scarico',
+      'UNI EN 12056',
+      'unità di scarico',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-05',
+    dateModified: '2025-03-10',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-prevalenza-pompa-autoclave',
+    title: 'Calcolo Prevalenza Pompa (Autoclave)',
+    description:
+      'Calcola la prevalenza totale richiesta da una pompa sommando dislivello geodetico, perdite di carico e pressione richiesta al punto di consegna.',
+    metaDescription:
+      'Calcolatore della prevalenza totale per pompe e autoclavi: dislivello, perdite lineari e pressione di esercizio.',
+    category: 'ingegneria-idraulica',
+    keywords: [
+      'prevalenza pompa',
+      'autoclave',
+      'curve pompa',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-05',
+    dateModified: '2025-03-10',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'dimensionamento-pluviali-grondaie',
+    title: 'Dimensionamento Pluviali e Grondaie',
+    description:
+      'Determina diametri di pluviali e sezioni di gronda in funzione della superficie tributaria e dell’intensità di pioggia secondo UNI EN 12056-3.',
+    metaDescription:
+      'Calcolo pluviali e gronde: superficie di raccolta e piovosità di progetto secondo UNI EN 12056-3.',
+    category: 'ingegneria-idraulica',
+    keywords: [
+      'pluviali',
+      'grondaie',
+      'UNI EN 12056-3',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-05',
+    dateModified: '2025-03-10',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-numero-reynolds-re',
+    title: 'Calcolo Numero di Reynolds (Re)',
+    description:
+      'Calcola il numero di Reynolds per valutare il regime di moto in condotte e selezionare i coefficienti di attrito corretti.',
+    metaDescription:
+      'Numero di Reynolds per condotte: determina il regime laminare o turbolento del flusso idraulico.',
+    category: 'ingegneria-idraulica',
+    keywords: [
+      'numero di Reynolds',
+      'regime laminare',
+      'regime turbolento',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-05',
+    dateModified: '2025-03-10',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-vaso-espansione-riscaldamento',
+    title: "Calcolo Vaso d'Espansione (Riscaldamento)",
+    description:
+      'Calcola il volume minimo del vaso di espansione in un impianto di riscaldamento a circuito chiuso in funzione del volume acqua e temperatura.',
+    metaDescription:
+      "Calcolo del vaso d'espansione per impianti di riscaldamento: variazione di volume e pressioni di esercizio.",
+    category: 'ingegneria-idraulica',
+    keywords: [
+      "vaso d'espansione",
+      'impianto riscaldamento',
+      'circuito chiuso',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-05',
+    dateModified: '2025-03-10',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-portata-canale-manning',
+    title: 'Calcolo Portata Canale (Formula Manning)',
+    description:
+      'Calcola la portata in un canale a pelo libero utilizzando la formula di Manning-Strickler e il coefficiente di scabrezza.',
+    metaDescription:
+      'Calcolo portata canali a pelo libero con formula di Manning e coefficienti di scabrezza.',
+    category: 'ingegneria-idraulica',
+    keywords: [
+      'formula Manning',
+      'canali a pelo libero',
+      'scabrezza',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-05',
+    dateModified: '2025-03-10',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-tempo-svuotamento-serbatoio',
+    title: 'Calcolo Tempo Svuotamento Serbatoio',
+    description:
+      'Calcola i tempi di svuotamento di serbatoi attraverso orifizi o bocchelli utilizzando il teorema di Torricelli.',
+    metaDescription:
+      'Calcolo dei tempi di svuotamento di serbatoi con teorema di Torricelli e coefficienti di scarico.',
+    category: 'ingegneria-idraulica',
+    keywords: [
+      'svuotamento serbatoio',
+      'Torricelli',
+      'idraulica serbatoi',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-05',
+    dateModified: '2025-03-10',
+    schema: 'SoftwareApplication',
+  },
+  {
     slug: 'verifica-sezione-ca-slu',
     title: 'Verifica Sezione CA (SLU)',
     description:
@@ -1720,6 +1900,186 @@ export const calculators: Calculator[] = [
     author: defaultAuthors.electricalEngineer,
     datePublished: '2024-12-02',
     dateModified: '2025-03-06',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-progettazione-impianti-idrosanitari-uni-9182',
+    title: 'Progettare Impianti Idrosanitari: Guida alla UNI 9182',
+    description:
+      'Spiega unità di carico, velocità di progetto e criteri per dimensionare reti idriche secondo la norma UNI 9182.',
+    metaDescription:
+      'Guida alla UNI 9182 per impianti idrosanitari: unità di carico, diametri e velocità consigliate.',
+    category: 'guide',
+    keywords: [
+      'UNI 9182',
+      'impianti idrosanitari',
+      'unità di carico',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-07',
+    dateModified: '2025-03-12',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-uni-12056-scarico-acque',
+    title: 'Guida alla UNI EN 12056: Scarico Acque',
+    description:
+      'Descrive pendenze minime, unità di scarico e ventilazioni delle reti di scarico civili secondo UNI EN 12056.',
+    metaDescription:
+      'Guida alla UNI EN 12056-2 per progettare reti di scarico: pendenze, DU e sistemi di ventilazione.',
+    category: 'guide',
+    keywords: [
+      'UNI EN 12056',
+      'reti di scarico',
+      'unità di scarico',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-07',
+    dateModified: '2025-03-12',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'spiegazione-perdite-carico-distribuite-localizzate',
+    title: 'Perdite di Carico: Distribuite e Localizzate',
+    description:
+      'Spiega le differenze tra perdite distribuite e perdite localizzate nelle condotte e come calcolarle.',
+    metaDescription:
+      'Guida alle perdite di carico in tubazioni: formule di Darcy-Weisbach e coefficienti locali.',
+    category: 'guide',
+    keywords: [
+      'perdite di carico',
+      'darcy weisbach',
+      'coefficiente locale',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-07',
+    dateModified: '2025-03-12',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'spiegazione-equazione-continuita-qva',
+    title: "L'Equazione di Continuità (Q = V · A): Spiegazione",
+    description:
+      'Introduzione pratica all’equazione di continuità e al legame tra portata, velocità e area.',
+    metaDescription:
+      'Equazione di continuità spiegata: calcolo della portata e della velocità in condotte idrauliche.',
+    category: 'guide',
+    keywords: [
+      'equazione continuità',
+      'portata',
+      'velocità fluido',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-07',
+    dateModified: '2025-03-12',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'come-scegliere-pompa-prevalenza-portata',
+    title: 'Come Scegliere una Pompa: Prevalenza e Portata',
+    description:
+      'Guida alla lettura delle curve di pompaggio e al calcolo della prevalenza richiesta da un impianto.',
+    metaDescription:
+      'Scelta della pompa: prevalenza totale, curve caratteristiche e punto di funzionamento ottimale.',
+    category: 'guide',
+    keywords: [
+      'prevalenza pompa',
+      'curve pompa',
+      'dimensionamento pompe',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-07',
+    dateModified: '2025-03-12',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'flusso-laminare-turbolento-numero-reynolds',
+    title: 'Flusso Laminare vs Turbolento: Il Numero di Reynolds',
+    description:
+      'Spiega i regimi di moto nei fluidi e l’importanza del numero di Reynolds nelle progettazioni idrauliche.',
+    metaDescription:
+      'Numero di Reynolds: come classificare il moto laminare e turbolento nelle condotte.',
+    category: 'guide',
+    keywords: [
+      'numero Reynolds',
+      'flusso laminare',
+      'flusso turbolento',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-07',
+    dateModified: '2025-03-12',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'equazione-bernoulli-spiegazione-pratica',
+    title: "L'Equazione di Bernoulli: Spiegazione Semplice",
+    description:
+      'Introduce il principio di Bernoulli e le sue applicazioni in impianti idraulici civili e industriali.',
+    metaDescription:
+      'Equazione di Bernoulli spiegata in modo pratico con esempi per impianti idraulici.',
+    category: 'guide',
+    keywords: [
+      'equazione Bernoulli',
+      'energia fluido',
+      'idraulica',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-07',
+    dateModified: '2025-03-12',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-uni-12056-3-acque-meteoriche-pluviali',
+    title: 'Guida UNI EN 12056-3: Acque Meteoriche',
+    description:
+      'Spiega come dimensionare pluviali e canali di gronda in base all’intensità di pioggia e alla superficie di captazione.',
+    metaDescription:
+      'Dimensionamento delle acque meteoriche secondo UNI EN 12056-3: pluviali e canali di gronda.',
+    category: 'guide',
+    keywords: [
+      'UNI EN 12056-3',
+      'acque meteoriche',
+      'pluviali',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-07',
+    dateModified: '2025-03-12',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'vaso-espansione-riscaldamento-guida',
+    title: "Vaso d'Espansione: Perché si Usa e Come si Calcola",
+    description:
+      'Descrive il funzionamento dei vasi di espansione e le formule per dimensionarli negli impianti di riscaldamento.',
+    metaDescription:
+      "Guida al dimensionamento del vaso d'espansione negli impianti di riscaldamento a circuito chiuso.",
+    category: 'guide',
+    keywords: [
+      "vaso d'espansione",
+      'riscaldamento',
+      'impianti chiusi',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-07',
+    dateModified: '2025-03-12',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'idraulica-pelo-libero-formula-manning',
+    title: 'Idraulica a Pelo Libero: Formula di Manning',
+    description:
+      'Approfondisce la formula di Manning-Strickler per il calcolo della portata in canali aperti e fognature.',
+    metaDescription:
+      'Formula di Manning per canali a pelo libero: coefficiente di scabrezza e portata.',
+    category: 'guide',
+    keywords: [
+      'formula Manning',
+      'canali aperti',
+      'portata',
+    ],
+    author: defaultAuthors.hydraulicEngineer,
+    datePublished: '2024-12-07',
+    dateModified: '2025-03-12',
     schema: 'WebApplication',
   },
   // Add more calculators here following the same structure
