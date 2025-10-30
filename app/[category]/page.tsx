@@ -16,6 +16,17 @@ interface CategoryPageProps {
   };
 }
 
+function normalizeCategoryParam(param: string | string[] | undefined): string {
+  if (!param) return '';
+  const value = Array.isArray(param) ? param[0] : param;
+  const lowerValue = value.toLowerCase();
+  const categories = getCategories();
+  return (
+    categories.find((category) => category.toLowerCase() === lowerValue) ??
+    lowerValue
+  );
+}
+
 // Generate static params for all categories at build time
 export async function generateStaticParams() {
   const categories = getCategories();
@@ -28,8 +39,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: CategoryPageProps): Promise<Metadata> {
-  const categoryParam = params?.category ?? '';
-  const categorySlug = categoryParam.toString().toLowerCase();
+  const categorySlug = normalizeCategoryParam(params?.category);
   const meta = categoryMetadata[categorySlug];
 
   if (!meta) {
@@ -70,8 +80,7 @@ export async function generateMetadata({
 }
 
 export default function CategoryPage({ params }: CategoryPageProps) {
-  const categoryParam = params?.category ?? '';
-  const categorySlug = categoryParam.toString().toLowerCase();
+  const categorySlug = normalizeCategoryParam(params?.category);
   const meta = categoryMetadata[categorySlug];
   const calculators = getCalculatorsByCategory(categorySlug);
 

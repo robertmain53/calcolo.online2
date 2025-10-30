@@ -93,6 +93,28 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'roi-calculator': ROICalculator,
 };
 
+function normalizeCategoryParam(param: string | string[] | undefined): string {
+  if (!param) return '';
+  const value = Array.isArray(param) ? param[0] : param;
+  const lowerValue = value.toLowerCase();
+  const knownCategories = Object.keys(categoryMetadata);
+  return (
+    knownCategories.find(
+      (category) => category.toLowerCase() === lowerValue
+    ) ?? lowerValue
+  );
+}
+
+function normalizeSlugParam(param: string | string[] | undefined): string {
+  if (!param) return '';
+  const value = Array.isArray(param) ? param[0] : param;
+  const lowerValue = value.toLowerCase();
+  const matchingCalculator = calculators.find(
+    (calculator) => calculator.slug.toLowerCase() === lowerValue
+  );
+  return matchingCalculator ? matchingCalculator.slug : lowerValue;
+}
+
 export async function generateStaticParams() {
   return calculators.map(({ category, slug }) => ({
     category,
@@ -103,10 +125,15 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: CalculatorPageProps): Promise<Metadata> {
-  const categoryParam = params?.category ?? '';
-  const categorySlug = categoryParam.toString().toLowerCase();
-  const calculator = getCalculatorBySlug(params.slug);
-  if (!calculator || calculator.category !== categorySlug) {
+  const normalizedCategory = normalizeCategoryParam(params?.category);
+  const slug = normalizeSlugParam(params?.slug);
+  const calculator = getCalculatorBySlug(slug);
+  if (!calculator) {
+    return {};
+  }
+
+  const categorySlug = normalizedCategory || calculator.category;
+  if (calculator.category !== categorySlug) {
     return {};
   }
 
@@ -155,11 +182,16 @@ export async function generateMetadata({
 }
 
 export default function CalculatorPage({ params }: CalculatorPageProps) {
-  const categoryParam = params?.category ?? '';
-  const categorySlug = categoryParam.toString().toLowerCase();
-  const calculator = getCalculatorBySlug(params.slug);
+  const normalizedCategory = normalizeCategoryParam(params?.category);
+  const slug = normalizeSlugParam(params?.slug);
+  const calculator = getCalculatorBySlug(slug);
 
-  if (!calculator || calculator.category !== categorySlug) {
+  if (!calculator) {
+    notFound();
+  }
+
+  const categorySlug = normalizedCategory || calculator.category;
+  if (calculator.category !== categorySlug) {
     notFound();
   }
 
