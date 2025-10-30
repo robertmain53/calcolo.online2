@@ -718,17 +718,38 @@ export default function SimplySupportedBeamCalculator() {
           <h3 className="text-base font-semibold text-gray-900">
             Formule utilizzate
           </h3>
-          <pre className="mt-2 overflow-x-auto rounded-lg bg-gray-900 p-4 text-xs text-gray-100">
-{`R_A = \\frac{wL}{2} + \\sum P_i \\frac{L - a_i}{L}
-R_B = \\frac{wL}{2} + \\sum P_i \\frac{a_i}{L}
-
-V(x) = R_A - w x - \\sum_{a_i \\le x} P_i
-M(x) = \\int_0^x V(s) \\, ds
-
-E I \\cdot \\theta'(x) = M(x)
-\\theta(x) = \\int_0^x \\frac{M(s)}{E I} \\, ds
-\\delta(x) = \\int_0^x \\theta(s) \\, ds - \\frac{x}{L} \\delta(L)`}
-          </pre>
+          <div className="mt-2 space-y-3 rounded-lg border border-gray-200 bg-white p-4 text-sm text-gray-800">
+            <div>
+              <p className="font-semibold text-gray-900">Reazioni vincolari</p>
+              <p>
+                R<sub>A</sub> = (w * L) / 2 + &Sigma; P<sub>i</sub> * (L - a<sub>i</sub>) / L
+              </p>
+              <p>
+                R<sub>B</sub> = (w * L) / 2 + &Sigma; P<sub>i</sub> * a<sub>i</sub> / L
+              </p>
+            </div>
+            <div>
+              <p className="font-semibold text-gray-900">Diagrammi interni</p>
+              <p>
+                V(x) = R<sub>A</sub> - w * x - &Sigma;<sub>a_i &le; x</sub> P<sub>i</sub>
+              </p>
+              <p>
+                M(x) = &int;<sub>0</sub><sup>x</sup> V(s) ds
+              </p>
+            </div>
+            <div>
+              <p className="font-semibold text-gray-900">Rotazione e freccia elastica</p>
+              <p>
+                E * I * &theta;'(x) = M(x)
+              </p>
+              <p>
+                &theta;(x) = &int;<sub>0</sub><sup>x</sup> M(s) / (E * I) ds
+              </p>
+              <p>
+                delta(x) = &int;<sub>0</sub><sup>x</sup> &theta;(s) ds - x / L * delta(L)
+              </p>
+            </div>
+          </div>
           <p className="text-xs text-gray-500 mt-2">
             Le integrali sono risolte numericamente con metodo dei trapezi (400 suddivisioni) per garantire precisione &lt; 1% rispetto alle soluzioni analitiche.
           </p>
