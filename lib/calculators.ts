@@ -955,6 +955,384 @@ export const calculators: Calculator[] = [
     schema: 'SoftwareApplication',
   },
   {
+    slug: 'convertitore-pressione-bar-psi-pa',
+    title: 'Convertitore Pressione',
+    description:
+      'Converti rapidamente tra Pascal, bar, atmosfere, psi, Torr e metri colonna d’acqua per applicazioni industriali.',
+    metaDescription:
+      'Convertitore di pressione online: Pascal, bar, atm, psi, Torr e metri colonna d’acqua.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'convertitore pressione',
+      'bar psi',
+      'pascal atm',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-potenza-kw-hp-cv',
+    title: 'Convertitore Potenza',
+    description:
+      'Converti potenze tra Watt, kilowatt, cavalli vapore, cavalli elettrici e BTU/h per confrontare motori e impianti.',
+    metaDescription:
+      'Convertitore di potenza: da Watt a kW, HP, CV e BTU/h con supporto per cavalli elettrici.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'convertitore potenza',
+      'kW HP',
+      'cavalli vapore',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-lunghezza-metri-pollici-piedi',
+    title: 'Convertitore Lunghezza',
+    description:
+      'Converti lunghezze tra metri, centimetri, millimetri, pollici, piedi e miglia con precisione tecnica.',
+    metaDescription:
+      'Convertitore lunghezza: metri, centimetri, pollici, piedi e miglia con fattori di conversione accurati.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'convertitore lunghezza',
+      'metri pollici',
+      'piedi miglia',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-area-metri-quadri-ettari',
+    title: 'Convertitore Area',
+    description:
+      'Converti aree tra metri quadri, ettari, centimetri quadri, piedi quadri e pollici quadri per pratiche catastali e progetti.',
+    metaDescription:
+      'Convertitore di superficie: metri quadri, ettari, piedi quadri e altre unità di area.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'convertitore area',
+      'metri quadri',
+      'ettari',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-volume-metri-cubi-litri',
+    title: 'Convertitore Volume',
+    description:
+      'Converti volumi tra metri cubi, litri, centimetri cubi, galloni e piedi cubi per impianti e forniture.',
+    metaDescription:
+      'Convertitore volume: da metri cubi a litri, galloni e piedi cubi con fattori precisi.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'convertitore volume',
+      'metri cubi',
+      'litri',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-forza-newton-kgf',
+    title: 'Convertitore Forza',
+    description:
+      'Converti forza tra Newton, kilonewton, chilogrammo-forza, libbra-forza e dyne.',
+    metaDescription:
+      'Convertitore di forza: Newton, kilonewton, kgf, lbf e dyne per calcoli strutturali e meccanici.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'convertitore forza',
+      'Newton',
+      'kgf',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-coppia-momento-nm-kgm',
+    title: 'Convertitore Coppia (Momento)',
+    description:
+      'Converti momente torcenti tra Newton-metro, chilogrammo-forza metro e libbra-forza piede.',
+    metaDescription:
+      'Convertitore di coppia: Nm, kgf·m e lbf·ft per applicazioni meccaniche e impiantistiche.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'convertitore coppia',
+      'Newton metro',
+      'kgf m',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-energia-lavoro-joule-kwh-kcal',
+    title: 'Convertitore Energia e Lavoro',
+    description:
+      'Converti energia tra Joule, kilowattora, calorie, chilocalorie e BTU per confrontare consumi e rese.',
+    metaDescription:
+      'Convertitore energia: Joule, kWh, calorie e BTU per analisi termiche e impiantistiche.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'convertitore energia',
+      'Joule kWh',
+      'calorie BTU',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-velocita-ms-kmh-mph',
+    title: 'Convertitore Velocità',
+    description:
+      'Converti velocità tra m/s, km/h, mph, piedi/s e nodi per applicazioni ingegneristiche e di trasporto.',
+    metaDescription:
+      'Convertitore di velocità: metri al secondo, chilometri orari, miglia orarie, piedi al secondo e nodi.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'convertitore velocità',
+      'km/h mph',
+      'm/s nodi',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-portata-volumetrica-mc-h-ls',
+    title: 'Convertitore Portata (Volumetrica)',
+    description:
+      'Converti portate volumetriche tra m³/s, m³/h, L/s e galloni al minuto per impianti idraulici e HVAC.',
+    metaDescription:
+      'Convertitore portata volumetrica: metri cubi al secondo, metri cubi all’ora, litri al secondo e GPM.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'convertitore portata',
+      'm³/h',
+      'GPM',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-temperatura-celsius-fahrenheit-kelvin',
+    title: 'Convertitore Temperatura',
+    description:
+      'Converter temperature tra Celsius, Fahrenheit e Kelvin con conversione immediata.',
+    metaDescription:
+      'Convertitore di temperatura: trasformazione tra gradi Celsius, Fahrenheit e Kelvin.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'convertitore temperatura',
+      'Celsius Fahrenheit',
+      'Kelvin',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-densita-kg-mc',
+    title: 'Convertitore Densità',
+    description:
+      'Converti densità tra kg/m³, g/cm³ e lb/ft³ per analisi di materiali e fluidi.',
+    metaDescription:
+      'Convertitore densità: unità in kg/m³, g/cm³ e libbre per piede cubo.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'convertitore densità',
+      'kg m³',
+      'g cm³',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-viscosita-dinamica-poise-pas',
+    title: 'Convertitore Viscosità (Dinamica)',
+    description:
+      'Converti viscosità dinamiche tra Pascal-secondo, Poise, centiPoise e unità imperiali.',
+    metaDescription:
+      'Convertitore viscosità dinamica: Pa·s, Poise, cP e unità imperiali.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'viscosità dinamica',
+      'Poise',
+      'cP',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-viscosita-cinematica-stokes-cst',
+    title: 'Convertitore Viscosità (Cinematica)',
+    description:
+      'Converti viscosità cinematica tra m²/s, Stokes e centiStokes per analisi di fluidi.',
+    metaDescription:
+      'Convertitore viscosità cinematica: metri quadri al secondo, Stokes e cSt.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'viscosità cinematica',
+      'Stokes',
+      'cSt',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-durezza-rockwell-brinell-vickers',
+    title: 'Convertitore Durezza Acciaio',
+    description:
+      'Converti valori di durezza tra scale Rockwell, Brinell, Vickers e Shore per materiali metallici.',
+    metaDescription:
+      'Convertitore di durezza: Rockwell, Brinell, Vickers e Shore per acciai e leghe.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'durezza Rockwell',
+      'Brinell',
+      'Vickers',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-angoli-gradi-decimali-radianti',
+    title: 'Convertitore Angoli (Topografici)',
+    description:
+      'Converti angoli tra gradi sessagesimali, gradi decimali e radianti per topografia e trigonometria.',
+    metaDescription:
+      'Convertitore di angoli: gradi sessagesimali, decimali e radianti con supporto per formati gradi-minuti-secondi.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'convertitore angoli',
+      'gradi sessagesimali',
+      'radianti',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-tensione-acciaio-mpa-ksi',
+    title: 'Convertitore Tensione (Resistenza Materiali)',
+    description:
+      'Converti tensioni tra MPa, N/mm², ksi e psi per il confronto di resistenze dei materiali.',
+    metaDescription:
+      'Convertitore di tensioni: MPa, N/mm², ksi e psi per verifiche strutturali.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'convertitore tensione',
+      'MPa',
+      'ksi',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-unita-informatiche-byte-mb-gb',
+    title: 'Convertitore Dati (bit/Byte)',
+    description:
+      'Converte capacità informative tra bit, Byte, KB, MB, GB e TB considerando multipli decimali e binari.',
+    metaDescription:
+      'Convertitore dati informatici: bit, Byte, KB, MB, GB e TB con supporto per multipli decimali e binari.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'bit byte',
+      'KB MB GB',
+      'conversione dati',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'convertitore-consumo-carburante-km-l-mpg',
+    title: 'Convertitore Consumo Carburante',
+    description:
+      'Converti consumi tra km/L, L/100km e miglia per gallone per confrontare veicoli e monitorare efficienza.',
+    metaDescription:
+      'Convertitore consumo carburante: da km/L a L/100km e MPG con conversioni automatiche.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'consumo carburante',
+      'km/L',
+      'MPG',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'convertitore-illuminotecnico-lumen-lux-candela',
+    title: 'Convertitore Illuminotecnico',
+    description:
+      'Converti tra lumen, lux e candela calcolando l’illuminamento su superfici specificate.',
+    metaDescription:
+      'Convertitore illuminotecnico: lumen, lux e candela con calcolo automatico dell’area illuminata.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'convertitore lumen',
+      'lux',
+      'candela',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'convertitore-gradi-giorno-termotecnica',
+    title: 'Convertitore Gradi Giorno (GG)',
+    description:
+      'Calcola e confronta i gradi giorno climatici per diverse località e zone climatiche.',
+    metaDescription:
+      'Convertitore gradi giorno termotecnici: confronta GG tra zone climatiche e valuta il fabbisogno energetico.',
+    category: 'convertitori-tecnici',
+    keywords: [
+      'gradi giorno',
+      'zone climatiche',
+      'termotecnica',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-28',
+    dateModified: '2025-03-28',
+    schema: 'WebApplication',
+  },
+  {
     slug: 'calcolo-lunghezza-corda-arco-cerchio',
     title: 'Calcolo Lunghezza Corda e Arco di Cerchio',
     description:
