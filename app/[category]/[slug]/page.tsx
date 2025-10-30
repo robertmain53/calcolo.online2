@@ -27,6 +27,7 @@ import RetainingWallCalculator from '@/components/RetainingWallCalculator';
 import LaterocementoSlabCalculator from '@/components/LaterocementoSlabCalculator';
 import WoodBeamSLUCalculator from '@/components/WoodBeamSLUCalculator';
 import SeismicBaseShearCalculator from '@/components/SeismicBaseShearCalculator';
+import ConcreteBeamVerification from '@/components/ConcreteBeamVerification';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -409,6 +410,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'calcolo-solaio-laterocemento': LaterocementoSlabCalculator,
   'verifica-trave-legno-slu': WoodBeamSLUCalculator,
   'calcolo-taglio-sismico-statica': SeismicBaseShearCalculator,
+  'verifica-trave-ca': ConcreteBeamVerification,
   'calcolo-trave-appoggiata': SimplySupportedBeamCalculator,
   'calcolo-roi-return-on-investment': ROICalculator,
 };
