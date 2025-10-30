@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": ".debug-dist",
+    "module": "commonjs",
+    "moduleResolution": "node10",
+    "target": "ES2017"
+  },
+  "include": [
+    "lib/**/*.ts",
+    "lib/**/*.tsx",
+    "types/**/*.ts",
+    "scripts/debugRoutes.ts"
+  ]
+}
