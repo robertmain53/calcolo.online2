@@ -757,6 +757,186 @@ export const calculators: Calculator[] = [
     schema: 'SoftwareApplication',
   },
   {
+    slug: 'calcolo-portanza-ntc-2018',
+    title: 'Calcolo Portanza Fondazioni (NTC 2018)',
+    description:
+      'Calcola la capacità portante di fondazioni superficiali secondo l’Approccio 2 delle NTC 2018 con combinazione A1+M1+R1.',
+    metaDescription:
+      'Calcolatore portanza fondazioni superficiali NTC 2018 con Approccio 2 e combinazioni A1 M1 R1.',
+    category: 'ingegneria-geotecnica',
+    keywords: [
+      'NTC 2018 geotecnica',
+      'portanza fondazioni',
+      'approccio 2',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-09',
+    dateModified: '2025-03-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-cedimenti-edometrici',
+    title: 'Calcolo Cedimenti Edometrici (Terreni Coesivi)',
+    description:
+      'Stima i cedimenti immediati e di consolidazione degli strati di argilla tramite indici di compressibilità e curve e-logσ’.',
+    metaDescription:
+      'Calcolo dei cedimenti edometrici in terreni coesivi con indici di compressibilità e teoria della consolidazione.',
+    category: 'ingegneria-geotecnica',
+    keywords: [
+      'cedimenti',
+      'consolidazione',
+      'indice di compressibilità',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-09',
+    dateModified: '2025-03-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-spinta-terreni-rankine-coulomb',
+    title: 'Calcolo Spinta Terreni (Rankine & Coulomb)',
+    description:
+      'Calcola i coefficienti di spinta attiva e passiva e la spinta risultante su muri di sostegno con terreno inclinato o attrito muro-terreno.',
+    metaDescription:
+      'Calcolo della spinta dei terreni con teorie di Rankine e Coulomb per muri di sostegno.',
+    category: 'ingegneria-geotecnica',
+    keywords: [
+      'spinta terreno',
+      'Rankine',
+      'Coulomb',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-09',
+    dateModified: '2025-03-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'verifica-stabilita-pendio-fellenius',
+    title: 'Verifica Stabilità Pendio (Metodo Fellenius)',
+    description:
+      'Esegue la verifica di stabilità di pendii con il metodo delle strisce di Fellenius calcolando il fattore di sicurezza.',
+    metaDescription:
+      'Calcolatore della stabilità dei pendii con metodo Fellenius e determinazione del fattore di sicurezza.',
+    category: 'ingegneria-geotecnica',
+    keywords: [
+      'stabilità pendio',
+      'metodo Fellenius',
+      'fattore di sicurezza',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-09',
+    dateModified: '2025-03-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'verifica-rischio-liquefazione-ntc-2018',
+    title: 'Verifica Liquefazione Terreni (NTC 2018)',
+    description:
+      'Valuta il rischio di liquefazione in terreni sabbiosi in zona sismica utilizzando prove SPT o CPT e il metodo Seed & Idriss.',
+    metaDescription:
+      'Verifica del rischio di liquefazione secondo NTC 2018 con prove SPT e CPT e metodo semplificato Seed Idriss.',
+    category: 'ingegneria-geotecnica',
+    keywords: [
+      'liquefazione terreni',
+      'Seed Idriss',
+      'NTC 2018',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-09',
+    dateModified: '2025-03-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'classificazione-terreni-uscs-agi',
+    title: 'Classificazione Geotecnica Terreni (USCS/AGI)',
+    description:
+      'Classifica campioni di terreno utilizzando curva granulometrica e limiti di Atterberg secondo sistemi USCS e AGI.',
+    metaDescription:
+      'Classificazione geotecnica dei terreni con sistemi USCS e AGI basata su analisi granulometrica e limiti di Atterberg.',
+    category: 'ingegneria-geotecnica',
+    keywords: [
+      'classificazione terreni',
+      'USCS',
+      'limiti Atterberg',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-09',
+    dateModified: '2025-03-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-portanza-palo-singolo',
+    title: 'Calcolo Portanza Palo Singolo (NTC 2018)',
+    description:
+      'Stima la portanza di un palo trivellato o infisso calcolando i contributi di punta e laterale secondo NTC 2018.',
+    metaDescription:
+      'Calcolo portanza pali singoli con resistenze laterali e di punta conformi alle NTC 2018.',
+    category: 'ingegneria-geotecnica',
+    keywords: [
+      'portanza palo',
+      'NTC 2018 pali',
+      'resistenza laterale',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-09',
+    dateModified: '2025-03-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'correlazioni-prove-cpt-spt',
+    title: 'Correlazioni Prove CPT/SPT (NTC 2018)',
+    description:
+      'Stima parametri geotecnici derivati da prove CPT e SPT tramite correlazioni riconosciute dalle NTC 2018.',
+    metaDescription:
+      'Calcolo parametri geotecnici da prove CPT e SPT attraverso correlazioni da normativa NTC 2018.',
+    category: 'ingegneria-geotecnica',
+    keywords: [
+      'prove CPT',
+      'prove SPT',
+      'correlazioni geotecniche',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-09',
+    dateModified: '2025-03-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'predimensionamento-paratie-diaframmi',
+    title: 'Predimensionamento Paratie (Diaframmi)',
+    description:
+      'Esegue un predimensionamento di paratie o diaframmi a sbalzo calcolando l’altezza di infissione minima e le spinte da contrastare.',
+    metaDescription:
+      'Calcolatore per il predimensionamento di paratie a sbalzo con stima dell’altezza di infissione e delle spinte del terreno.',
+    category: 'ingegneria-geotecnica',
+    keywords: [
+      'paratie',
+      'diaframmi',
+      'spinta attiva',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-09',
+    dateModified: '2025-03-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-indici-geotecnici-base',
+    title: 'Calcolatore Indici Geotecnici di Base',
+    description:
+      'Calcola indice dei vuoti, porosità, grado di saturazione e pesi specifici del terreno a partire dai dati di laboratorio.',
+    metaDescription:
+      'Calcolatore indici geotecnici fondamentali: indice dei vuoti, porosità, saturazione e pesi specifici.',
+    category: 'ingegneria-geotecnica',
+    keywords: [
+      'indice dei vuoti',
+      'porosità',
+      'pesi specifici terreno',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-09',
+    dateModified: '2025-03-15',
+    schema: 'SoftwareApplication',
+  },
+  {
     slug: 'verifica-sezione-ca-slu',
     title: 'Verifica Sezione CA (SLU)',
     description:
@@ -1882,6 +2062,204 @@ export const calculators: Calculator[] = [
     author: defaultAuthors.electricalEngineer,
     datePublished: '2024-12-02',
     dateModified: '2025-03-06',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'posa-cavi-riempimento-tubi-corrugati',
+    title: 'Posa Cavi (CEI 64-8): Riempimento Tubi',
+    description:
+      'Guida alle regole di posa dei cavi nei tubi corrugati e canaline con calcolo del grado di riempimento massimo consentito.',
+    metaDescription:
+      'Regole CEI 64-8 per la posa dei cavi: calcolo del grado di riempimento dei tubi e garanzia di sfilabilità.',
+    category: 'guide',
+    keywords: [
+      'posa cavi',
+      'tubi corrugati',
+      'grado riempimento',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-12-02',
+    dateModified: '2025-03-06',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-progettazione-geotecnica-ntc-2018-ec7',
+    title: 'Progettazione Geotecnica NTC 2018: Guida Pratica',
+    description:
+      'Spiega il capitolo 6 delle NTC 2018 e l’Eurocodice 7: approcci progettuali, combinazioni e stati limite GEO/STR.',
+    metaDescription:
+      'Guida pratica alla progettazione geotecnica secondo NTC 2018 ed Eurocodice 7: Approccio 1 e 2, stati limite GEO e STR.',
+    category: 'guide',
+    keywords: [
+      'NTC 2018 geotecnica',
+      'Eurocodice 7',
+      'stati limite GEO',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-11',
+    dateModified: '2025-03-18',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'teoria-consolidazione-terzaghi-cedimenti',
+    title: 'Teoria della Consolidazione (Terzaghi) e Cedimenti',
+    description:
+      'Spiega cedimenti immediati e di consolidazione con riferimento alla teoria di Terzaghi e alle curve e-logσ’.',
+    metaDescription:
+      'Guida alla teoria della consolidazione di Terzaghi per il calcolo dei cedimenti edometrici.',
+    category: 'guide',
+    keywords: [
+      'consolidazione Terzaghi',
+      'cedimenti',
+      'indice di compressibilità',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-11',
+    dateModified: '2025-03-18',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'spinta-terreni-attiva-passiva-rankine-coulomb',
+    title: 'Spinta Attiva, Passiva e a Riposo: Teorie a Confronto',
+    description:
+      'Confronta le teorie di Rankine e Coulomb per il calcolo delle spinte del terreno e introduce il coefficiente a riposo K₀.',
+    metaDescription:
+      'Guida alle spinte attive, passive e a riposo dei terreni con teorie di Rankine e Coulomb.',
+    category: 'guide',
+    keywords: [
+      'spinta attiva',
+      'spinta passiva',
+      'Rankine Coulomb',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-11',
+    dateModified: '2025-03-18',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'metodi-verifica-stabilita-pendii-equilibrio-limite',
+    title: 'Metodi di Verifica Stabilità Pendii (Equilibrio Limite)',
+    description:
+      'Analizza i principali metodi dell’equilibrio limite (Fellenius, Bishop, Janbu) per la verifica di stabilità dei pendii.',
+    metaDescription:
+      'Guida ai metodi di verifica della stabilità dei pendii: Fellenius, Bishop semplificato e Janbu.',
+    category: 'guide',
+    keywords: [
+      'stabilità pendii',
+      'metodo Fellenius',
+      'Bishop Janbu',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-11',
+    dateModified: '2025-03-18',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-verifica-liquefazione-ntc-2018-sismica',
+    title: 'Guida alla Verifica di Liquefazione (NTC 2018)',
+    description:
+      'Spiega la procedura semplificata Seed & Idriss per valutare la liquefazione dei terreni sabbiosi secondo NTC 2018.',
+    metaDescription:
+      'Guida alla verifica di liquefazione dei terreni in zona sismica secondo NTC 2018 e metodo Seed Idriss.',
+    category: 'guide',
+    keywords: [
+      'liquefazione',
+      'Seed Idriss',
+      'NTC 2018',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-11',
+    dateModified: '2025-03-18',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'come-classificare-terreni-uscs-agi-casagrande',
+    title: 'Come Classificare i Terreni (USCS e AGI)',
+    description:
+      'Guida pratica alla classificazione geotecnica tramite carta di Casagrande e curve granulometriche.',
+    metaDescription:
+      'Classificazione geotecnica dei terreni con sistemi USCS e AGI usando limiti di Atterberg e analisi granulometrica.',
+    category: 'guide',
+    keywords: [
+      'classificazione terreni',
+      'USCS',
+      'limiti Atterberg',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-11',
+    dateModified: '2025-03-18',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'calcolo-portanza-pali-fondazione-ntc-2018',
+    title: 'Calcolo Portanza Pali (NTC 2018): Punta e Laterale',
+    description:
+      'Spiega come calcolare i contributi di punta e laterali della portanza dei pali di fondazione secondo le NTC 2018.',
+    metaDescription:
+      'Guida al calcolo della portanza dei pali di fondazione secondo NTC 2018: resistenza di punta e laterale.',
+    category: 'guide',
+    keywords: [
+      'portanza pali',
+      'NTC 2018',
+      'resistenza laterale',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-11',
+    dateModified: '2025-03-18',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'interpretare-prove-geotecniche-cpt-vs-spt',
+    title: 'Interpretare le Prove Geotecniche: CPT e SPT a Confronto',
+    description:
+      'Analizza vantaggi, limiti e correlazioni delle prove penetrometriche statiche CPT/CPTU e dinamiche SPT.',
+    metaDescription:
+      'Guida alla lettura dei risultati CPT e SPT con correlazioni pratiche per parametri geotecnici.',
+    category: 'guide',
+    keywords: [
+      'prove CPT',
+      'prove SPT',
+      'correlazioni geotecniche',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-11',
+    dateModified: '2025-03-18',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'progettazione-paratie-diaframmi-sostegno',
+    title: 'Progettazione di Paratie e Diaframmi (Opere di Sostegno)',
+    description:
+      'Descrive criteri progettuali per paratie a sbalzo, tirantate o ancorate e le verifiche geotecniche richieste.',
+    metaDescription:
+      'Guida alla progettazione di paratie e diaframmi: tipologie, verifiche e criteri di scelta.',
+    category: 'guide',
+    keywords: [
+      'paratie',
+      'diaframmi',
+      'opere di sostegno',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-11',
+    dateModified: '2025-03-18',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'parametri-fondamentali-terreno-indici-vuoti-porosita',
+    title: 'I Parametri Fondamentali del Terreno (Indice Vuoti, Porosità)',
+    description:
+      'Spiega le relazioni tra le fasi solida, liquida e gassosa del terreno e i principali indici geotecnici.',
+    metaDescription:
+      'Guida agli indici geotecnici di base: indice dei vuoti, porosità, grado di saturazione e pesi specifici.',
+    category: 'guide',
+    keywords: [
+      'indice dei vuoti',
+      'porosità',
+      'grado di saturazione',
+    ],
+    author: defaultAuthors.geotechnicalEngineer,
+    datePublished: '2024-12-11',
+    dateModified: '2025-03-18',
     schema: 'WebApplication',
   },
   {
