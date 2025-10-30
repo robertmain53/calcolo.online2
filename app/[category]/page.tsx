@@ -11,15 +11,14 @@ import { siteConfig } from '@/lib/config';
 import { generateBreadcrumbSchema } from '@/lib/structured-data';
 
 interface CategoryPageProps {
-  params: {
+  params: Promise<{
     category: string;
-  };
+  }>;
 }
 
-function normalizeCategoryParam(param: string | string[] | undefined): string {
+function normalizeCategoryParam(param: string | undefined): string {
   if (!param) return '';
-  const value = Array.isArray(param) ? param[0] : param;
-  const lowerValue = value.toLowerCase();
+  const lowerValue = param.toLowerCase();
   const categories = getCategories();
   return (
     categories.find((category) => category.toLowerCase() === lowerValue) ??
@@ -39,7 +38,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: CategoryPageProps): Promise<Metadata> {
-  const categorySlug = normalizeCategoryParam(params?.category);
+  const resolvedParams = await params;
+  const categorySlug = normalizeCategoryParam(resolvedParams?.category);
   if (!categorySlug) {
     return {
       title: 'Categoria Non Trovata',
@@ -84,8 +84,11 @@ export async function generateMetadata({
   };
 }
 
-export default function CategoryPage({ params }: CategoryPageProps) {
-  const categorySlug = normalizeCategoryParam(params?.category);
+export default async function CategoryPage({
+  params,
+}: CategoryPageProps) {
+  const resolvedParams = await params;
+  const categorySlug = normalizeCategoryParam(resolvedParams?.category);
   if (!categorySlug) {
     notFound();
   }

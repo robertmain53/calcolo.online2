@@ -19,10 +19,10 @@ import {
 import ROICalculator from '@/components/ROICalculator';
 
 interface CalculatorPageProps {
-  params: {
+  params: Promise<{
     category: string;
     slug: string;
-  };
+  }>;
 }
 
 const faqContentBySlug: Record<
@@ -93,10 +93,9 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'roi-calculator': ROICalculator,
 };
 
-function normalizeCategoryParam(param: string | string[] | undefined): string {
+function normalizeCategoryParam(param: string | undefined): string {
   if (!param) return '';
-  const value = Array.isArray(param) ? param[0] : param;
-  const lowerValue = value.toLowerCase();
+  const lowerValue = param.toLowerCase();
   const knownCategories = Object.keys(categoryMetadata);
   return (
     knownCategories.find(
@@ -105,10 +104,9 @@ function normalizeCategoryParam(param: string | string[] | undefined): string {
   );
 }
 
-function normalizeSlugParam(param: string | string[] | undefined): string {
+function normalizeSlugParam(param: string | undefined): string {
   if (!param) return '';
-  const value = Array.isArray(param) ? param[0] : param;
-  const lowerValue = value.toLowerCase();
+  const lowerValue = param.toLowerCase();
   const matchingCalculator = calculators.find(
     (calculator) => calculator.slug.toLowerCase() === lowerValue
   );
@@ -125,8 +123,11 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: CalculatorPageProps): Promise<Metadata> {
-  const normalizedCategory = normalizeCategoryParam(params?.category);
-  const slug = normalizeSlugParam(params?.slug);
+  const resolvedParams = await params;
+  const normalizedCategory = normalizeCategoryParam(
+    resolvedParams?.category
+  );
+  const slug = normalizeSlugParam(resolvedParams?.slug);
   const calculator = getCalculatorBySlug(slug);
   if (!calculator) {
     return {};
@@ -181,9 +182,14 @@ export async function generateMetadata({
   };
 }
 
-export default function CalculatorPage({ params }: CalculatorPageProps) {
-  const normalizedCategory = normalizeCategoryParam(params?.category);
-  const slug = normalizeSlugParam(params?.slug);
+export default async function CalculatorPage({
+  params,
+}: CalculatorPageProps) {
+  const resolvedParams = await params;
+  const normalizedCategory = normalizeCategoryParam(
+    resolvedParams?.category
+  );
+  const slug = normalizeSlugParam(resolvedParams?.slug);
   const calculator = getCalculatorBySlug(slug);
 
   if (!calculator) {
