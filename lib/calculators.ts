@@ -29,6 +29,194 @@ export const calculators: Calculator[] = [
     schema: 'SoftwareApplication',
   },
   {
+    slug: 'calcolo-costi-sicurezza-psc',
+    title: 'Calcolo Costi della Sicurezza',
+    description:
+      'Stima i costi della sicurezza diretti e speciali non soggetti a ribasso da inserire nel Piano di Sicurezza e Coordinamento.',
+    metaDescription:
+      'Calcolatore per stimare i costi della sicurezza nel PSC: oneri non ribassabili, apprestamenti, DPI e misure collettive secondo D.Lgs. 81/08.',
+    category: 'sicurezza-cantiere',
+    keywords: [
+      'costi sicurezza',
+      'PSC',
+      'oneri sicurezza',
+      'D.Lgs. 81/08',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-15',
+    dateModified: '2025-02-24',
+    featured: true,
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'calcolo-indice-niosh-mmc',
+    title: 'Calcolo Indice NIOSH (MMC)',
+    description:
+      'Calcola l’indice di sollevamento secondo il metodo NIOSH per valutare il rischio da movimentazione manuale dei carichi.',
+    metaDescription:
+      'Tool per il calcolo dell’indice NIOSH MMC: peso raccomandato, fattori di correzione e valutazione del rischio secondo ISO 11228-1.',
+    category: 'sicurezza-cantiere',
+    keywords: [
+      'indice NIOSH',
+      'movimentazione manuale carichi',
+      'MMC',
+      'ISO 11228-1',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-15',
+    dateModified: '2025-02-24',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-rischio-rumore-lex-8h',
+    title: 'Calcolo Rischio Rumore (LEX, 8h)',
+    description:
+      'Calcola il livello di esposizione quotidiana al rumore e suggerisce le misure di prevenzione previste dal Titolo VIII del D.Lgs. 81/08.',
+    metaDescription:
+      'Calcolo del LEX,8h e Lpeak,C per la valutazione del rischio rumore nei cantieri con suggerimenti per DPI e misure di bonifica.',
+    category: 'sicurezza-cantiere',
+    keywords: [
+      'rischio rumore',
+      'LEX 8h',
+      'Titolo VIII',
+      'D.Lgs. 81/08 rumore',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-15',
+    dateModified: '2025-02-24',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-rischio-vibrazioni-hav-wbv',
+    title: 'Calcolo Rischio Vibrazioni (A(8))',
+    description:
+      'Valuta l’esposizione giornaliera a vibrazioni mano-braccio (HAV) e corpo intero (WBV) confrontando i valori con i limiti di legge.',
+    metaDescription:
+      'Calcolatore per vibrazioni HAV e WBV: calcolo dell’A(8), confronto con valori d’azione e limite previsti dal D.Lgs. 81/08.',
+    category: 'sicurezza-cantiere',
+    keywords: [
+      'vibrazioni HAV',
+      'vibrazioni WBV',
+      'A(8)',
+      'rischio vibrazioni',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-15',
+    dateModified: '2025-02-24',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'verifica-ponteggi-checkist-pimus',
+    title: 'Verifica Ponteggi (PiMUS)',
+    description:
+      'Checklist interattiva per controllare elementi strutturali, ancoraggi e accessori dei ponteggi prima dell’uso secondo PiMUS.',
+    metaDescription:
+      'Checklist ponteggi PiMUS: verifica montaggio, ancoraggi e dispositivi di sicurezza prima dell’utilizzo in cantiere.',
+    category: 'sicurezza-cantiere',
+    keywords: [
+      'PiMUS',
+      'verifica ponteggi',
+      'checklist ponteggio',
+      'sicurezza ponteggi',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-15',
+    dateModified: '2025-02-24',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'calcolo-tirante-aria-anticaduta',
+    title: "Calcolo Tirante d'Aria (Anticaduta)",
+    description:
+      'Determina il tirante d’aria minimo per sistemi anticaduta (cordini, assorbitori) per evitare impatto con il suolo.',
+    metaDescription:
+      "Calcolatore del tirante d’aria per dispositivi anticaduta: lunghezze, dissipatori e margini di sicurezza per lavori in quota.",
+    category: 'sicurezza-cantiere',
+    keywords: [
+      'tirante aria',
+      'anticaduta',
+      'lavori in quota',
+      'DPI anticaduta',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-15',
+    dateModified: '2025-02-24',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-illuminazione-cantiere',
+    title: 'Calcolo Illuminazione di Cantiere',
+    description:
+      "Calcola il numero di proiettori necessari per garantire l'illuminazione minima delle aree di lavoro secondo UNI EN 12464-2.",
+    metaDescription:
+      "Calcolatore illuminotecnico per cantieri: lux richiesti, numero di proiettori e disposizione secondo UNI EN 12464-2.",
+    category: 'sicurezza-cantiere',
+    keywords: [
+      'illuminazione cantiere',
+      'UNI EN 12464-2',
+      'lux cantiere',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-15',
+    dateModified: '2025-02-24',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-incidenza-manodopera-congruita',
+    title: 'Calcolo Incidenza Manodopera',
+    description:
+      'Valuta l’incidenza percentuale della manodopera per verificare la congruità dei lavori edili secondo il D.M. 143/2021.',
+    metaDescription:
+      'Calcolo della congruità della manodopera per il DURC di congruità: percentuali minime e report di verifica.',
+    category: 'sicurezza-cantiere',
+    keywords: [
+      'incidenza manodopera',
+      'congruità',
+      'DM 143/2021',
+      'DURC congruità',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-15',
+    dateModified: '2025-02-24',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-rischio-ocra-movimenti-ripetitivi',
+    title: 'Calcolo Rischio OCRA (Movimenti Ripetitivi)',
+    description:
+      "Calcola l’indice OCRA per valutare il rischio da movimenti ripetitivi degli arti superiori negli ambienti di lavoro.",
+    metaDescription:
+      "Tool OCRA checklist per movimenti ripetitivi: calcolo dell’indice, classificazione del rischio e suggerimenti di miglioramento.",
+    category: 'sicurezza-cantiere',
+    keywords: [
+      'indice OCRA',
+      'movimenti ripetitivi',
+      'rischio arti superiori',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-15',
+    dateModified: '2025-02-24',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'checklist-allegato-xiii-81-08',
+    title: 'Checklist Requisiti Cantiere (Allegato XIII)',
+    description:
+      'Checklist interattiva per verificare il rispetto dei requisiti minimi di salute e sicurezza nei cantieri secondo Allegato XIII.',
+    metaDescription:
+      'Checklist Allegato XIII D.Lgs. 81/08: controlli su impianti, servizi, sistemazioni e documentazione del cantiere.',
+    category: 'sicurezza-cantiere',
+    keywords: [
+      'allegato XIII',
+      'checklist cantiere',
+      'requisiti sicurezza cantiere',
+    ],
+    author: defaultAuthors.safetyCoordinator,
+    datePublished: '2024-11-15',
+    dateModified: '2025-02-24',
+    schema: 'WebApplication',
+  },
+  {
     slug: 'verifica-sezione-ca-slu',
     title: 'Verifica Sezione CA (SLU)',
     description:
