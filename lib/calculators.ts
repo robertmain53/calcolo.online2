@@ -47,7 +47,9 @@ export const calculators: Calculator[] = [
  * Get all unique categories from calculators
  */
 export function getCategories(): string[] {
-  const categories = new Set(calculators.map(calc => calc.category));
+  const categories = new Set(
+    calculators.map((calc) => calc.category.toLowerCase())
+  );
   return Array.from(categories);
 }
 
@@ -55,14 +57,20 @@ export function getCategories(): string[] {
  * Get all calculators for a specific category
  */
 export function getCalculatorsByCategory(category: string): Calculator[] {
-  return calculators.filter(calc => calc.category === category);
+  const normalizedCategory = category.toLowerCase();
+  return calculators.filter(
+    (calc) => calc.category.toLowerCase() === normalizedCategory
+  );
 }
 
 /**
  * Get a single calculator by slug
  */
 export function getCalculatorBySlug(slug: string): Calculator | undefined {
-  return calculators.find(calc => calc.slug === slug);
+  const normalizedSlug = slug.toLowerCase();
+  return calculators.find(
+    (calc) => calc.slug.toLowerCase() === normalizedSlug
+  );
 }
 
 /**

@@ -40,6 +40,11 @@ export async function generateMetadata({
   params,
 }: CategoryPageProps): Promise<Metadata> {
   const categorySlug = normalizeCategoryParam(params?.category);
+  if (!categorySlug) {
+    return {
+      title: 'Categoria Non Trovata',
+    };
+  }
   const meta = categoryMetadata[categorySlug];
 
   if (!meta) {
@@ -81,6 +86,9 @@ export async function generateMetadata({
 
 export default function CategoryPage({ params }: CategoryPageProps) {
   const categorySlug = normalizeCategoryParam(params?.category);
+  if (!categorySlug) {
+    notFound();
+  }
   const meta = categoryMetadata[categorySlug];
   const calculators = getCalculatorsByCategory(categorySlug);
 
