@@ -111,8 +111,8 @@ function computeResult(params: {
   ];
 
   const warnings: string[] = [];
-  if (slidingFoS < 1.5) warnings.push('Fattore di sicurezza a scorrimento inferiore al valore raccomandato (>= 1.5).');
-  if (overturningFoS < 2.0) warnings.push('Fattore di sicurezza a ribaltamento inferiore al valore raccomandato (>= 2.0).');
+  if (slidingFoS < 1.5) warnings.push('Fattore di sicurezza a scorrimento inferiore al valore raccomandato (&gt;= 1.5).');
+  if (overturningFoS < 2.0) warnings.push('Fattore di sicurezza a ribaltamento inferiore al valore raccomandato (&gt;= 2.0).');
   if (bearingFoS <= 0 || contactPressureMin < 0) warnings.push('Controlla portanza: la distribuzione delle pressioni indica contatto parziale o eccesso di pressione.');
 
   return {
@@ -509,7 +509,7 @@ export default function RetainingWallCalculator() {
           </div>
 
           <div className="rounded-lg border border-gray-200 bg-gray-50 p-4 text-sm text-gray-700">
-            <strong>Nota operativa:</strong> confronta i fattori di sicurezza con i requisiti del capitolato (es. FoS scorrimento >= 1.5, FoS ribaltamento >= 2.0).
+            <strong>Nota operativa:</strong> confronta i fattori di sicurezza con i requisiti del capitolato (es. FoS scorrimento &gt;= 1.5, FoS ribaltamento &gt;= 2.0).
             Per muri in terreni saturi o con falda, aggiorna i parametri (gamma sat, pressioni neutre) e verifica la stabilita globale.
           </div>
         </section>
