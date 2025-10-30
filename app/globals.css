@@ -1,28 +1,78 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 /* Custom styles for calculator inputs and results */
 @layer components {
   .calculator-input {
-    @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+  }
+  
+  .calculator-input:focus {
+    outline: none;
+    ring: 2px;
+    ring-color: #3b82f6;
+    border-color: transparent;
   }
   
   .calculator-label {
-    @apply block text-sm font-medium text-gray-700 mb-1;
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 0.25rem;
   }
   
   .calculator-result {
-    @apply bg-blue-50 border border-blue-200 rounded-lg p-6 mt-6;
+    background-color: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
   }
   
   .calculator-button {
-    @apply bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold;
+    background-color: #2563eb;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+  }
+  
+  .calculator-button:hover {
+    background-color: #1d4ed8;
   }
   
   .section-card {
-    @apply bg-white rounded-lg shadow-sm border p-6;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+    padding: 1.5rem;
   }
+}
+
+/* Custom CSS for calculator widgets */
+.calculator-widget input[type="number"]::-webkit-inner-spin-button,
+.calculator-widget input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.calculator-widget input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Focus visible styles for accessibility */
+.focus-visible:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
 }
 
 /* Improve readability */
@@ -35,25 +85,32 @@ body {
 
 /* Ensure proper line heights for better E-E-A-T presentation */
 article {
-  @apply leading-relaxed;
+  line-height: 1.75;
 }
 
 article h2 {
-  @apply text-2xl font-bold mt-8 mb-4;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 article h3 {
-  @apply text-xl font-semibold mt-6 mb-3;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
 }
 
 article p {
-  @apply mb-4;
+  margin-bottom: 1rem;
 }
 
 article ul, article ol {
-  @apply mb-4 ml-6;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
 }
 
 article li {
-  @apply mb-2;
+  margin-bottom: 0.5rem;
 }
