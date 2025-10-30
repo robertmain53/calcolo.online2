@@ -418,7 +418,7 @@ export default function RetainingWallCalculator() {
             Parametri insufficienti
           </h3>
           <p className="text-sm text-red-800">
-            Controlla le dimensioni del muro (H, B, t), l'angolo di attrito (20 deg <= phi <= 45 deg)
+            Controlla le dimensioni del muro (H, B, t), l'angolo di attrito (20 deg &lt;= phi &lt;= 45 deg)
             e i pesi specifici dei materiali.
           </p>
         </section>
