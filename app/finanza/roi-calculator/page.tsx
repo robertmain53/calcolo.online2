@@ -33,8 +33,9 @@ export async function generateMetadata(): Promise<Metadata> {
       description: calculator.metaDescription,
       url,
       siteName: siteConfig.name,
-      type: 'website',
+      type: 'article',
       locale: 'it_IT',
+      authors: [calculator.author.name],
       publishedTime: calculator.datePublished,
       modifiedTime: calculator.dateModified,
       images: [
