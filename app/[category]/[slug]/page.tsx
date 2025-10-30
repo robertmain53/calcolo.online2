@@ -23,6 +23,7 @@ import RCColumnBiaxialCalculator from '@/components/RCColumnBiaxialCalculator';
 import SteelBeamSLUCalculator from '@/components/SteelBeamSLUCalculator';
 import LoadCombinationCalculator from '@/components/LoadCombinationCalculator';
 import TerzaghiBearingCapacityCalculator from '@/components/TerzaghiBearingCapacityCalculator';
+import RetainingWallCalculator from '@/components/RetainingWallCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -401,6 +402,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'verifica-sezione-ca-slu': RCSectionSLUCalculator,
   'combinazioni-carico-ntc-2018': LoadCombinationCalculator,
   'calcolo-portanza-fondazione-terzaghi': TerzaghiBearingCapacityCalculator,
+  'verifica-muro-sostegno': RetainingWallCalculator,
   'calcolo-trave-appoggiata': SimplySupportedBeamCalculator,
   'calcolo-roi-return-on-investment': ROICalculator,
 };
