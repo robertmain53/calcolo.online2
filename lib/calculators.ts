@@ -757,6 +757,150 @@ export const calculators: Calculator[] = [
     schema: 'SoftwareApplication',
   },
   {
+    slug: 'calcolo-regime-forfettario-netto',
+    title: 'Calcolo Regime Forfettario',
+    description:
+      'Calcola reddito imponibile, imposta sostitutiva e contributi previdenziali per il regime forfettario a partire dal fatturato.',
+    metaDescription:
+      'Strumento per il calcolo del regime forfettario: imposte sostitutive e contributi INPS/Inarcassa dal fatturato annuo.',
+    category: 'finanza-business',
+    keywords: [
+      'regime forfettario',
+      'imposta sostitutiva',
+      'contributi INPS',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-15',
+    dateModified: '2025-03-20',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'calcolo-contributi-inarcassa',
+    title: 'Calcolo Contributi Inarcassa',
+    description:
+      'Calcola contributi minimi e a conguaglio per Inarcassa in base al volume d’affari e all’anno di iscrizione.',
+    metaDescription:
+      'Calcolatore contributi Inarcassa: contributo soggettivo, integrativo e di maternità per ingegneri e architetti.',
+    category: 'finanza-business',
+    keywords: [
+      'Inarcassa',
+      'contributi minimi',
+      'volume d’affari',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-15',
+    dateModified: '2025-03-20',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'calcolo-tariffa-oraria-professionista',
+    title: 'Calcolo Tariffa Oraria Professionista',
+    description:
+      'Determina la tariffa oraria minima per coprire costi fissi, variabili, imposte e margine di utile desiderato.',
+    metaDescription:
+      'Calcolatore tariffa oraria per professionisti: analizza costi fissi, variabili, ore fatturabili e utile atteso.',
+    category: 'finanza-business',
+    keywords: [
+      'tariffa oraria',
+      'costi fissi',
+      'studio tecnico',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-15',
+    dateModified: '2025-03-20',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'calcolo-rata-mutuo-ammortamento-francese',
+    title: 'Calcolo Rata Mutuo (Ammortamento Francese)',
+    description:
+      'Calcola l’importo della rata costante di un mutuo a tasso fisso con piano di ammortamento alla francese.',
+    metaDescription:
+      'Calcolatore rata mutuo con ammortamento francese: quota capitale e interessi per finanziamenti a tasso fisso.',
+    category: 'finanza-business',
+    keywords: [
+      'rata mutuo',
+      'ammortamento francese',
+      'quota capitale',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-15',
+    dateModified: '2025-03-20',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-van-tir-npv-irr',
+    title: 'Calcolo VAN e TIR (NPV/IRR)',
+    description:
+      'Calcola il Valore Attuale Netto e il Tasso Interno di Rendimento per valutare investimenti e progetti immobiliari.',
+    metaDescription:
+      'Calcolatore VAN e TIR per analisi finanziarie: valuta profittabilità di investimenti con flussi di cassa previsti.',
+    category: 'finanza-business',
+    keywords: [
+      'VAN',
+      'TIR',
+      'investimenti immobiliari',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-15',
+    dateModified: '2025-03-20',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-corrispettivo-decreto-parametri-dm-2016',
+    title: 'Calcolo Corrispettivo (Decreto Parametri)',
+    description:
+      'Stima il compenso professionale secondo il DM 17/06/2016 partendo dai parametri V, G, Q e P.',
+    metaDescription:
+      'Calcolo corrispettivo professionale Decreto Parametri DM 17/06/2016 per lavori pubblici e privati.',
+    category: 'finanza-business',
+    keywords: [
+      'decreto parametri',
+      'DM 2016',
+      'corrispettivo professionale',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-15',
+    dateModified: '2025-03-20',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-scorporo-iva-reverse-charge',
+    title: 'Scorporo e Calcolo IVA (Reverse Charge)',
+    description:
+      'Calcola imponibile, IVA e totale documento e gestisce il meccanismo dell’inversione contabile per edilizia e subappalti.',
+    metaDescription:
+      'Calcolatore IVA con scorporo e reverse charge per operazioni ordinarie e in edilizia.',
+    category: 'finanza-business',
+    keywords: [
+      'scorporo IVA',
+      'reverse charge',
+      'fatturazione edilizia',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-15',
+    dateModified: '2025-03-20',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'calcolo-interesse-composto',
+    title: 'Calcolo Interesse Composto',
+    description:
+      'Calcola montante futuro e valore attuale di un capitale utilizzando la formula dell’interesse composto.',
+    metaDescription:
+      'Calcolatore di interesse composto per investimenti: montante futuro, valore attuale e capitalizzazione periodica.',
+    category: 'finanza-business',
+    keywords: [
+      'interesse composto',
+      'montante',
+      'valore attuale',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-15',
+    dateModified: '2025-03-20',
+    schema: 'SoftwareApplication',
+  },
+  {
     slug: 'calcolo-portanza-ntc-2018',
     title: 'Calcolo Portanza Fondazioni (NTC 2018)',
     description:
@@ -1231,8 +1375,8 @@ export const calculators: Calculator[] = [
     schema: 'SoftwareApplication',
   },
   {
-    slug: 'roi-calculator',
-    title: 'Calcolatore ROI (Return on Investment)',
+    slug: 'calcolo-roi-return-on-investment',
+    title: 'Calcolo ROI (Return on Investment)',
     description: 'Calcola il ritorno sull\'investimento (ROI) per valutare la redditività e l\'efficacia dei tuoi progetti aziendali. Strumento essenziale per analisi finanziarie e decisioni di investimento.',
     metaDescription: 'Calcolatore ROI gratuito per misurare il ritorno sugli investimenti. Calcola la redditività dei progetti aziendali con formule certificate e analisi dettagliate.',
     category: 'finanza-business',
@@ -1254,12 +1398,12 @@ export const calculators: Calculator[] = [
     schema: 'WebApplication',
   },
   {
-    slug: 'analisi-break-even',
-    title: 'Analisi Break Even Point',
+    slug: 'calcolo-break-even-point-studio-tecnico',
+    title: 'Calcolo Break Even Point (Studio Tecnico)',
     description:
-      'Calcola il punto di pareggio aziendale con identificazione dei costi fissi/variabili, margine di contribuzione e grafico BEP.',
+      'Calcola il punto di pareggio per studi tecnici con analisi dei costi fissi, variabili, margine di contribuzione e grafico BEP.',
     metaDescription:
-      'Tool per la determinazione del break even point. Inserisci costi e ricavi unitari per valutare margine di sicurezza e volumi di pareggio.',
+      'Calcolatore break-even per studi professionali: determina fatturato minimo, quantità critica e margine di sicurezza.',
     category: 'finanza-business',
     keywords: [
       'break even point',
@@ -1271,7 +1415,7 @@ export const calculators: Calculator[] = [
     ],
     author: defaultAuthors.accountant,
     datePublished: '2024-07-02',
-    dateModified: '2025-02-05',
+    dateModified: '2025-03-20',
     schema: 'SoftwareApplication',
   },
   {
@@ -2260,6 +2404,186 @@ export const calculators: Calculator[] = [
     author: defaultAuthors.geotechnicalEngineer,
     datePublished: '2024-12-11',
     dateModified: '2025-03-18',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-regime-forfettario-professionisti',
+    title: 'Guida al Regime Forfettario [Anno Corrente]',
+    description:
+      'Illustra requisiti di accesso, coefficienti di redditività, calcolo di imposte e contributi nel regime forfettario.',
+    metaDescription:
+      'Regime forfettario per professionisti: requisiti, coefficienti di redditività, imposte e contributi con esempi pratici.',
+    category: 'guide',
+    keywords: [
+      'regime forfettario',
+      'coefficiente redditività',
+      'tasse forfettario',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-18',
+    dateModified: '2025-03-22',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'inarcassa-vs-gestione-separata-inps',
+    title: 'Inarcassa vs Gestione Separata INPS',
+    description:
+      'Confronta le due gestioni previdenziali per ingegneri e architetti: requisiti, contributi e vantaggi.',
+    metaDescription:
+      'Guida comparativa Inarcassa e Gestione Separata INPS per professionisti tecnici, contributi e obblighi.',
+    category: 'guide',
+    keywords: [
+      'Inarcassa',
+      'Gestione Separata',
+      'previdenza professionisti',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-18',
+    dateModified: '2025-03-22',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'spiegazione-decreto-parametri-dm-2016',
+    title: 'Come Calcolare i Parametri (DM 17/06/2016)',
+    description:
+      'Spiega i parametri V, G, Q e P del Decreto Parametri con esempi di calcolo del compenso professionale.',
+    metaDescription:
+      'Guida al Decreto Parametri DM 17/06/2016: significato dei parametri V, G, Q, P e calcolo del compenso.',
+    category: 'guide',
+    keywords: [
+      'Decreto Parametri',
+      'DM 17/06/2016',
+      'compenso professionale',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-18',
+    dateModified: '2025-03-22',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'come-calcolare-tariffa-oraria-professionista',
+    title: 'Come Determinare la Tariffa Oraria (Metodo)',
+    description:
+      'Metodologia per calcolare la tariffa oraria di uno studio professionale analizzando costi fissi, variabili e ore fatturabili.',
+    metaDescription:
+      'Metodo pratico per definire la tariffa oraria di professionisti tecnici: costi fissi, variabili e margine.',
+    category: 'guide',
+    keywords: [
+      'tariffa oraria',
+      'studio tecnico',
+      'analisi costi',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-18',
+    dateModified: '2025-03-22',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-van-tir-valutazione-investimenti-immobiliari',
+    title: 'Guida a VAN e TIR: Valutare Investimenti Immobiliari',
+    description:
+      'Spiega come utilizzare VAN e TIR per valutare investimenti, con esempi applicati a operazioni immobiliari.',
+    metaDescription:
+      'Guida a VAN (NPV) e TIR (IRR) per analisi di investimenti immobiliari e progetti aziendali.',
+    category: 'guide',
+    keywords: [
+      'VAN',
+      'TIR',
+      'investimenti immobiliari',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-18',
+    dateModified: '2025-03-22',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'ammortamento-francese-spiegazione-calcolo-rata',
+    title: 'Ammortamento Francese: Spiegazione Pratica',
+    description:
+      'Descrive la scomposizione della rata costante in quota capitale e interessi in un piano di ammortamento alla francese.',
+    metaDescription:
+      'Guida all’ammortamento francese: calcolo rata, quota capitale e interessi per mutui a rata costante.',
+    category: 'guide',
+    keywords: [
+      'ammortamento francese',
+      'rata mutuo',
+      'quota capitale',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-18',
+    dateModified: '2025-03-22',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'differenza-roi-roe-roa-indici-redditivita',
+    title: 'ROI, ROE, ROA: Capire gli Indici di Redditività',
+    description:
+      'Spiega le differenze tra ROI, ROE e ROA e come interpretarli nella gestione economico-finanziaria di uno studio.',
+    metaDescription:
+      'Guida ai principali indici di redditività aziendale: ROI, ROE, ROA e loro interpretazione.',
+    category: 'guide',
+    keywords: [
+      'ROI',
+      'ROE',
+      'ROA',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-18',
+    dateModified: '2025-03-22',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-reverse-charge-edilizia-iva',
+    title: 'Il Reverse Charge (Edilizia): Come Funziona',
+    description:
+      'Spiega l’inversione contabile IVA nel settore edile, quando si applica e come emettere correttamente la fattura.',
+    metaDescription:
+      'Guida al reverse charge in edilizia: obblighi, casi applicativi e gestione in fattura.',
+    category: 'guide',
+    keywords: [
+      'reverse charge',
+      'IVA edilizia',
+      'fatturazione',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-18',
+    dateModified: '2025-03-22',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'leasing-vs-acquisto-beni-strumentali',
+    title: 'Leasing vs Acquisto: Cosa Conviene al Professionista?',
+    description:
+      'Confronta costi e benefici fiscali di leasing, acquisto e noleggio di beni strumentali per professionisti tecnici.',
+    metaDescription:
+      'Analisi comparativa tra leasing e acquisto di beni strumentali per professionisti: vantaggi fiscali e finanziari.',
+    category: 'guide',
+    keywords: [
+      'leasing',
+      'acquisto beni strumentali',
+      'analisi costi benefici',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-18',
+    dateModified: '2025-03-22',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'business-plan-studio-tecnico-ingegneria',
+    title: 'Il Business Plan dello Studio Tecnico: Guida',
+    description:
+      'Illustra come costruire un business plan per studi tecnici: analisi mercato, costi, ricavi e break-even.',
+    metaDescription:
+      'Guida alla redazione del business plan per studi tecnici: analisi di mercato, piano economico e break-even.',
+    category: 'guide',
+    keywords: [
+      'business plan studio tecnico',
+      'analisi costi ricavi',
+      'break even',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-12-18',
+    dateModified: '2025-03-22',
     schema: 'WebApplication',
   },
   {

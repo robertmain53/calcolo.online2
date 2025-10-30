@@ -101,7 +101,7 @@ const faqContentBySlug: Record<
         'Oltre alla portanza ultima, viene valutato il cedimento elastico e viscoso del palo confrontandolo con il valore massimo impostato dal progettista.',
     },
   ],
-  'roi-calculator': [
+  'calcolo-roi-return-on-investment': [
     {
       question: "Cos'è il ROI (Return on Investment)?",
       answer:
@@ -123,7 +123,7 @@ const faqContentBySlug: Record<
         'Un buon ROI dipende dal settore e dal tipo di investimento. Generalmente, un ROI superiore al 10-15% annuo è considerato buono. Per progetti a breve termine, anche un ROI del 5-7% può essere accettabile.',
     },
   ],
-  'analisi-break-even': [
+  'calcolo-break-even-point-studio-tecnico': [
     {
       question: 'Quali dati servono per il calcolo del break even?',
       answer:
@@ -289,7 +289,7 @@ const howToContentBySlug: Record<
       },
     ],
   },
-  'roi-calculator': {
+  'calcolo-roi-return-on-investment': {
     name: 'Come Calcolare il ROI',
     description: 'Guida passo-passo per calcolare il Return on Investment',
     steps: [
@@ -315,7 +315,7 @@ const howToContentBySlug: Record<
       },
     ],
   },
-  'analisi-break-even': {
+  'calcolo-break-even-point-studio-tecnico': {
     name: 'Come Calcolare il Break Even Point',
     description: 'Approccio guidato per individuare il punto di pareggio aziendale.',
     steps: [
@@ -390,7 +390,7 @@ const howToContentBySlug: Record<
 };
 
 const calculatorComponents: Record<string, ComponentType | undefined> = {
-  'roi-calculator': ROICalculator,
+  'calcolo-roi-return-on-investment': ROICalculator,
 };
 
 function normalizeCategoryParam(param: string | undefined): string {

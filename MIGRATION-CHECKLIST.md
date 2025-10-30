@@ -54,7 +54,7 @@ Example redirect structure:
 ```javascript
 {
   source: '/calcolatori/roi', // Old WordPress URL
-  destination: '/finanza-business/roi-calculator', // New Next.js URL
+  destination: '/finanza-business/calcolo-roi-return-on-investment', // New Next.js URL
   permanent: true,
 }
 ```

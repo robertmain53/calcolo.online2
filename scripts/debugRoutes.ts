@@ -21,7 +21,7 @@ for (const category of categories) {
   console.log('  Calculators:', calculators.map((calc) => calc.slug));
 }
 
-const slugsToCheck = ['roi-calculator', 'ROI-CALCULATOR'];
+const slugsToCheck = ['calcolo-roi-return-on-investment', 'ROI'];
 for (const slug of slugsToCheck) {
   const calculator = getCalculatorBySlug(slug);
   console.log(`\nSlug lookup "${slug}":`, calculator?.slug ?? 'not found');

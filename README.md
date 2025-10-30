@@ -23,7 +23,7 @@ calcolo-starter/
 │   ├── [category]/          # Dynamic category pages (auto-generated)
 │   │   └── page.tsx
 │   ├── finanza-business/
-│   │   └── roi-calculator/  # Example calculator page
+│   │   └── calcolo-roi-return-on-investment/  # Example calculator page
 │   │       └── page.tsx
 │   ├── layout.tsx           # Root layout with global SEO
 │   ├── page.tsx             # Homepage
