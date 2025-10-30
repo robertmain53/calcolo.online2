@@ -25,6 +25,7 @@ import LoadCombinationCalculator from '@/components/LoadCombinationCalculator';
 import TerzaghiBearingCapacityCalculator from '@/components/TerzaghiBearingCapacityCalculator';
 import RetainingWallCalculator from '@/components/RetainingWallCalculator';
 import LaterocementoSlabCalculator from '@/components/LaterocementoSlabCalculator';
+import WoodBeamSLUCalculator from '@/components/WoodBeamSLUCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -405,6 +406,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'calcolo-portanza-fondazione-terzaghi': TerzaghiBearingCapacityCalculator,
   'verifica-muro-sostegno': RetainingWallCalculator,
   'calcolo-solaio-laterocemento': LaterocementoSlabCalculator,
+  'verifica-trave-legno-slu': WoodBeamSLUCalculator,
   'calcolo-trave-appoggiata': SimplySupportedBeamCalculator,
   'calcolo-roi-return-on-investment': ROICalculator,
 };
