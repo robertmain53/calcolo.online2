@@ -19,6 +19,7 @@ import {
 import ROICalculator from '@/components/ROICalculator';
 import SimplySupportedBeamCalculator from '@/components/SimplySupportedBeamCalculator';
 import RCSectionSLUCalculator from '@/components/RCSectionSLUCalculator';
+import RCColumnBiaxialCalculator from '@/components/RCColumnBiaxialCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -392,6 +393,7 @@ const howToContentBySlug: Record<
 };
 
 const calculatorComponents: Record<string, ComponentType | undefined> = {
+  'calcolo-pilastro-ca-pressoflessione': RCColumnBiaxialCalculator,
   'verifica-sezione-ca-slu': RCSectionSLUCalculator,
   'calcolo-trave-appoggiata': SimplySupportedBeamCalculator,
   'calcolo-roi-return-on-investment': ROICalculator,
