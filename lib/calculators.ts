@@ -397,6 +397,186 @@ export const calculators: Calculator[] = [
     schema: 'SoftwareApplication',
   },
   {
+    slug: 'calcolo-sezione-cavo-portata',
+    title: 'Calcolo Sezione Cavo (Portata Iz)',
+    description:
+      'Determina la sezione minima del cavo in rame o alluminio in funzione della corrente, del tipo di posa e del materiale secondo CEI 64-8.',
+    metaDescription:
+      'Calcolatore sezione cavi CEI 64-8: portata Iz, tipologie di posa e materiali conduttori per impianti civili e industriali.',
+    category: 'elettrotecnica',
+    keywords: [
+      'sezione cavo',
+      'CEI 64-8',
+      'portata Iz',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-11-28',
+    dateModified: '2025-03-04',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-caduta-tensione-linea',
+    title: 'Calcolo Caduta di Tensione (%)',
+    description:
+      'Calcola la caduta di tensione percentuale su linee monofase e trifase per garantire il rispetto dei limiti previsti dalla CEI 64-8.',
+    metaDescription:
+      'Calcolo caduta di tensione per linee monofase e trifase con verifica del limite 4 percento secondo CEI 64-8.',
+    category: 'elettrotecnica',
+    keywords: [
+      'caduta di tensione',
+      'linea elettrica',
+      'CEI 64-8',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-11-28',
+    dateModified: '2025-03-04',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'dimensionamento-interruttore-magnetotermico',
+    title: 'Dimensionamento Interruttore Magnetotermico',
+    description:
+      'Calcola la taglia dell’interruttore magnetotermico coordinandola con la corrente di impiego e la portata del cavo secondo CEI 64-8.',
+    metaDescription:
+      'Dimensionamento degli interruttori automatici: verifica Ib ≤ In ≤ Iz e I2 ≤ 1,45·Iz come richiesto dalla CEI 64-8.',
+    category: 'elettrotecnica',
+    keywords: [
+      'interruttore magnetotermico',
+      'coordinamento cavo interruttore',
+      'protezione sovraccarico',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-11-28',
+    dateModified: '2025-03-04',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-corrente-corto-circuito-icc',
+    title: 'Calcolo Corrente di Corto Circuito (Icc)',
+    description:
+      'Stima la corrente di corto circuito presunta in un punto dell’impianto per la scelta del potere di interruzione dei dispositivi di protezione.',
+    metaDescription:
+      'Calcolo della corrente di corto circuito Icc per selezionare interruttori con potere di interruzione adeguato.',
+    category: 'elettrotecnica',
+    keywords: [
+      'corrente di corto circuito',
+      'Icc',
+      'potere di interruzione',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-11-28',
+    dateModified: '2025-03-04',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-rifasamento-cos-phi',
+    title: 'Calcolo Rifasamento (cos phi)',
+    description:
+      'Calcola la potenza reattiva richiesta per rifasare un impianto elettrico dal cos phi iniziale a quello desiderato.',
+    metaDescription:
+      'Calcolo della batteria di condensatori per rifasamento: determina i kVAR necessari per raggiungere il cos phi target.',
+    category: 'elettrotecnica',
+    keywords: [
+      'rifasamento',
+      'cos phi',
+      'potenza reattiva',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-11-28',
+    dateModified: '2025-03-04',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolatore-legge-ohm-potenza',
+    title: 'Legge di Ohm e Potenze (P, Q, S)',
+    description:
+      'Calcola tensione, corrente, resistenza e potenze attiva, reattiva e apparente in circuiti in corrente continua, monofase e trifase.',
+    metaDescription:
+      'Calcolatrice per la legge di Ohm e per le potenze elettriche in sistemi DC, AC monofase e trifase.',
+    category: 'elettrotecnica',
+    keywords: [
+      'legge di ohm',
+      'potenza elettrica',
+      'trifase',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-11-28',
+    dateModified: '2025-03-04',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'dimensionamento-tubi-portacavi',
+    title: 'Calcolo Dimensionamento Tubi Portacavi',
+    description:
+      'Determina il diametro minimo di tubi e canaline in base al numero di conduttori e al grado di riempimento consentito dalla CEI 64-8.',
+    metaDescription:
+      'Dimensionamento dei tubi portacavi: calcolo del riempimento massimo e scelta del diametro minimo secondo CEI 64-8.',
+    category: 'elettrotecnica',
+    keywords: [
+      'tubi portacavi',
+      'posa cavi',
+      'grado di riempimento',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-11-28',
+    dateModified: '2025-03-04',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-resistenza-impianto-terra',
+    title: 'Calcolo Resistenza Impianto di Terra (Rt)',
+    description:
+      'Stima la resistenza di terra di un impianto in funzione del tipo di dispersore e della resistività del terreno per la protezione dai contatti indiretti.',
+    metaDescription:
+      'Calcolo della resistenza di terra Rt per impianti TT e TN con differenti configurazioni di dispersori.',
+    category: 'elettrotecnica',
+    keywords: [
+      'resistenza di terra',
+      'impianto di terra',
+      'dispersori',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-11-28',
+    dateModified: '2025-03-04',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-illuminotecnico-numero-lampade',
+    title: 'Calcolo Illuminotecnico (Lux)',
+    description:
+      'Calcola il numero di apparecchi illuminanti necessari per raggiungere il livello di illuminamento richiesto tramite il metodo del flusso totale.',
+    metaDescription:
+      'Calcolo illuminotecnico con metodo del flusso totale: numero di lampade e lux richiesti secondo UNI EN 12464-1.',
+    category: 'elettrotecnica',
+    keywords: [
+      'calcolo lux',
+      'illuminazione lavoro',
+      'UNI EN 12464-1',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-11-28',
+    dateModified: '2025-03-04',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-corrente-spunto-motore',
+    title: 'Calcolo Corrente di Spunto (Motori)',
+    description:
+      'Calcola la corrente di spunto di motori asincroni trifase per selezionare correttamente le protezioni e gli avviatori.',
+    metaDescription:
+      'Calcolo della corrente di spunto dei motori asincroni per la scelta di protezioni curva D e dispositivi di avviamento.',
+    category: 'elettrotecnica',
+    keywords: [
+      'corrente di spunto',
+      'motore asincrono',
+      'protezione motore',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-11-28',
+    dateModified: '2025-03-04',
+    schema: 'SoftwareApplication',
+  },
+  {
     slug: 'verifica-sezione-ca-slu',
     title: 'Verifica Sezione CA (SLU)',
     description:
@@ -1360,6 +1540,186 @@ export const calculators: Calculator[] = [
     author: defaultAuthors.acousticsEngineer,
     datePublished: '2024-11-25',
     dateModified: '2025-03-02',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-cei-64-8-sezione-cavi',
+    title: 'Guida alla CEI 64-8: Scegliere la Sezione dei Cavi',
+    description:
+      'Illustra come dimensionare la sezione dei cavi elettrici considerando portata Iz, tabelle di posa e caduta di tensione.',
+    metaDescription:
+      'Guida pratica alla CEI 64-8 per scegliere la sezione dei cavi: portata, posa e caduta di tensione consentita.',
+    category: 'guide',
+    keywords: [
+      'CEI 64-8',
+      'sezione cavi',
+      'portata Iz',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-12-02',
+    dateModified: '2025-03-06',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'coordinamento-cavo-interruttore-magnetotermico',
+    title: 'Coordinamento Cavo-Interruttore (Guida)',
+    description:
+      'Spiega i criteri Ib ≤ In ≤ Iz e I2 ≤ 1,45·Iz per proteggere correttamente i cavi con interruttori magnetotermici.',
+    metaDescription:
+      'Guida al coordinamento tra cavo e interruttore magnetotermico secondo CEI 64-8 con esempi numerici.',
+    category: 'guide',
+    keywords: [
+      'coordinamento cavo',
+      'interruttore magnetotermico',
+      'protezione sovraccarico',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-12-02',
+    dateModified: '2025-03-06',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-rifasamento-cos-phi-potenza-reattiva',
+    title: 'Rifasamento: Cos’è il cos phi e Perché Correggerlo',
+    description:
+      'Analizza il triangolo delle potenze e i benefici tecnici ed economici del rifasamento degli impianti elettrici.',
+    metaDescription:
+      'Guida al rifasamento: cos phi, potenza attiva e reattiva e scelta della batteria di condensatori.',
+    category: 'guide',
+    keywords: [
+      'rifasamento',
+      'cos phi',
+      'potenza reattiva',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-12-02',
+    dateModified: '2025-03-06',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'come-funziona-interruttore-differenziale-salvavita',
+    title: 'Il "Salva-Vita": Come Funziona il Differenziale',
+    description:
+      'Descrive il principio di funzionamento degli interruttori differenziali, le classi disponibili e le protezioni dai contatti indiretti.',
+    metaDescription:
+      'Spiegazione dell’interruttore differenziale: classi AC, A, F, B e criteri di selezione per la sicurezza elettrica.',
+    category: 'guide',
+    keywords: [
+      'interruttore differenziale',
+      'salvavita',
+      'protezione contatti indiretti',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-12-02',
+    dateModified: '2025-03-06',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'differenze-sistemi-distribuzione-tt-tn-it',
+    title: 'Sistemi di Distribuzione TT, TN, IT (CEI 64-8)',
+    description:
+      'Confronta i sistemi di distribuzione TT, TN e IT evidenziando implicazioni su protezioni e impianto di terra.',
+    metaDescription:
+      'Guida ai sistemi TT, TN e IT secondo CEI 64-8: caratteristiche, vantaggi e scelte progettuali.',
+    category: 'guide',
+    keywords: [
+      'sistemi TT',
+      'sistemi TN',
+      'impianto di terra',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-12-02',
+    dateModified: '2025-03-06',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'cos-e-corrente-corto-circuito-icc',
+    title: 'Corto Circuito (Icc): Cos’è e Perché si Calcola',
+    description:
+      'Spiega il significato di corrente di corto circuito, potere di interruzione e perché devono essere verificati.',
+    metaDescription:
+      'Cos’è la corrente di corto circuito Icc e come scegliere dispositivi con adeguato potere di interruzione.',
+    category: 'guide',
+    keywords: [
+      'corrente di corto circuito',
+      'potere di interruzione',
+      'protezione impianti',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-12-02',
+    dateModified: '2025-03-06',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'spiegazione-curve-intervento-magnetotermici-b-c-d',
+    title: 'Curve Magnetotermici (B, C, D, K, Z)',
+    description:
+      'Descrive le curve di intervento degli interruttori magnetotermici e quando utilizzare ciascuna tipologia.',
+    metaDescription:
+      'Guida alle curve B, C, D, K, Z degli interruttori magnetotermici con esempi applicativi per carichi diversi.',
+    category: 'guide',
+    keywords: [
+      'curve magnetotermico',
+      'protezione circuiti',
+      'interruttori automatici',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-12-02',
+    dateModified: '2025-03-06',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-uni-en-12464-1-illuminazione-lavoro',
+    title: 'Guida alla UNI EN 12464-1 (Illuminazione)',
+    description:
+      'Esamina i requisiti di illuminamento, uniformità e abbagliamento per i luoghi di lavoro secondo la norma UNI EN 12464-1.',
+    metaDescription:
+      'Guida alla UNI EN 12464-1: lux, uniformità e UGR per progettare l’illuminazione dei luoghi di lavoro.',
+    category: 'guide',
+    keywords: [
+      'UNI EN 12464-1',
+      'illuminamento',
+      'UGR',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-12-02',
+    dateModified: '2025-03-06',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'verifica-impianto-terra-dpr-462-01',
+    title: 'Verifica Impianto di Terra (DPR 462/01)',
+    description:
+      'Approfondisce gli obblighi di verifica periodica degli impianti di terra e il significato dei parametri Rt e Ra.',
+    metaDescription:
+      'Guida al DPR 462/01 per la verifica degli impianti di terra: controlli obbligatori e parametri da rispettare.',
+    category: 'guide',
+    keywords: [
+      'DPR 462/01',
+      'verifica impianto terra',
+      'resistenza terra',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-12-02',
+    dateModified: '2025-03-06',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'posa-cavi-riempimento-tubi-corrugati',
+    title: 'Posa Cavi (CEI 64-8): Riempimento Tubi',
+    description:
+      'Guida alle regole di posa dei cavi nei tubi corrugati e canaline con calcolo del grado di riempimento massimo consentito.',
+    metaDescription:
+      'Regole CEI 64-8 per la posa dei cavi: calcolo del grado di riempimento dei tubi e garanzia di sfilabilità.',
+    category: 'guide',
+    keywords: [
+      'posa cavi',
+      'tubi corrugati',
+      'grado riempimento',
+    ],
+    author: defaultAuthors.electricalEngineer,
+    datePublished: '2024-12-02',
+    dateModified: '2025-03-06',
     schema: 'WebApplication',
   },
   // Add more calculators here following the same structure
