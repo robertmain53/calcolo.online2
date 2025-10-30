@@ -8,7 +8,10 @@ import {
   getCalculatorPath,
 } from '@/lib/calculators';
 import { siteConfig } from '@/lib/config';
-import { generateBreadcrumbSchema } from '@/lib/structured-data';
+import {
+  generateBreadcrumbSchema,
+  generateCategoryItemListSchema,
+} from '@/lib/structured-data';
 
 interface CategoryPageProps {
   params: Promise<{
@@ -58,16 +61,17 @@ export async function generateMetadata({
 
   return {
     title: meta.title,
-    description: meta.description,
+    description: meta.metaDescription,
     keywords: [
       meta.title.toLowerCase(),
+      meta.metaDescription.toLowerCase(),
       'calcolatori',
       'strumenti professionali',
       ...calculators.flatMap((c) => c.keywords).slice(0, 10),
     ],
     openGraph: {
       title: meta.title,
-      description: meta.description,
+      description: meta.metaDescription,
       url,
       siteName: siteConfig.name,
       type: 'website',
@@ -76,7 +80,7 @@ export async function generateMetadata({
     twitter: {
       card: 'summary',
       title: meta.title,
-      description: meta.description,
+      description: meta.metaDescription,
     },
     alternates: {
       canonical: url,
@@ -104,6 +108,12 @@ export default async function CategoryPage({
     { name: 'Home', url: siteConfig.url },
     { name: meta.title, url: `${siteConfig.url}/${categorySlug}` },
   ]);
+  const itemListSchema = generateCategoryItemListSchema(
+    meta.title,
+    meta.description,
+    `${siteConfig.url}/${categorySlug}`,
+    calculators
+  );
 
   return (
     <>
@@ -112,6 +122,12 @@ export default async function CategoryPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(breadcrumbSchema),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(itemListSchema),
         }}
       />
 

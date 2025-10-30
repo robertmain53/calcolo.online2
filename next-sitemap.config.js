@@ -37,9 +37,22 @@ module.exports = {
         lastmod: new Date().toISOString(),
       };
     }
+    const calculatorSegments = [
+      'ingegneria-strutturale',
+      'sicurezza-cantiere',
+      'acustica-termotecnica',
+      'elettrotecnica',
+      'ingegneria-idraulica',
+      'ingegneria-geotecnica',
+      'finanza-business',
+      'topografia-matematica',
+      'convertitori-tecnici',
+      'strumenti-quotidiani',
+      'guide',
+    ];
     
     // Calculator pages get high priority
-    if (path.includes('/finanza/') || path.includes('/ingegneria/')) {
+    if (calculatorSegments.some((segment) => path.includes(`/${segment}/`))) {
       return {
         loc: path,
         changefreq: 'weekly',

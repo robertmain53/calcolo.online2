@@ -22,7 +22,7 @@ calcolo-starter/
 ├── app/
 │   ├── [category]/          # Dynamic category pages (auto-generated)
 │   │   └── page.tsx
-│   ├── finanza/
+│   ├── finanza-business/
 │   │   └── roi-calculator/  # Example calculator page
 │   │       └── page.tsx
 │   ├── layout.tsx           # Root layout with global SEO
@@ -69,7 +69,7 @@ Edit `lib/calculators.ts` and add your calculator to the array:
   title: 'Your Calculator Title',
   description: 'Detailed description for the page',
   metaDescription: 'SEO-optimized meta description (150-160 chars)',
-  category: 'finanza', // or 'ingegneria', 'matematica', etc.
+  category: 'finanza-business', // oppure 'ingegneria-strutturale', 'elettrotecnica', ecc.
   keywords: [
     'keyword 1',
     'keyword 2',

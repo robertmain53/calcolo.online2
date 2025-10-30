@@ -7,6 +7,7 @@ exports.generateArticleSchema = generateArticleSchema;
 exports.generateBreadcrumbSchema = generateBreadcrumbSchema;
 exports.generateFAQSchema = generateFAQSchema;
 exports.generateHowToSchema = generateHowToSchema;
+exports.generateCategoryItemListSchema = generateCategoryItemListSchema;
 const config_1 = require("./config");
 /**
  * Generate Organization schema for the entire site
@@ -172,6 +173,26 @@ function generateHowToSchema(name, description, steps) {
             position: index + 1,
             name: step.name,
             text: step.text,
+        })),
+    };
+}
+/**
+ * Generate ItemList schema for category pages
+ */
+function generateCategoryItemListSchema(categoryTitle, categoryDescription, categoryUrl, calculators) {
+    return {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        name: `${categoryTitle} - Calcolatori`,
+        description: categoryDescription,
+        url: categoryUrl,
+        numberOfItems: calculators.length,
+        itemListElement: calculators.map((calculator, index) => ({
+            '@type': 'ListItem',
+            position: index + 1,
+            name: calculator.title,
+            description: calculator.metaDescription,
+            url: `${config_1.siteConfig.url}/${calculator.category}/${calculator.slug}`,
         })),
     };
 }

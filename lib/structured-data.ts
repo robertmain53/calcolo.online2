@@ -188,3 +188,29 @@ export function generateHowToSchema(
     })),
   };
 }
+
+/**
+ * Generate ItemList schema for category pages
+ */
+export function generateCategoryItemListSchema(
+  categoryTitle: string,
+  categoryDescription: string,
+  categoryUrl: string,
+  calculators: Calculator[]
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `${categoryTitle} - Calcolatori`,
+    description: categoryDescription,
+    url: categoryUrl,
+    numberOfItems: calculators.length,
+    itemListElement: calculators.map((calculator, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: calculator.title,
+      description: calculator.metaDescription,
+      url: `${siteConfig.url}/${calculator.category}/${calculator.slug}`,
+    })),
+  };
+}

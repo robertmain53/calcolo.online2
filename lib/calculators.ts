@@ -10,6 +10,187 @@ import { defaultAuthors } from './config';
  */
 export const calculators: Calculator[] = [
   {
+    slug: 'calcolo-trave-appoggiata',
+    title: 'Calcolo Trave Appoggiata',
+    description:
+      'Calcola e traccia i diagrammi di momento flettente, taglio e freccia per travi appoggiate con diverse combinazioni di carico.',
+    metaDescription:
+      'Calcolatore per travi appoggiate su due appoggi: diagrammi di momento, taglio e deformazione secondo scienza delle costruzioni.',
+    category: 'ingegneria-strutturale',
+    keywords: [
+      'trave appoggiata',
+      'diagramma momento',
+      'diagramma taglio',
+      'freccia trave',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-10',
+    dateModified: '2025-02-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'verifica-sezione-ca-slu',
+    title: 'Verifica Sezione CA (SLU)',
+    description:
+      'Esegue la verifica a flessione e pressoflessione per sezioni rettangolari in cemento armato allo stato limite ultimo secondo NTC 2018.',
+    metaDescription:
+      'Verifica allo stato limite ultimo per sezioni in cemento armato rettangolari con calcolo dominio M-N e armature richieste.',
+    category: 'ingegneria-strutturale',
+    keywords: [
+      'verifica sezione ca',
+      'dominio M-N',
+      'SLU NTC 2018',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-10',
+    dateModified: '2025-02-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-pilastro-ca-pressoflessione',
+    title: 'Calcolo Pilastro CA (Pressoflessione)',
+    description:
+      'Calcola la resistenza dei pilastri in cemento armato soggetti a sforzo normale e momento flettente con verifica a pressoflessione deviata.',
+    metaDescription:
+      'Dimensionamento di pilastri in cemento armato con pressoflessione deviata e controllo dei domini di resistenza.',
+    category: 'ingegneria-strutturale',
+    keywords: [
+      'calcolo pilastro ca',
+      'pressoflessione deviata',
+      'pilastro NTC 2018',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-10',
+    dateModified: '2025-02-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'verifica-trave-acciaio-slu',
+    title: 'Verifica Trave in Acciaio (SLU)',
+    description:
+      'Verifica resistenza, taglio e stabilità di profili in acciaio laminati o saldati secondo NTC 2018 ed Eurocodice 3.',
+    metaDescription:
+      'Calcolatore per travi in acciaio con verifiche a flessione, taglio e instabilità flesso-torsionale (svergolamento).',
+    category: 'ingegneria-strutturale',
+    keywords: [
+      'trave acciaio',
+      'instabilità flesso torsionale',
+      'verifica SLU acciaio',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-10',
+    dateModified: '2025-02-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'combinazioni-carico-ntc-2018',
+    title: 'Calcolo Combinazioni di Carico (NTC 2018)',
+    description:
+      'Genera automaticamente combinazioni di carico SLU e SLE, sismiche e statiche, in accordo con il Capitolo 2.5 delle NTC 2018.',
+    metaDescription:
+      'Tool per combinazioni di carico NTC 2018 con coefficienti parziali e di combinazione per SLU, SLE e combinazioni sismiche.',
+    category: 'ingegneria-strutturale',
+    keywords: [
+      'combinazioni carico',
+      'NTC 2018',
+      'SLU SLE',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-10',
+    dateModified: '2025-02-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-portanza-fondazione-terzaghi',
+    title: 'Portanza Fondazione (Terzaghi)',
+    description:
+      'Stima la capacità portante di fondazioni superficiali utilizzando la formula di Terzaghi per terreni coerenti e incoerenti.',
+    metaDescription:
+      'Calcolo della capacità portante dei plinti con metodo di Terzaghi: fattori Nc, Nq, Nγ e coefficienti di forma.',
+    category: 'ingegneria-strutturale',
+    keywords: [
+      'portanza fondazione',
+      'terzaghi',
+      'plinto superficiale',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-10',
+    dateModified: '2025-02-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'verifica-muro-sostegno',
+    title: 'Verifica Stabilità Muro di Sostegno',
+    description:
+      'Esegue le verifiche di ribaltamento, scorrimento e capacità portante per muri di sostegno a gravità o a mensola.',
+    metaDescription:
+      'Verifica completa dei muri di sostegno con spinte di Rankine e Coulomb e controlli di stabilità globale.',
+    category: 'ingegneria-strutturale',
+    keywords: [
+      'muro di sostegno',
+      'spinta terreno',
+      'verifica ribaltamento',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-10',
+    dateModified: '2025-02-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-solaio-laterocemento',
+    title: 'Calcolo Solaio Laterocemento',
+    description:
+      'Predimensiona e verifica solai in laterocemento con travetti e pignatte, includendo calcolo di frecce e armature integrate.',
+    metaDescription:
+      'Calcolatore per solai in laterocemento: carichi lineari, momenti, frecce e verifica normativa.',
+    category: 'ingegneria-strutturale',
+    keywords: [
+      'solaio laterocemento',
+      'predimensionamento solaio',
+      'verifica freccia',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-10',
+    dateModified: '2025-02-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'verifica-trave-legno-slu',
+    title: 'Verifica Trave in Legno (SLU)',
+    description:
+      'Verifica la capacità a flessione, taglio e instabilità delle travi in legno massiccio o lamellare con classi C e GL.',
+    metaDescription:
+      'Verifica allo stato limite ultimo per travi in legno con controllo di instabilità flesso-torsionale.',
+    category: 'ingegneria-strutturale',
+    keywords: [
+      'trave legno',
+      'classe resistenza legno',
+      'SLU legno',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-10',
+    dateModified: '2025-02-15',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-taglio-sismico-statica',
+    title: 'Calcolo Taglio Sismico (Analisi Statica)',
+    description:
+      'Calcola la forza di taglio sismica alla base di edifici tramite analisi statica equivalente secondo NTC 2018.',
+    metaDescription:
+      'Tool per la determinazione del taglio sismico di base con spettro di progetto NTC 2018 e fattore di comportamento.',
+    category: 'ingegneria-strutturale',
+    keywords: [
+      'taglio sismico',
+      'analisi statica equivalente',
+      'NTC 2018 sismica',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-10',
+    dateModified: '2025-02-15',
+    schema: 'SoftwareApplication',
+  },
+  {
     slug: 'verifica-trave-ca',
     title: 'Calcolo Trave in Cemento Armato',
     description:
@@ -250,6 +431,209 @@ export const calculators: Calculator[] = [
     dateModified: '2025-03-01',
     schema: 'WebApplication',
   },
+  {
+    slug: 'guida-calcolo-roi',
+    title: 'Guida Completa al Calcolo del ROI',
+    description:
+      'Approfondimento pratico sul Return on Investment: definizione, formule, esempi reali e consigli per interpretare il ROI nei progetti aziendali.',
+    metaDescription:
+      'Articolo guida sul calcolo del ROI. Spiega formula, esempi pratici e strategie per migliorare il ritorno sugli investimenti nelle PMI.',
+    category: 'guide',
+    keywords: [
+      'guida ROI',
+      'come calcolare ROI',
+      'interpretare ROI',
+      'return on investment guida',
+      'esempi ROI',
+      'strategia investimenti',
+      'ottimizzare ROI',
+    ],
+    author: defaultAuthors.accountant,
+    datePublished: '2024-11-05',
+    dateModified: '2025-02-15',
+    featured: true,
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-ntc-2018-principi-fondamentali',
+    title: 'Guida alle NTC 2018: Principi Fondamentali',
+    description:
+      'Sintesi dei principi base delle NTC 2018, stati limite e novità normative per la progettazione strutturale.',
+    metaDescription:
+      'Approfondimento sui principi fondamentali delle NTC 2018: SLU, SLE, affidabilità e novità per progettisti strutturali.',
+    category: 'guide',
+    keywords: [
+      'NTC 2018',
+      'principi NTC',
+      'stati limite',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-12',
+    dateModified: '2025-02-20',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'calcolo-momento-taglio-teoria',
+    title: 'Come Calcolare Momento e Taglio (Teoria)',
+    description:
+      'Richiami teorici sui diagrammi di momento e taglio per travi notevoli e schemi di carico ricorrenti.',
+    metaDescription:
+      'Guida teorica ai diagrammi di momento flettente e taglio nelle travi: metodi di calcolo e esempi pratici.',
+    category: 'guide',
+    keywords: [
+      'diagrammi momento',
+      'diagrammi taglio',
+      'scienza delle costruzioni',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-12',
+    dateModified: '2025-02-20',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'verifica-ca-dominio-m-n',
+    title: 'Verifica Sezioni CA: Il Dominio M-N',
+    description:
+      'Analisi del dominio momento-sforzo normale per sezioni in cemento armato e applicazione pratica ai pilastri.',
+    metaDescription:
+      'Guida al dominio M-N per il cemento armato: costruzione, interpretazione e utilizzo nelle verifiche strutturali.',
+    category: 'guide',
+    keywords: [
+      'dominio M-N',
+      'cemento armato',
+      'verifica pilastri',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-12',
+    dateModified: '2025-02-20',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'stabilita-travi-acciaio-svergolamento',
+    title: 'Stabilità Travi Acciaio: Svergolamento',
+    description:
+      'Spiegazione dell’instabilità flesso-torsionale nelle travi in acciaio e dei criteri di verifica secondo EC3.',
+    metaDescription:
+      'Approfondimento sullo svergolamento delle travi in acciaio con riferimenti all’Eurocodice 3 e alle NTC 2018.',
+    category: 'guide',
+    keywords: [
+      'svergolamento',
+      'instabilità flesso torsionale',
+      'travi acciaio',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-12',
+    dateModified: '2025-02-20',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'spiegazione-combinazioni-carico-ntc-2018',
+    title: 'Capire le Combinazioni di Carico NTC 2018',
+    description:
+      'Guida ai coefficienti parziali e di combinazione delle azioni per SLU e SLE nelle NTC 2018.',
+    metaDescription:
+      'Come applicare i coefficienti gamma e psi nelle combinazioni di carico NTC 2018 per SLU e SLE.',
+    category: 'guide',
+    keywords: [
+      'combinazioni carico',
+      'coefficiente gamma',
+      'psi NTC 2018',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-12',
+    dateModified: '2025-02-20',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'teoria-capacita-portante-terzaghi',
+    title: 'La Teoria della Capacità Portante (Terzaghi)',
+    description:
+      'Dettaglia la formula di Terzaghi, i fattori Nc, Nq, Nγ e le ipotesi alla base della verifica delle fondazioni.',
+    metaDescription:
+      'Spiegazione completa della capacità portante secondo Terzaghi con significato dei fattori e applicazioni pratiche.',
+    category: 'guide',
+    keywords: [
+      'capacità portante',
+      'teoria Terzaghi',
+      'fondazioni superficiali',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-12',
+    dateModified: '2025-02-20',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'verifica-muri-sostegno-spinta-terreno',
+    title: 'Verifica Muri di Sostegno: Spinta Attiva e Passiva',
+    description:
+      'Descrive come calcolare la spinta del terreno e le condizioni di equilibrio per muri di sostegno.',
+    metaDescription:
+      'Spinta attiva e passiva del terreno per la verifica dei muri di sostegno con Rankine e Coulomb.',
+    category: 'guide',
+    keywords: [
+      'spinta attiva',
+      'spinta passiva',
+      'muro di sostegno teoria',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-12',
+    dateModified: '2025-02-20',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'progettazione-solai-laterocemento-carichi',
+    title: 'Progettazione Solai: Ripartizione Carichi',
+    description:
+      'Metodi per ripartire i carichi sui solai in laterocemento e dimensionare travetti e travi perimetrali.',
+    metaDescription:
+      'Guida alla ripartizione dei carichi nei solai in laterocemento con esempi di calcolo.',
+    category: 'guide',
+    keywords: [
+      'progettazione solai',
+      'ripartizione carichi',
+      'laterocemento',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-12',
+    dateModified: '2025-02-20',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'classi-resistenza-legno-c24-gl24h',
+    title: 'Classi di Resistenza del Legno (C24, GL24h)',
+    description:
+      'Panoramica sulle classi di resistenza del legno massiccio e lamellare con valori caratteristici di progetto.',
+    metaDescription:
+      'Classi C e GL del legno strutturale: valori caratteristici e indicazioni per il progetto.',
+    category: 'guide',
+    keywords: [
+      'classi legno',
+      'C24',
+      'GL24h',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-12',
+    dateModified: '2025-02-20',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'analisi-sismica-spettri-risposta-ntc-2018',
+    title: 'Analisi Sismica: Spettri di Risposta',
+    description:
+      'Introduce la costruzione degli spettri elastici e di progetto NTC 2018 e il loro impiego nelle verifiche sismiche.',
+    metaDescription:
+      'Guida agli spettri di risposta NTC 2018: calcolo dei parametri ag, F0, TC* e applicazioni progettuali.',
+    category: 'guide',
+    keywords: [
+      'spettri risposta',
+      'analisi sismica',
+      'NTC 2018 spettro',
+    ],
+    author: defaultAuthors.engineer,
+    datePublished: '2024-11-12',
+    dateModified: '2025-02-20',
+    schema: 'WebApplication',
+  },
   // Add more calculators here following the same structure
   // Example:
   // {
@@ -369,5 +753,11 @@ export const categoryMetadata: Record<
     description: 'Utility per professionisti: calcolatori percentuali, scadenziari, promemoria e gestione documentale.',
     metaDescription: 'Utility quotidiane per studi tecnici: calcolo percentuali, gestione scadenze, promemoria e organizzazione documentale.',
     icon: '🛠️',
+  },
+  guide: {
+    title: 'Guide e Approfondimenti',
+    description: 'Articoli tecnici, tutorial passo-passo e best practice per utilizzare al meglio i calcolatori e applicarli a casi reali.',
+    metaDescription: 'Guide pratiche e tutorial per calcolatori professionali: interpretare i risultati, evitare errori e integrare gli strumenti nei processi di studio.',
+    icon: '📚',
   },
 };
