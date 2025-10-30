@@ -1,0 +1,1119 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.geoapp.eu/loadcontrol.aspx?cname=CombinazioniAzioni&lang=it&app_key=5bdff4c14ac71c84b60add8e318288941b07666745513ab5f2c0869861924501&access_time=29364127&slug=combinazioni-delle-azioni
+Subject: 
+Date: Thu, 30 Oct 2025 19:09:00 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--lFQztf4x2wU7pMK0C4ZxuNaz9zokjk0v56QzQShdNa----"
+
+
+------MultipartBoundary--lFQztf4x2wU7pMK0C4ZxuNaz9zokjk0v56QzQShdNa----
+Content-Type: text/html
+Content-ID: <frame-BC16609EDA86601CEC4BFF80D71EEDBE@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.geoapp.eu/loadcontrol.aspx?cname=CombinazioniAzioni&lang=it&app_key=5bdff4c14ac71c84b60add8e318288941b07666745513ab5f2c0869861924501&access_time=29364127&slug=combinazioni-delle-azioni
+
+<!DOCTYPE html><html xmlns=3D"http://www.w3.org/1999/xhtml"><head><meta htt=
+p-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-6bba7c78-5134-4c2b-b95c-3=
+1ebe2aaf0c1@mhtml.blink" />
+   =20
+<title>
+
+</title></head>
+<body style=3D"margin:0px 0px 0px 0px">
+    <form method=3D"post" action=3D"https://www.geoapp.eu/loadcontrol.aspx?=
+cname=3DCombinazioniAzioni&amp;lang=3Dit&amp;app_key=3D5bdff4c14ac71c84b60a=
+dd8e318288941b07666745513ab5f2c0869861924501&amp;access_time=3D29364127&amp=
+;slug=3Dcombinazioni-delle-azioni" id=3D"form1">
+<div class=3D"aspNetHidden">
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class=3D"aspNetHidden">
+
+=09
+=09
+</div>
+       =20
+
+       =20
+
+    <link rel=3D"stylesheet" type=3D"text/css" href=3D"https://fonts.google=
+apis.com/css?family=3DOpen+Sans">
+    <link rel=3D"stylesheet" type=3D"text/css" href=3D"https://www.geoapp.e=
+u/WPStyle.css">
+   =20
+
+<div style=3D"margin: 0px 0px 0px 0px" align=3D"center" class=3D"txtfont">
+    <table style=3D"width: 100%">
+        <tbody><tr>
+            <td>
+                <div style=3D"text-align: center" align=3D"center">
+                   =20
+                    <!--
+    <table id=3D"Table6" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" =
+style=3D"margin: 0px auto 0px auto; border-top-width: thin;
+            border-left-width: thin; border-left-color: tomato; border-bott=
+om-width: thin;
+            border-bottom-color: tomato; width: 533px; border-top-color: to=
+mato; height: 64px;
+            border-right-width: thin; border-right-color: tomato">
+            <tr>
+                <td style=3D"border-right: blue thin inset; border-top: blu=
+e thin inset; border-left: blue thin inset;
+                    border-bottom: blue thin inset">
+                    <div align=3D"center">
+                        <br />
+                        <span id=3D"ctl03_LabelTitle" class=3D"Text" style=
+=3D"font-weight:bold;">Combinazione delle azioni</span></div>
+                    <div align=3D"left" class=3D"Text">
+                        <br />
+                        </div>
+                </td>
+            </tr>
+        </table>
+    <br />
+    -->
+                    <table cellpadding=3D"1" cellspacing=3D"0" style=3D"pad=
+ding: 4px; border: 1px solid #0000FF; width: 100%">
+                        <tbody><tr>
+                            <td align=3D"left">Unit=C3=A0 di misura</td>
+                            <td class=3D"stylep9">&nbsp;</td>
+                            <td>
+
+                                <select name=3D"ctl03$DropDownListUnitaMisu=
+ra" id=3D"ctl03_DropDownListUnitaMisura" tabindex=3D"1" class=3D"txtfont co=
+mboHeight" style=3D"width:93px;">
+	<option value=3D"kN">kN</option>
+	<option value=3D"t">t</option>
+	<option value=3D"Kg">Kg</option>
+	<option value=3D"daN">daN</option>
+	<option value=3D"Nessuna">Nessuna</option>
+
+</select>
+
+                            </td>
+                        </tr>
+                    </tbody></table>
+                    <br>
+                    <table cellpadding=3D"1" cellspacing=3D"0" style=3D"pad=
+ding: 4px; border: 1px solid #0000FF; width: 100%">
+                        <tbody><tr>
+                            <td align=3D"left">
+                                <b>Carichi permanenti</b><br>
+                                <span class=3D"stylep3">(Peso proprio degli=
+ elementi strutturali, del terreno,=20
+                forze indotte dal terreno, pressione dell'acqua se costante=
+ nel tempo)</span></td>
+                            <td>&nbsp;</td>
+                            <td align=3D"center" valign=3D"bottom">Effetto<=
+/td>
+                        </tr>
+                        <tr>
+                            <td class=3D"auto-style2">G1</td>
+                            <td class=3D"auto-style2">
+                                <input name=3D"ctl03$TextBoxG1" type=3D"tex=
+t" id=3D"ctl03_TextBoxG1" class=3D"txtfont  alignRight" style=3D"width:50px=
+;">
+                            </td>
+                            <td align=3D"center" class=3D"auto-style2">
+                                <select name=3D"ctl03$DropDownListEffettoG1=
+" id=3D"ctl03_DropDownListEffettoG1" class=3D"txtfont comboHeight">
+	<option value=3D"0">Favorevole</option>
+	<option selected=3D"selected" value=3D"1">Sfavorevole</option>
+
+</select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=3D"style6" style=3D"border-bottom-sty=
+le: solid; border-width: 1px; border-color: #0000FF">&nbsp;</td>
+                            <td style=3D"border-bottom-style: solid; border=
+-width: 1px; border-color: #0000FF" colspan=3D"2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td align=3D"left">
+                                <b>Carichi permanenti non strutturali</b><b=
+r>
+                                <span class=3D"stylep3">(Peso proprio di tu=
+tti gli elementi non strutturali,=20
+                spostamenti e deformazioni imposti di previsione progettual=
+e)</span></td>
+                            <td class=3D"stylep2">&nbsp;</td>
+                            <td class=3D"stylep2" align=3D"center" valign=
+=3D"bottom">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td align=3D"left">Carichi permanenti non strut=
+turali compiutamente definiti?</td>
+                            <td class=3D"stylep2">
+                                <select name=3D"ctl03$DropDownListCarichiPe=
+rmNonStr" id=3D"ctl03_DropDownListCarichiPermNonStr" tabindex=3D"1" class=
+=3D"txtfont" style=3D"width:50px;">
+	<option value=3D"Si">Si</option>
+	<option selected=3D"selected" value=3D"No">No</option>
+
+</select>
+                            </td>
+                            <td class=3D"stylep2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td class=3D"style6">&nbsp;</td>
+                            <td class=3D"stylep2">&nbsp;</td>
+                            <td class=3D"stylep2" align=3D"center">Effetto<=
+/td>
+                        </tr>
+                        <tr>
+                            <td align=3D"left">G2</td>
+                            <td class=3D"stylep2">
+                                <input name=3D"ctl03$TextBoxG2" type=3D"tex=
+t" id=3D"ctl03_TextBoxG2" class=3D"txtfont  alignRight" style=3D"width:50px=
+;">
+                            </td>
+                            <td class=3D"stylep2" align=3D"center">
+                                <select name=3D"ctl03$DropDownListEffettoG2=
+" id=3D"ctl03_DropDownListEffettoG2" class=3D"txtfont comboHeight">
+	<option value=3D"0">Favorevole</option>
+	<option selected=3D"selected" value=3D"1">Sfavorevole</option>
+
+</select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class=3D"style6">&nbsp;</td>
+                            <td class=3D"stylep2" colspan=3D"2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td style=3D"border-top-style: solid; border-wi=
+dth: 1px; border-color: #0000FF" align=3D"left">Parametri sismici <span cla=
+ss=3D"stylep8">(Coefficienti in accelerazione verticale=20
+                da <a href=3D"https://www.geoapp.eu/Parametri_Sismici.aspx"=
+>ricavare dallo spettro di risposta per un periodo di vibrazione assegnato<=
+/a>) </span></td>
+                            <td class=3D"stylep2" colspan=3D"2" style=3D"bo=
+rder-top-style: solid; border-width: 1px; border-color: #0000FF">&nbsp;</td=
+>
+                        </tr>
+                        <tr>
+                            <td align=3D"left">kv SLC</td>
+                            <td class=3D"stylep2">
+                                <input name=3D"ctl03$TextBoxkvSLC" type=3D"=
+text" id=3D"ctl03_TextBoxkvSLC" class=3D"txtfont  alignRight" style=3D"widt=
+h:50px;">
+                            </td>
+                            <td class=3D"stylep2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td align=3D"left">kv SLV</td>
+                            <td class=3D"stylep2">
+                                <input name=3D"ctl03$TextBoxkvSLV" type=3D"=
+text" id=3D"ctl03_TextBoxkvSLV" class=3D"txtfont  alignRight" style=3D"widt=
+h:50px;">
+                            </td>
+                            <td class=3D"stylep2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td align=3D"left">kv SLD</td>
+                            <td class=3D"stylep2">
+                                <input name=3D"ctl03$TextBoxkvSLD" type=3D"=
+text" id=3D"ctl03_TextBoxkvSLD" class=3D"txtfont  alignRight" style=3D"widt=
+h:50px;">
+                            </td>
+                            <td class=3D"stylep2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td align=3D"left">kv SLO</td>
+                            <td class=3D"stylep2">
+                                <input name=3D"ctl03$TextBoxkvSLO" type=3D"=
+text" id=3D"ctl03_TextBoxkvSLO" class=3D"txtfont  alignRight" style=3D"widt=
+h:50px;">
+                            </td>
+                            <td class=3D"stylep2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td class=3D"style6">&nbsp;</td>
+                            <td class=3D"stylep2">&nbsp;</td>
+                            <td class=3D"stylep2">&nbsp;</td>
+                        </tr>
+                    </tbody></table>
+
+                    <br>
+                    <table cellpadding=3D"1" cellspacing=3D"0" style=3D"wid=
+th: 100%">
+                        <tbody><tr>
+                            <td colspan=3D"2" style=3D"border-top-style: so=
+lid; border-left-style: solid; border-width: 1px; border-color: #0000FF">
+                                <b>Carichi variabili</b></td>
+                            <td style=3D"border-top-style: solid; border-ri=
+ght-style: solid; border-width: 1px; border-color: #0000FF" align=3D"center=
+">Effetto</td>
+                        </tr>
+                        <tr>
+                            <td colspan=3D"2" style=3D"border-top-style: so=
+lid; border-left-style: solid; border-width: 1px; border-color: #0000FF">Q<=
+sub>k1</sub>
+                                <span class=3D"stylep3">azione variabile pr=
+incipale</span></td>
+                            <td style=3D"border-top-style: solid; border-ri=
+ght-style: solid; border-width: 1px; border-color: #0000FF" align=3D"center=
+">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td style=3D"border-width: 1px; border-color: #=
+0000FF; border-left-style: solid" valign=3D"bottom" align=3D"left">
+                                <select name=3D"ctl03$DropDownListQk1" id=
+=3D"ctl03_DropDownListQk1" class=3D"txtfont comboHeight comboMaxw">
+	<option value=3D"- Seleziona -">- Seleziona -</option>
+	<option value=3D"Categoria A - Ambienti ad uso residenziale">Categoria A -=
+ Ambienti ad uso residenziale</option>
+	<option value=3D"Categoria B - Uffici">Categoria B - Uffici</option>
+	<option value=3D"Categoria C - Ambienti suscettibili di affollamento">Cate=
+goria C - Ambienti suscettibili di affollamento</option>
+	<option value=3D"Categoria D - Ambienti ad uso commerciale">Categoria D - =
+Ambienti ad uso commerciale</option>
+	<option value=3D"Categoria E - Biblioteche, archivi, magazzini e ambienti =
+ad uso industriale">Categoria E - Biblioteche, archivi, magazzini e ambient=
+i ad uso industriale</option>
+	<option value=3D"Categoria F - Rimesse e parcheggi (per autoveicoli di pes=
+o &lt;=3D 30kN)">Categoria F - Rimesse e parcheggi (per autoveicoli di peso=
+ &lt;=3D 30kN)</option>
+	<option value=3D"Categoria G - Rimesse e parcheggi (per autoveicoli di pes=
+o &gt; 30kN)">Categoria G - Rimesse e parcheggi (per autoveicoli di peso &g=
+t; 30kN)</option>
+	<option value=3D"Categoria H - Coperture">Categoria H - Coperture</option>
+	<option value=3D"Vento">Vento</option>
+	<option value=3D"Neve (a quota &lt;=3D 1000 m s.l.m.)">Neve (a quota &lt;=
+=3D 1000 m s.l.m.)</option>
+	<option value=3D"Neve (a quota &gt; 1000 m s.l.m.)">Neve (a quota &gt; 100=
+0 m s.l.m.)</option>
+	<option value=3D"Variazioni termiche">Variazioni termiche</option>
+
+</select>
+                            </td>
+                            <td style=3D"border-width: 1px; border-color: #=
+0000FF">
+                                <input name=3D"ctl03$TextBoxQk1" type=3D"te=
+xt" id=3D"ctl03_TextBoxQk1" class=3D"txtfont  alignRight" style=3D"width:50=
+px;">
+                            </td>
+                            <td style=3D"border-right-style: solid; border-=
+width: 1px; border-color: #0000FF">
+                                <select name=3D"ctl03$DropDownListEffettoQk=
+1" id=3D"ctl03_DropDownListEffettoQk1" class=3D"txtfont comboHeight">
+	<option value=3D"0">Favorevole</option>
+	<option selected=3D"selected" value=3D"1">Sfavorevole</option>
+
+</select>
+                            </td>
+                        </tr>
+                        <tr style=3D"border-bottom-style: solid; border-wid=
+th: 1px; border-color: #0000FF">
+                            <td style=3D"border-width: 1px; border-color: #=
+0000FF; border-left-style: solid;" valign=3D"top" align=3D"left">Q<sub>kj</=
+sub><br>
+                                <span class=3D"stylep3">Azioni variabili ch=
+e possono agire contemporaneamente alla=20
+                principale</span></td>
+                            <td style=3D"border-width: 1px; border-color: #=
+0000FF;">&nbsp;</td>
+                            <td style=3D"border-width: 1px; border-color: #=
+0000FF; border-right-style: solid;">&nbsp;</td>
+                        </tr>
+                        <tr style=3D"border-bottom-style: solid; border-wid=
+th: 1px; border-color: #0000FF">
+                            <td align=3D"left" style=3D"border-width: 1px; =
+border-color: #0000FF; border-left-style: solid;">
+                                <select name=3D"ctl03$DropDownListQk2" id=
+=3D"ctl03_DropDownListQk2" class=3D"txtfont comboHeight comboMaxw">
+	<option value=3D"- Seleziona -">- Seleziona -</option>
+	<option value=3D"Categoria A - Ambienti ad uso residenziale">Categoria A -=
+ Ambienti ad uso residenziale</option>
+	<option value=3D"Categoria B - Uffici">Categoria B - Uffici</option>
+	<option value=3D"Categoria C - Ambienti suscettibili di affollamento">Cate=
+goria C - Ambienti suscettibili di affollamento</option>
+	<option value=3D"Categoria D - Ambienti ad uso commerciale">Categoria D - =
+Ambienti ad uso commerciale</option>
+	<option value=3D"Categoria E - Biblioteche, archivi, magazzini e ambienti =
+ad uso industriale">Categoria E - Biblioteche, archivi, magazzini e ambient=
+i ad uso industriale</option>
+	<option value=3D"Categoria F - Rimesse e parcheggi (per autoveicoli di pes=
+o &lt;=3D 30kN)">Categoria F - Rimesse e parcheggi (per autoveicoli di peso=
+ &lt;=3D 30kN)</option>
+	<option value=3D"Categoria G - Rimesse e parcheggi (per autoveicoli di pes=
+o &gt; 30kN)">Categoria G - Rimesse e parcheggi (per autoveicoli di peso &g=
+t; 30kN)</option>
+	<option value=3D"Categoria H - Coperture">Categoria H - Coperture</option>
+	<option value=3D"Vento">Vento</option>
+	<option value=3D"Neve (a quota &lt;=3D 1000 m s.l.m.)">Neve (a quota &lt;=
+=3D 1000 m s.l.m.)</option>
+	<option value=3D"Neve (a quota &gt; 1000 m s.l.m.)">Neve (a quota &gt; 100=
+0 m s.l.m.)</option>
+	<option value=3D"Variazioni termiche">Variazioni termiche</option>
+
+</select>
+                            </td>
+                            <td>
+                                <input name=3D"ctl03$TextBoxQk2" type=3D"te=
+xt" id=3D"ctl03_TextBoxQk2" class=3D"txtfont  alignRight" style=3D"width:50=
+px;">
+                            </td>
+                            <td style=3D"border-right-style: solid; border-=
+width: 1px; border-color: #0000FF;">
+                                <select name=3D"ctl03$DropDownListEffettoQk=
+2" id=3D"ctl03_DropDownListEffettoQk2" class=3D"txtfont comboHeight">
+	<option value=3D"0">Favorevole</option>
+	<option selected=3D"selected" value=3D"1">Sfavorevole</option>
+
+</select>
+                            </td>
+                        </tr>
+                        <tr style=3D"border-bottom-style: solid; border-wid=
+th: 1px; border-color: #0000FF">
+                            <td align=3D"left" style=3D"border-width: 1px; =
+border-color: #0000FF; border-left-style: solid;">
+                                <select name=3D"ctl03$DropDownListQk3" id=
+=3D"ctl03_DropDownListQk3" class=3D"txtfont comboHeight comboMaxw">
+	<option value=3D"- Seleziona -">- Seleziona -</option>
+	<option value=3D"Categoria A - Ambienti ad uso residenziale">Categoria A -=
+ Ambienti ad uso residenziale</option>
+	<option value=3D"Categoria B - Uffici">Categoria B - Uffici</option>
+	<option value=3D"Categoria C - Ambienti suscettibili di affollamento">Cate=
+goria C - Ambienti suscettibili di affollamento</option>
+	<option value=3D"Categoria D - Ambienti ad uso commerciale">Categoria D - =
+Ambienti ad uso commerciale</option>
+	<option value=3D"Categoria E - Biblioteche, archivi, magazzini e ambienti =
+ad uso industriale">Categoria E - Biblioteche, archivi, magazzini e ambient=
+i ad uso industriale</option>
+	<option value=3D"Categoria F - Rimesse e parcheggi (per autoveicoli di pes=
+o &lt;=3D 30kN)">Categoria F - Rimesse e parcheggi (per autoveicoli di peso=
+ &lt;=3D 30kN)</option>
+	<option value=3D"Categoria G - Rimesse e parcheggi (per autoveicoli di pes=
+o &gt; 30kN)">Categoria G - Rimesse e parcheggi (per autoveicoli di peso &g=
+t; 30kN)</option>
+	<option value=3D"Categoria H - Coperture">Categoria H - Coperture</option>
+	<option value=3D"Vento">Vento</option>
+	<option value=3D"Neve (a quota &lt;=3D 1000 m s.l.m.)">Neve (a quota &lt;=
+=3D 1000 m s.l.m.)</option>
+	<option value=3D"Neve (a quota &gt; 1000 m s.l.m.)">Neve (a quota &gt; 100=
+0 m s.l.m.)</option>
+	<option value=3D"Variazioni termiche">Variazioni termiche</option>
+
+</select>
+                            </td>
+                            <td>
+                                <input name=3D"ctl03$TextBoxQk3" type=3D"te=
+xt" id=3D"ctl03_TextBoxQk3" class=3D"txtfont  alignRight" style=3D"width:50=
+px;">
+                            </td>
+                            <td style=3D"border-right-style: solid; border-=
+width: 1px; border-color: #0000FF;">
+                                <select name=3D"ctl03$DropDownListEffettoQk=
+3" id=3D"ctl03_DropDownListEffettoQk3" class=3D"txtfont comboHeight">
+	<option value=3D"0">Favorevole</option>
+	<option selected=3D"selected" value=3D"1">Sfavorevole</option>
+
+</select>
+                            </td>
+                        </tr>
+                        <tr style=3D"border-bottom-style: solid; border-wid=
+th: 1px; border-color: #0000FF">
+                            <td align=3D"left" style=3D"border-width: 1px; =
+border-color: #0000FF; border-left-style: solid;">
+                                <select name=3D"ctl03$DropDownListQk4" id=
+=3D"ctl03_DropDownListQk4" class=3D"txtfont comboHeight comboMaxw">
+	<option value=3D"- Seleziona -">- Seleziona -</option>
+	<option value=3D"Categoria A - Ambienti ad uso residenziale">Categoria A -=
+ Ambienti ad uso residenziale</option>
+	<option value=3D"Categoria B - Uffici">Categoria B - Uffici</option>
+	<option value=3D"Categoria C - Ambienti suscettibili di affollamento">Cate=
+goria C - Ambienti suscettibili di affollamento</option>
+	<option value=3D"Categoria D - Ambienti ad uso commerciale">Categoria D - =
+Ambienti ad uso commerciale</option>
+	<option value=3D"Categoria E - Biblioteche, archivi, magazzini e ambienti =
+ad uso industriale">Categoria E - Biblioteche, archivi, magazzini e ambient=
+i ad uso industriale</option>
+	<option value=3D"Categoria F - Rimesse e parcheggi (per autoveicoli di pes=
+o &lt;=3D 30kN)">Categoria F - Rimesse e parcheggi (per autoveicoli di peso=
+ &lt;=3D 30kN)</option>
+	<option value=3D"Categoria G - Rimesse e parcheggi (per autoveicoli di pes=
+o &gt; 30kN)">Categoria G - Rimesse e parcheggi (per autoveicoli di peso &g=
+t; 30kN)</option>
+	<option value=3D"Categoria H - Coperture">Categoria H - Coperture</option>
+	<option value=3D"Vento">Vento</option>
+	<option value=3D"Neve (a quota &lt;=3D 1000 m s.l.m.)">Neve (a quota &lt;=
+=3D 1000 m s.l.m.)</option>
+	<option value=3D"Neve (a quota &gt; 1000 m s.l.m.)">Neve (a quota &gt; 100=
+0 m s.l.m.)</option>
+	<option value=3D"Variazioni termiche">Variazioni termiche</option>
+
+</select>
+                            </td>
+                            <td>
+                                <input name=3D"ctl03$TextBoxQk4" type=3D"te=
+xt" id=3D"ctl03_TextBoxQk4" class=3D"txtfont  alignRight" style=3D"width:50=
+px;">
+                            </td>
+                            <td style=3D"border-right-style: solid; border-=
+width: 1px; border-color: #0000FF;">
+                                <select name=3D"ctl03$DropDownListEffettoQk=
+4" id=3D"ctl03_DropDownListEffettoQk4" class=3D"txtfont comboHeight">
+	<option value=3D"0">Favorevole</option>
+	<option selected=3D"selected" value=3D"1">Sfavorevole</option>
+
+</select>
+                            </td>
+                        </tr>
+                        <tr style=3D"border-bottom-style: solid; border-wid=
+th: 1px; border-color: #0000FF">
+                            <td align=3D"left" style=3D"border-width: 1px; =
+border-color: #0000FF; border-left-style: solid;">
+                                <select name=3D"ctl03$DropDownListQk5" id=
+=3D"ctl03_DropDownListQk5" class=3D"txtfont comboHeight comboMaxw">
+	<option value=3D"- Seleziona -">- Seleziona -</option>
+	<option value=3D"Categoria A - Ambienti ad uso residenziale">Categoria A -=
+ Ambienti ad uso residenziale</option>
+	<option value=3D"Categoria B - Uffici">Categoria B - Uffici</option>
+	<option value=3D"Categoria C - Ambienti suscettibili di affollamento">Cate=
+goria C - Ambienti suscettibili di affollamento</option>
+	<option value=3D"Categoria D - Ambienti ad uso commerciale">Categoria D - =
+Ambienti ad uso commerciale</option>
+	<option value=3D"Categoria E - Biblioteche, archivi, magazzini e ambienti =
+ad uso industriale">Categoria E - Biblioteche, archivi, magazzini e ambient=
+i ad uso industriale</option>
+	<option value=3D"Categoria F - Rimesse e parcheggi (per autoveicoli di pes=
+o &lt;=3D 30kN)">Categoria F - Rimesse e parcheggi (per autoveicoli di peso=
+ &lt;=3D 30kN)</option>
+	<option value=3D"Categoria G - Rimesse e parcheggi (per autoveicoli di pes=
+o &gt; 30kN)">Categoria G - Rimesse e parcheggi (per autoveicoli di peso &g=
+t; 30kN)</option>
+	<option value=3D"Categoria H - Coperture">Categoria H - Coperture</option>
+	<option value=3D"Vento">Vento</option>
+	<option value=3D"Neve (a quota &lt;=3D 1000 m s.l.m.)">Neve (a quota &lt;=
+=3D 1000 m s.l.m.)</option>
+	<option value=3D"Neve (a quota &gt; 1000 m s.l.m.)">Neve (a quota &gt; 100=
+0 m s.l.m.)</option>
+	<option value=3D"Variazioni termiche">Variazioni termiche</option>
+
+</select>
+                            </td>
+                            <td>
+                                <input name=3D"ctl03$TextBoxQk5" type=3D"te=
+xt" id=3D"ctl03_TextBoxQk5" class=3D"txtfont  alignRight" style=3D"width:50=
+px;">
+                            </td>
+                            <td style=3D"border-right-style: solid; border-=
+width: 1px; border-color: #0000FF;">
+                                <select name=3D"ctl03$DropDownListEffettoQk=
+5" id=3D"ctl03_DropDownListEffettoQk5" class=3D"txtfont comboHeight">
+	<option value=3D"0">Favorevole</option>
+	<option selected=3D"selected" value=3D"1">Sfavorevole</option>
+
+</select>
+                            </td>
+                        </tr>
+                        <tr style=3D"border-bottom-style: solid; border-wid=
+th: 1px; border-color: #0000FF">
+                            <td align=3D"left" style=3D"border-width: 1px; =
+border-color: #0000FF; border-left-style: solid;">
+                                <select name=3D"ctl03$DropDownListQk6" id=
+=3D"ctl03_DropDownListQk6" class=3D"txtfont comboHeight comboMaxw">
+	<option value=3D"- Seleziona -">- Seleziona -</option>
+	<option value=3D"Categoria A - Ambienti ad uso residenziale">Categoria A -=
+ Ambienti ad uso residenziale</option>
+	<option value=3D"Categoria B - Uffici">Categoria B - Uffici</option>
+	<option value=3D"Categoria C - Ambienti suscettibili di affollamento">Cate=
+goria C - Ambienti suscettibili di affollamento</option>
+	<option value=3D"Categoria D - Ambienti ad uso commerciale">Categoria D - =
+Ambienti ad uso commerciale</option>
+	<option value=3D"Categoria E - Biblioteche, archivi, magazzini e ambienti =
+ad uso industriale">Categoria E - Biblioteche, archivi, magazzini e ambient=
+i ad uso industriale</option>
+	<option value=3D"Categoria F - Rimesse e parcheggi (per autoveicoli di pes=
+o &lt;=3D 30kN)">Categoria F - Rimesse e parcheggi (per autoveicoli di peso=
+ &lt;=3D 30kN)</option>
+	<option value=3D"Categoria G - Rimesse e parcheggi (per autoveicoli di pes=
+o &gt; 30kN)">Categoria G - Rimesse e parcheggi (per autoveicoli di peso &g=
+t; 30kN)</option>
+	<option value=3D"Categoria H - Coperture">Categoria H - Coperture</option>
+	<option value=3D"Vento">Vento</option>
+	<option value=3D"Neve (a quota &lt;=3D 1000 m s.l.m.)">Neve (a quota &lt;=
+=3D 1000 m s.l.m.)</option>
+	<option value=3D"Neve (a quota &gt; 1000 m s.l.m.)">Neve (a quota &gt; 100=
+0 m s.l.m.)</option>
+	<option value=3D"Variazioni termiche">Variazioni termiche</option>
+
+</select>
+                            </td>
+                            <td>
+                                <input name=3D"ctl03$TextBoxQk6" type=3D"te=
+xt" id=3D"ctl03_TextBoxQk6" class=3D"txtfont  alignRight" style=3D"width:50=
+px;">
+                            </td>
+                            <td style=3D"border-right-style: solid; border-=
+width: 1px; border-color: #0000FF;">
+                                <select name=3D"ctl03$DropDownListEffettoQk=
+6" id=3D"ctl03_DropDownListEffettoQk6" class=3D"txtfont comboHeight">
+	<option value=3D"0">Favorevole</option>
+	<option selected=3D"selected" value=3D"1">Sfavorevole</option>
+
+</select>
+                            </td>
+                        </tr>
+                        <tr style=3D"border-bottom-style: solid; border-wid=
+th: 1px; border-color: #0000FF">
+                            <td align=3D"left" style=3D"border-width: 1px; =
+border-color: #0000FF; border-left-style: solid;">
+                                <select name=3D"ctl03$DropDownListQk7" id=
+=3D"ctl03_DropDownListQk7" class=3D"txtfont comboHeight comboMaxw">
+	<option value=3D"- Seleziona -">- Seleziona -</option>
+	<option value=3D"Categoria A - Ambienti ad uso residenziale">Categoria A -=
+ Ambienti ad uso residenziale</option>
+	<option value=3D"Categoria B - Uffici">Categoria B - Uffici</option>
+	<option value=3D"Categoria C - Ambienti suscettibili di affollamento">Cate=
+goria C - Ambienti suscettibili di affollamento</option>
+	<option value=3D"Categoria D - Ambienti ad uso commerciale">Categoria D - =
+Ambienti ad uso commerciale</option>
+	<option value=3D"Categoria E - Biblioteche, archivi, magazzini e ambienti =
+ad uso industriale">Categoria E - Biblioteche, archivi, magazzini e ambient=
+i ad uso industriale</option>
+	<option value=3D"Categoria F - Rimesse e parcheggi (per autoveicoli di pes=
+o &lt;=3D 30kN)">Categoria F - Rimesse e parcheggi (per autoveicoli di peso=
+ &lt;=3D 30kN)</option>
+	<option value=3D"Categoria G - Rimesse e parcheggi (per autoveicoli di pes=
+o &gt; 30kN)">Categoria G - Rimesse e parcheggi (per autoveicoli di peso &g=
+t; 30kN)</option>
+	<option value=3D"Categoria H - Coperture">Categoria H - Coperture</option>
+	<option value=3D"Vento">Vento</option>
+	<option value=3D"Neve (a quota &lt;=3D 1000 m s.l.m.)">Neve (a quota &lt;=
+=3D 1000 m s.l.m.)</option>
+	<option value=3D"Neve (a quota &gt; 1000 m s.l.m.)">Neve (a quota &gt; 100=
+0 m s.l.m.)</option>
+	<option value=3D"Variazioni termiche">Variazioni termiche</option>
+
+</select>
+                            </td>
+                            <td>
+                                <input name=3D"ctl03$TextBoxQk7" type=3D"te=
+xt" id=3D"ctl03_TextBoxQk7" class=3D"txtfont  alignRight" style=3D"width:50=
+px;">
+                            </td>
+                            <td style=3D"border-right-style: solid; border-=
+width: 1px; border-color: #0000FF;">
+                                <select name=3D"ctl03$DropDownListEffettoQk=
+7" id=3D"ctl03_DropDownListEffettoQk7" class=3D"txtfont comboHeight">
+	<option value=3D"0">Favorevole</option>
+	<option selected=3D"selected" value=3D"1">Sfavorevole</option>
+
+</select>
+                            </td>
+                        </tr>
+                        <tr style=3D"border-bottom-style: solid; border-wid=
+th: 1px; border-color: #0000FF">
+                            <td align=3D"left" style=3D"border-width: 1px; =
+border-color: #0000FF; border-left-style: solid;">
+                                <select name=3D"ctl03$DropDownListQk8" id=
+=3D"ctl03_DropDownListQk8" class=3D"txtfont comboHeight comboMaxw">
+	<option value=3D"- Seleziona -">- Seleziona -</option>
+	<option value=3D"Categoria A - Ambienti ad uso residenziale">Categoria A -=
+ Ambienti ad uso residenziale</option>
+	<option value=3D"Categoria B - Uffici">Categoria B - Uffici</option>
+	<option value=3D"Categoria C - Ambienti suscettibili di affollamento">Cate=
+goria C - Ambienti suscettibili di affollamento</option>
+	<option value=3D"Categoria D - Ambienti ad uso commerciale">Categoria D - =
+Ambienti ad uso commerciale</option>
+	<option value=3D"Categoria E - Biblioteche, archivi, magazzini e ambienti =
+ad uso industriale">Categoria E - Biblioteche, archivi, magazzini e ambient=
+i ad uso industriale</option>
+	<option value=3D"Categoria F - Rimesse e parcheggi (per autoveicoli di pes=
+o &lt;=3D 30kN)">Categoria F - Rimesse e parcheggi (per autoveicoli di peso=
+ &lt;=3D 30kN)</option>
+	<option value=3D"Categoria G - Rimesse e parcheggi (per autoveicoli di pes=
+o &gt; 30kN)">Categoria G - Rimesse e parcheggi (per autoveicoli di peso &g=
+t; 30kN)</option>
+	<option value=3D"Categoria H - Coperture">Categoria H - Coperture</option>
+	<option value=3D"Vento">Vento</option>
+	<option value=3D"Neve (a quota &lt;=3D 1000 m s.l.m.)">Neve (a quota &lt;=
+=3D 1000 m s.l.m.)</option>
+	<option value=3D"Neve (a quota &gt; 1000 m s.l.m.)">Neve (a quota &gt; 100=
+0 m s.l.m.)</option>
+	<option value=3D"Variazioni termiche">Variazioni termiche</option>
+
+</select>
+                            </td>
+                            <td>
+                                <input name=3D"ctl03$TextBoxQk8" type=3D"te=
+xt" id=3D"ctl03_TextBoxQk8" class=3D"txtfont  alignRight" style=3D"width:50=
+px;">
+                            </td>
+                            <td style=3D"border-right-style: solid; border-=
+width: 1px; border-color: #0000FF;">
+                                <select name=3D"ctl03$DropDownListEffettoQk=
+8" id=3D"ctl03_DropDownListEffettoQk8" class=3D"txtfont comboHeight">
+	<option value=3D"0">Favorevole</option>
+	<option selected=3D"selected" value=3D"1">Sfavorevole</option>
+
+</select>
+                            </td>
+                        </tr>
+                        <tr style=3D"border-bottom-style: solid; border-wid=
+th: 1px; border-color: #0000FF">
+                            <td align=3D"left" style=3D"border-width: 1px; =
+border-color: #0000FF; border-left-style: solid;">
+                                <select name=3D"ctl03$DropDownListQk9" id=
+=3D"ctl03_DropDownListQk9" class=3D"txtfont comboHeight comboMaxw">
+	<option value=3D"- Seleziona -">- Seleziona -</option>
+	<option value=3D"Categoria A - Ambienti ad uso residenziale">Categoria A -=
+ Ambienti ad uso residenziale</option>
+	<option value=3D"Categoria B - Uffici">Categoria B - Uffici</option>
+	<option value=3D"Categoria C - Ambienti suscettibili di affollamento">Cate=
+goria C - Ambienti suscettibili di affollamento</option>
+	<option value=3D"Categoria D - Ambienti ad uso commerciale">Categoria D - =
+Ambienti ad uso commerciale</option>
+	<option value=3D"Categoria E - Biblioteche, archivi, magazzini e ambienti =
+ad uso industriale">Categoria E - Biblioteche, archivi, magazzini e ambient=
+i ad uso industriale</option>
+	<option value=3D"Categoria F - Rimesse e parcheggi (per autoveicoli di pes=
+o &lt;=3D 30kN)">Categoria F - Rimesse e parcheggi (per autoveicoli di peso=
+ &lt;=3D 30kN)</option>
+	<option value=3D"Categoria G - Rimesse e parcheggi (per autoveicoli di pes=
+o &gt; 30kN)">Categoria G - Rimesse e parcheggi (per autoveicoli di peso &g=
+t; 30kN)</option>
+	<option value=3D"Categoria H - Coperture">Categoria H - Coperture</option>
+	<option value=3D"Vento">Vento</option>
+	<option value=3D"Neve (a quota &lt;=3D 1000 m s.l.m.)">Neve (a quota &lt;=
+=3D 1000 m s.l.m.)</option>
+	<option value=3D"Neve (a quota &gt; 1000 m s.l.m.)">Neve (a quota &gt; 100=
+0 m s.l.m.)</option>
+	<option value=3D"Variazioni termiche">Variazioni termiche</option>
+
+</select>
+                            </td>
+                            <td>
+                                <input name=3D"ctl03$TextBoxQk9" type=3D"te=
+xt" id=3D"ctl03_TextBoxQk9" class=3D"txtfont  alignRight" style=3D"width:50=
+px;">
+                            </td>
+                            <td style=3D"border-right-style: solid; border-=
+width: 1px; border-color: #0000FF;">
+                                <select name=3D"ctl03$DropDownListEffettoQk=
+9" id=3D"ctl03_DropDownListEffettoQk9" class=3D"txtfont comboHeight">
+	<option value=3D"0">Favorevole</option>
+	<option selected=3D"selected" value=3D"1">Sfavorevole</option>
+
+</select>
+                            </td>
+                        </tr>
+                        <tr style=3D"border-bottom-style: solid; border-wid=
+th: 1px; border-color: #0000FF">
+                            <td align=3D"left" style=3D"border-width: 1px; =
+border-color: #0000FF; border-left-style: solid;">
+                                <select name=3D"ctl03$DropDownListQk10" id=
+=3D"ctl03_DropDownListQk10" class=3D"txtfont comboHeight comboMaxw">
+	<option value=3D"- Seleziona -">- Seleziona -</option>
+	<option value=3D"Categoria A - Ambienti ad uso residenziale">Categoria A -=
+ Ambienti ad uso residenziale</option>
+	<option value=3D"Categoria B - Uffici">Categoria B - Uffici</option>
+	<option value=3D"Categoria C - Ambienti suscettibili di affollamento">Cate=
+goria C - Ambienti suscettibili di affollamento</option>
+	<option value=3D"Categoria D - Ambienti ad uso commerciale">Categoria D - =
+Ambienti ad uso commerciale</option>
+	<option value=3D"Categoria E - Biblioteche, archivi, magazzini e ambienti =
+ad uso industriale">Categoria E - Biblioteche, archivi, magazzini e ambient=
+i ad uso industriale</option>
+	<option value=3D"Categoria F - Rimesse e parcheggi (per autoveicoli di pes=
+o &lt;=3D 30kN)">Categoria F - Rimesse e parcheggi (per autoveicoli di peso=
+ &lt;=3D 30kN)</option>
+	<option value=3D"Categoria G - Rimesse e parcheggi (per autoveicoli di pes=
+o &gt; 30kN)">Categoria G - Rimesse e parcheggi (per autoveicoli di peso &g=
+t; 30kN)</option>
+	<option value=3D"Categoria H - Coperture">Categoria H - Coperture</option>
+	<option value=3D"Vento">Vento</option>
+	<option value=3D"Neve (a quota &lt;=3D 1000 m s.l.m.)">Neve (a quota &lt;=
+=3D 1000 m s.l.m.)</option>
+	<option value=3D"Neve (a quota &gt; 1000 m s.l.m.)">Neve (a quota &gt; 100=
+0 m s.l.m.)</option>
+	<option value=3D"Variazioni termiche">Variazioni termiche</option>
+
+</select>
+                            </td>
+                            <td>
+                                <input name=3D"ctl03$TextBoxQk10" type=3D"t=
+ext" id=3D"ctl03_TextBoxQk10" class=3D"txtfont  alignRight" style=3D"width:=
+50px;">
+                            </td>
+                            <td style=3D"border-right-style: solid; border-=
+width: 1px; border-color: #0000FF;">
+                                <select name=3D"ctl03$DropDownListEffettoQk=
+10" id=3D"ctl03_DropDownListEffettoQk10" class=3D"txtfont comboHeight">
+	<option value=3D"0">Favorevole</option>
+	<option selected=3D"selected" value=3D"1">Sfavorevole</option>
+
+</select>
+                            </td>
+                        </tr>
+                        <tr style=3D"border-bottom-style: solid; border-wid=
+th: 1px; border-color: #0000FF">
+                            <td align=3D"left" style=3D"border-width: 1px; =
+border-color: #0000FF; border-left-style: solid;">
+                                <select name=3D"ctl03$DropDownListQk11" id=
+=3D"ctl03_DropDownListQk11" class=3D"txtfont comboHeight comboMaxw">
+	<option value=3D"- Seleziona -">- Seleziona -</option>
+	<option value=3D"Categoria A - Ambienti ad uso residenziale">Categoria A -=
+ Ambienti ad uso residenziale</option>
+	<option value=3D"Categoria B - Uffici">Categoria B - Uffici</option>
+	<option value=3D"Categoria C - Ambienti suscettibili di affollamento">Cate=
+goria C - Ambienti suscettibili di affollamento</option>
+	<option value=3D"Categoria D - Ambienti ad uso commerciale">Categoria D - =
+Ambienti ad uso commerciale</option>
+	<option value=3D"Categoria E - Biblioteche, archivi, magazzini e ambienti =
+ad uso industriale">Categoria E - Biblioteche, archivi, magazzini e ambient=
+i ad uso industriale</option>
+	<option value=3D"Categoria F - Rimesse e parcheggi (per autoveicoli di pes=
+o &lt;=3D 30kN)">Categoria F - Rimesse e parcheggi (per autoveicoli di peso=
+ &lt;=3D 30kN)</option>
+	<option value=3D"Categoria G - Rimesse e parcheggi (per autoveicoli di pes=
+o &gt; 30kN)">Categoria G - Rimesse e parcheggi (per autoveicoli di peso &g=
+t; 30kN)</option>
+	<option value=3D"Categoria H - Coperture">Categoria H - Coperture</option>
+	<option value=3D"Vento">Vento</option>
+	<option value=3D"Neve (a quota &lt;=3D 1000 m s.l.m.)">Neve (a quota &lt;=
+=3D 1000 m s.l.m.)</option>
+	<option value=3D"Neve (a quota &gt; 1000 m s.l.m.)">Neve (a quota &gt; 100=
+0 m s.l.m.)</option>
+	<option value=3D"Variazioni termiche">Variazioni termiche</option>
+
+</select>
+                            </td>
+                            <td>
+                                <input name=3D"ctl03$TextBoxQk11" type=3D"t=
+ext" id=3D"ctl03_TextBoxQk11" class=3D"txtfont  alignRight" style=3D"width:=
+50px;">
+                            </td>
+                            <td style=3D"border-right-style: solid; border-=
+width: 1px; border-color: #0000FF;">
+                                <select name=3D"ctl03$DropDownListEffettoQk=
+11" id=3D"ctl03_DropDownListEffettoQk11" class=3D"txtfont comboHeight">
+	<option value=3D"0">Favorevole</option>
+	<option selected=3D"selected" value=3D"1">Sfavorevole</option>
+
+</select>
+                            </td>
+                        </tr>
+                        <tr style=3D"border-bottom-style: solid; border-wid=
+th: 1px; border-color: #0000FF">
+                            <td align=3D"left" style=3D"border-width: 1px; =
+border-color: #0000FF; border-left-style: solid;">
+                                <select name=3D"ctl03$DropDownListQk12" id=
+=3D"ctl03_DropDownListQk12" class=3D"txtfont comboHeight comboMaxw">
+	<option value=3D"- Seleziona -">- Seleziona -</option>
+	<option value=3D"Categoria A - Ambienti ad uso residenziale">Categoria A -=
+ Ambienti ad uso residenziale</option>
+	<option value=3D"Categoria B - Uffici">Categoria B - Uffici</option>
+	<option value=3D"Categoria C - Ambienti suscettibili di affollamento">Cate=
+goria C - Ambienti suscettibili di affollamento</option>
+	<option value=3D"Categoria D - Ambienti ad uso commerciale">Categoria D - =
+Ambienti ad uso commerciale</option>
+	<option value=3D"Categoria E - Biblioteche, archivi, magazzini e ambienti =
+ad uso industriale">Categoria E - Biblioteche, archivi, magazzini e ambient=
+i ad uso industriale</option>
+	<option value=3D"Categoria F - Rimesse e parcheggi (per autoveicoli di pes=
+o &lt;=3D 30kN)">Categoria F - Rimesse e parcheggi (per autoveicoli di peso=
+ &lt;=3D 30kN)</option>
+	<option value=3D"Categoria G - Rimesse e parcheggi (per autoveicoli di pes=
+o &gt; 30kN)">Categoria G - Rimesse e parcheggi (per autoveicoli di peso &g=
+t; 30kN)</option>
+	<option value=3D"Categoria H - Coperture">Categoria H - Coperture</option>
+	<option value=3D"Vento">Vento</option>
+	<option value=3D"Neve (a quota &lt;=3D 1000 m s.l.m.)">Neve (a quota &lt;=
+=3D 1000 m s.l.m.)</option>
+	<option value=3D"Neve (a quota &gt; 1000 m s.l.m.)">Neve (a quota &gt; 100=
+0 m s.l.m.)</option>
+	<option value=3D"Variazioni termiche">Variazioni termiche</option>
+
+</select>
+                            </td>
+                            <td>
+                                <input name=3D"ctl03$TextBoxQk12" type=3D"t=
+ext" id=3D"ctl03_TextBoxQk12" class=3D"txtfont  alignRight" style=3D"width:=
+50px;">
+                            </td>
+                            <td style=3D"border-right-style: solid; border-=
+width: 1px; border-color: #0000FF;">
+                                <select name=3D"ctl03$DropDownListEffettoQk=
+12" id=3D"ctl03_DropDownListEffettoQk12" class=3D"txtfont comboHeight">
+	<option value=3D"0">Favorevole</option>
+	<option selected=3D"selected" value=3D"1">Sfavorevole</option>
+
+</select>
+                            </td>
+                        </tr>
+                        <tr style=3D"border-bottom-style: solid; border-wid=
+th: 1px; border-color: #0000FF">
+                            <td align=3D"left" style=3D"border-width: 1px; =
+border-color: #0000FF; border-left-style: solid; border-bottom-style: solid=
+;">
+                                <select name=3D"ctl03$DropDownListQk13" id=
+=3D"ctl03_DropDownListQk13" class=3D"txtfont comboHeight comboMaxw">
+	<option value=3D"- Seleziona -">- Seleziona -</option>
+	<option value=3D"Categoria A - Ambienti ad uso residenziale">Categoria A -=
+ Ambienti ad uso residenziale</option>
+	<option value=3D"Categoria B - Uffici">Categoria B - Uffici</option>
+	<option value=3D"Categoria C - Ambienti suscettibili di affollamento">Cate=
+goria C - Ambienti suscettibili di affollamento</option>
+	<option value=3D"Categoria D - Ambienti ad uso commerciale">Categoria D - =
+Ambienti ad uso commerciale</option>
+	<option value=3D"Categoria E - Biblioteche, archivi, magazzini e ambienti =
+ad uso industriale">Categoria E - Biblioteche, archivi, magazzini e ambient=
+i ad uso industriale</option>
+	<option value=3D"Categoria F - Rimesse e parcheggi (per autoveicoli di pes=
+o &lt;=3D 30kN)">Categoria F - Rimesse e parcheggi (per autoveicoli di peso=
+ &lt;=3D 30kN)</option>
+	<option value=3D"Categoria G - Rimesse e parcheggi (per autoveicoli di pes=
+o &gt; 30kN)">Categoria G - Rimesse e parcheggi (per autoveicoli di peso &g=
+t; 30kN)</option>
+	<option value=3D"Categoria H - Coperture">Categoria H - Coperture</option>
+	<option value=3D"Vento">Vento</option>
+	<option value=3D"Neve (a quota &lt;=3D 1000 m s.l.m.)">Neve (a quota &lt;=
+=3D 1000 m s.l.m.)</option>
+	<option value=3D"Neve (a quota &gt; 1000 m s.l.m.)">Neve (a quota &gt; 100=
+0 m s.l.m.)</option>
+	<option value=3D"Variazioni termiche">Variazioni termiche</option>
+
+</select>
+                            </td>
+                            <td style=3D"border-width: 1px; border-color: #=
+0000FF; border-bottom-style: solid;">
+                                <input name=3D"ctl03$TextBoxQk13" type=3D"t=
+ext" id=3D"ctl03_TextBoxQk13" class=3D"txtfont  alignRight" style=3D"width:=
+50px;">
+                            </td>
+                            <td style=3D"border-right-style: solid; border-=
+width: 1px; border-color: #0000FF; border-bottom-style: solid;">
+                                <select name=3D"ctl03$DropDownListEffettoQk=
+13" id=3D"ctl03_DropDownListEffettoQk13" class=3D"txtfont comboHeight">
+	<option value=3D"0">Favorevole</option>
+	<option selected=3D"selected" value=3D"1">Sfavorevole</option>
+
+</select>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                    <br>
+                    <div style=3D"text-align:right">
+                                <input type=3D"submit" name=3D"ctl03$Button=
+Salva" value=3D"Salva" id=3D"ctl03_ButtonSalva" class=3D"txtfont" style=3D"=
+height:30px;width:100px;">
+                                <input type=3D"submit" name=3D"ctl03$Button=
+Apri" value=3D"Apri" id=3D"ctl03_ButtonApri" class=3D"txtfont" style=3D"hei=
+ght:30px;width:100px;">
+                                <input type=3D"submit" name=3D"ctl03$Button=
+3" value=3D"* Esporta" id=3D"ctl03_Button3" disabled=3D"disabled" class=3D"=
+aspNetDisabled txtfont" style=3D"height:30px;width:100px;">
+                                <input type=3D"submit" name=3D"ctl03$Button=
+2" value=3D"Salva PDF" id=3D"ctl03_Button2" disabled=3D"disabled" class=3D"=
+aspNetDisabled txtfont" style=3D"height:30px;width:100px;">
+                                <input type=3D"submit" name=3D"ctl03$Button=
+1" value=3D"Calcola" id=3D"ctl03_Button1" class=3D"txtfont" style=3D"height=
+:30px;width:100px;height: 30px">
+                            </div>
+                   =20
+                    <table cellpadding=3D"1" cellspacing=3D"0" style=3D"wid=
+th: 100%">
+                        <tbody><tr>
+                            <td align=3D"right" valign=3D"middle" class=3D"=
+auto-style1">
+                               =20
+                            </td>
+                            <td align=3D"right" valign=3D"middle" style=3D"=
+width: 330px">
+                                &nbsp;</td>
+                        </tr>
+                    </tbody></table>
+
+
+                </div>
+
+                <p align=3D"center">
+                    <span id=3D"ctl03_LabelRisultato"></span>
+                </p>
+                <p align=3D"center">
+                    * Il file creato con <i>"Salva file"</i> pu=C3=B2 esser=
+e importato automaticamente=20
+    negli applicativi GeoStru.
+                </p>
+            </td>
+        </tr>
+    </tbody></table>
+
+   =20
+
+
+
+
+
+</div></form></body></html>
+------MultipartBoundary--lFQztf4x2wU7pMK0C4ZxuNaz9zokjk0v56QzQShdNa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.geoapp.eu/WPStyle.css
+
+@charset "utf-8";
+
+body { font-family: "Open Sans", serif; font-size: 15px; line-height: 20px;=
+ color: rgb(102, 102, 102); }
+
+label, input, textarea, select { font-family: "Open Sans", serif; font-size=
+: 15px; line-height: 20px; color: rgb(102, 102, 102); padding: 2px; margin:=
+ 2px; }
+
+input[type=3D"submit"] { width: 100px; height: 28px; }
+
+input[type=3D"button"] { width: 100px; height: 28px; }
+
+input[type=3D"checkbox"] { width: 16px; height: 16px; vertical-align: middl=
+e; position: relative; bottom: 1px; }
+
+input[type=3D"radio"] { width: 16px; height: 16px; vertical-align: middle; =
+position: relative; bottom: 1px; }
+
+.txtfont { font-family: "Open Sans", serif; font-size: 15px; line-height: 2=
+0px; color: rgb(102, 102, 102); }
+
+.C1TextNode { font-family: "Open Sans", serif; font-size: 15px; line-height=
+: 20px; color: rgb(102, 102, 102); }
+
+.alignLeft { text-align: left; }
+
+.alignRight { text-align: right; }
+
+.alignCenter { text-align: center; }
+
+.txtNumericInput { text-align: right; padding: 2px; margin: 2px; }
+
+.txtGenericInput { text-align: left; padding: 2px; margin: 2px; }
+
+.comboHeight { height: 28px; margin: 2px; }
+------MultipartBoundary--lFQztf4x2wU7pMK0C4ZxuNaz9zokjk0v56QzQShdNa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css?family=Open+Sans
+
+@charset "utf-8";
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v44/me=
+mSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA.woff2") format=
+("woff2"); unicode-range: U+460-52F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A6=
+40-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v44/me=
+mSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVIGxA.woff2") format=
+("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v44/me=
+mSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4saVIGxA.woff2") format=
+("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v44/me=
+mSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4jaVIGxA.woff2") format=
+("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U+38E-3A1=
+, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v44/me=
+mSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4iaVIGxA.woff2") format=
+("woff2"); unicode-range: U+307-308, U+590-5FF, U+200C-2010, U+20AA, U+25CC=
+, U+FB1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v44/me=
+mSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B5caVIGxA.woff2") format=
+("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+310, U+312, U+315,=
+ U+31A, U+326-327, U+32C, U+32F-330, U+332-333, U+338, U+33A, U+346, U+34D,=
+ U+391-3A1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U=
++2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+=
+205F, U+2070-2071, U+2074-208E, U+2090-209C, U+20D0-20DC, U+20E1, U+20E5-20=
+EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2=
+194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, =
+U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+23=
+9B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, =
+U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B=
+0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE0=
+0-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v44/me=
+mSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B5OaVIGxA.woff2") format=
+("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20E2-20E4,=
+ U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2=
+218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A=
+0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4D=
+C0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD,=
+ U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF,=
+ U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+=
+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3=
+A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+=
+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+=
+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F4=
+6A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-=
+1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+=
+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513,=
+ U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+=
+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-=
+1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-=
+1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-=
+1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F9=
+84, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA89, U+1FA8F-=
+1FAC6, U+1FACE-1FADC, U+1FADF-1FAE9, U+1FAF0-1FAF8, U+1FB00-1FBFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v44/me=
+mSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4vaVIGxA.woff2") format=
+("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0=
+-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9=
+, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v44/me=
+mSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVIGxA.woff2") format=
+("woff2"); unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD=
+-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U=
++20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; src: url("https://fonts.gstatic.com/s/opensans/v44/me=
+mSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2") format("w=
+off2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U=
++2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2=
+212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--lFQztf4x2wU7pMK0C4ZxuNaz9zokjk0v56QzQShdNa----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-6bba7c78-5134-4c2b-b95c-31ebe2aaf0c1@mhtml.blink
+
+@charset "utf-8";
+
+.comboMaxw { width: 517px; }
+
+.auto-style1 { width: 394px; }
+
+.auto-style2 { height: 31px; }
+------MultipartBoundary--lFQztf4x2wU7pMK0C4ZxuNaz9zokjk0v56QzQShdNa------
