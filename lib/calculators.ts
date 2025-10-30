@@ -1297,7 +1297,7 @@ export const calculators: Calculator[] = [
     schema: 'WebApplication',
   },
   {
-    slug: 'convertitore-illuminotecnico-lumen-lux-candela',
+    slug: 'convertitore-luminosita-lumen-lux-candela',
     title: 'Convertitore Illuminotecnico',
     description:
       'Converti tra lumen, lux e candela calcolando l’illuminamento su superfici specificate.',
@@ -1330,6 +1330,366 @@ export const calculators: Calculator[] = [
     author: defaultAuthors.conversionSpecialist,
     datePublished: '2024-12-28',
     dateModified: '2025-03-28',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-sistema-internazionale-si-unita-misura',
+    title: 'Guida al Sistema Internazionale (SI) delle Unità di Misura',
+    description:
+      'Panoramica sulle grandezze fondamentali del SI, sui prefissi e sulle buone pratiche per l’uso coerente delle unità tecniche.',
+    metaDescription:
+      'Guida rapida al Sistema Internazionale: grandezze fondamentali, prefissi e consigli sull’utilizzo corretto delle unità di misura.',
+    category: 'guide',
+    keywords: [
+      'sistema internazionale',
+      'unità di misura',
+      'prefissi SI',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'differenza-potenza-coppia-kw-nm',
+    title: 'Potenza vs Coppia: Guida pratica (kW e Nm)',
+    description:
+      'Spiega la relazione tra potenza e coppia motrice e come interpretare le curve caratteristiche di motori e impianti.',
+    metaDescription:
+      'Guida alla differenza tra potenza (kW) e coppia (Nm) con esempi di lettura delle curve motore.',
+    category: 'guide',
+    keywords: [
+      'potenza',
+      'coppia',
+      'curve motore',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'differenza-hp-cv-cavalli-vapore-elettrici',
+    title: 'HP, CV e Cavalli Elettrici: Cosa Cambia',
+    description:
+      'Confronta Cavalli Vapore, Horsepower meccanici ed elettrici, spiegando fattori di conversione e ambiti di utilizzo.',
+    metaDescription:
+      'Guida ai cavalli vapore: differenze tra HP meccanico, CV e cavallo elettrico con fattori di conversione.',
+    category: 'guide',
+    keywords: [
+      'cavalli vapore',
+      'horsepower',
+      'conversione potenza',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'pressione-assoluta-relativa-differenziale-bar-psi',
+    title: 'Pressione Assoluta, Relativa e Differenziale',
+    description:
+      'Spiega le differenze tra pressioni assolute, relative e differenziali e come leggerle su manometri e strumenti industriali.',
+    metaDescription:
+      'Guida alle pressioni assolute, relative e differenziali con esempi applicativi per manometri e altimetri.',
+    category: 'guide',
+    keywords: [
+      'pressione assoluta',
+      'pressione relativa',
+      'manometro',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'differenza-energia-joule-kwh-potenza-watt',
+    title: 'Energia (Joule) vs Potenza (Watt): Guida Pratica',
+    description:
+      'Chiarisce il rapporto tra energia e potenza, illustrando esempi di consumo e resa in impianti elettrici e termici.',
+    metaDescription:
+      'Guida alla differenza tra energia (J, kWh) e potenza (W, kW) con esempi applicativi.',
+    category: 'guide',
+    keywords: [
+      'energia',
+      'potenza',
+      'kWh',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'cos-e-il-pascal-mpa-gpa-tensione',
+    title: 'Cos’è il Pascal (Pa)?',
+    description:
+      'Descrive l’unità di misura della pressione/tensione e i suoi multipli (kPa, MPa, GPa) con esempi ingegneristici.',
+    metaDescription:
+      'Guida al Pascal e ai suoi multipli: come interpretare MPa e GPa in progetti strutturali e termotecnici.',
+    category: 'guide',
+    keywords: [
+      'Pascal',
+      'MPa',
+      'pressione',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'differenza-viscosita-dinamica-cinematica-poise-stokes',
+    title: 'Viscosità Dinamica vs Cinematica: Differenze',
+    description:
+      'Illustra la relazione tra viscosità dinamica e cinematica, fornendo esempi di applicazione nei fluidi tecnici.',
+    metaDescription:
+      'Guida alle viscosità dinamica (Pa·s, Poise) e cinematica (St, cSt) con esempi pratici.',
+    category: 'guide',
+    keywords: [
+      'viscosità',
+      'Poise',
+      'Stokes',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-scale-durezza-materiali-rockwell-brinell-vickers',
+    title: 'Scale di Durezza dei Materiali: Rockwell, Brinell, Vickers',
+    description:
+      'Descrive principi e applicazioni delle prove di durezza più diffuse e come confrontare i risultati.',
+    metaDescription:
+      'Guida alle scale di durezza Rockwell, Brinell, Vickers e Shore con indicazioni applicative.',
+    category: 'guide',
+    keywords: [
+      'durezza Rockwell',
+      'Brinell',
+      'Vickers',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'cos-e-btu-british-thermal-unit',
+    title: 'Cos’è il BTU (British Thermal Unit)?',
+    description:
+      'Spiega cosa misura il BTU, come convertirlo in kWh e kcal e dove viene utilizzato (climatizzazione, caldaie).',
+    metaDescription:
+      'Guida al BTU: conversioni con kWh e kcal e applicazioni in climatizzazione e termotecnica.',
+    category: 'guide',
+    keywords: [
+      'BTU',
+      'kWh',
+      'calorie',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'conversione-angoli-gradi-sessagesimali-decimali-radianti',
+    title: 'Angoli: Gradi Sessagesimali, Decimali e Radianti',
+    description:
+      'Spiega i tre sistemi di misura degli angoli e fornisce formule per convertirli rapidamente.',
+    metaDescription:
+      'Guida alla conversione degli angoli tra gradi sessagesimali, decimali e radianti.',
+    category: 'guide',
+    keywords: [
+      'conversione angoli',
+      'radianti',
+      'gradi decimali',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'differenza-bit-vs-byte-kb-mb-gb',
+    title: 'Bit vs Byte: Guida alle Unità Informatiche',
+    description:
+      'Spiega la differenza tra bit e Byte, l’uso dei prefissi decimali e binari e come evitare gli errori più comuni.',
+    metaDescription:
+      'Guida alle unità informatiche: differenza tra bit e Byte, multipli 1000/1024 e casi applicativi.',
+    category: 'guide',
+    keywords: [
+      'bit',
+      'Byte',
+      'KB MB GB',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-sistema-imperiale-pollici-piedi-miglia',
+    title: 'Pollici e Piedi: Guida al Sistema Imperiale',
+    description:
+      'Introduzione alle unità imperiali (inch, foot, yard, mile) con tabella di conversione verso il sistema metrico.',
+    metaDescription:
+      'Guida al sistema imperiale: conversione tra pollici, piedi, iarde e miglia e confronto con il sistema metrico.',
+    category: 'guide',
+    keywords: [
+      'pollici',
+      'piedi',
+      'sistema imperiale',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'differenza-lumen-lux-candela-illuminotecnica',
+    title: 'Lumen, Lux e Candela: Facciamo Chiarezza',
+    description:
+      'Define flusso luminoso, illuminamento e intensità con esempi di applicazione in progetti illuminotecnici.',
+    metaDescription:
+      'Guida alle unità illuminotecniche: differenza tra lumen, lux e candela e rapporti tra loro.',
+    category: 'guide',
+    keywords: [
+      'lumen',
+      'lux',
+      'candela',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'cos-e-il-newton-differenza-massa-peso-kgf',
+    title: 'Cos’è il Newton (N)? Differenza Massa/Peso',
+    description:
+      'Illustra la seconda legge di Newton e chiarisce differenza tra massa (kg) e peso/f orza (N).',
+    metaDescription:
+      'Guida al Newton: differenza tra massa e peso e applicazioni nelle verifiche meccaniche.',
+    category: 'guide',
+    keywords: [
+      'Newton',
+      'massa',
+      'peso',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'differenza-sistema-imperiale-uk-us-customary',
+    title: 'Unità di Misura Americane vs Imperiali (UK)',
+    description:
+      'Spiega le differenze tra UK Imperial e US Customary, soprattutto per volumi (galloni) e misure quotidiane.',
+    metaDescription:
+      'Guida alle differenze tra sistema imperiale UK e US Customary per volumi e unità di uso comune.',
+    category: 'guide',
+    keywords: [
+      'US Customary',
+      'UK Imperial',
+      'unità di misura',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'consumo-carburante-km-l-vs-l-100km',
+    title: 'Come si Misura il Consumo: km/L vs L/100km',
+    description:
+      'Analizza i due standard principali per misurare l’efficienza dei veicoli e fornisce formule di conversione.',
+    metaDescription:
+      'Guida alla conversione tra km/L, L/100km e MPG con esempi pratici.',
+    category: 'guide',
+    keywords: [
+      'consumo carburante',
+      'km/L',
+      'L/100km',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'cos-e-il-decibel-db-spiegazione-logaritmica',
+    title: 'Il Decibel (dB): Un’Unità Logaritmica',
+    description:
+      'Spiega la definizione del decibel, le scale ponderate e perché si usa in acustica ed elettronica.',
+    metaDescription:
+      'Guida al decibel: unità logaritmica per acustica ed elettronica con esempi di calcolo.',
+    category: 'guide',
+    keywords: [
+      'decibel',
+      'dB(A)',
+      'acustica',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'unita-tensione-materiali-psi-ksi-mpa',
+    title: 'psi, ksi, MPa: Unità di Tensione nei Materiali',
+    description:
+      'Confronta le principali unità di tensione per materiali strutturali e spiega come convertirle.',
+    metaDescription:
+      'Guida alle unità di tensione: conversioni tra psi, ksi e MPa per calcoli strutturali.',
+    category: 'guide',
+    keywords: [
+      'psi',
+      'MPa',
+      'tensione materiali',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'conversione-misure-agrarie-ettari-acri',
+    title: 'Acri vs Ettari: Misure Agrarie a Confronto',
+    description:
+      'Descrive le principali unità agrarie (ettaro, acro, iugero) e fornisce fattori di conversione rapidi.',
+    metaDescription:
+      'Guida alla conversione tra ettari, acri e altre unità agrarie per mappe e pratiche catastali.',
+    category: 'guide',
+    keywords: [
+      'ettari',
+      'acri',
+      'misure agrarie',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'cos-e-gradi-giorno-gg-termotecnica',
+    title: 'Cosa sono i Gradi Giorno (GG)?',
+    description:
+      'Spiega il significato dei gradi giorno, la suddivisione in zone climatiche e l’impatto sul fabbisogno energetico.',
+    metaDescription:
+      'Guida ai gradi giorno: calcolo, zone climatiche italiane e applicazioni in termotecnica.',
+    category: 'guide',
+    keywords: [
+      'gradi giorno',
+      'zone climatiche',
+      'termotecnica',
+    ],
+    author: defaultAuthors.conversionSpecialist,
+    datePublished: '2024-12-30',
+    dateModified: '2025-03-30',
     schema: 'WebApplication',
   },
   {
