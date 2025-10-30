@@ -46,6 +46,7 @@ export interface SiteConfig {
     url: string;
     logo: string;
     foundingDate: string;
+    taxId?: string;
     address: {
       streetAddress: string;
       addressLocality: string;
