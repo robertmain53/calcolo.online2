@@ -26,6 +26,7 @@ import TerzaghiBearingCapacityCalculator from '@/components/TerzaghiBearingCapac
 import RetainingWallCalculator from '@/components/RetainingWallCalculator';
 import LaterocementoSlabCalculator from '@/components/LaterocementoSlabCalculator';
 import WoodBeamSLUCalculator from '@/components/WoodBeamSLUCalculator';
+import SeismicBaseShearCalculator from '@/components/SeismicBaseShearCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -407,6 +408,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'verifica-muro-sostegno': RetainingWallCalculator,
   'calcolo-solaio-laterocemento': LaterocementoSlabCalculator,
   'verifica-trave-legno-slu': WoodBeamSLUCalculator,
+  'calcolo-taglio-sismico-statica': SeismicBaseShearCalculator,
   'calcolo-trave-appoggiata': SimplySupportedBeamCalculator,
   'calcolo-roi-return-on-investment': ROICalculator,
 };
