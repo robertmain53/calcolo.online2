@@ -732,7 +732,7 @@ export default function RCSectionSLUCalculator() {
             </h3>
             <ul className="mt-2 list-disc list-inside text-sm text-gray-700 space-y-1">
               <li>Verifica SLU taglio-punzonamento da effettuare separatamente.</li>
-              <li>Valuta duttilita: x/d <= 0.45 per classi di duttilita normale.</li>
+              <li>Valuta duttilita: x/d &le; 0.45 per classi di duttilita normale.</li>
               <li>Controlla SLU instabilita e SLE fessurazione con tool dedicati.</li>
             </ul>
           </article>
@@ -803,4 +803,3 @@ export default function RCSectionSLUCalculator() {
     </div>
   );
 }
-
