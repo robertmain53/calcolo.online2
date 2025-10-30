@@ -217,6 +217,186 @@ export const calculators: Calculator[] = [
     schema: 'WebApplication',
   },
   {
+    slug: 'calcolo-trasmittanza-termica-u-value',
+    title: 'Calcolo Trasmittanza Termica (U-value)',
+    description:
+      'Calcola la trasmittanza termica di pareti e solai multistrato secondo la UNI EN ISO 6946 con resistenze e conduttività dei materiali.',
+    metaDescription:
+      'Tool per calcolare il valore U di pareti e coperture multistrato secondo UNI EN ISO 6946 con resistenze termiche e conducibilità λ.',
+    category: 'acustica-termotecnica',
+    keywords: [
+      'trasmittanza termica',
+      'u value',
+      'uni en iso 6946',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-22',
+    dateModified: '2025-02-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'verifica-condensa-interstiziale-glaser',
+    title: 'Verifica Condensa Interstiziale (Glaser)',
+    description:
+      'Esegue la verifica di condensa interstiziale e superficiale tramite il metodo di Glaser conforme alla UNI EN ISO 13788.',
+    metaDescription:
+      'Verifica condensa interstiziale con diagramma di Glaser secondo UNI EN ISO 13788 per prevenire muffe e degradi.',
+    category: 'acustica-termotecnica',
+    keywords: [
+      'condensa interstiziale',
+      'metodo glaser',
+      'uni en iso 13788',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-22',
+    dateModified: '2025-02-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-spessore-isolante',
+    title: 'Calcolo Spessore Isolante Ottimale',
+    description:
+      'Determina lo spessore di materiale isolante necessario per raggiungere un valore target di trasmittanza o resistenza termica.',
+    metaDescription:
+      'Calcolo dello spessore isolante ottimale per rispettare valori U target con materiali a diversa conducibilità λ.',
+    category: 'acustica-termotecnica',
+    keywords: [
+      'spessore isolante',
+      'trasmittanza target',
+      'resistenza termica',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-22',
+    dateModified: '2025-02-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-potere-fonoisolante-rw',
+    title: 'Calcolo Potere Fonoisolante (Rw)',
+    description:
+      'Stima il potere fonoisolante apparente di elementi di separazione basandosi sulla legge della massa e sulla UNI EN 12354-1.',
+    metaDescription:
+      'Calcolatore del potere fonoisolante Rw di pareti e solai secondo UNI EN 12354-1 con legge della massa e correzioni.',
+    category: 'acustica-termotecnica',
+    keywords: [
+      'potere fonoisolante',
+      'Rw',
+      'UNI EN 12354-1',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-22',
+    dateModified: '2025-02-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-tempo-riverberazione-t60-sabine',
+    title: 'Calcolo Tempo di Riverberazione (T60)',
+    description:
+      'Calcola il tempo di riverberazione di un ambiente con la formula di Sabine includendo superfici e assorbimenti dei materiali.',
+    metaDescription:
+      'Calcolo del T60 con formula di Sabine: inserisci volumi e superfici assorbenti per valutare il comfort acustico.',
+    category: 'acustica-termotecnica',
+    keywords: [
+      'tempo di riverberazione',
+      'T60',
+      'formula di Sabine',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-22',
+    dateModified: '2025-02-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-isolamento-calpestio-lnw',
+    title: "Calcolo Isolamento Calpestio (L'nw)",
+    description:
+      "Stima il livello di rumore da calpestio normalizzato di un solaio e lo confronta con i limiti del DPCM 5/12/97.",
+    metaDescription:
+      "Calcolatore per il rumore da calpestio L'nw con valutazione dei limiti normativi del DPCM 5/12/97.",
+    category: 'acustica-termotecnica',
+    keywords: [
+      "rumore da calpestio",
+      "L'nw",
+      'DPCM 5/12/97',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-22',
+    dateModified: '2025-02-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-ponte-termico-lineare-psi',
+    title: 'Calcolo Ponte Termico (Lineare)',
+    description:
+      'Calcola il coefficiente lineare di dispersione Ψ per i principali nodi costruttivi secondo UNI EN ISO 10211.',
+    metaDescription:
+      'Determinazione del ponte termico lineare Ψ per nodi parete-solaio e parete-pilastro in conformità alla UNI EN ISO 10211.',
+    category: 'acustica-termotecnica',
+    keywords: [
+      'ponte termico',
+      'coefficiente psi',
+      'UNI EN ISO 10211',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-22',
+    dateModified: '2025-02-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'calcolo-dispersioni-termiche-stanza',
+    title: 'Calcolo Dispersioni Termiche (Stanza)',
+    description:
+      'Stima il fabbisogno termico per trasmissione e ventilazione di una stanza per il dimensionamento dei corpi scaldanti.',
+    metaDescription:
+      'Calcolo delle dispersioni termiche di ambiente singolo secondo UNI EN 12831 per il dimensionamento degli impianti.',
+    category: 'acustica-termotecnica',
+    keywords: [
+      'dispersioni termiche',
+      'UNI EN 12831',
+      'fabbisogno termico stanza',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-22',
+    dateModified: '2025-02-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'dimensionamento-radiatori-delta-t',
+    title: 'Dimensionamento Radiatori (ΔT)',
+    description:
+      'Calcola la potenza richiesta dei radiatori in funzione del ΔT di progetto e del fabbisogno termico dell’ambiente.',
+    metaDescription:
+      'Tool per dimensionare radiatori: potenza in funzione del ΔT (30, 50) e del fabbisogno termico della stanza.',
+    category: 'acustica-termotecnica',
+    keywords: [
+      'dimensionamento radiatori',
+      'delta T',
+      'potenza termosifoni',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-22',
+    dateModified: '2025-02-28',
+    schema: 'SoftwareApplication',
+  },
+  {
+    slug: 'verifica-requisiti-acustici-dpcm-97',
+    title: 'Verifica Requisiti Acustici (DPCM 5/12/97)',
+    description:
+      "Controlla la conformità dei requisiti acustici passivi (Rw, L'nw, D2m,nT,w) ai limiti del DPCM 5/12/97 inserendo i valori misurati.",
+    metaDescription:
+      "Verifica dei requisiti acustici passivi secondo DPCM 5/12/97: isolamento facciata, pareti e rumore da calpestio.",
+    category: 'acustica-termotecnica',
+    keywords: [
+      'requisiti acustici passivi',
+      'DPCM 5/12/97',
+      'verifica acustica',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-22',
+    dateModified: '2025-02-28',
+    schema: 'SoftwareApplication',
+  },
+  {
     slug: 'verifica-sezione-ca-slu',
     title: 'Verifica Sezione CA (SLU)',
     description:
@@ -1000,6 +1180,186 @@ export const calculators: Calculator[] = [
     author: defaultAuthors.safetyCoordinator,
     datePublished: '2024-11-18',
     dateModified: '2025-02-26',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-uni-en-iso-6946-trasmittanza-termica',
+    title: 'Guida alla UNI EN ISO 6946: Calcolare la U',
+    description:
+      'Spiega trasmittanza, resistenza termica e conducibilità dei materiali con esempi applicativi per pareti multistrato.',
+    metaDescription:
+      'Approfondimento sulla UNI EN ISO 6946: calcolo di U, resistenze termiche e parametri necessari per pareti e coperture.',
+    category: 'guide',
+    keywords: [
+      'UNI EN ISO 6946',
+      'trasmittanza termica',
+      'resistenza termica',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-25',
+    dateModified: '2025-03-02',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'prevenire-muffa-condensa-metodo-glaser',
+    title: 'Prevenire Muffa e Condensa: Il Metodo Glaser',
+    description:
+      'Guida alla lettura del diagramma di Glaser per prevedere condense interstiziali e superficiali e definire corretti pacchetti stratigrafici.',
+    metaDescription:
+      'Metodo Glaser spiegato: diagramma termoigrometrico, controllo della condensa e strategie per evitare muffe.',
+    category: 'guide',
+    keywords: [
+      'metodo glaser',
+      'condensa interstiziale',
+      'muffa pareti',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-25',
+    dateModified: '2025-03-02',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-dpcm-5-12-97-requisiti-acustici',
+    title: 'Il DPCM 5/12/97: Guida ai Requisiti Acustici',
+    description:
+      'Analizza i limiti del DPCM 5/12/97 per isolamento aereo, rumore da calpestio e impianti, con riferimenti normativi e sanzioni.',
+    metaDescription:
+      'Guida al DPCM 5/12/97 sui requisiti acustici passivi degli edifici: limiti, verifiche e responsabilità.',
+    category: 'guide',
+    keywords: [
+      'DPCM 5/12/97',
+      'requisiti acustici',
+      'isolamento acustico',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-25',
+    dateModified: '2025-03-02',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'differenza-rumore-aereo-rw-calpestio-lnw',
+    title: "Isolamento Acustico: Rw vs L'nw",
+    description:
+      "Confronta isolamento dal rumore aereo e dal rumore da calpestio spiegando le differenze tra gli indici Rw e L'nw.",
+    metaDescription:
+      "Differenza tra Rw e L'nw: isolamento dal rumore aereo e da calpestio spiegati con esempi pratici.",
+    category: 'guide',
+    keywords: [
+      'Rw',
+      "L'nw",
+      'isolamento acustico',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-25',
+    dateModified: '2025-03-02',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'cosa-sono-ponti-termici-come-correggerli',
+    title: "Cos'è un Ponte Termico e Come Correggerlo",
+    description:
+      'Illustra i diversi tipi di ponti termici, gli effetti su dispersioni e muffe e le strategie di correzione secondo UNI 10211.',
+    metaDescription:
+      'Guida ai ponti termici: identificazione, effetti su muffe e consumi, correzione con soluzioni costruttive conformi alla UNI 10211.',
+    category: 'guide',
+    keywords: [
+      'ponte termico',
+      'dispersioni termiche',
+      'muffa pareti',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-25',
+    dateModified: '2025-03-02',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'progettare-comfort-acustico-riverberazione',
+    title: 'Progettare il Comfort Acustico: Guida a T60',
+    description:
+      'Analizza il tempo di riverberazione e l’effetto dei materiali fonoassorbenti per ottimizzare il comfort acustico degli ambienti.',
+    metaDescription:
+      'Tempo di riverberazione T60: guida alla progettazione acustica con formula di Sabine e scelta dei materiali assorbenti.',
+    category: 'guide',
+    keywords: [
+      'tempo riverberazione',
+      'comfort acustico',
+      'materiali fonoassorbenti',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-25',
+    dateModified: '2025-03-02',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'confronto-materiali-isolanti-termici',
+    title: 'Materiali Isolanti Termici a Confronto',
+    description:
+      'Confronta i principali isolanti termici (EPS, XPS, lane minerali, sughero) per conducibilità, resistenza al vapore e impieghi.',
+    metaDescription:
+      'Confronto tra materiali isolanti termici: valori λ, resistenza al vapore μ e applicazioni tipiche.',
+    category: 'guide',
+    keywords: [
+      'materiali isolanti',
+      'conducibilità termica',
+      'resistenza al vapore',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-25',
+    dateModified: '2025-03-02',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'guida-uni-en-12831-dispersioni-termiche',
+    title: 'Guida alla UNI EN 12831: Calcolo Fabbisogno',
+    description:
+      'Spiega il calcolo delle dispersioni termiche per trasmissione e ventilazione secondo la norma UNI EN 12831.',
+    metaDescription:
+      'Guida alla UNI EN 12831 per il calcolo del fabbisogno termico degli edifici e il dimensionamento degli impianti.',
+    category: 'guide',
+    keywords: [
+      'UNI EN 12831',
+      'fabbisogno termico',
+      'dimensionamento impianto',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-25',
+    dateModified: '2025-03-02',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'scegliere-radiatori-delta-t-potenza',
+    title: 'Scegliere i Radiatori: ΔT e Potenza',
+    description:
+      'Illustra il significato di ΔT30, ΔT50 e come influisce sulla resa dei radiatori per un corretto dimensionamento.',
+    metaDescription:
+      'Come scegliere i radiatori in funzione del ΔT e della potenza richiesta per il comfort termico degli ambienti.',
+    category: 'guide',
+    keywords: [
+      'radiatori',
+      'delta T',
+      'potenza termica',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-25',
+    dateModified: '2025-03-02',
+    schema: 'WebApplication',
+  },
+  {
+    slug: 'differenza-legge-10-ape',
+    title: 'Legge 10 e APE: Facciamo Chiarezza',
+    description:
+      'Confronta la Relazione tecnica Legge 10 con l’Attestato di Prestazione Energetica spiegando obiettivi e contenuti.',
+    metaDescription:
+      'Differenza tra relazione Legge 10 e APE: finalità, contenuti e quando sono necessari nei progetti energetici.',
+    category: 'guide',
+    keywords: [
+      'legge 10',
+      'APE',
+      'prestazione energetica',
+    ],
+    author: defaultAuthors.acousticsEngineer,
+    datePublished: '2024-11-25',
+    dateModified: '2025-03-02',
     schema: 'WebApplication',
   },
   // Add more calculators here following the same structure
