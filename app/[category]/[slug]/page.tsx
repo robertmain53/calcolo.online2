@@ -21,6 +21,7 @@ import SimplySupportedBeamCalculator from '@/components/SimplySupportedBeamCalcu
 import RCSectionSLUCalculator from '@/components/RCSectionSLUCalculator';
 import RCColumnBiaxialCalculator from '@/components/RCColumnBiaxialCalculator';
 import SteelBeamSLUCalculator from '@/components/SteelBeamSLUCalculator';
+import LoadCombinationCalculator from '@/components/LoadCombinationCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -397,6 +398,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'calcolo-pilastro-ca-pressoflessione': RCColumnBiaxialCalculator,
   'verifica-trave-acciaio-slu': SteelBeamSLUCalculator,
   'verifica-sezione-ca-slu': RCSectionSLUCalculator,
+  'combinazioni-carico-ntc-2018': LoadCombinationCalculator,
   'calcolo-trave-appoggiata': SimplySupportedBeamCalculator,
   'calcolo-roi-return-on-investment': ROICalculator,
 };
