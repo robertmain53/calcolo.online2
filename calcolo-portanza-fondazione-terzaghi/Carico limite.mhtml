@@ -1,0 +1,1074 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://help.geostru.eu/loadcap/it/21880.htm
+Subject: Carico limite
+Date: Thu, 30 Oct 2025 20:02:08 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--wRMoQwkF49RfrNM96v0z6MiPwi1RmajGuzAPXQU6ef----"
+
+
+------MultipartBoundary--wRMoQwkF49RfrNM96v0z6MiPwi1RmajGuzAPXQU6ef----
+Content-Type: text/html
+Content-ID: <frame-BB4BCE6264C8C927AC9945D071246835@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://help.geostru.eu/loadcap/it/21880.htm
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
+"cid:css-2b17cbd9-06aa-4049-b3fa-0281c2888c89@mhtml.blink" /><link rel=3D"s=
+tylesheet" type=3D"text/css" href=3D"cid:css-f082e8f6-fcb6-468b-be2d-7a8ea3=
+5b5e39@mhtml.blink" />
+   <title>Carico limite</title>
+   <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">
+     =20
+   <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+   <meta name=3D"generator" content=3D"Help &amp; Manual">
+   <meta name=3D"keywords" content=3D"autori,calcolo carico limite,combinaz=
+ioni,fattore di sicurezza">
+   <meta name=3D"description" content=3D"Per valutare il carico limite dell=
+a fondazione si possono scegliere diversi autori:">
+   <link type=3D"text/css" href=3D"https://help.geostru.eu/loadcap/it/defau=
+lt.css" rel=3D"stylesheet">
+   <link type=3D"text/css" href=3D"https://help.geostru.eu/loadcap/it/custo=
+m.css" rel=3D"stylesheet">
+
+  =20
+  =20
+  =20
+  =20
+  =20
+
+  =20
+  =20
+  =20
+</head>
+<body>
+
+
+<div id=3D"printheader"><h1 class=3D"p_Heading1"><span class=3D"f_Heading1"=
+>Carico limite</span></h1>
+</div>
+<div id=3D"idheader" style=3D"position: relative;">
+<div id=3D"idheaderbg">
+<table style=3D"width:100%;border:none;margin:0px;" cellspacing=3D"0" cellp=
+adding=3D"0">=20
+  <tbody><tr>
+    <td class=3D"topichead" style=3D"text-align:left; vertical-align:bottom=
+">
+      <p class=3D"sync-toc" style=3D"display: block;">&lt;&lt; <a rel=3D"no=
+follow" href=3D"https://help.geostru.eu/loadcap/it/index.html?21880.htm" ta=
+rget=3D"_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+      <p class=3D"crumbs" style=3D"display: none;"><b>Navigation:</b>&nbsp;
+      =C2=BBNo topics above this level=C2=AB
+      </p>
+  =20
+      <h1 class=3D"p_Heading1"><span class=3D"f_Heading1">Carico limite</sp=
+an></h1>
+
+    </td>
+    <td class=3D"topichead" id=3D"idnav">
+     =20
+      <a href=3D"https://help.geostru.eu/loadcap/it/rilevato.htm" title=3D"=
+Previous Topic"><span class=3D"hmbtnprev"></span></a>
+      <a href=3D"https://help.geostru.eu/loadcap/it/loadcap.htm" title=3D"P=
+arent Chapter"><span class=3D"hmbtntop"></span></a>
+      <a href=3D"https://help.geostru.eu/loadcap/it/rilevato2.htm" title=3D=
+"Next Topic"><span class=3D"hmbtnnext"></span></a>
+     =20
+    </td>
+  </tr> =20
+</tbody></table>
+</div>
+</div> =20
+
+<div id=3D"idcontent" style=3D"margin-top: 0px;"><div id=3D"innerdiv">
+<!-- Ask Internet Explorer 6.users to update their obsolete and dangerous b=
+rowser -->=20
+<!--[if lt IE 7]><div style=3D' clear: both; height: 59px; padding:0 0 0 15=
+px; position: relative;'><a href=3D"http://windows.microsoft.com/en-US/inte=
+rnet-explorer/products/ie/home?ocid=3Die6_countdown_bannercode"><img src=3D=
+"http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000=
+_us.jpg" border=3D"0" height=3D"42" width=3D"820" alt=3D"You are using an o=
+utdated browser. For a faster, safer browsing experience, upgrade for free =
+today." /></a></div><![endif]-->
+
+<!--ZOOMRESTART-->
+<p class=3D"p_f_bodytext"><span class=3D"f_f_bodytext">Per valutare il cari=
+co limite della fondazione si possono scegliere diversi autori:</span></p>
+<p style=3D"line-height: 1.20; margin: 0 35px 0 60px;"><span style=3D"font-=
+family: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</span></p>
+<p style=3D"text-indent: 0; line-height: 1.80; padding-left: 13px; margin: =
+0 35px 0 60px;"><span class=3D"f_f_heading3" style=3D"font-family: 'Lucida =
+Sans Unicode','Lucida Grande','Lucida Sans','Arial';display:inline-block;wi=
+dth:13px;margin-left:-13px">=E2=80=A2</span><span class=3D"f_f_heading3">Me=
+todo di Hansen</span><br>
+<span class=3D"f_f_bodytext">La scelta di questa opzione =C3=A8 necessaria =
+per il calcolo del carico limite con il metodo di Hansen (terreni sciolti).=
+</span></p><p style=3D"text-indent: 0; line-height: 1.80; padding-left: 13p=
+x; margin: 0 35px 0 60px;"><span class=3D"f_f_heading3" style=3D"font-famil=
+y: 'Lucida Sans Unicode','Lucida Grande','Lucida Sans','Arial';display:inli=
+ne-block;width:13px;margin-left:-13px">=E2=80=A2</span><span class=3D"f_f_h=
+eading3">Metodo di Terzaghi</span><br>
+<span class=3D"f_f_bodytext">La scelta di questa opzione =C3=A8 necessaria =
+per il calcolo del carico limite con il metodo di Terzaghi (terreni sciolti=
+).</span></p><p style=3D"text-indent: 0; line-height: 1.80; padding-left: 1=
+3px; margin: 0 35px 0 60px;"><span class=3D"f_f_heading3" style=3D"font-fam=
+ily: 'Lucida Sans Unicode','Lucida Grande','Lucida Sans','Arial';display:in=
+line-block;width:13px;margin-left:-13px">=E2=80=A2</span><span class=3D"f_f=
+_heading3">Metodo di Meyerhof</span><br>
+<span class=3D"f_f_bodytext">La scelta di questa opzione =C3=A8 necessaria =
+per il calcolo del carico limite con il metodo di Meyerhof (terreni sciolti=
+).</span></p><p style=3D"text-indent: 0; line-height: 1.80; padding-left: 1=
+3px; margin: 0 35px 0 60px;"><span class=3D"f_f_heading3" style=3D"font-fam=
+ily: 'Lucida Sans Unicode','Lucida Grande','Lucida Sans','Arial';display:in=
+line-block;width:13px;margin-left:-13px">=E2=80=A2</span><span class=3D"f_f=
+_heading3">Metodo di Vesic</span><br>
+<span class=3D"f_f_bodytext">La scelta di questa opzione =C3=A8 necessaria =
+per il calcolo del carico limite con il metodo di Vesic (terreni sciolti).<=
+/span></p><p style=3D"text-indent: 0; line-height: 1.80; padding-left: 13px=
+; margin: 0 35px 0 60px;"><span class=3D"f_f_heading3" style=3D"font-family=
+: 'Lucida Sans Unicode','Lucida Grande','Lucida Sans','Arial';display:inlin=
+e-block;width:13px;margin-left:-13px">=E2=80=A2</span><span class=3D"f_f_he=
+ading3">Metodo EC-8</span><br>
+<span class=3D"f_f_bodytext">La scelta di questa opzione consente di esegui=
+re il calcolo del carico limite secondo le direttive dell=E2=80=99 Eurocodi=
+ce 7 (sulla geotecnica) e dell=E2=80=99Eurocodice 8 (sulla sismica).</span>=
+</p><p style=3D"text-indent: 0; line-height: 1.80; padding-left: 13px; marg=
+in: 0 35px 0 60px;"><span class=3D"f_f_heading3" style=3D"font-family: 'Luc=
+ida Sans Unicode','Lucida Grande','Lucida Sans','Arial';display:inline-bloc=
+k;width:13px;margin-left:-13px">=E2=80=A2</span><span class=3D"f_f_heading3=
+">Metodo di Meyerhof and Hanna</span></p><p class=3D"p_Normal" style=3D"mar=
+gin: 0 35px 0 60px;"><span class=3D"f_f_bodytext"> &nbsp; La scelta di ques=
+ta opzione =C3=A8 necessaria per il calcolo del carico limite con il metodo=
+ di Vesic (terreni sciolti).</span><br>
+<span class=3D"f_f_bodytext">&nbsp;</span></p>
+<p style=3D"text-indent: 0; line-height: 1.80; padding-left: 13px; margin: =
+0 35px 0 60px;"><span class=3D"f_f_heading3" style=3D"font-family: 'Lucida =
+Sans Unicode','Lucida Grande','Lucida Sans','Arial';display:inline-block;wi=
+dth:13px;margin-left:-13px">=E2=80=A2</span><span class=3D"f_f_heading3">Me=
+todo di Terzaghi su roccia</span><br>
+<span class=3D"f_f_bodytext">La scelta di questa opzione =C3=A8 necessaria =
+per il calcolo del carico limite con il metodo di Terzaghi per le fondazion=
+i su roccia.</span></p><p style=3D"text-indent: 0; line-height: 1.80; paddi=
+ng-left: 13px; margin: 0 35px 0 60px;"><span class=3D"f_f_heading3" style=
+=3D"font-family: 'Lucida Sans Unicode','Lucida Grande','Lucida Sans','Arial=
+';display:inline-block;width:13px;margin-left:-13px">=E2=80=A2</span><span =
+class=3D"f_f_heading3">Metodo di Zienkiewicz su roccia</span><br>
+<span class=3D"f_f_bodytext">La scelta di questa opzione =C3=A8 necessaria =
+per il calcolo del carico limite con il metodo di Zienkiewicz per le fondaz=
+ioni su roccia.</span></p><p style=3D"text-indent: -1px; line-height: 1.20;=
+ margin: 0 35px 0 49px;"><span style=3D"font-family: Arial,Helvetica,sans-s=
+erif; color: #000000;">&nbsp;</span></p>
+<p style=3D"text-indent: -1px; line-height: 1.20; margin: 0 35px 0 49px;"><=
+span style=3D"font-family: Arial,Helvetica,sans-serif; color: #000000;">&nb=
+sp;</span></p>
+<p style=3D"text-indent: -1px; line-height: 1.80; margin: 0 35px 0 49px;"><=
+span class=3D"f_f_heading3"> &nbsp; <a id=3D"calcolo" class=3D"hmanchor" st=
+yle=3D"margin-top: -20px; padding-top: 20px;"></a>Carico limite</span></p>
+<p style=3D"text-indent: -1px; line-height: 1.20; margin: 0 35px 0 49px;"><=
+span class=3D"f_f_bodytext">Il carico limite verticale &nbsp;viene calcolat=
+o per ogni combinazione di progetto. </span></p>
+<p style=3D"text-indent: -1px; line-height: 1.20; margin: 0 35px 0 49px;"><=
+span class=3D"f_f_bodytext">Tramite il menu opzioni di analisi presente nel=
+la finestra di calcolo del carico limite =C3=A8 possibile selezionare il ti=
+po di analisi da effettuare:</span></p>
+<p style=3D"text-indent: -1px; line-height: 1.80; margin: 0 35px 0 49px;"><=
+span style=3D"font-family: Arial,Helvetica,sans-serif; color: #000000;">&nb=
+sp;</span></p>
+<p style=3D"text-indent: -1px; line-height: 1.80; margin: 0 35px 0 49px;"><=
+span style=3D"font-family: Arial,Helvetica,sans-serif; color: #000000;">&nb=
+sp;</span></p>
+<p style=3D"text-indent: -1px; line-height: 1.20; margin: 0 35px 0 49px;"><=
+span class=3D"f_f_heading3">Condizione drenata </span></p>
+<p style=3D"text-indent: -1px; line-height: 1.20; margin: 0 35px 0 49px;"><=
+span class=3D"f_f_bodytext">Scegliere questa opzione se si desidera valutar=
+e il carico limite della fondazione in condizioni drenate (parametri effica=
+ci).</span></p>
+<p style=3D"text-indent: -1px; line-height: 2.40; margin: 0 35px 0 49px;"><=
+span style=3D"font-family: Arial,Helvetica,sans-serif; color: #000000;">&nb=
+sp;</span></p>
+<p style=3D"text-indent: -1px; line-height: 1.20; margin: 0 35px 0 49px;"><=
+span class=3D"f_f_heading3">Condizione non drenata</span></p>
+<p style=3D"text-indent: -1px; line-height: 1.20; margin: 0 35px 0 49px;"><=
+span class=3D"f_f_bodytext">Scegliere questa opzione se si desidera valutar=
+e il carico limite della fondazione in condizioni non drenate (parametri to=
+tali).</span></p>
+<p style=3D"text-indent: -1px; line-height: 2.40; margin: 0 35px 0 49px;"><=
+span style=3D"font-family: Arial,Helvetica,sans-serif; color: #000000;">&nb=
+sp;</span></p>
+<p style=3D"text-indent: -1px; line-height: 1.20; margin: 0 35px 0 49px;"><=
+span class=3D"f_f_heading3">Calcolo secondo la media pesata delle stratific=
+azioni </span></p>
+<p style=3D"text-indent: -1px; line-height: 1.20; margin: 0 35px 0 49px;"><=
+span class=3D"f_f_bodytext">Scegliere questa opzione se si desidera valutar=
+e il carico limite della fondazione considerando come parametri geotecnici =
+quelli ottenuti dalla media pesata dei parametri dei singoli strati; in cas=
+o contrario verranno presi in considerazione solo i parametri dello strato =
+di posa della fondazione (Metodo Classico).</span></p>
+<p style=3D"text-indent: -1px; line-height: 1.80; margin: 0 35px 0 49px;"><=
+span style=3D"font-family: Arial,Helvetica,sans-serif; color: #000000;">&nb=
+sp;</span></p>
+<p style=3D"text-indent: -1px; line-height: 1.20; margin: 0 35px 0 49px;"><=
+span class=3D"f_f_bodytext">Per ogni combinazione =C3=A8 possibile ridurre =
+i parametri caratteristici del terreno secondo i coefficienti di riduzione =
+imposti ed effettuare le <a href=3D"https://help.geostru.eu/loadcap/it/corr=
+ezioni_sismiche_secondo_pa.htm" class=3D"topiclink">Correzioni sismiche</a>=
+ in accordo con gli approcci progettuali selezionati.</span><br>
+<span class=3D"f_f_bodytext">Per la valutazione degli effetti sismici sulla=
+ portanza vengono proposte le accelerazioni sismiche massime al suolo relat=
+ive alle varie zone in cui =C3=A8 suddiviso il territorio. Il valore del co=
+efficiente sismico orizzontale viene calcolato in automatico in funzione de=
+lla zona sismica e del profilo stratigrafico, ma pu=C3=B2 essere inserito a=
+nche un valore a scelta dell'utente.</span></p>
+<p style=3D"line-height: 1.80; margin: 0 0 0 1px;"><span style=3D"font-fami=
+ly: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</span></p>
+<div style=3D"text-align: center; text-indent: 0; padding: 0 0 0 0; margin:=
+ 0 0 0 1px;"><table style=3D"margin:0 auto; width:600px; border:none; borde=
+r-spacing:0; border-collapse:collapse;">
+<tbody><tr>
+<td style=3D"vertical-align:top; padding:0; border:solid thin #000000;"><p =
+class=3D"p_Normal"><img alt=3D"tipbulb" width=3D"32" height=3D"32" style=3D=
+"margin:0;width:32px;height:32px;border:none" src=3D"https://help.geostru.e=
+u/loadcap/it/tipbulb.gif"></p>
+<hr style=3D"height:1px; color:#B76D00; border-width:0; background-color:#b=
+76d00;"><p class=3D"p_Comment" style=3D"margin: 0 12px 0 10px;"><span class=
+=3D"f_Comment">Loadcap in automatico individua la combinazione di calcolo p=
+eggiore e la seleziona con il simbolo di *.</span></p>
+<p class=3D"p_Comment" style=3D"margin: 0 12px 0 10px;"><span class=3D"f_Co=
+mment">&nbsp;</span></p>
+</td>
+</tr>
+</tbody></table>
+</div>
+<p style=3D"line-height: 1.20; margin: 0 0 0 1px;"><span style=3D"font-fami=
+ly: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</span></p>
+<p style=3D"line-height: 1.20; margin: 0 0 0 48px;"><span class=3D"f_f_head=
+ing3">Calcolo Ks</span></p>
+<p style=3D"line-height: 1.20; margin: 0 0 0 48px;"><span class=3D"f_f_body=
+text">Il calcolo della costante di sottofondo viene eseguita con il metodo =
+proposto da Bowles per i terreni sciolti, con un metodo che deriva dalla te=
+oria dell'elasticit=C3=A0 per i terreni rocciosi.</span></p>
+<p style=3D"line-height: 1.80; margin: 0 0 0 48px;"><span style=3D"font-fam=
+ily: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</span></p>
+<p style=3D"line-height: 1.80; margin: 0 0 0 48px;"><span style=3D"font-fam=
+ily: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</span></p>
+<p style=3D"line-height: 1.20; margin: 0 0 0 48px;"><span class=3D"f_f_head=
+ing3">Verifica a scorrimento - Collasso per slittamento</span></p>
+<p style=3D"line-height: 1.20; margin: 0 0 0 48px;"><span class=3D"f_f_body=
+text">Vedere <a href=3D"https://help.geostru.eu/loadcap/it/1880.htm" class=
+=3D"topiclink">Caratteristiche strati</a> e <a href=3D"https://help.geostru=
+.eu/loadcap/it/cenni_teorici2.htm" class=3D"topiclink">Cenni teorici</a>.</=
+span></p>
+<p style=3D"line-height: 1.80; margin: 0 0 0 1px;"><span style=3D"font-fami=
+ly: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</span></p>
+<p style=3D"line-height: 1.80; margin: 0 0 0 1px;"><span style=3D"font-fami=
+ly: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</span></p>
+<p style=3D"text-align: center; line-height: 1.80; margin: 0 0 0 1px;"><a h=
+ref=3D"https://www.youtube.com/watch?v=3DVf8nxrjroD4" target=3D"_blank"><im=
+g alt=3D"CARICO_LIM_SCORR_1" width=3D"458" height=3D"259" style=3D"margin:0=
+ auto 0 auto;width:458px;height:259px;border:none" src=3D"https://help.geos=
+tru.eu/loadcap/it/carico_lim_scorr_1.jpg"></a></p>
+<p style=3D"line-height: 1.80; margin: 0 0 0 1px;"><span style=3D"font-fami=
+ly: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</span></p>
+<p style=3D"line-height: 1.80; margin: 0 0 0 1px;"><span style=3D"font-fami=
+ly: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</span></p>
+<p style=3D"line-height: 1.80; margin: 0 0 0 1px;"><span style=3D"font-fami=
+ly: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</span></p>
+<p style=3D"line-height: 1.80; margin: 0 0 0 1px;"><span style=3D"font-fami=
+ly: Arial,Helvetica,sans-serif; color: #000000;">&nbsp;</span></p>
+<p style=3D"line-height: 1.20;"><span style=3D"font-family: Arial,Helvetica=
+,sans-serif; color: #000000;">&nbsp;</span></p>
+<div style=3D"text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0=
+ 0 0 0;"><table style=3D"width:100%; background-image:url('linea1.png'); bo=
+rder:none; border-spacing:0;">
+<tbody><tr>
+<td style=3D"vertical-align:middle; height:28px; padding:0; border:none"><b=
+r>
+</td>
+</tr>
+</tbody></table>
+</div>
+<p style=3D"line-height: 1.20;"><span style=3D"font-size: 9pt; font-family:=
+ 'Segoe UI',Tahoma,Verdana,Arial,sans-serif;">=C2=A9 &nbsp;GeoStru</span></=
+p>
+<p style=3D"line-height: 1.20;"><span style=3D"font-family: Arial,Helvetica=
+,sans-serif; color: #000000;">&nbsp;</span></p>
+<p style=3D"text-align: justify; line-height: 1.20; margin: 0 0 0 38px;"><s=
+pan style=3D"font-family: Arial,Helvetica,sans-serif; color: #000000;">&nbs=
+p;</span></p>
+
+<!--ZOOMSTOP-->
+</div></div>
+
+
+
+</body></html>
+------MultipartBoundary--wRMoQwkF49RfrNM96v0z6MiPwi1RmajGuzAPXQU6ef----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://help.geostru.eu/loadcap/it/linea1.png
+
+iVBORw0KGgoAAAANSUhEUgAAAJsAAAAxCAIAAABChExTAAAABmJLR0QAAAAAAAD5Q7t/AAAACXBI
+WXMAAA7EAAAOxAGVKw4bAAAAeklEQVR42u3UMREAIAwEQQoMIIEG/zZosICUYCNk9iT8TtIjoqlQ
+3QRERVRERVREiYqoiIqoiBIVUREVURElKqIiKqIiSlR/i+5zrVBKdM1pBV9XiUXHMIIbFVERFVER
+JSqiIiqiIkpUREVUREWUqIiKqIiKKFERVZoeThQGwuEQjG0AAAAASUVORK5CYII=
+
+------MultipartBoundary--wRMoQwkF49RfrNM96v0z6MiPwi1RmajGuzAPXQU6ef----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://help.geostru.eu/loadcap/it/carico_lim_scorr_1.jpg
+
+/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgMCAgMDAwMEAwMEBQgFBQQEBQoHBwYIDAoMDAsK
+CwsNDhIQDQ4RDgsLEBYQERMUFRUVDA8XGBYUGBIUFRT/2wBDAQMEBAUEBQkFBQkUDQsNFBQUFBQU
+FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBT/wAARCAEDAcoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDwHS/+
+CVnjvWtOvb2z8feCpYLLyROzy3sQQyuUQEvbKPvA85xjnOKtad/wSZ+Iuptp4h8beECl880cUym+
+eLdFN5DAyLbFBmTgHODkYPIz9M+Fv2vfGY8PvFp3gv4eR2s8Ie5t102YGQRAlTIom55Hy5/iYY5N
+fSf7Gfx31f47WPiiPW9G0PTIdGmt5LaLSLV4k3zGZnYhnf5ty5yMcsxOc169TLMRhqLqVktN7Pvt
+pqcMcbRqyUKV7va6PzYvP+CR3xNtP7TA8WeGJ204xiYQw6idxeQxjYfsuHwwOSpIABJOKRP+CR/x
+Ok1vStKHi/wj9p1C2W6Rmku1WNWzsDk2+dzbX4UHG05xkZ/YSX4paFFpWpSjS7+WCGYwyQR2oczs
+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
+
+------MultipartBoundary--wRMoQwkF49RfrNM96v0z6MiPwi1RmajGuzAPXQU6ef----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://help.geostru.eu/loadcap/it/tipbulb.gif
+
+R0lGODlhIAAgAIcAAAAAABgIAHNKAHtKAIRSAIxSAIxaAIxaEJSMa72MWr3GzsalMcalOcalQsat
+hMbGzsbOzsbO1s6tAM6tKc61Us69a869e87O1s7W1s7W3taEANaECNaMCNaMENa1Mda1Qta9Wta9
+a9bGe9bW3tbe3t6MAN61Qt69AN69Qt7GQt7GUt7Ga97GhN7ezt7e3t7e597n5+e9MefGQufOSufO
+UufOa+fOe+fWa+fenOfn7+fv7++9Me/GQu/OUu/WSu/WUu/WhO/ec+/ehO/v5+/v7+/v9+/37+/3
+9/e1CPe9CPe9EPfGEPfGGPfOIffOOffWa/feOffee/fejPfnWvfnY/fvhPf35/f37/f39/f3//f/
+//+9AP+9CP/GCP/GEP/GGP/OGP/OIf/OKf/OQv/WKf/WMf/WOf/WQv/WSv/WUv/eMf/eOf/eSv/e
+Uv/eWv/ec//ee//ehP/nKf/nMf/nOf/nQv/nSv/nUv/vOf/vQv/vSv/vUv/vWv/vY//ve//vhP/v
+nP/3Wv/3Y//3a//3c//3e//3hP/3jP/3lP/3nP//lP//nP//pf//rf//tf//vf//xv//zv//1v//
+3v//5///7///9///////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////yH5BAMAAP8ALAAAAAAgACAA
+AAj/AP8JHEiwoMGDCBMqXKgwTRoxXb6MYbgQjhdAlzJG+tNGDBOKB9GUiZSxZCNEhvow6QFy4Bg0
+kEqWjISSD58mNFq+MfNoksyMklAOmsOHiQ2QXxg9qvTzEiSUhOTQWaOEYhw3jx5R+mmJ0SFDheTI
+qdOEBUMxgLKSlPn0K6E5cuasicGwi6OsWktKSoSyECE6Yu1UXfilkaPDjnCIcNQAUQNDDGjUEVsH
+SV1GjBppppCo8WMGVD4AliP4rJ9EqBOBqILoq18aKODKMUN3YRQ2iHIjWiHENaE+NGaIncPEAsUv
+fg4pv1ED7G8+KHyIpTOY4RMxhsAGUUFoUB8+ezxAmYmrpEJLHk4GDQrd5/sePRPqEDfRUiCPJjZV
+gNfDP0UdJfTVJ9AKSTBhhh022VEGE0iYJyBBAnTQAQ0bbHDABgI8WJAGNLiRgxtuSECDARoSZEAC
+KBqgYgIZlihQCR1eAuIJbpDo4j8nprhiiy7C6IaMbtBoo4s5JqDiiTyW6COQQt4okIoFEDCAAAIg
+4KRAAWSZ5ZVcdjlQQAA7
+
+------MultipartBoundary--wRMoQwkF49RfrNM96v0z6MiPwi1RmajGuzAPXQU6ef----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://help.geostru.eu/loadcap/it/custom.css
+
+@charset "utf-8";
+
+a { color: rgb(0, 0, 255); text-decoration: none; }
+
+a:visited { color: rgb(0, 0, 255); }
+
+a:hover { color: rgb(228, 100, 28); text-decoration: underline; }
+
+a.weblink { color: rgb(0, 0, 255); text-decoration: underline; }
+
+a.weblink:visited { color: rgb(0, 0, 255); }
+
+a.weblink:hover { color: rgb(228, 100, 28); }
+
+a.popuplink { color: rgb(255, 0, 0); text-decoration: none; }
+
+a.popuplink:visited { color: rgb(255, 0, 0); }
+
+a.popuplink:hover { color: rgb(255, 0, 0); text-decoration: underline; }
+
+a.filelink { color: rgb(4, 188, 20); text-decoration: none; }
+
+a.filelink:visited { color: rgb(4, 188, 20); }
+
+a.filelink:hover { color: rgb(4, 188, 20); text-decoration: underline; }
+
+a.inline-toggle { color: green; text-decoration: none; font-weight: bold; f=
+ont-family: "Times New Roman", serif; }
+
+a.inline-toggle:visited { color: green; }
+
+a.inline-toggle:hover { text-decoration: underline; }
+
+.fsmall { font-size: 10px; font-family: Verdana, Helvetica, sans-serif; tex=
+t-align: center; margin: 10px 0px 0px; }
+
+.crumbs { font-size: 9pt; margin-bottom: 3px; margin-top: 0px; color: rgb(0=
+, 0, 0); }
+
+.crumbs a { text-decoration: underline; color: rgb(0, 0, 0); }
+
+.crumbs a:visited { text-decoration: underline; color: rgb(0, 0, 0); }
+
+.crumbs a:hover { color: rgb(228, 100, 28); }
+
+@media screen {
+  #idcontent { width: 100%; position: relative; padding: 0px !important; }
+  #innerdiv { padding: 10px 5px 5px 10px !important; }
+  .topichead { padding: 5px; }
+  .navlinks { font-size: 10pt; }
+  .navlinks a { text-decoration: none; color: blue; }
+  .navlinks a:visited { text-decoration: none; color: blue; }
+  .navlinks a:hover { text-decoration: underline; color: blue; }
+  html.nonscroll { overflow: hidden; }
+  body.nonscroll { overflow: hidden; height: 100%; }
+  div.nonscroll { overflow: auto scroll; }
+}
+------MultipartBoundary--wRMoQwkF49RfrNM96v0z6MiPwi1RmajGuzAPXQU6ef----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://help.geostru.eu/loadcap/it/default.css
+
+@charset "utf-8";
+
+hr { color: rgb(0, 0, 0); }
+
+body, table, tr, th { font-size: 10pt; font-family: Verdana, Geneva, Arial,=
+ sans-serif; font-style: normal; font-weight: normal; color: rgb(0, 0, 0); =
+text-decoration: none; }
+
+span.f_BB { font-size: 11pt; font-family: Arial, Helvetica, sans-serif; }
+
+span.f_CodeExample { font-size: 8pt; font-family: "Courier New", Courier, m=
+onospace; }
+
+span.f_Comment { font-style: italic; }
+
+span.f_f_bodytext { font-size: 11pt; }
+
+span.f_f_heading2 { font-size: 14pt; font-weight: bold; color: rgb(0, 0, 12=
+8); }
+
+span.f_f_heading3 { font-size: 12pt; font-weight: bold; color: rgb(0, 0, 12=
+8); }
+
+span.f_f_heading4 { font-size: 12pt; color: rgb(0, 0, 128); }
+
+span.f_Heading1 { font-size: 14pt; font-weight: bold; color: rgb(0, 0, 128)=
+; }
+
+span.f_ImageCaption { font-size: 8pt; font-weight: bold; }
+
+span.f_Notes { }
+
+p, p.p_Normal, div.p_Normal, li.p_Normal { text-align: left; text-indent: 0=
+px; line-height: 1.44; padding: 0px; margin: 0px; }
+
+.p_CodeExample { font-size: 8pt; line-height: 1; white-space: nowrap; break=
+-inside: avoid; }
+
+.p_Comment { font-size: 10pt; }
+
+.p_f_bodytext { font-size: 11pt; text-align: justify; line-height: 1.8; mar=
+gin: 0px 19px; }
+
+.p_f_heading4 { font-size: 12pt; line-height: 1.2; margin: 0px 9px; }
+
+.p_Heading1 { font-size: 100%; font-weight: normal; text-align: left; text-=
+indent: 0px; line-height: 1.44; padding: 0px; margin: 0px; }
+
+.p_ImageCaption { font-size: 8pt; }
+
+.p_Notes { font-size: 10pt; }
+
+div.hmrotate90 { display: inline-block; -webkit-writing-mode: vertical-rl; =
+writing-mode: vertical-rl; }
+
+div.hmrotate270 { display: inline-block; -webkit-writing-mode: vertical-rl;=
+ writing-mode: vertical-rl; transform: rotate(180deg); }
+
+#hmpopupdiv { display: none; position: absolute; z-index: 1000; background-=
+color: rgb(255, 255, 255); padding: 6px; border: 1px solid rgb(0, 0, 0); bo=
+rder-radius: 5px; box-shadow: rgb(136, 136, 136) 5px 5px 5px; }
+
+#hmlightbox { border: none; padding: 8px; background: rgb(255, 255, 255); f=
+ont-size: 110%; font-weight: bold; color: rgb(119, 119, 119); box-shadow: r=
+gb(136, 136, 136) 5px 5px 5px; }
+
+a.dropdown-toggle { cursor: pointer; }
+
+a.inline-toggle { cursor: pointer; }
+
+img.dropdown-toggle-icon { cursor: pointer; }
+
+.hmImageMap a.hmHotspotRect { display: block; position: absolute; border: 1=
+px solid transparent; background: rgb(0, 0, 0); opacity: 0.01; }
+
+.hmImageMap a.hmHotspotEllipse { display: block; position: absolute; border=
+-radius: 50%; border: 1px solid transparent; background: rgb(0, 0, 0); opac=
+ity: 0.01; }
+
+.hmImageMap:hover a.hmHotspotRect { opacity: 0.3; }
+
+.hmImageMap:hover a.hmHotspotEllipse { opacity: 0.3; }
+
+a.hmHotspotRect:hover { border: 1px solid rgb(0, 0, 0); background: rgb(255=
+, 255, 255); opacity: 0.3; }
+
+a.hmHotspotEllipse:hover { border: 1px solid rgb(0, 0, 0); background: rgb(=
+255, 255, 255); opacity: 0.3; }
+------MultipartBoundary--wRMoQwkF49RfrNM96v0z6MiPwi1RmajGuzAPXQU6ef----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f082e8f6-fcb6-468b-be2d-7a8ea35b5e39@mhtml.blink
+
+@charset "utf-8";
+
+div#idheader, img.dropdown-toggle-icon, p.help-url { display: none; }
+------MultipartBoundary--wRMoQwkF49RfrNM96v0z6MiPwi1RmajGuzAPXQU6ef----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://help.geostru.eu/loadcap/it/hm_webhelp_buttons_black.png
+
+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
+
+------MultipartBoundary--wRMoQwkF49RfrNM96v0z6MiPwi1RmajGuzAPXQU6ef----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-2b17cbd9-06aa-4049-b3fa-0281c2888c89@mhtml.blink
+
+@charset "utf-8";
+
+html, body { margin: 0px; padding: 0px; background: rgb(255, 255, 255); }
+
+div#printheader { display: none; }
+
+#idheader { width: 100%; height: auto; padding: 0px; margin: 0px; position:=
+ fixed; top: 0px; z-index: 2; }
+
+#idheader table { background: rgb(240, 240, 240); min-height: 59px; }
+
+#idheader h1 span { color: rgb(0, 0, 0); }
+
+#idnav { text-align: right; width: 126px; vertical-align: middle; }
+
+#idnav a { text-decoration: none; }
+
+#idnav span { display: inline-block; width: 24px; height: 24px; margin-left=
+: 4px; background: url("hm_webhelp_buttons_grey.png") left top no-repeat; }
+
+#idnav a span { background-image: url("hm_webhelp_buttons_black.png"); }
+
+#idnav a span:hover { background-image: url("hm_webhelp_buttons_brightblue.=
+png"); }
+
+#idnav span.hmbtnprev { background-position: 0px -32px; }
+
+#idnav span.hmbtnnext { background-position: -24px -32px; }
+
+#idnav span.hmbtntop { background-position: -48px -32px; }
+
+#idnav span.hmbtntoggle { width: 20px; background-position: -70px -32px; }
+
+#idnav span.hmbtnprint { background-position: -88px -32px; }
+
+#callout-table, #overview-table { display: block; position: relative; top: =
+0px; left: 0px; }
+
+#callout-icon { display: block; position: absolute; top: -11px; left: -11px=
+; }
+
+#callout-icon-flag { display: block; position: absolute; top: -11px; left: =
+-8px; }
+
+#callout-table a { text-decoration: none; color: blue; }
+
+#callout-table a:visited { text-decoration: none; color: blue; }
+
+#overview-table a { text-decoration: none; color: black; }
+
+#overview-table a:visited { text-decoration: none; color: black; }
+
+#callout-table a:hover, #overview-table a:hover { text-decoration: underlin=
+e; }
+
+p.help-url { margin: 20px 0px 5px; text-align: center; font-size: 80%; text=
+-decoration: none; }
+
+#switchtoggles { text-align: right; padding: 0px 2px 0px 0px; font-size: 90=
+%; }
+
+.sync-toc { color: rgb(0, 0, 0); font-size: 8pt; font-weight: normal; displ=
+ay: none; }
+
+.sync-toc a { color: rgb(0, 0, 0); text-decoration: none; font-weight: norm=
+al; }
+
+.sync-toc a:visited { color: rgb(0, 0, 0); }
+
+.sync-toc a:hover { text-decoration: underline; }
+
+a.hmanchor { display: inline-block; margin-top: -4em; padding-top: 4em; }
+------MultipartBoundary--wRMoQwkF49RfrNM96v0z6MiPwi1RmajGuzAPXQU6ef------
