@@ -1,0 +1,1966 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://www.electroarea.altervista.org/corrente_di_cortocircuito_fine_linea_calcolo_Icc.html
+Subject: calcolo_della_corrente_di_corto_circuito_Icc_a_fine_linea
+Date: Fri, 31 Oct 2025 09:36:28 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH----"
+
+
+------MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH----
+Content-Type: text/html
+Content-ID: <frame-E74103193A1444C7B62D25AD5A777FA5@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.electroarea.altervista.org/corrente_di_cortocircuito_fine_linea_calcolo_Icc.html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd"><html><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-ad5a3911-ae70-4cd7-964a-b4eb9b2a7019@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-32ce9c9c-9580-4d2c=
+-81ba-082c3d94a1af@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css=
+" href=3D"cid:css-bb9bc6fa-aafc-424f-848c-59d2c0b4bb3b@mhtml.blink" /><link=
+ rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-ad268df1-34ad-4e0e-a4=
+73-b4cc548c6278@mhtml.blink" />
+
+<title>calcolo_della_corrente_di_corto_circuito_Icc_a_fine_linea</title>
+<meta name=3D"description" content=3D"calcolo online della corrente di cort=
+o circuito a fine linea di bassa tensione, Icc, Icc0, trifase, bifase, mono=
+fase verso terra, CEI 11-25">
+<meta name=3D"keywords" content=3D"corrente di corto circuito, fine linea, =
+Icc,Icc0, bassa tensione,calcolo">
+<meta name=3D"author" content=3D"A. Di Santo">
+<meta name=3D"categories" content=3D"calcoli elettrici, impianti elettrici"=
+>
+
+
+
+</head>
+<body>
+<div id=3D"wb_Bookmark1" style=3D"position:absolute;left:240px;top:610px;wi=
+dth:50px;height:25px;z-index:0;">
+<a style=3D"visibility:hidden" name=3D"2">&nbsp;</a>
+</div>
+<div id=3D"wb_Bookmark2" style=3D"position:absolute;left:280px;top:90px;wid=
+th:225px;height:22px;z-index:1;">
+<a style=3D"visibility:hidden" name=3D"1">&nbsp;</a>
+</div>
+<div id=3D"wb_Bookmark3" style=3D"position:absolute;left:240px;top:910px;wi=
+dth:70px;height:25px;z-index:2;">
+<a style=3D"visibility:hidden" name=3D"3">&nbsp;</a>
+</div>
+<div id=3D"wb_Bookmark4" style=3D"position:absolute;left:250px;top:1120px;w=
+idth:60px;height:18px;z-index:3;">
+<a style=3D"visibility:hidden" name=3D"4">&nbsp;</a>
+</div>
+<div id=3D"wb_Text1" style=3D"position:absolute;left:89px;top:0px;width:102=
+1px;height:37px;text-align:center;z-index:4;">
+<span style=3D"color:#8A2BE2;font-family:Arial;font-size:32px;"><strong>ELE=
+CTRO-AREA</strong></span></div>
+<div id=3D"wb_Shape1" style=3D"position:absolute;left:91px;top:170px;width:=
+240px;height:2710px;z-index:5;">
+<img src=3D"http://www.electroarea.altervista.org/images/img0012.png" id=3D=
+"Shape1" alt=3D"" style=3D"border-width:0;width:240px;height:2710px;"></div=
+>
+<div id=3D"wb_Text5" style=3D"position:absolute;left:89px;top:131px;width:1=
+021px;height:24px;text-align:center;z-index:6;">
+<span style=3D"color:#8A2BE2;font-family:Arial;font-size:21px;"><strong>CAL=
+COLO ONLINE CAVI</strong></span></div>
+<div id=3D"wb_Text4" style=3D"position:absolute;left:45px;top:2910px;width:=
+1020px;height:47px;text-align:center;z-index:7;">
+<span style=3D"color:#000000;font-family:Arial;font-size:15px;">&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Copyright 2014 =
+=C2=A9 ELECTRO-AREA&nbsp;&nbsp;di=20
+Alessandro Di Santo,&nbsp; e-mail: <a href=3D"mailto:">staff.electroarea@ya=
+hoo.it</a></span><span style=3D"color:#000000;font-family:'Times New Roman'=
+;font-size:16px;"><br><div>
+	<a target=3D"_blank" href=3D"http://www.electroarea.altervista.org/Informa=
+tiva%20estesa%20sui%20cookie.htm">Leggi l'=20
+	informativa estesa sui cookie</a></div>
+<br>
+</span></div>
+<div id=3D"Html2" style=3D"position:absolute;left:341px;top:168px;width:770=
+px;height:130px;z-index:8">
+
+ =20
+ =20
+
+
+
+<h3 style=3D"background-color: #33CCFF; text-align: center;">Calcolo della =
+corrente di=20
+cortocircuito di bassa tensione a fine linea secondo norma CEI 11-25 </h3>
+
+<br>
+
+ Il presente foglio permette il calcolo online della corrente di cortocircu=
+ito=20
+trifase di bassa tensione&nbsp; Icc 3f, bifase, Icc 2f e Icc monofase verso=
+ terra a=20
+fine linea,&nbsp; note la tensione di alimentazione , la corrente di corto=
+=20
+circuito a inizio linea Icc0,&nbsp; il cofi Icc0,<br>
+il tipo di cavo di bassa tensione&nbsp; utilizzato, la formazione e il mate=
+riale del conduttore=20
+utilizzato( rame (cu) o alluminio (al)) e la lunghezza della linea, secondo=
+=20
+norma CEI 11-25.<br>
+Risultati intermedi del calcolo: energia specifica passante del cavo,=20
+resistenza, reattanza e impedenza della linea.<br>
+&nbsp;<br>
+N.b.: usare il punto per i numeri decimali, non usare la virgola!
+<br><br><hr><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+ Tensione di alimentazione(volt):
+&nbsp;
+<input id=3D"vn" value=3D"400" style=3D"font-size: medium; width: 82px; tex=
+t-align: center;" type=3D"text"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+<select id=3D"sel_vn" style=3D"font-size: large; width: 117px;">
+<option value=3D"400">400 volt</option>
+<option value=3D"230">230 volt</option>
+<option value=3D"">volt</option>
+</select>
+
+<br><br><hr><br>
+&nbsp;&nbsp; Corrente di cortocircuito inizio linea I<sub>CC0 </sub>(KA):=
+=20
+ &nbsp;
+<input id=3D"icc0" value=3D"10" style=3D"font-size: medium; width: 82px; te=
+xt-align: center;" type=3D"text">=20
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CofiI<su=
+b>CC0</sub>: &nbsp;
+<input id=3D"cosficc0" value=3D"0.5" style=3D"font-size: medium; width: 82p=
+x; text-align: center;" type=3D"text">=20
+<br>
+&nbsp;<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;=20
+in generale per&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+I<sub>CC0</sub>&nbsp; =3D &lt;&nbsp; 5KA&nbsp; &nbsp;&nbsp; si assume&nbsp;=
+&nbsp;&nbsp;&nbsp; Cofi I<sub>CC0</sub>:=20
+0.7<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5KA&nbsp; &lt; I<sub>CC0 </s=
+ub>&nbsp;=3D &lt;&nbsp;=20
+10KA&nbsp;&nbsp; si assume&nbsp;&nbsp;&nbsp; Cofi I<sub>CC0</sub>: 0.5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10KA&nbsp; &lt; I<sub>CC0</sub>&nbs=
+p; =3D &lt;&nbsp; 20KA&nbsp;=20
+si assume&nbsp; &nbsp;&nbsp; Cofi I<sub>CC0</sub>: 0.3<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 20KA&nbsp; &lt; I<sub>CC0</sub>&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+si assume&nbsp;&nbsp;&nbsp;&nbsp; Cofi I<sub>CC0</sub>: 0.2<br>
+<br>
+<hr>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp; Fattore di tensione C:
+&nbsp;
+<input id=3D"C" value=3D"1.05" style=3D"font-size: medium; width: 72px; tex=
+t-align: center;" type=3D"text"> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+<select id=3D"sel_C" style=3D"font-size: large; width: 117px;">
+<option value=3D"1.05">Icc max bt</option>
+<option value=3D"0.95">Icc min bt</option>
+<option value=3D"1.0">altro</option>
+</select>
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+cavo:&nbsp; &nbsp;
+<select id=3D"sel_cavo" style=3D"font-size: large; width: 170px;">
+<option value=3D"2">multipolare</option>
+<option value=3D"1">unipolare</option>
+</select>
+
+<br>
+
+<br>
+
+
+<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp; &nbsp; isolamento:&nbsp;&nbsp;&nbsp;&nbsp;
+<select id=3D"sel_isol" style=3D"font-size: large">
+<option value=3D"1">EPR</option>
+<option value=3D"2">PVC</option>
+</select>
+
+<br>
+
+
+
+<br><hr><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp; temperatura finale di corto circuito (=C2=B0C):
+&nbsp;
+<input id=3D"temp" value=3D"20" style=3D"font-size: medium; width: 67px; te=
+xt-align: center;" type=3D"text"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p; &nbsp;
+<select id=3D"sel_temp" style=3D"font-size: large">
+<option value=3D"EPR/PVC">EPR/PVC</option>
+<option value=3D"20">20=C3=82=C2=B0C</option>
+<option value=3D"30">30=C3=82=C2=B0C</option>
+<option value=3D"40">40=C3=82=C2=B0C</option>
+<option value=3D"50">50=C3=82=C2=B0C</option>
+<option value=3D"60">60=C3=82=C2=B0C</option>
+<option value=3D"70">70=C3=82=C2=B0C</option>
+<option value=3D"80">80=C3=82=C2=B0C</option>
+<option value=3D"90">90=C3=82=C2=B0C</option>
+<option value=3D"100">100=C3=82=C2=B0C</option>
+<option value=3D"110">110=C3=82=C2=B0C</option>
+<option value=3D"120">120=C3=82=C2=B0C</option>
+<option value=3D"130">130=C3=82=C2=B0C</option>
+<option value=3D"140">140=C3=82=C2=B0C</option>
+<option value=3D"150">150=C3=82=C2=B0C</option>
+<option value=3D"160">160=C3=82=C2=B0C</option>
+<option value=3D"170">170=C3=82=C2=B0C</option>
+<option value=3D"180">180=C3=82=C2=B0C</option>
+<option value=3D"190">190=C3=82=C2=B0C</option>
+<option value=3D"200">200=C3=82=C2=B0C</option>
+<option value=3D"210">210=C3=82=C2=B0C</option>
+<option value=3D"220">220=C3=82=C2=B0C</option>
+<option value=3D"230">230=C3=82=C2=B0C</option>
+<option value=3D"240">240=C3=82=C2=B0C</option>
+<option value=3D"250">250=C3=82=C2=B0C</option>
+<option value=3D"260">260=C3=82=C2=B0C</option>
+<option value=3D"270">270=C3=82=C2=B0C</option>
+<option value=3D"280">280=C3=82=C2=B0C</option>
+<option value=3D"290">290=C3=82=C2=B0C</option>
+<option value=3D"300">300=C3=82=C2=B0C</option>
+
+</select>
+<br>
+
+<br>
+<hr>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+=20
+FASE: sezione del cavo(mmq):&nbsp;&nbsp;&nbsp;
+<select id=3D"sel_sez" style=3D"font-size: large; width: 75px;">
+<option value=3D"4">1</option>
+<option value=3D"5">1,5</option>
+<option value=3D"6">2,5</option>
+<option value=3D"7">4</option>
+<option value=3D"8">6</option>
+<option value=3D"9">10</option>
+<option value=3D"10">16</option>
+<option value=3D"11">25</option>
+<option value=3D"12">35</option>
+<option value=3D"13">50</option>
+<option value=3D"14">70</option>
+<option value=3D"15">95</option>
+<option value=3D"16">120</option>
+<option value=3D"17">150</option>
+<option value=3D"18">185</option>
+<option value=3D"19">240</option>
+</select>&nbsp;&nbsp; &nbsp;numero corde x fase:&nbsp;&nbsp;
+<select id=3D"sel_corde" style=3D"font-size: large; width: 75px;">
+<option value=3D"1">1</option>
+<option value=3D"2">2</option>
+<option value=3D"3">3</option>
+<option value=3D"4">4</option>
+<option value=3D"5">5</option>
+<option value=3D"6">6</option>
+<option value=3D"7">7</option>
+<option value=3D"8">8</option>
+<option value=3D"9">9</option>
+<option value=3D"10">10</option>
+</select>&nbsp;&nbsp;&nbsp; materiale:&nbsp;
+<select id=3D"sel_mat" style=3D"font-size: large; width: 75px;">
+<option value=3D"1">Cu</option>
+<option value=3D"1.58">Al</option>
+</select>
+
+<br>
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;NEUTRO/PE/PEN: sezione del cavo(mmq):&=
+nbsp;&nbsp;
+<select id=3D"sel_sez_n" style=3D"font-size: large; width: 75px;">
+<option value=3D"4">1</option>
+<option value=3D"5">1,5</option>
+<option value=3D"6">2,5</option>
+<option value=3D"7">4</option>
+<option value=3D"8">6</option>
+<option value=3D"9">10</option>
+<option value=3D"10">16</option>
+<option value=3D"11">25</option>
+<option value=3D"12">35</option>
+<option value=3D"13">50</option>
+<option value=3D"14">70</option>
+<option value=3D"15">95</option>
+<option value=3D"16">120</option>
+<option value=3D"17">150</option>
+<option value=3D"18">185</option>
+<option value=3D"19">240</option>
+</select>
+
+&nbsp;&nbsp;&nbsp; numero corde x fase:&nbsp;&nbsp;
+<select id=3D"sel_corde_n" style=3D"font-size: large; width: 75px;">
+<option value=3D"0">0</option>
+<option value=3D"1">1</option>
+<option value=3D"2">2</option>
+<option value=3D"3">3</option>
+<option value=3D"4">4</option>
+<option value=3D"5">5</option>
+<option value=3D"6">6</option>
+<option value=3D"7">7</option>
+<option value=3D"8">8</option>
+<option value=3D"9">9</option>
+<option value=3D"10">10</option>
+</select>
+
+
+<br>
+<br><br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;=20
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;lunghezza lin=
+ea(m.):&nbsp;&nbsp;
+<input id=3D"L" value=3D"100" size=3D"2" style=3D"font-size: large; width: =
+73px;" ;=3D"" type=3D"text"> &nbsp;&nbsp;
+
+<br>
+
+<br>
+
+
+
+<br><hr><strong>RISULTATI DEL CALCOLO DELL' IMPEDENZA DEL CAVO E DELLA CORR=
+ENTE DI=20
+CORTOCIRCUITO MINIMA, E PRESUNTA IN BASSA TENSIONE :</strong><br>
+
+<br>
+
+<br>
+energia specifica passante del cavo KS<sup>2</sup>(A<sup>2</sup>t)&nbsp; =
+=3D &nbsp;<span id=3D"K2S">0</span>
+<br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;<span id=3D"R" style=3D"display:none"></span>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id=3D"X" style=3D"dis=
+play:none"></span>
+
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp; impedenza della linea Zl (mOhm)&nbsp; =3D&nbsp;=
+<span id=3D"ZT"></span>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; resistenza della linea Rl(mOhm)&nbs=
+p; =3D&nbsp;<span id=3D"RT"></span>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; reattanza della lineaXl(mOhm=
+)&nbsp; =3D&nbsp;<span id=3D"XT"></span>
+<br><br><br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<st=
+rong>&nbsp;  Corrente di corto circuito minima trifase fine linea&nbsp; I</=
+strong><sub><strong>CC3F</strong></sub><strong> (KA)&nbsp; =3D</strong>&nbs=
+p;<span id=3D"ICC3F"></span>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp; =20
+<strong>Corrente di corto circuito minima bifase fine linea I</strong><sub>=
+<strong>CCF-F</strong></sub><strong> (KA)&nbsp; =3D&nbsp;</strong><span id=
+=3D"ICC2F"></span>
+<br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp; =20
+<strong>Corrente di corto circuito monofase fine linea&nbsp; I</strong><sub=
+><strong>CCF-N/PE
+</strong></sub><strong>(KA) &nbsp; =3D&nbsp;</strong><span id=3D"ICC0F"></s=
+pan>
+<br>
+
+
+
+&nbsp;
+<span id=3D"cavo" style=3D"display:none">2</span>
+&nbsp;
+
+
+
+
+<span id=3D"isol" style=3D"display:none">1</span>
+&nbsp;
+
+&nbsp;
+<span id=3D"sez" style=3D"display:none">4</span>
+&nbsp;
+&nbsp;
+<span id=3D"sez_n" style=3D"display:none">4</span>
+&nbsp;
+
+
+&nbsp;
+<span id=3D"Z" style=3D"display:none"></span>
+&nbsp;<br>
+&nbsp;&nbsp;
+<span id=3D"S" style=3D"display:none"></span>
+&nbsp;
+
+&nbsp;
+<span id=3D"Rn" style=3D"display:none"></span>
+&nbsp;
+
+&nbsp;
+<span id=3D"Xn" style=3D"display:none"></span>
+&nbsp;
+
+
+&nbsp;
+
+
+
+<br>
+
+
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type=3D"button" value=3D"Calcola la corrente di corto circuito a fin=
+e linea" <br=3D"" style=3D"font-size: large; width: 394px; background-color=
+: #99FF99;" class=3D"style1">
+<br>
+___________________________________________________________________________=
+________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span id=3D"numcond" style=3D"display:none">1</span>
+<br>
+
+
+<table class=3D"tableizer-table">
+
+</table><table id=3D"PORTATA" style=3D"display:none">
+  <tbody>
+
+    <tr class=3D"tableizer-firstrow">
+
+      <th>NUMERO CONDUTTORI</th>
+
+      <th>1</th>
+
+      <th>2</th>
+
+      <th>3</th>
+
+      <th>4</th>
+
+    </tr>
+
+    <tr>
+
+      <td>POSA ARIA IMPEDITA- UNIPOLARI-PVC</td>
+
+      <td>13.5</td>
+
+      <td>13.5</td>
+
+      <td>12</td>
+
+      <td>10.5</td>
+
+    </tr>
+
+    <tr>
+
+      <td>POSA ARIA IMPEDITA- MULTIPOLARI-EPR</td>
+
+      <td>17</td>
+
+      <td>17</td>
+
+      <td>15</td>
+
+      <td>13.5</td>
+
+    </tr>
+
+    <tr>
+
+      <td>POSA ARIA LIBERA- MULTIPOLARI-PVC</td>
+
+      <td>15</td>
+
+      <td>15</td>
+
+      <td>13.5</td>
+
+      <td>12</td>
+
+    </tr>
+
+    <tr>
+
+      <td>POSA ARIA LIBERA- MULTIPOLARI-EPR</td>
+
+      <td>19</td>
+
+      <td>19</td>
+
+      <td>17</td>
+
+      <td>15</td>
+
+    </tr>
+
+    <tr>
+
+      <td>POSA ARIA LIBERA- UNIPOLARI CON GUAINA-PVC</td>
+
+      <td>17</td>
+
+      <td>17</td>
+
+      <td>15</td>
+
+      <td>13.5</td>
+
+    </tr>
+
+    <tr>
+
+      <td>POSA ARIA LIBERA- UNIPOLARI CON GUAINA-EPR</td>
+
+      <td>23</td>
+
+      <td>21</td>
+
+      <td>19</td>
+
+      <td>17</td>
+
+    </tr>
+
+  </tbody>
+</table>
+
+<br>
+
+<span id=3D"install" style=3D"display:none">1</span>
+<br>
+
+<br>
+
+<span id=3D"circuiti" style=3D"display:none">1</span>
+<br>
+
+&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+&nbsp; &nbsp;
+<table style=3D"width: 956px; height: 376px;" class=3D"tableizer-table">
+</table><table id=3D"INSTALLAZIONE" style=3D"display:none">
+  <tbody>
+
+    <tr class=3D"tableizer-firstrow">
+
+      <th>&nbsp;NUMERO CAVI MULTIPOLARI O CIRCUITI
+ADIACENTI&nbsp;</th>
+
+      <th>1</th>
+
+      <th>2</th>
+
+      <th>3</th>
+
+      <th>4</th>
+
+      <th>5</th>
+
+      <th>6</th>
+
+      <th>7</th>
+
+      <th>8</th>
+
+      <th>9</th>
+
+      <th>12</th>
+
+      <th>16</th>
+
+      <th>20</th>
+
+    </tr>
+
+    <tr>
+
+      <td>UNICO TUBO</td>
+
+      <td>1</td>
+
+      <td>0.8</td>
+
+      <td>0.7</td>
+
+      <td>0.65</td>
+
+      <td>0.6</td>
+
+      <td>0.57</td>
+
+      <td>0.54</td>
+
+      <td>0.52</td>
+
+      <td>0.5</td>
+
+      <td>0.45</td>
+
+      <td>0.41</td>
+
+      <td>0.38</td>
+
+    </tr>
+
+    <tr>
+
+      <td>TUBI ACCOSTATI A PARETE- 1 STRATO</td>
+
+      <td>1</td>
+
+      <td>0.94</td>
+
+      <td>0.91</td>
+
+      <td>0.88</td>
+
+      <td>0.87</td>
+
+      <td>0.86</td>
+
+      <td>0.86</td>
+
+      <td>0.86</td>
+
+      <td>0.86</td>
+
+      <td>0.86</td>
+
+      <td>0.86</td>
+
+      <td>0.86</td>
+
+    </tr>
+
+    <tr>
+
+      <td>TUBI ACCOSTATI A PARETE- 2 STRATI</td>
+
+      <td>0.92</td>
+
+      <td>0.86</td>
+
+      <td>0.84</td>
+
+      <td>0.81</td>
+
+      <td>0.80</td>
+
+      <td>0.79</td>
+
+      <td>0.79</td>
+
+      <td>0.79</td>
+
+      <td>0.79</td>
+
+      <td>0.79</td>
+
+      <td>0.79</td>
+
+      <td>0.79</td>
+
+    </tr>
+
+    <tr>
+
+      <td>TUBI ACCOSTATI A PARETE- 3 STRATI</td>
+
+      <td>0.85</td>
+
+      <td>0.80</td>
+
+      <td>0.77</td>
+
+      <td>0.75</td>
+
+      <td>0.74</td>
+
+      <td>0.73</td>
+
+      <td>0.73</td>
+
+      <td>0.73</td>
+
+      <td>0.73</td>
+
+      <td>0.73</td>
+
+      <td>0.73</td>
+
+      <td>0.73</td>
+
+    </tr>
+
+    <tr>
+
+      <td>TUBI ACCOSTATI SOTTO INTONACO- 1 STRATO</td>
+
+      <td>1</td>
+
+      <td>0.87</td>
+
+      <td>0.77</td>
+
+      <td>0.72</td>
+
+      <td>0.68</td>
+
+      <td>0.65</td>
+
+      <td>0.65</td>
+
+      <td>0.65</td>
+
+      <td>0.65</td>
+
+      <td>0.65</td>
+
+      <td>0.65</td>
+
+      <td>0.65</td>
+
+    </tr>
+
+    <tr>
+
+      <td>TUBI ACCOSTATI SOTTO INTONACO- 2 STRATI</td>
+
+      <td>0.87</td>
+
+      <td>0.76</td>
+
+      <td>0.67</td>
+
+      <td>0.63</td>
+
+      <td>0.59</td>
+
+      <td>0.57</td>
+
+      <td>0.57</td>
+
+      <td>0.57</td>
+
+      <td>0.57</td>
+
+      <td>0.57</td>
+
+      <td>0.57</td>
+
+      <td>0.57</td>
+
+    </tr>
+
+    <tr>
+
+      <td>TUBI ACCOSTATI SOTTO INTONACO- 3 STRATI</td>
+
+      <td>0.77</td>
+
+      <td>0.67</td>
+
+      <td>0.59</td>
+
+      <td>0.55</td>
+
+      <td>0.52</td>
+
+      <td>0.50</td>
+
+      <td>0.50</td>
+
+      <td>0.50</td>
+
+      <td>0.50</td>
+
+      <td>0.50</td>
+
+      <td>0.50</td>
+
+      <td>0.50</td>
+
+    </tr>
+
+    <tr>
+
+      <td>SINGOLO STRATO SU PAVIMENTO, PASSERELLA NON
+FORATA,PARETE</td>
+
+      <td>1</td>
+
+      <td>0.85</td>
+
+      <td>0.79</td>
+
+      <td>0.75</td>
+
+      <td>0.73</td>
+
+      <td>0.72</td>
+
+      <td>0.72</td>
+
+      <td>0.71</td>
+
+      <td>0.70</td>
+
+      <td>0.70</td>
+
+      <td>0.70</td>
+
+      <td>0.70</td>
+
+    </tr>
+
+    <tr>
+
+      <td>SINGOLO STRATO SU PAVIMENTO, PASSERELLA FORATA</td>
+
+      <td>1</td>
+
+      <td>0.87</td>
+
+      <td>0.82</td>
+
+      <td>0.77</td>
+
+      <td>0.75</td>
+
+      <td>0.73</td>
+
+      <td>0.73</td>
+
+      <td>0.72</td>
+
+      <td>0.72</td>
+
+      <td>0.72</td>
+
+      <td>0.72</td>
+
+      <td>0.72</td>
+
+    </tr>
+
+    <tr>
+
+      <td>SINGOLO STRATO SU MENSOLE O SCALETTE</td>
+
+      <td>0.95</td>
+
+      <td>0.81</td>
+
+      <td>0.72</td>
+
+      <td>0.68</td>
+
+      <td>0.66</td>
+
+      <td>0.64</td>
+
+      <td>0.63</td>
+
+      <td>0.62</td>
+
+      <td>0.61</td>
+
+      <td>0.61</td>
+
+      <td>0.61</td>
+
+      <td>0.61</td>
+
+    </tr>
+
+  </tbody>
+</table>
+
+<br>
+
+<br>
+<span id=3D"temp" style=3D"display:none">1</span>
+<br>
+<br>
+<span id=3D"num_corde" style=3D"display:none">1</span>
+<br>
+<br>
+<span id=3D"num_corde_n" style=3D"display:none">1</span>
+<br>
+
+<br>
+<span id=3D"materiale" style=3D"display:none">1</span>
+<br>
+
+
+<br>
+
+<table class=3D"tableizer-table">
+</table><table id=3D"TEMPERATURA" style=3D"display:none">
+<tbody><tr class=3D"tableizer-firstrow"><th>Temperatura</th><th>EPR</th><th=
+>PVC</th></tr>
+ <tr><td>15</td><td>1.13</td><td>1.17</td></tr>
+ <tr><td>20</td><td>1.09</td><td>1.12</td></tr>
+ <tr><td>25</td><td>1.04</td><td>1.06</td></tr>
+ <tr><td>30</td><td>1</td><td>1</td></tr>
+ <tr><td>35</td><td>0.95</td><td>0.94</td></tr>
+ <tr><td>40</td><td>0.9</td><td>0.87</td></tr>
+ <tr><td>45</td><td>0.85</td><td>0.79</td></tr>
+ <tr><td>50</td><td>0.8</td><td>0.71</td></tr>
+</tbody></table>
+
+
+<table class=3D"tableizer-table">
+</table><table id=3D"IMPEDENZA" style=3D"display:none">
+<tbody><tr class=3D"tableizer-firstrow"><th>Sezione mm2</th><th>Cavi unipol=
+ari</th><th>&nbsp;</th><th>Cavi Multipolari</th><th>&nbsp;</th></tr>
+ <tr><td>&nbsp;</td><td>R20 =C3=82=C2=B0C</td><td>X</td><td>R20 =C3=82=C2=
+=B0C</td><td>X</td></tr>
+ <tr><td>&nbsp;</td><td>mW/m</td><td>mW/m</td><td>mW/m</td><td>mW/m</td></t=
+r>
+ <tr><td>1</td><td>17.82</td><td>0.176</td><td>18.14</td><td>0.125</td></tr=
+>
+ <tr><td>1.5</td><td>11.93</td><td>0.168</td><td>12.17</td><td>0.118</td></=
+tr>
+ <tr><td>2.5</td><td>7.18</td><td>0.155</td><td>7.32</td><td>0.109</td></tr=
+>
+ <tr><td>4</td><td>4.49</td><td>0.143</td><td>4.58</td><td>0.101</td></tr>
+ <tr><td>6</td><td>2.99</td><td>0.135</td><td>3.04</td><td>0.0955</td></tr>
+ <tr><td>10</td><td>1.8</td><td>0.119</td><td>1.83</td><td>0.0861</td></tr>
+ <tr><td>16</td><td>1.137</td><td>0.112</td><td>1.15</td><td>0.0817</td></t=
+r>
+ <tr><td>25</td><td>0.717</td><td>0.106</td><td>0.731</td><td>0.0813</td></=
+tr>
+ <tr><td>35</td><td>0.517</td><td>0.101</td><td>0.527</td><td>0.0783</td></=
+tr>
+ <tr><td>50</td><td>0.381</td><td>0.101</td><td>0.389</td><td>0.0779</td></=
+tr>
+ <tr><td>70</td><td>0.264</td><td>0.0965</td><td>0.269</td><td>0.0751</td><=
+/tr>
+ <tr><td>95</td><td>0.19</td><td>0.0975</td><td>0.194</td><td>0.0762</td></=
+tr>
+ <tr><td>120</td><td>0.152</td><td>0.0939</td><td>0.154</td><td>0.074</td><=
+/tr>
+ <tr><td>150</td><td>0.123</td><td>0.0928</td><td>0.126</td><td>0.0745</td>=
+</tr>
+ <tr><td>185</td><td>0.0992</td><td>0.0908</td><td>0.1</td><td>0.0742</td><=
+/tr>
+ <tr><td>240</td><td>0.076</td><td>0.0902</td><td>0.0779</td><td>0.0752</td=
+></tr>
+ <tr><td>300</td><td>0.0614</td><td>0.0895</td><td>0.0629</td><td>0.075</td=
+></tr>
+ <tr><td>400</td><td>0.0489</td><td>0.0876</td><td>0.0504</td><td>0.0742</t=
+d></tr>
+ <tr><td>500</td><td>0.04</td><td>0.0867</td><td>0.0413</td><td>0.0744</td>=
+</tr>
+ <tr><td>630</td><td>0.0324</td><td>0.0865</td><td>0.0336</td><td>0.0749</t=
+d></tr>
+</tbody></table>
+</div>
+<div id=3D"wb_Curve1" style=3D"position:absolute;left:671px;top:141px;width=
+:4px;height:2px;z-index:9;">
+<img src=3D"http://www.electroarea.altervista.org/images/img0017.png" id=3D=
+"Curve1" alt=3D""></div>
+<div id=3D"wb_TextMenu1" style=3D"position:absolute;left:90px;top:90px;widt=
+h:1020px;height:30px;z-index:10;">
+<span>[<a href=3D"http://www.electroarea.altervista.org/index.html">HOME</a=
+>]</span><span>[<a href=3D"http://www.electroarea.altervista.org/linee_elet=
+triche_bt.html">LINEE ELETTRICHE BT</a>]</span><span>[<a href=3D"http://www=
+.electroarea.altervista.org/correnti_di_cortocircuito.html">CORRENTI DI COR=
+TO-CIRCUITO</a>]</span><span>[<a href=3D"http://www.electroarea.altervista.=
+org/impianti_di_terra_e_protezione_dai_contatti_indiretti.html">IMPIANTI DI=
+ TERRA</a>]</span><span>[<a href=3D"http://www.electroarea.altervista.org/L=
+ink.html">LINK</a>]</span></div>
+<div id=3D"wb_Image1" style=3D"position:absolute;left:131px;top:2881px;widt=
+h:155px;height:86px;z-index:11;">
+<a href=3D"https://www.google.com/"><img src=3D"http://www.electroarea.alte=
+rvista.org/images/images.jpg" id=3D"Image1" alt=3D"" style=3D"width:155px;h=
+eight:86px;"></a></div>
+<div id=3D"Html1" style=3D"position:absolute;left:505px;top:2983px;width:20=
+0px;height:63px;z-index:12">
+<!-- Inizio Codice ShinyStat -->
+<a href=3D"https://s1.shinystat.com/cgi-bin/shinystatv.cgi?USER=3Delectroar=
+ea&amp;NH=3D1"><img src=3D"http://s1.shinystat.com/cgi-bin/shinystat.cgi?US=
+ER=3Delectroarea&amp;REFER=3Dhttps%3A//www.google.com/&amp;COLOR=3D24&amp;S=
+IZE=3D1920&amp;RES=3D1920X1080&amp;CK=3DY&amp;HR=3Dhttp%3A//www.electroarea=
+.altervista.org/corrente_di_cortocircuito_fine_linea_calcolo_Icc.html&amp;J=
+V=3DN&amp;VUT=3D-1&amp;SSID=3D1388261525717&amp;FV=3D3&amp;UV=3D0&amp;US=3D=
+0&amp;JS=3DY&amp;VJS=3D4016&amp;RM=3D1296984597"></a>
+
+<!-- Fine Codice ShinyStat -->
+</div>
+<div id=3D"wb_Image4" style=3D"position:absolute;left:111px;top:2816px;widt=
+h:40px;height:40px;z-index:13;">
+<a href=3D"https://www.facebook.com/login.php?next=3Dhttps%3A%2F%2Fwww.face=
+book.com%2Fmessages%2F"><img src=3D"http://www.electroarea.altervista.org/i=
+mages/facebook2.jpg" id=3D"Image4" alt=3D"" style=3D"width:40px;height:40px=
+;"></a></div>
+<div id=3D"wb_Image5" style=3D"position:absolute;left:163px;top:2817px;widt=
+h:39px;height:40px;z-index:14;">
+<a href=3D"https://twitter.com/login"><img src=3D"http://www.electroarea.al=
+tervista.org/images/twitter-button.png" id=3D"Image5" alt=3D"" style=3D"wid=
+th:39px;height:40px;"></a></div>
+<div id=3D"wb_Image6" style=3D"position:absolute;left:214px;top:2819px;widt=
+h:36px;height:36px;z-index:15;">
+<a href=3D"https://www.linkedin.com/uas/login"><img src=3D"http://www.elect=
+roarea.altervista.org/images/linkedyn.jpg" id=3D"Image6" alt=3D"" style=3D"=
+width:36px;height:36px;"></a></div>
+<div id=3D"wb_Image7" style=3D"position:absolute;left:264px;top:2819px;widt=
+h:38px;height:38px;z-index:16;">
+<a href=3D"https://plus.google.com/"><img src=3D"http://www.electroarea.alt=
+ervista.org/images/google%20plus.jpg" id=3D"Image7" alt=3D"" style=3D"width=
+:38px;height:38px;"></a></div>
+
+<div id=3D"wb_Text3" style=3D"position:absolute;left:100px;top:179px;width:=
+230px;height:18px;z-index:18;text-align:left;">
+&nbsp;</div>
+<div id=3D"wb_Text7" style=3D"position:absolute;left:890px;top:93px;width:1=
+13px;height:16px;z-index:19;text-align:left;">
+<span style=3D"color:#000000;font-family:Arial;font-size:13px;"><a rel=3D"a=
+lternate" hreflang=3D"en" href=3D"http://www.electroarea.altervista.org/en/=
+short-circuit_current_end_line_calculation___Icc_IEC_60909-0.html">English =
+version</a></span></div>
+
+</body></html>
+------MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.electroarea.altervista.org/images/google%20plus.jpg
+
+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
+NUDfUurI8RqAfWkpnzuEcLHSPPytF/HkXzOca1nN5I+oxcnlFZlKyPyYFAHVVU5vDZuq/wAMbdun
+aeUrO47HeYf069nyWuGw30vvnt+DmMt8qPtrhBAT9mYbl3PcNR6hs8VY+H4H6C057z/Ry4rE/Uej
+HZ8nKK0OISEggEgEiDL1hf5en7KPcCxN3El3Zoa91DxPiJ+yk3ClPEj3Qs3WQpbZmdBACASAEBu8
+nsp5qD4WWkhJuYnHR+k/KuLFYGvEa3qfM6KcTOrUta5HeYbl1SzAcI50DtoeNHmGhUlvhd8N3Wvw
+WUMbXLbqN5BikMguyaJ3U9v9rilRbHbF+x0KyD2Mx6nD6SXTJHTu5SQxekLsRHdb/Z8ShU9qRrpq
+bDINLxRtP6SfBdEZ42ezSPNxw8duRg1mXNLTNLKSMyHYGgRs7zb9gvavwu+x52PL9s8p42uCygs/
+0cVj2Us9folcGxX0RN0N7+d3q4w2Cqo1x28zguxE7duzkaZdZ4iQAgEgEgEiDL3hf5en7KPcCxN3
+El3Zoa91DxPiJ+yfuFKeJHuhZushK2zM6gQAgBACAEAIDyQDrATMZIXBjmt8Ap0nzI0VyGBZQSCE
+ghAkJBAJAJAJAIogy+YXxFP2Ue4FibuJLuzQ17qMki+g6l5n2R7KrJ59BK4gE07ieDfsA5p5CPVa
+3BYuOIh/l6r+SixFDql+PQ0S7TnBACASAEAIAQCQkEIBCRIBIAQCQCQAgN7klk4/EJWkginaRwkm
+wgfKOUn0XFjcZHDw/wAvRfydGHodsvx6lnAtoGpZIvBoDy9gcC1wDmnWCLg9ylNp5ohrM1zsnqU6
+fs8PlC6POX9b9zy+hX0oXu7S/TxeUJ52/rfuPL1dKD3dpfp4vKE87f1v3Hl6ulB7u0v08XlCedv6
+37jy9XSg93aX6eLyhPO39b9x5erpQe7tL9PF5QnnL+t+48vV0oPd2l+nh8oTzl/W/ceXq6UHu7S/
+Tw+UJ52/rfuPL1dKD3dpfp4fKE85f1v3Hl6ulB7uUv00PlCecv637jy9XShe7lL9ND5Qnnb+t+48
+vV0oPdyl+mh8oTzl/W/ceXq6UHu5S/TQ+UJ5y/rfuPL1dKD3cpfpofKE85f1v3Hl6ulB7t0v00Pl
+Cecv637jy9XShtydpRpFND5QnnL+t+4+hX0o2UbA0BrQGtGoAWA7lzttvNnqlkelBJ//2Q==
+
+------MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.electroarea.altervista.org/images/linkedyn.jpg
+
+/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBggGBQkUEggVCQkWDRYODQwMDRoeHBcdHxwhICYc
+Hh4jJysfHCUuHx4nNzElLy4uODgsIR8yNTcqNSYsLCkBCQoKDQsNGQ4OGTUkHiQ1NTUrNTU1NS41
+NSw1NTY1LjQ1Ky01NTUpLy80Lik0NTUwMy8pNDQ0NDQsNC80KSwsNP/AABEIADEAMQMBIgACEQED
+EQH/xAAaAAADAQEBAQAAAAAAAAAAAAAABAYHBQED/8QAORAAAQMCAwIKBgsAAAAAAAAAAQACAwQF
+BhEhElETFTFBVGF0k7GyByIkcXKBFjI1NkNEZHORoaL/xAAaAQACAwEBAAAAAAAAAAAAAAACAwEE
+BQYA/8QAJBEAAgIBAgYDAQAAAAAAAAAAAQIAAxEEEhMhMTJRcUFSsTP/2gAMAwEAAhEDEQA/AKWg
+oaast8EkkDZ53sEkkkjQSSdefwTHFFv6FH3YXlleziihzOTeBZmfkFY3GmoWWhx2WtaG5xubv5te
+daD2bDiZFdXEUnxI/ii39Bj7oI4ot/QY+6CZ4Ru9HCN3pmTFcotxRb+gx90F460UBacqRjDzOY0A
+jrBGoKa4Ru9HCN3qMme5SN+lV46cf4CFykKxw08RHFs+xlZY6gSU1A0nQiNhy68gratw5SU9BO4S
+PJbG57QXjLQe5ZfYav223DP8WMf6C2C9P2bJX9nk8pVTU5VhiXNHtdGJHScDDlqp7vbnPc9wcJC3
+1HDcOrrTxwnGao+0ObBkMhyuJ9/IEl6OZuFw3Ic/zDh/TVwvSFc54cQsYJnNjEDXBocQMyTqhw7W
+lAYZNaadbGXMrKjCkDojsTuZJzF5BHzUfPUPp5pGu9V7XFrh1hWWEauSrwrROc8yPLSC5x10cR4L
+PsYVfBYsuAzy9ceUIqNxco3xA1Wxa1sUYzJfbQltrrXq0MTNzGbDKeOrcP1MfmC3C/nLD9y7NL5S
+sCifLSVDSCYp2P5+VrgfEELsTY0v9RBI110e+NzS17SG6g6EciVfQ1rKQekPS6paFZWB5zQvRW4u
+wnJ2p/lapb0pSFmL29mZ4lT1txNdrRTFkNc6ni2i4sbly79R1Ja43Sru9VtzVBqJtkN23Zcg5tFK
+UMtxsPSRZq0fTCoA5E2TAJJwRb/hf53LNMeSluNrl8Y8oSdFi29W6jZHFcXQwN+qxuzkNc929c6u
+rp6+qkkll4WZ2r3uy10yXqqGS1nPzJ1GqW2ha1ByMfk+W0UJ3iO59Ak7soTdy+YvY3iP43+9lX7x
+4LhIQhq7B6h3/wBG9wQhCZFQT1j+3aL95vihCFu0wk7hNqQhC56dVP/Z
+
+------MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.electroarea.altervista.org/images/twitter-button.png
+
+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
+YII=
+
+------MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.electroarea.altervista.org/images/facebook2.jpg
+
+/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAd
+Hx8kKDQsJCYxJx8fLT0tMTVBQTo6IzQ8RDw9Pj45Oi4BCgoKDQwNGg8PGjclHyU3Nzc3NDc3NTc0
+NDc3NCssNDc0NDQ3NCs0NDQrNDQsNDI3NCwrNCssKywsNCwrNywsN//AABEIACgAKAMBIgACEQED
+EQH/xAAZAAACAwEAAAAAAAAAAAAAAAAABgEFBwT/xAAwEAABAgUBBQYGAwAAAAAAAAABAgMABAUG
+ERIHEyEx0RZRU5OhsRRBVGGBkUJSYv/EABgBAAMBAQAAAAAAAAAAAAAAAAIDBAEA/8QAHREAAwAC
+AwEBAAAAAAAAAAAAAAECAxEhMTISBP/aAAwDAQACEQMRAD8A0y7K85TAliWOHVJ1KX3DkAPX9Qsi
+76l4nt0idoruishOebKD6qhS38W4on4XAi6ext7X1LxPbpEdr6l4kKe/hjpFqVSqSaJttTLLTgyj
+eE5UO/AEE5xz2YnT6Gq07hdqDplZo6lkEoX88jmD+4iF6z0Llbs+CdUCtlTqVFPIkJxBEmaUq4Gw
+9rk49qbui4Wh3y6fcwm7+Gra2hw3C0UJJHwyeP5VCPoe/oYrxeEKr0y5pEuqq1OWkEOBtT69AWRk
+DgekbFUaNMzFus0uVnTLutobSXkgjOnGeR+eIwPD44hKge8GNavIujZnJFBVr3ctnBweQgMu3U6Y
+UdMpLICmr7VLreLymy8hTh/kRwzBFfsvS72tYUtJxu3OJP8AmCE/o9BY+h+ve1l11Lb8qpImWxpw
+o4ChCQbArn0yfPT0iIIBZKlaQTlMDYFd+mT56ekMtVp9yVK32aOulMNttpbSHRNAk6Ptj7QQRzy0
+zvlHZZFou0V5U5OlO/KSlCEnOkHnxiIIIFtt7ZqWj//Z
+
+------MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://s1.shinystat.com/cgi-bin/shinystat.cgi?USER=electroarea&REFER=https%3A//www.google.com/&COLOR=24&SIZE=1920&RES=1920X1080&CK=Y&HR=http%3A//www.electroarea.altervista.org/corrente_di_cortocircuito_fine_linea_calcolo_Icc.html&JV=N&VUT=-1&SSID=1388261525717&FV=3&UV=0&US=0&JS=Y&VJS=4016&RM=1296984597
+
+iVBORw0KGgoAAAANSUhEUgAAAFoAAAAfCAMAAABQ4yrvAAAAeFBMVEUTFRIaGxklJyQuLy06OzkU
+Q33wAABHSUYmWY5UVlNjZWJFdKF1d3T3WwFtk7SXmZb2hQCdmJadn5z+nQCatMr/rgC6vLn9zwfA
+zNv/1gDKzMnc3tvZ4urm7fPr7ur+//wAAAC+v70/Pz8fHx+en51fX17e39x/f35EJQBUAAABdElE
+QVRIie3UDW+CMBAG4JZZRVALQxTt4PhQ/P//cHflwyJKHM5Mk13CmwvI03qgDJ5W7H3p6XQ69Jm1
+wIrEjaufFueTIVpeu7jb7TBjEWHWdHy5QsIUpuLnM01/lQ7DsKF9gC+T7tWdtOd5De1vt9uaBlus
+iLaFWOsVaECR7uhwrA1yjHOVzLm1SKrepJfLJdHSoP2aBlfYcYS+KzSGK9Sd/iqSOYne6UyCmsz7
+u0ZaEh0EQY/Gfdq1FLVmS8P+wyEuIWvPB2nZo9EeoNFrafVjetWnY7GK3YreWIolOJAF7Imm/j46
+otfa7dG4HD1XxbEkOAwf44zNacvUNzRIKTuH7/vtcbtu/oqMgYysP6U3T6m3/lN9GTrL0zyDlKqT
+UBZ0ucpxdJHBQd9+OHXyUKTU6BxJU9HtZQ6dzEs6W+V4OjsSksFFpnDOkbTeqTnZer6P0+WxxDzp
+GZv5OJ3lJF+Zx+N0Ub1qqV7AzN+Y9X31T1/UN5ejNNRz4XvsAAAAAElFTkSuQmCC
+
+------MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: http://www.electroarea.altervista.org/images/images.jpg
+
+/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIQEBQUEBAUExIWFRQYFBgWEw8XExUWFxQWFhUR
+FRUcHSggGBolHBQUITUhJSkrLi4wFx8zODMsNygtLisBCgoKDg0OGhAQGywlICYsLCw0LCwsLCws
+LCwsLCwsLSwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLP/AABEIAKgBLAMBEQACEQED
+EQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABwEEBQYIAgP/xABCEAABAwICBwUDCwMBCQAAAAABAAID
+BBEFIQYSMUFRYXEHEyKBkTKhsRQjNEJSYnJzssHRgpLhohUWJDNEU4OT0v/EABsBAQACAwEBAAAA
+AAAAAAAAAAAFBgIDBAEH/8QAMxEBAAIBAgUCBAQGAwEBAAAAAAECAwQRBRIhMUEyURMiYXEUM4GR
+FSNCUqGxQ8Hw4ST/2gAMAwEAAhEDEQA/AJxQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQ
+EBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQ
+EBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQ
+EBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQ
+EBAQEBAQEBAQEBAQEBAQEBBS6CqAgICAgICAgICAgIPnPO1jS57g1o2kkADzK9is2nasbvJmIjeW
+qYn2iUcJs0uld9wZep/ZSWPhOe8b22rH1c1tXSO3X7MW7tHlOceHSubx8f7MW3+GYY9WarD8Tk8U
+l4b2pNabTUj4+riD6FoWyODc8fy8kS8/FzHqrLOYfp7Ry2u50f4hl6tvbzXJl4VqMfjf7NlNXjt9
+Gy09QyRocxzXtOwtIIPmFH2rNZ2tGzpiYns+q8eiAgICAgICAgICAgICAgICDDY5U1jcqWBj+LnP
+At0atOScn9G36ufNOb/jiP1lH9Xp7UsYXa+YvlqR7R5KO/F5N9t0H/EM825d2/aKGodTtkqpdd8g
+DgA1oDARcNyGZUnii3L807p7BF+SJvO8s2tjcICAgICAgICAgIMVpBjcdHHrPzcb6jd7j+wHFdGl
+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
+Ag//2Q==
+
+------MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.electroarea.altervista.org/images/img0017.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAMSURBVBhXY2CgPQAAAGQAASy++wkAAAAASUVO
+RK5CYII=
+
+------MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.electroarea.altervista.org/images/img0012.png
+
+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
+
+------MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ad268df1-34ad-4e0e-a473-b4cc548c6278@mhtml.blink
+
+@charset "utf-8";
+
+table.tableizer-table { border: 1px solid rgb(204, 204, 204); }
+
+.tableizer-table td { padding: 4px; margin: 3px; border: 1px solid rgb(204,=
+ 204, 204); }
+
+.tableizer-table th { background-color: rgb(16, 78, 139); color: rgb(255, 2=
+55, 255); font-weight: bold; }
+
+.style1 { margin-right: 0px; }
+------MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.electroarea.altervista.org/images/corrente_di_cortocircuito_fine_linea_calcolo_Icc_Text5_bkgrnd.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAYAAABIdFAMAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAB6SURBVBhXHc4xC4NADIbh/Hs3t25ubk5u3dy6
+iWAFoaUUC4JSaBFEELXGr+8ND0fukny27e42reI7727dJJpR3Ief2/Uj8re49CJrN7fzS6RPkTxE
+fFvdolqcKhGWi1tQCG7UeOUfHfQyhXlMZgfb2EsCspCKfCT9nwMPUX+X21jcowAAAABJRU5ErkJg
+gg==
+
+------MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://www.electroarea.altervista.org/images/corrente_di_cortocircuito_fine_linea_calcolo_Icc_Text1_bkgrnd.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAABRCAYAAAATm8x+AAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADgSURBVChTFcQPL0JhAEfh9+MzYxhjTcMYM0Zj
+zBjGWMtIKSn9LymVUlK6t9vr/M52HjMRdqyZfIKpCEyLmSjMirlnmBcLMdeaxTgsieUX8ImVBPhf
+YVWsJWFdbKRg8w22xHYadsRuZmTNXhb2xUEOAuIwD0cFOBYnRTgVZyU4L8OFuHyHqwpcf3jW3FTh
+VtzVIChCn3Bfhwfx2ICwiDQh+gUxEW9BQiTbkPqGtMh0ICvy3bE1hR8oiXIPKqL6C7U+1EVjAE3R
++oP2EDqi60BP9F1rzWAEQ+F44ApvDGyN+gdbUCOshmNxkgAAAABJRU5ErkJggg==
+
+------MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-bb9bc6fa-aafc-424f-848c-59d2c0b4bb3b@mhtml.blink
+
+@charset "utf-8";
+
+#wb_Text1 { background-color: transparent; background-image: url("images/co=
+rrente_di_cortocircuito_fine_linea_calcolo_Icc_Text1_bkgrnd.png"); backgrou=
+nd-repeat: repeat-x; background-position: left top; border: 0px solid rgb(0=
+, 0, 0); padding: 40px 0px 4px; text-align: center; }
+
+#wb_Text1 div { text-align: center; }
+
+#wb_Text5 { background-color: transparent; background-image: url("images/co=
+rrente_di_cortocircuito_fine_linea_calcolo_Icc_Text5_bkgrnd.png"); backgrou=
+nd-repeat: repeat-x; background-position: left top; border: 0px solid rgb(0=
+, 0, 0); padding: 8px 0px 4px; text-align: center; }
+
+#wb_Text5 div { text-align: center; }
+
+#wb_Text4 { background-color: transparent; border: 0px solid rgb(0, 0, 0); =
+padding: 0px; text-align: center; }
+
+#wb_Text4 div { text-align: center; }
+
+#Curve1 { border-width: 0px; height: 2px; width: 4px; }
+
+#wb_TextMenu1 { background-color: rgb(255, 165, 0); color: rgb(255, 255, 0)=
+; font-family: Tahoma; font-size: 16px; }
+
+#wb_TextMenu1 span { margin: 0px 4px 0px 0px; }
+
+#Image1 { border: 0px solid rgb(0, 0, 0); }
+
+#Image4 { border: 0px solid rgb(0, 0, 0); }
+
+#Image5 { border: 0px solid rgb(0, 0, 0); }
+
+#Image6 { border: 0px solid rgb(0, 0, 0); }
+
+#Image7 { border: 0px solid rgb(0, 0, 0); }
+
+#wb_Text3 { background-color: transparent; border: 0px solid rgb(0, 0, 0); =
+padding: 0px; text-align: left; }
+
+#wb_Text3 div { text-align: left; }
+
+#wb_Text7 { background-color: transparent; border: 0px solid rgb(0, 0, 0); =
+padding: 0px; text-align: left; }
+
+#wb_Text7 div { text-align: left; }
+------MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-32ce9c9c-9580-4d2c-81ba-082c3d94a1af@mhtml.blink
+
+@charset "utf-8";
+
+a { color: rgb(0, 0, 255); text-decoration: underline; }
+
+a:visited { color: rgb(128, 0, 128); }
+
+a:active { color: rgb(255, 0, 0); }
+
+a:hover { color: rgb(0, 0, 255); text-decoration: underline; }
+------MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ad5a3911-ae70-4cd7-964a-b4eb9b2a7019@mhtml.blink
+
+@charset "utf-8";
+
+body { margin: 0px; padding: 0px; background-color: rgb(255, 255, 255); col=
+or: rgb(0, 0, 0); }
+------MultipartBoundary--TOJe3DA8J09zNb7QT9GglZ5PpojtGqMCtNgUpIC9kH------

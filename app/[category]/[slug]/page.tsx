@@ -31,6 +31,7 @@ import ConcreteBeamVerification from '@/components/ConcreteBeamVerification';
 import CableSizingCalculator from '@/components/CableSizingCalculator';
 import VoltageDropCalculator from '@/components/VoltageDropCalculator';
 import MagnetothermicBreakerCalculator from '@/components/MagnetothermicBreakerCalculator';
+import ShortCircuitCurrentCalculator from '@/components/ShortCircuitCurrentCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -125,6 +126,18 @@ const faqContentBySlug: Record<
       question: 'È possibile valutare anche la soglia magnetica rispetto all\'Icc presunta?',
       answer:
         'Sì, inserendo la corrente di corto circuito il tool confronta il valore con le soglie della curva magnetica (B, C, D) e segnala se occorre cambiare curva o dispositivo.',
+    },
+  ],
+  'calcolo-corrente-corto-circuito-icc': [
+    {
+      question: 'Quali normative vengono considerate per il calcolo di Ik?',
+      answer:
+        'Il calcolo si basa sulle indicazioni della CEI 64-8 e della CEI 60909, applicando la tensione di guasto ridotta e l\'impedenza equivalente del trasformatore e della linea.',
+    },
+    {
+      question: 'Posso verificare se il potere d\'interruzione del dispositivo è adeguato?',
+      answer:
+        'Inserendo il valore di Icu del dispositivo il calcolatore confronta automaticamente Ik presunta e segnala se occorre selezionare un interruttore con potere superiore.',
     },
   ],
   'dimensionamento-rete-fognaria': [
@@ -357,6 +370,24 @@ const howToContentBySlug: Record<
       },
     ],
   },
+  'calcolo-corrente-corto-circuito-icc': {
+    name: 'Come Calcolare la Corrente di Corto Circuito Presunta',
+    description: 'Passi essenziali per determinare Ik in un punto dell\'impianto e verificare il potere d\'interruzione delle protezioni.',
+    steps: [
+      {
+        name: 'Raccogli i dati della sorgente',
+        text: 'Inserisci potenza nominale e impedenza percentuale del trasformatore che alimenta la linea.',
+      },
+      {
+        name: 'Descrivi la linea',
+        text: 'Imposta lunghezza, sezione, materiale e temperatura del conduttore per calcolare resistenza e reattanza.',
+      },
+      {
+        name: 'Verifica il dispositivo',
+        text: 'Analizza Ik, il picco e l\'energia termica, confrontandoli con il potere d\'interruzione del dispositivo installato.',
+      },
+    ],
+  },
   'dimensionamento-rete-fognaria': {
     name: 'Come Dimensionare una Condotta Fognaria',
     description: 'Metodo per dimensionare reti fognarie pluviali e miste.',
@@ -507,6 +538,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'calcolo-sezione-cavo-portata': CableSizingCalculator,
   'calcolo-caduta-tensione-linea': VoltageDropCalculator,
   'dimensionamento-interruttore-magnetotermico': MagnetothermicBreakerCalculator,
+  'calcolo-corrente-corto-circuito-icc': ShortCircuitCurrentCalculator,
   'calcolo-trave-appoggiata': SimplySupportedBeamCalculator,
   'calcolo-roi-return-on-investment': ROICalculator,
 };
