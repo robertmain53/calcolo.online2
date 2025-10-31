@@ -33,6 +33,7 @@ import VoltageDropCalculator from '@/components/VoltageDropCalculator';
 import MagnetothermicBreakerCalculator from '@/components/MagnetothermicBreakerCalculator';
 import ShortCircuitCurrentCalculator from '@/components/ShortCircuitCurrentCalculator';
 import ConduitSizingCalculator from '@/components/ConduitSizingCalculator';
+import EarthResistanceCalculator from '@/components/EarthResistanceCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -151,6 +152,18 @@ const faqContentBySlug: Record<
       question: 'Come inserire i diametri corretti dei cavi?',
       answer:
         'Utilizza i diametri esterni riportati sui cataloghi dei costruttori (guaina inclusa). In mancanza di dati ufficiali, applica un margine di sicurezza del 10% rispetto ai diametri teorici.',
+    },
+  ],
+  'calcolo-resistenza-impianto-terra': [
+    {
+      question: 'Quali metodi utilizza il calcolo della resistenza di terra?',
+      answer:
+        'Il calcolatore applica le formule CEI 64-8 per picchetti, nastri e anelli, con possibilità di modellare il terreno a strato unico o a due strati con resistività diverse.',
+    },
+    {
+      question: 'È possibile verificare la conformità con i limiti normativi?',
+      answer:
+        'Inserendo il valore massimo ammesso (es. 50 Ω per sistemi TT) il tool segnala automaticamente se l\'impianto rispetta la soglia o richiede integrazioni.',
     },
   ],
   'dimensionamento-rete-fognaria': [
@@ -419,6 +432,24 @@ const howToContentBySlug: Record<
       },
     ],
   },
+  'calcolo-resistenza-impianto-terra': {
+    name: 'Come Valutare la Resistenza di Terra',
+    description: 'Passaggi fondamentali per stimare Rt di un impianto di terra e confrontarla con i limiti CEI.',
+    steps: [
+      {
+        name: 'Caratterizza il terreno',
+        text: 'Inserisci la resistività misurata o stimata; in caso di terreno stratificato specifica i valori dei due strati.',
+      },
+      {
+        name: 'Definisci i dispersori',
+        text: 'Seleziona tipologia, lunghezza, diametro e numero di dispersori includendo la distanza reciproca.',
+      },
+      {
+        name: 'Esegui la verifica normativa',
+        text: 'Confronta Rt con il limite imposto dal sistema di protezione (TT, TN, SPD) e valuta eventuali interventi correttivi.',
+      },
+    ],
+  },
   'dimensionamento-rete-fognaria': {
     name: 'Come Dimensionare una Condotta Fognaria',
     description: 'Metodo per dimensionare reti fognarie pluviali e miste.',
@@ -571,6 +602,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'dimensionamento-interruttore-magnetotermico': MagnetothermicBreakerCalculator,
   'calcolo-corrente-corto-circuito-icc': ShortCircuitCurrentCalculator,
   'dimensionamento-tubi-portacavi': ConduitSizingCalculator,
+  'calcolo-resistenza-impianto-terra': EarthResistanceCalculator,
   'calcolo-trave-appoggiata': SimplySupportedBeamCalculator,
   'calcolo-roi-return-on-investment': ROICalculator,
 };
