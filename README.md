@@ -1,6 +1,6 @@
 # Calcolo.online Next.js Starter - SEO Optimized
 
-A world-class Next.js starter template for calculator websites with perfect SEO, E-E-A-T signals, structured data, and automatic sitemap generation.
+A world-class Next.js starter template for calculator websites with perfect SEO, E-E-A-T signals, structured  data, and automatic sitemap generation.
 
 ## 🚀 Features
 
