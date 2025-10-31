@@ -406,6 +406,37 @@ export default function ConcreteBeamVerification() {
                   min="1.2"
                   value={gammaC}
                   onChange={(event) => setGammaC(event.target.value)}
+                  className="calculator-input"
+                />
+              </div>
+              <div>
+                <label htmlFor="gammaS" className="calculator-label">
+                  gamma S
+                </label>
+                <input
+                  id="gammaS"
+                  type="number"
+                  step="0.05"
+                  min="1.0"
+                  value={gammaS}
+                  onChange={(event) => setGammaS(event.target.value)}
+                  className="calculator-input"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label htmlFor="deflectionLimitRatio" className="calculator-label">
+                Limite freccia (L / ?)
+              </label>
+              <input
+                id="deflectionLimitRatio"
+                type="number"
+                step="10"
+                min="150"
+                value={deflectionLimitRatio}
+                onChange={(event) => setDeflectionLimitRatio(event.target.value)}
+                className="calculator-input"
               />
             </div>
           </div>
