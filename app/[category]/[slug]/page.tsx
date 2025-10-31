@@ -29,6 +29,7 @@ import WoodBeamSLUCalculator from '@/components/WoodBeamSLUCalculator';
 import SeismicBaseShearCalculator from '@/components/SeismicBaseShearCalculator';
 import ConcreteBeamVerification from '@/components/ConcreteBeamVerification';
 import CableSizingCalculator from '@/components/CableSizingCalculator';
+import VoltageDropCalculator from '@/components/VoltageDropCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -99,6 +100,18 @@ const faqContentBySlug: Record<
       question: 'È inclusa la verifica della caduta di tensione?',
       answer:
         'Sì, oltre alla sezione minima viene calcolata la caduta di tensione percentuale e confrontata con il limite impostato, suggerendo eventuali adeguamenti della sezione.',
+    },
+  ],
+  'calcolo-caduta-tensione-linea': [
+    {
+      question: 'Quali limiti normativi vengono applicati?',
+      answer:
+        'Per impostazione predefinita vengono proposti i limiti CEI 64-8: 4% per forza motrice e 3% per illuminazione. È possibile impostare un valore personalizzato per adeguarsi a prescrizioni specifiche.',
+    },
+    {
+      question: 'Il tool calcola anche la lunghezza massima ammessa?',
+      answer:
+        'Sì, oltre alla caduta di tensione restituisce la lunghezza massima utile della tratta con i parametri inseriti e suggerisce sezioni alternative conformi.',
     },
   ],
   'dimensionamento-rete-fognaria': [
@@ -295,6 +308,24 @@ const howToContentBySlug: Record<
       },
     ],
   },
+  'calcolo-caduta-tensione-linea': {
+    name: 'Come Verificare la Caduta di Tensione di una Linea',
+    description: 'Passi operativi per controllare che la caduta di tensione sia nei limiti CEI 64-8.',
+    steps: [
+      {
+        name: 'Definisci il carico',
+        text: 'Seleziona tipo di rete, tensione e potenza (o corrente) per determinare la corrente di progetto Ib.',
+      },
+      {
+        name: 'Inserisci sezione e condizioni',
+        text: 'Indica materiale, sezione, lunghezza e temperatura del conduttore per calcolare la resistività equivalente.',
+      },
+      {
+        name: 'Confronta con il limite',
+        text: 'Analizza la caduta ΔV rispetto al limite scelto e valuta la lunghezza massima ammessa o le sezioni alternative proposte.',
+      },
+    ],
+  },
   'dimensionamento-rete-fognaria': {
     name: 'Come Dimensionare una Condotta Fognaria',
     description: 'Metodo per dimensionare reti fognarie pluviali e miste.',
@@ -443,6 +474,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'calcolo-taglio-sismico-statica': SeismicBaseShearCalculator,
   'verifica-trave-ca': ConcreteBeamVerification,
   'calcolo-sezione-cavo-portata': CableSizingCalculator,
+  'calcolo-caduta-tensione-linea': VoltageDropCalculator,
   'calcolo-trave-appoggiata': SimplySupportedBeamCalculator,
   'calcolo-roi-return-on-investment': ROICalculator,
 };
