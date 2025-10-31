@@ -32,6 +32,7 @@ import CableSizingCalculator from '@/components/CableSizingCalculator';
 import VoltageDropCalculator from '@/components/VoltageDropCalculator';
 import MagnetothermicBreakerCalculator from '@/components/MagnetothermicBreakerCalculator';
 import ShortCircuitCurrentCalculator from '@/components/ShortCircuitCurrentCalculator';
+import ConduitSizingCalculator from '@/components/ConduitSizingCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -138,6 +139,18 @@ const faqContentBySlug: Record<
       question: 'Posso verificare se il potere d\'interruzione del dispositivo è adeguato?',
       answer:
         'Inserendo il valore di Icu del dispositivo il calcolatore confronta automaticamente Ik presunta e segnala se occorre selezionare un interruttore con potere superiore.',
+    },
+  ],
+  'dimensionamento-tubi-portacavi': [
+    {
+      question: 'Qual è il grado massimo di riempimento consentito per i tubi?',
+      answer:
+        'La CEI 64-8 raccomanda un riempimento non superiore al 40% per tubi e guaine, riducibile per tratti lunghi o curve strette. Il tool consente di impostare un valore personalizzato.',
+    },
+    {
+      question: 'Come inserire i diametri corretti dei cavi?',
+      answer:
+        'Utilizza i diametri esterni riportati sui cataloghi dei costruttori (guaina inclusa). In mancanza di dati ufficiali, applica un margine di sicurezza del 10% rispetto ai diametri teorici.',
     },
   ],
   'dimensionamento-rete-fognaria': [
@@ -388,6 +401,24 @@ const howToContentBySlug: Record<
       },
     ],
   },
+  'dimensionamento-tubi-portacavi': {
+    name: 'Come Dimensionare un Tubo Portacavi',
+    description: 'Procedura guidata per scegliere il diametro o la sezione della canalina in funzione del grado di riempimento consentito.',
+    steps: [
+      {
+        name: 'Elenca i cavi presenti',
+        text: 'Raccogli diametro esterno e quantità di ciascun cavo da installare nella tubazione.',
+      },
+      {
+        name: 'Definisci il limite di riempimento',
+        text: 'Imposta il grado di riempimento massimo (40% consigliato) secondo CEI 64-8 o specifiche di progetto.',
+      },
+      {
+        name: 'Seleziona il tubo o la canalina',
+        text: 'Confronta le soluzioni proposte e scegli la prima conforme, mantenendo margine per future integrazioni.',
+      },
+    ],
+  },
   'dimensionamento-rete-fognaria': {
     name: 'Come Dimensionare una Condotta Fognaria',
     description: 'Metodo per dimensionare reti fognarie pluviali e miste.',
@@ -539,6 +570,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'calcolo-caduta-tensione-linea': VoltageDropCalculator,
   'dimensionamento-interruttore-magnetotermico': MagnetothermicBreakerCalculator,
   'calcolo-corrente-corto-circuito-icc': ShortCircuitCurrentCalculator,
+  'dimensionamento-tubi-portacavi': ConduitSizingCalculator,
   'calcolo-trave-appoggiata': SimplySupportedBeamCalculator,
   'calcolo-roi-return-on-investment': ROICalculator,
 };
