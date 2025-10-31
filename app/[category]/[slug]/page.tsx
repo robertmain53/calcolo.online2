@@ -34,6 +34,7 @@ import MagnetothermicBreakerCalculator from '@/components/MagnetothermicBreakerC
 import ShortCircuitCurrentCalculator from '@/components/ShortCircuitCurrentCalculator';
 import ConduitSizingCalculator from '@/components/ConduitSizingCalculator';
 import EarthResistanceCalculator from '@/components/EarthResistanceCalculator';
+import PowerFactorCorrectionCalculator from '@/components/PowerFactorCorrectionCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -164,6 +165,18 @@ const faqContentBySlug: Record<
       question: 'È possibile verificare la conformità con i limiti normativi?',
       answer:
         'Inserendo il valore massimo ammesso (es. 50 Ω per sistemi TT) il tool segnala automaticamente se l\'impianto rispetta la soglia o richiede integrazioni.',
+    },
+  ],
+  'calcolo-rifasamento-cos-phi': [
+    {
+      question: 'Quale cos φ target è consigliato?',
+      answer:
+        'I distributori italiani richiedono cos φ ≥ 0,95 per evitare penali. Il tool consente di impostare target fino a 0,99, segnalando eventuali rischi di rifasamento eccessivo (cos φ capacitivo).',
+    },
+    {
+      question: 'Come sono calcolati i gradini della batteria di condensatori?',
+      answer:
+        'La suddivisione avviene usando le taglie standard (5-100 kVAR). Puoi aggiungere un gradino custom se il valore calcolato non coincide con quelli commerciali.',
     },
   ],
   'dimensionamento-rete-fognaria': [
@@ -450,6 +463,24 @@ const howToContentBySlug: Record<
       },
     ],
   },
+  'calcolo-rifasamento-cos-phi': {
+    name: 'Come Dimensionare il Rifasamento',
+    description: 'Procedura per calcolare la potenza reattiva da compensare e scegliere la batteria di condensatori più adatta.',
+    steps: [
+      {
+        name: 'Analizza i dati di impianto',
+        text: 'Inserisci potenza attiva, tensione e cos φ misurato per determinare la potenza apparente e reattiva attuale.',
+      },
+      {
+        name: 'Definisci il cos φ target',
+        text: 'Seleziona il cos φ desiderato in accordo con le prescrizioni del distributore (tipicamente ≥ 0,95).',
+      },
+      {
+        name: 'Scegli la batteria di condensatori',
+        text: 'Consulta la tabella dei gradini suggeriti e componi la batteria (manuale o automatica) più vicina al valore calcolato.',
+      },
+    ],
+  },
   'dimensionamento-rete-fognaria': {
     name: 'Come Dimensionare una Condotta Fognaria',
     description: 'Metodo per dimensionare reti fognarie pluviali e miste.',
@@ -603,6 +634,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'calcolo-corrente-corto-circuito-icc': ShortCircuitCurrentCalculator,
   'dimensionamento-tubi-portacavi': ConduitSizingCalculator,
   'calcolo-resistenza-impianto-terra': EarthResistanceCalculator,
+  'calcolo-rifasamento-cos-phi': PowerFactorCorrectionCalculator,
   'calcolo-trave-appoggiata': SimplySupportedBeamCalculator,
   'calcolo-roi-return-on-investment': ROICalculator,
 };

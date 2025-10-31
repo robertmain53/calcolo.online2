@@ -1,0 +1,517 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://www.acquariofilia.biz/archive/index.php/t-25410.html
+Subject: Calcolo del condensatore di rifasamento [Archivio] - AcquaPortal Forum Acquario Dolce e Acquario Marino
+Date: Fri, 31 Oct 2025 11:09:03 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--k2z3ziCotzkcWFyi592R921U0QzB3CqcgL3kvOIunO----"
+
+
+------MultipartBoundary--k2z3ziCotzkcWFyi592R921U0QzB3CqcgL3kvOIunO----
+Content-Type: text/html
+Content-ID: <frame-9D3B0650156CB97C16AAA75D879CD254@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.acquariofilia.biz/archive/index.php/t-25410.html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml" dir=3D"ltr" lang=3D"it"><head><meta http-equiv=3D"Content-T=
+ype" content=3D"text/html; charset=3Dwindows-1252">
+=09
+	<meta name=3D"keywords" content=3D" Calcolo del condensatore di rifasament=
+o, AcquaPortal,acquariofilia,acquari,marino,dolci,pesci,coralli,skimmer,sum=
+p,plafoniera,led,neon,t5">
+	<meta name=3D"description" content=3D"[Archivio]  Calcolo del condensatore=
+ di rifasamento Fai da te marino">
+=09
+	<title> Calcolo del condensatore di rifasamento [Archivio]  - AcquaPortal =
+Forum Acquario Dolce e Acquario Marino</title>
+	<link rel=3D"stylesheet" type=3D"text/css" href=3D"http://www.acquariofili=
+a.biz/archive/archive.css">
+</head>
+<body>
+<div class=3D"pagebody">
+<div id=3D"navbar"><a href=3D"http://www.acquariofilia.biz/archive/index.ph=
+p">AcquaPortal Forum Acquario Dolce e Acquario Marino</a> &gt; <a href=3D"h=
+ttp://www.acquariofilia.biz/archive/index.php/f-13.html">Tecnica Marino</a>=
+ &gt; <a href=3D"http://www.acquariofilia.biz/archive/index.php/f-60.html">=
+Fai da te marino</a> &gt;  Calcolo del condensatore di rifasamento</div>
+<hr>
+<div class=3D"pda"><a href=3D"http://www.acquariofilia.biz/archive/index.ph=
+p/t-25410.html?pda=3D1" rel=3D"nofollow">PDA</a></div>
+<p class=3D"largefont">Visualizza la versione completa : <a href=3D"http://=
+www.acquariofilia.biz/showthread.php?t=3D25410">Calcolo del condensatore di=
+ rifasamento</a></p>
+<hr>
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">simo1978=
+</div><div class=3D"date">20-12-2005, 15:53</div></div><div class=3D"postte=
+xt">Molti chiedono che capacit=E0 devono usare per rifasare le proprie lamp=
+ade. Qui di seguito illustro il metodo per il calcolo (semplice) della capa=
+cit=E0 che poi andr=E0 approssimata al pi=F9 vicino valore commerciale arro=
+tondando per eccesso.<br>
+<br>
+Allora bisogna innanzi tutto vedere i dati di targa del reattore: potenza P=
+ e cos(fi). Con questi due soli dati, riusciamo a sapere tutto.<br>
+<br>
+In carattere inclinato metter=F2 un esempio pratico: Osram dichiara per il =
+proprio reattore da 250W un cos(fi)=3D0,4<br>
+<br>
+Quello che dobbiamo fare ora =E8 trovare la potenza reattiva Q che assorbe =
+il nostro gruppo di accensione:<br>
+<br>
+fi =3D arcos ( cos(fi) )<br>
+Q =3D P tan(fi)<br>
+<br>
+fi =3D arcos 0,4 =3D 66.42=B0<br>
+Q =3D 250 tan 66,42 =3D 572.8 VAr    *<br>
+<br>
+Ora vediamo quanta potenza Qc deve avere il condensatore. Esso deve compens=
+are la potenza reattiva assorbiata dal gruppo fino a portare il tutto ad av=
+ere cos(fi)&gt;=3D0,9.<br>
+<br>
+fi' =3D arcos 0,9 =3D 25.8=B0<br>
+<br>
+per l' esempio pratico questo rimane invariato, =E8 una costante<br>
+<br>
+Qc =3D Q - [ P tan(fi') ] =3D Q - P tan 25.8 =3D Q - 0.483 P<br>
+<br>
+Qc =3D 572.8 - ( 250 tan 25.8 ) =3D 572.8 - 120.8 =3D 452 VAr<br>
+<br>
+Ora non ci rimane altro che calcolare la capacit=E0 che assorbe quella pote=
+nza reattiva:<br>
+<br>
+C =3D Qc / ( 314 V^2 ) =3D Qc / ( 314 * 52900) =3D Qc / 16610600<br>
+<br>
+C =3D 452 / 16610600 =3D 0.0000272 F =3D 27 uF<br>
+<br>
+<br>
+* Curiosit=E0: se misurate la corrente con un amperometro e moltiplicate il=
+ valore letto per la tensione di rete (230V) vi verr=E0 fuori un valore ugu=
+ale alla radice quadrata di (250^2 + 572.8^2), cio=E8 625 VA e leggerete un=
+a corrente di  625/230=3D2,7A su per gi=F9, quindi quei 3 A che =E8 la corr=
+ente dichiarata da Osram<br>
+<br>
+Per i mod. se mettete il topic in evidenza o comunque in una sezione tipo q=
+uella delle ricette di Rovero, potrebbe essere utile a molti.</div></div><h=
+r>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">allix</d=
+iv><div class=3D"date">20-12-2005, 16:38</div></div><div class=3D"posttext"=
+>#25  #25  #25  #25  #25  #25  #25  #25  #25 <br>
+ -69  -69  -69  -69  -69  -69  -69  -69  -69  <br>
+Questa =E9 una risposta con i controattributi, ed =E8 a questo che serve il=
+ forum a mettere a disposizioni di tutti il proprio sapere motivando le pro=
+prie risposte e aiutando gli altri a comprendere e non impartendo dei dogmi=
+! :-))</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">tommyh</=
+div><div class=3D"date">20-12-2005, 19:22</div></div><div class=3D"posttext=
+">Esso deve compensare la potenza reattiva assorbiata dal gruppo fino a por=
+tare il tutto ad avere cos(fi)&gt;=3D0,9. <br>
+<br>
+Perch=E8 il cos(fi) deve essere maggiore o uguale a 0,9?<br>
+Non dovrebbe andare a compensare lo sfasamento di 0,4 dato dalla casa?  #24=
+ <br>
+Sono un po di anni che non seguo ste cose e tante cose non me le ricordo pi=
+=F9!!!<br>
+ :-( Illuminami che mi piace ricordare e riimparare!!!  :-D</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">simo1978=
+</div><div class=3D"date">20-12-2005, 20:01</div></div><div class=3D"postte=
+xt">Perch=E8 il cos(fi) deve essere maggiore o uguale a 0,9?<br>
+Non dovrebbe andare a compensare lo sfasamento di 0,4 dato dalla casa? :-/ =
+<br>
+<br>
+Il cos(fi) si mette convenzionalmente maggiore di 0,9 perch=E8 =E8 quello c=
+he ad ENEL piace e che impone negli impianti con pi=F9 di tot kW impagnati =
+ :-) <br>
+<br>
+Praticamente la corrente che assorbe un utilizzatore si divide in due parti=
+, sfasate di 90=B0 elettrici: una che ti da energia attiva, cio=E8 lavoro e=
+ l' altra che serve solo per la magnetizzazione. Quella per la magnetizzazi=
+one pu=F2 essere anche fornita da un condensatore al posto di sovraccaricar=
+e le linee dell' ENEL che in questo modo riesce a fornire energia a molti p=
+i=F9 utenti.<br>
+Quindi il condensatore ti deve fornire tanta corrente quanta =E8 quella che=
+ ti serve per far risollevare il cos(fi) da 0,4, in questo caso, fino ad un=
+ minimo di 0,9 ma non pi=F9 di 1 (perch=E8 ENEL vieta di buttare energia re=
+attiva in rete).</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">Benny</d=
+iv><div class=3D"date">21-12-2005, 12:40</div></div><div class=3D"posttext"=
+>non ci ho capito molto....anzi...<br>
+<br>
+che ci gaurdagno io a rifasare le mie plafo ?? e poi....siamo sicuri che ne=
+ ho bisogno ??</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">simo1978=
+</div><div class=3D"date">21-12-2005, 13:17</div></div><div class=3D"postte=
+xt">non ci guadagni nulla benny. o meglio, l' unica cosa in cui ci guadagna=
+ un utente con un contratto residenziale =E8 se ha una protezione termica. =
+Infatti in questo caso a lei non interessa nulla di come stai usando la tua=
+ corrente, per lei hai a disposizione circa 16 ampere per 3 kW... di fatto =
+per fare andare una lampada da 400W ti servirebbe molto meno dei 4 A che ti=
+ assorbe il reattore. A 230V servono solo 1,7A per fare 400W. Se il tuo rea=
+ttore assorbe 4A, vuol dire che per la tua protezione magnetica tu stai ass=
+orbendo effettivamente 4A, non importa come. Con il condesatore, puoi fare =
+la stessa cosa con poco pi=F9 di 1,7A.<br>
+E forse =E8 proprio per questo che i nuovi limitatori dell' enel sono cos=
+=EC restrittivi... frose per limitare i consumi, guardano alla corrente ass=
+orbita (quindi alla potenza apparente che =E8 poi quella che interessa magg=
+iormente l' ENEL) e non alla potenza attiva. Se tu non rifasi una lampada d=
+a 400W, per l' ENEL tu stai impegnando la linea e l' alternatore per 920 VA=
+, non gliene frega nulla se sono tutti W o tutti VAr e cos=EC neppure alla =
+tua protezione termica (se hai ancora l' impianto vecchio ma forse anche in=
+ quello nuovo perch=E8 di fatto per l' ENEL un' utenza residenziale DEVE gi=
+=E0 essere rifasata).   :-)</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">Benny</d=
+iv><div class=3D"date">21-12-2005, 13:48</div></div><div class=3D"posttext"=
+>in soldoni...???<br>
+<br>
+bolletta pi=F9 lieve ??<br>
+<br>
+in sapevo di no....anche con tutti i rifasatori del mondo...quindi......</d=
+iv></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">simo1978=
+</div><div class=3D"date">21-12-2005, 14:23</div></div><div class=3D"postte=
+xt">No, la bolletta rimane uguale. Diciamo che =E8 un discorso pi=F9 che al=
+tro etico e di convivenza civile. Quella corrente te la "regalano" solo per=
+ch=E8 si fidano. In impianti pi=F9 grossi te la fanno pagare.</div></div><h=
+r>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">Benny</d=
+iv><div class=3D"date">21-12-2005, 21:46</div></div><div class=3D"posttext"=
+>...civile ???<br>
+<br>
+perch=E8 l'Enel vi sembra civile e corretta ??</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">simo1978=
+</div><div class=3D"date">21-12-2005, 23:52</div></div><div class=3D"postte=
+xt">beh da qualche parte bisogna cominciare  :-)) <br>
+<br>
+a parte gli scherzi... ognuno poi fa quel che vuole...</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">ik2vov</=
+div><div class=3D"date">22-12-2005, 01:48</div></div><div class=3D"posttext=
+">simo1978, reputo il post piu' adatto al fai da te, e' molto interessante =
+quidni lo metto in evidenza.<br>
+<br>
+Ciao</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">simo1978=
+</div><div class=3D"date">22-12-2005, 12:57</div></div><div class=3D"postte=
+xt">si si... mettilo dove sta meglio  :-)</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">Tela</di=
+v><div class=3D"date">02-02-2006, 13:59</div></div><div class=3D"posttext">=
+scusate se mi intrometto ma rifasare non serve a niente , perch=E8 all'enel=
+ i nostri consumi civili non spostano la fase della corrente in maniera sig=
+nificativa, pensate cosa assorbe una fabbrica e loro si che sono obbligati =
+a rifasare.<br>
+<br>
+Spendete i soldi per abbellire le vasche <br>
+<br>
+Ciao  :-D  :-D  :-D  :-D  :-D  :-D  :-D  :-D</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">simo1978=
+</div><div class=3D"date">02-02-2006, 14:31</div></div><div class=3D"postte=
+xt">se lo dici tu ;-) <br>
+prova un po' a fare i conti di tutte le famiglie che ci sono in Italia e fa=
+i un po' il conto del decadimento della capacit=E0 dei condesatori e della =
+vita media degli eletrodomestici e poi vedi quanta energia reattiva deve er=
+ogare ENEL....   se tutti ragionano cos=EC, poi non venirti a lamentare se =
+in estate ti tolgono la corrente per 6 ore perch=E8 non c'=E8 abbastanza en=
+ergia   #07  infatti =E8 noto che le crisi energetiche che abbiamo oggi son=
+o dovute alla sempre maggiore richiesta da parte delle utenze civili, ormai=
+ chi non ha un condizionatore acceso che ciuccia minimo 900W? forse solo io=
+ .... chi non ha un pc acceso in casa per un bel po' di tempo?<br>
+ti ricordo che per l' ENEL, erogarti energia attiva o reattiva, =E8 la stes=
+sa cosa. L' impegno della macchina e della linea si calcola in base alla co=
+rrente totale, non solo in base alla componente attiva.... L' energia reatt=
+iva te la fanno pagare meno solo perch=E8 =E8 pi=F9 facile farla e la si fa=
+ anche con altri mezzi oltre che con gli alternatori.<br>
+<br>
+Se hai degli elettrodomestici vecchi in casa, prova a fare una misura di po=
+tenza attiva ed apparente e vedrai che forse avrai delle sorprese sul cos(f=
+i) degli apparecchi....<br>
+<br>
+forse =E8 vero che per la poca gente che ha un acquario marino in casa con =
+lampade HQI, anche se non rifasano, ad ENEL non =E8 che importi pi=F9 di ta=
+nto, per=F2 avere in casa un aggeggio che ti succhia 800W a cos(fi) 0,4... =
+beh.... per ENEL tu stai succhiando 2000 VA, non gliene frega nulla se sono=
+ tutti 2000 W o 2000 VAR...   tu succhi per 2000 e consumi solo per 800....=
+<br>
+<br>
+poi per quello che costa un condesatore... non ti ci compri neppure 500g di=
+ carbone   #07</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">ik2vov</=
+div><div class=3D"date">02-02-2006, 16:07</div></div><div class=3D"posttext=
+">Tela, per me hai detto una cavolata, a prescindere dal costo dei condensa=
+tori..... se ne dovessi mettere 5 forse ti compri una talea da un'appassion=
+ato..... ma a parte questo ti faccio un'esempio stupidissimo....<br>
+Ho due HQI da 250W, queste fino a qualche mese fa erano rifasate, poi mentr=
+e facevo delle modifiche ho rimosso i condensatori con l'intento di rimette=
+rli con i nuovi riflettori.... il CosFi e' 0,52, ora non posso attaccare la=
+ griglia elettrica senza che salti la corrente.... se la mia fidanzata acce=
+nde il phon (non io che con i pochi capelli posso farne a meno  :-)) ) mi s=
+alta la corrente.... con due condensatori di rifasamento risolvo il problem=
+a.... ho speso ad esagerare 10=80....<br>
+<br>
+Ciao</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">Tela</di=
+v><div class=3D"date">03-02-2006, 19:03</div></div><div class=3D"posttext">=
+Hai ragione ho detto una cavolata, ho ripassato alcuni concetti base di ele=
+ttrotecnica e in effetti hai ragione, scusate.ciao</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">birrohgt=
+</div><div class=3D"date">14-09-2006, 13:47</div></div><div class=3D"postte=
+xt">devo inserire il condensatore di rifasamento ai miei <br>
+<br>
+2 reattori da 250w erc con un cos di 0.55 <br>
+<br>
+<br>
+ho visto il post qui sopra ma non ci capisco una mazza qualcuno me lo sa ca=
+lcolare????? <br>
+<br>
+<br>
+vorrei mettere 1 solo condensatore per i 2 reattori <br>
+<br>
+grazie</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">Gabro</d=
+iv><div class=3D"date">02-11-2006, 19:49</div></div><div class=3D"posttext"=
+>C =3D 452 / 16610600 =3D 0.0000272 F =3D 27 uF<br>
+<br>
+si arrotonda a 25 uF o a 30 uF ? (o mi devo cercare proprio il 27 ...)</div=
+></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">ik2vov</=
+div><div class=3D"date">03-11-2006, 01:27</div></div><div class=3D"posttext=
+">Prendi il 25.<br>
+<br>
+Ciao</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">Gabro</d=
+iv><div class=3D"date">03-11-2006, 10:10</div></div><div class=3D"posttext"=
+>Danke :D</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">brick</d=
+iv><div class=3D"date">30-11-2006, 15:32</div></div><div class=3D"posttext"=
+>cosa =E8 arcos?</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">simo1978=
+</div><div class=3D"date">30-11-2006, 19:18</div></div><div class=3D"postte=
+xt">=E8 l' acrcocoseno</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">brick</d=
+iv><div class=3D"date">01-12-2006, 10:48</div></div><div class=3D"posttext"=
+>ok grazie.. mi hanno detto che sulla calcolatrice di win devo selezionare =
+INV e poi fare il coseno ;-)<br>
+grazie</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">marcola6=
+2</div><div class=3D"date">30-06-2007, 10:18</div></div><div class=3D"postt=
+ext">Se non avete voglia di fare i calcoli ho aperto un topic un po' di tem=
+po fa dove si puo' scaricare un semplice programmino in excell che fa tutto=
+ in automatico.<br>
+<br>
+http://acquariofilia.biz/viewtopic.php?t=3D123847<br>
+<br>
+ciao ;-)</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">Notturni=
+a</div><div class=3D"date">04-02-2008, 14:06</div></div><div class=3D"postt=
+ext">Bel Calcolo simo1978, e bel lavoro  ;-) <br>
+<br>
+p.s. per aggiungere qualcosa a chi reputa inutile il rifasamento devo dire =
+che.<br>
+1. non =E8 vero che rifasare non alleggerisce la bolletta.. lo fa.. di poco=
+.. ma lo fa.. perch=E8 ?<br>
+beh perch=E8 le perdite sui conduttori (dalla lampadina fino al contatore) =
+dipendono dai VA che passano sul cavo e non dai Watt che consumiamo.. quind=
+i se una plafo da 250W consuma (con accenditore) 300W ma =E8 rifasata a 0.4=
+ bench=E8 la potenza attiva sia di soli 1.5A (circa) in realt=E0 la potenza=
+ apparente (che =E8 quella che genera le perdite sul cavo =E8 di circa 750V=
+A e quindi, rispetto ad un sistema rifasato a 0,92 (a me piace 0,95 ..) olt=
+re il doppio.<br>
+questo vuol dire che le perdite sono probabilmente da 2 a 4 volte di pi=F9 =
+(sperando in un buon dimensionamento dei fili.<br>
+<br>
+Quindi le perdite che normalmente sono il 5% della potenza nominale (300W -=
+&gt; 15W) salgono a circa il 10-15% e quindi a 30-45W<br>
+ovvero quando abbiamo 10 ore di illuminazione abbiamo 15#30W in pi=F9 di pe=
+rdite.. e questi li paghiamo.. =E8 come avere una pompa accesa 10 ore al gi=
+orno assieme alla plafo..<br>
+<br>
+inoltre la potenza disponibile in una casa =E8 calcolata il 10% in pi=F9 di=
+ quella contrattuale perch=E8 corrisponde ad un cosphi di 0.9<br>
+se abbiamo 3kW a contratto avviamo 3300VA che possono corrispondere a 3000W=
+ a 0.9 o a 3300W a cosphi 1.0 o a 1300W a cosphi 0.4<br>
+<br>
+ovvero una plafo 2x400 a cosphi 0.4 occupa (considerando 900W compresi acce=
+nditori) 2250VA di contatore lasciando liberi per la casa solo 1050 VA.<br>
+<br>
+quindi.. per dire dei detrattori del rifasamento... lasciate stare le quest=
+ioni etiche.. fatevi solo furbi.. non danneggiate L'ENEL o il vs. distrubut=
+ore locale e il resto d'italia e del mondo generando magior inquinamento.. =
+semplicemente spendete pi=F9 soldi (5-10%) e inoltre vi eliminate la possib=
+ilit=E0 di usare altri apparecchi per ignoranza.<br>
+<br>
+ah.. una plafo rifasata a 0.9 occupa solo 1000VA e a 0,92 978VA (ipotizzand=
+o 900W compresi accenditori)<br>
+<br>
+1.0 sarebbe perfetto ma solo con quelli elettronici si puo' ottenere e rico=
+rdate che i condensatori hanno una vita utile "limitata" solitamente a 5-10=
+-15 mila ore a seconda del modello e se siete in dubbio fra 25 micro o 30 p=
+rendete pure il 30 se non si eccede il cosphi 0.98<br>
+<br>
+ :-)</div></div><hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">Dragon79=
+</div><div class=3D"date">04-05-2009, 13:16</div></div><div class=3D"postte=
+xt">scusate la domanda ma per ora avete parlato di rifasare solo le HQI , p=
+er quanto riguarda i t5 ?<br>
+IO HO 1 LAMPADA da 400w con un reattore icecap<br>
+in + <br>
+1 da 150 w -   2 t5 da24w <br>
+<br>
+e nella 2=B0 vasca 4 t5 da 39W <br>
+<br>
+se faccio il rifasamento ...... non dovrei farlo anche sui t5 ?</div></div>=
+<hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">Dragon79=
+</div><div class=3D"date">04-05-2009, 13:16</div></div><div class=3D"postte=
+xt">scusate la domanda ma per ora avete parlato di rifasare solo le HQI , p=
+er quanto riguarda i t5 ?<br>
+IO HO 1 LAMPADA da 400w con un reattore icecap<br>
+in + <br>
+1 da 150 w -   2 t5 da24w <br>
+<br>
+e nella 2=B0 vasca 4 t5 da 39W <br>
+<br>
+se faccio il rifasamento ...... non dovrei farlo anche sui t5 ?</div></div>=
+<hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">Dragon79=
+</div><div class=3D"date">05-05-2009, 10:03</div></div><div class=3D"postte=
+xt">mi potete spiegare di pi=F9 la faccenda ?<br>
+<br>
+questi condensatori dove li inserisco ??<br>
+<br>
+fra la rete elettirca ed il reattore ? cio=E8 =E8 come una specie di presa =
+???<br>
+scusate le domande ma sull'argomento non so propio una mazza !!</div></div>=
+<hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">Dragon79=
+</div><div class=3D"date">05-05-2009, 10:03</div></div><div class=3D"postte=
+xt">mi potete spiegare di pi=F9 la faccenda ?<br>
+<br>
+questi condensatori dove li inserisco ??<br>
+<br>
+fra la rete elettirca ed il reattore ? cio=E8 =E8 come una specie di presa =
+???<br>
+scusate le domande ma sull'argomento non so propio una mazza !!</div></div>=
+<hr>
+
+
+<div class=3D"post"><div class=3D"posttop"><div class=3D"username">Dragon79=
+</div><div class=3D"date">05-12-2012, 13:27</div></div><div class=3D"postte=
+xt">cavolo mi avete risposto ..... mi ero anche scordato di queste domande =
+.... ;-)</div></div><hr>
+
+
+<div id=3D"copyright">vBulletin=AE v3.8.9, Copyright =A9: 2000-2025, Jelsof=
+t Enterprises Ltd.
+
+<br>Traduzione italiana Team: vBulletin-italia.it<br></div>
+</div>
+
+</body></html>
+------MultipartBoundary--k2z3ziCotzkcWFyi592R921U0QzB3CqcgL3kvOIunO----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.acquariofilia.biz/archive/archive.css
+
+@charset "windows-1252";
+
+body { background: rgb(238, 238, 238); }
+
+body, li, td, div { font: 11px verdana, arial, sans-serif; }
+
+ul { list-style-type: none; }
+
+li { font-size: 10pt; }
+
+i { color: silver; }
+
+p.largefont { text-align: left; font-size: 10pt; font-weight: bold; }
+
+div.pagebody { background: white; padding: 16px; border: 1px solid silver; =
+}
+
+div.pda { float: right; background: rgb(249, 249, 249); border-left: 1px so=
+lid silver; border-right: 1px solid silver; border-bottom: 1px solid silver=
+; padding: 4px; }
+
+div.post { border: 1px solid silver; padding: 1px; margin-bottom: 16px; }
+
+div.posttop { padding: 4px; background: rgb(238, 238, 238); }
+
+div.username { font-weight: bold; width: auto; float: left; }
+
+div.date { width: auto; text-align: right; }
+
+div.posttext { padding: 4px; background: rgb(249, 249, 249); }
+
+div.highlight { padding: 4px; background: rgb(255, 255, 204); }
+
+span.small { font-size: 10px; }
+
+#content { margin-bottom: 8px; border: 1px solid silver; padding: 4px 4px 4=
+px 24px; }
+
+#navbar { background: rgb(249, 249, 249); border: 1px solid silver; padding=
+: 4px; }
+
+#pagenumbers { text-align: center; margin-bottom: 4px; }
+
+#copyright { text-align: center; }
+
+hr { visibility: hidden; display: none; }
+------MultipartBoundary--k2z3ziCotzkcWFyi592R921U0QzB3CqcgL3kvOIunO------
