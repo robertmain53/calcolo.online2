@@ -30,6 +30,7 @@ import SeismicBaseShearCalculator from '@/components/SeismicBaseShearCalculator'
 import ConcreteBeamVerification from '@/components/ConcreteBeamVerification';
 import CableSizingCalculator from '@/components/CableSizingCalculator';
 import VoltageDropCalculator from '@/components/VoltageDropCalculator';
+import MagnetothermicBreakerCalculator from '@/components/MagnetothermicBreakerCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -112,6 +113,18 @@ const faqContentBySlug: Record<
       question: 'Il tool calcola anche la lunghezza massima ammessa?',
       answer:
         'Sì, oltre alla caduta di tensione restituisce la lunghezza massima utile della tratta con i parametri inseriti e suggerisce sezioni alternative conformi.',
+    },
+  ],
+  'dimensionamento-interruttore-magnetotermico': [
+    {
+      question: 'Come verifico che l\'interruttore scelto sia coordinato con il cavo?',
+      answer:
+        'Il calcolatore controlla automaticamente Ib ≤ In ≤ Iz e la condizione I₂ ≤ 1,45·Iz prevista dalla CEI 64-8, suggerendo eventuali taglie alternative o l\'adeguamento della sezione del cavo.',
+    },
+    {
+      question: 'È possibile valutare anche la soglia magnetica rispetto all\'Icc presunta?',
+      answer:
+        'Sì, inserendo la corrente di corto circuito il tool confronta il valore con le soglie della curva magnetica (B, C, D) e segnala se occorre cambiare curva o dispositivo.',
     },
   ],
   'dimensionamento-rete-fognaria': [
@@ -326,6 +339,24 @@ const howToContentBySlug: Record<
       },
     ],
   },
+  'dimensionamento-interruttore-magnetotermico': {
+    name: 'Come Dimensionare l\'Interruttore Magnetotermico',
+    description: 'Procedura guidata per scegliere la taglia dell\'interruttore automatico in accordo con la CEI 64-8.',
+    steps: [
+      {
+        name: 'Calcola la corrente di impiego',
+        text: 'Inserisci potenza, tensione, cosφ e fattore di contemporaneità oppure la corrente nominale disponibile per ottenere Ib.',
+      },
+      {
+        name: 'Definisci portata del cavo',
+        text: 'Scegli sezione, materiale e metodo di posa per determinare Iz applicando i coefficienti correttivi previsti dalla norma.',
+      },
+      {
+        name: 'Seleziona la curva e verifica',
+        text: 'Imposta curva B, C o D, confronta le soglie magnetiche con l\'Icc e scegli la taglia In che soddisfa Ib ≤ In ≤ Iz e I₂ ≤ 1,45·Iz.',
+      },
+    ],
+  },
   'dimensionamento-rete-fognaria': {
     name: 'Come Dimensionare una Condotta Fognaria',
     description: 'Metodo per dimensionare reti fognarie pluviali e miste.',
@@ -475,6 +506,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'verifica-trave-ca': ConcreteBeamVerification,
   'calcolo-sezione-cavo-portata': CableSizingCalculator,
   'calcolo-caduta-tensione-linea': VoltageDropCalculator,
+  'dimensionamento-interruttore-magnetotermico': MagnetothermicBreakerCalculator,
   'calcolo-trave-appoggiata': SimplySupportedBeamCalculator,
   'calcolo-roi-return-on-investment': ROICalculator,
 };
