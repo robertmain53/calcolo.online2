@@ -13,7 +13,6 @@ interface CalculationResult {
   deflection: number;
   deflectionLimit: number;
   deflectionUtilization: number;
-  neutralAxisDepth: number;
   summary: Array<{ label: string; value: string }>;
   warnings: string[];
 }
@@ -63,38 +62,27 @@ function computeResult(params: {
     deflectionLimitRatio,
   } = params;
 
-  const totalDead = deadLoad;
-  const totalLive = liveLoad;
-  const designLoad = gammaG * totalDead + gammaQ * totalLive;
-  const serviceLoad = totalDead + totalLive;
+  const designLoad = gammaG * deadLoad + gammaQ * liveLoad;
+  const serviceLoad = deadLoad + liveLoad;
 
   const designMoment = (designLoad * span ** 2) / 8;
   const designShear = (designLoad * span) / 2;
 
   const effectiveDepth = height - cover - 0.012;
-  const compressionDepth = cover + 0.012;
-
-  const areaT = tensileArea;
-  const areaC = compressiveArea;
-
   const fcd = (fck * 1e6) / gammaC;
   const fyd = (fyk * 1e6) / gammaS;
+  const neutralAxis = (tensileArea * fyd) / (0.85 * fcd * width);
+  const momentCapacity =
+    (tensileArea * fyd * (effectiveDepth - neutralAxis / 2)) / 1e6;
 
-  const leverArm = effectiveDepth - (areaT * fyd) / (0.85 * fcd * width * 1.0);
-  const neutralAxis = (areaT * fyd) / (0.85 * fcd * width);
-  const momentCapacity = areaT * fyd * (effectiveDepth - neutralAxis / 2) / 1e6;
-
-  const shearCapacityConcrete =
-    (0.6 * width * effectiveDepth * Math.sqrt(fck * 1e6)) / 1e3;
-  const shearCapacitySteel = (areaC * fyd * leverArm) / (span * 1e3);
-  const shearCapacity = shearCapacityConcrete + shearCapacitySteel;
+  const shearConcrete = (0.6 * width * effectiveDepth * Math.sqrt(fck * 1e6)) / 1e3;
+  const leverArm = effectiveDepth * 0.9;
+  const shearSteel = (compressiveArea * fyd * leverArm) / (span * 1e3);
+  const shearCapacity = shearConcrete + shearSteel;
 
   const inertia = (width * height ** 3) / 12;
   const modulusElasticity = 30000 * 1e6;
-  const deflection =
-    (5 * serviceLoad * span ** 4) /
-    (384 * modulusElasticity * inertia);
-
+  const deflection = (5 * serviceLoad * span ** 4) / (384 * modulusElasticity * inertia);
   const deflectionLimit = span * 1000 / deflectionLimitRatio;
   const deflectionUtilization =
     deflectionLimit > 0 ? (deflection * 1000 / deflectionLimit) * 100 : 0;
@@ -114,8 +102,8 @@ function computeResult(params: {
   ];
 
   const warnings: string[] = [];
-  if (bendingUtilization > 100) warnings.push('Verifica a flessione non soddisfatta: aumentare area di armatura o dimensioni della sezione.');
-  if (shearUtilization > 100) warnings.push('Verifica a taglio non soddisfatta: prevedere staffe aggiuntive o incrementare la sezione.');
+  if (bendingUtilization > 100) warnings.push('Verifica a flessione non soddisfatta: aumenta armature o sezione.');
+  if (shearUtilization > 100) warnings.push('Verifica a taglio non soddisfatta: incrementa staffe o dimensioni.');
   if (deflectionUtilization > 100) warnings.push('Freccia oltre il limite L / ' + deflectionLimitRatio + '.');
 
   return {
@@ -128,7 +116,6 @@ function computeResult(params: {
     deflection,
     deflectionLimit,
     deflectionUtilization,
-    neutralAxisDepth: neutralAxis,
     summary,
     warnings,
   };
@@ -214,7 +201,7 @@ export default function ConcreteBeamVerification() {
           Dati della trave in cemento armato
         </h2>
         <p className="text-sm text-gray-600 mt-1">
-          Inserisci geometria, armature e carichi distribuiti. Il calcolo applica le verifiche allo stato limite ultimo e di esercizio per una trave semplicemente appoggiata con distribuzione uniforme.
+          Inserisci geometria, armature e carichi distribuiti. Il calcolo applica le verifiche SLU/SLE per travi semplicemente appoggiate con carico uniforme.
         </p>
 
         <div className="mt-6 grid gap-6 xl:grid-cols-2">
@@ -405,6 +392,8 @@ export default function ConcreteBeamVerification() {
                   className="calculator-input"
                 />
               </div>
+            </div>
+
             <div className="grid gap-4 sm:grid-cols-2">
               <div>
                 <label htmlFor="gammaC" className="calculator-label">
@@ -417,37 +406,6 @@ export default function ConcreteBeamVerification() {
                   min="1.2"
                   value={gammaC}
                   onChange={(event) => setGammaC(event.target.value)}
-                  className="calculator-input"
-                />
-              </div>
-              <div>
-                <label htmlFor="gammaS" className="calculator-label">
-                  gamma S
-                </label>
-                <input
-                  id="gammaS"
-                  type="number"
-                  step="0.05"
-                  min="1.0"
-                  value={gammaS}
-                  onChange={(event) => setGammaS(event.target.value)}
-                  className="calculator-input"
-                />
-              </div>
-            </div>
-
-            <div>
-              <label htmlFor="deflectionLimitRatio" className="calculator-label">
-                Limite freccia (L / ?)
-              </label>
-              <input
-                id="deflectionLimitRatio"
-                type="number"
-                step="10"
-                min="150"
-                value={deflectionLimitRatio}
-                onChange={(event) => setDeflectionLimitRatio(event.target.value)}
-                className="calculator-input"
               />
             </div>
           </div>
@@ -456,11 +414,9 @@ export default function ConcreteBeamVerification() {
 
       {!result && (
         <section className="section-card border border-red-100 bg-red-50">
-          <h3 className="text-lg font-semibold text-red-900">
-            Parametri insufficienti
-          </h3>
+          <h3 className="text-lg font-semibold text-red-900">Parametri insufficienti</h3>
           <p className="text-sm text-red-800">
-            Verifica geometria, armature e resistenze inserite. Tutti i valori devono essere maggiori di zero.
+            Verifica geometria, carichi e armature: tutti i valori devono essere maggiori di zero.
           </p>
         </section>
       )}
@@ -468,11 +424,9 @@ export default function ConcreteBeamVerification() {
       {result && (
         <section className="section-card space-y-6">
           <header>
-            <h2 className="text-2xl font-semibold text-gray-900">
-              Verifiche SLU e SLE
-            </h2>
+            <h2 className="text-2xl font-semibold text-gray-900">Verifiche SLU e SLE</h2>
             <p className="text-sm text-gray-600">
-              Domande e resistenze sono riferite alla trave completa; assumiamo comportamento semplicemente appoggiato con carico uniforme.
+              Risultati riferiti a una trave semplicemente appoggiata con carico uniforme.
             </p>
           </header>
 
@@ -486,9 +440,7 @@ export default function ConcreteBeamVerification() {
 
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
             <div className="calculator-result">
-              <h3 className="text-lg font-semibold text-gray-900">
-                Flessione
-              </h3>
+              <h3 className="text-lg font-semibold text-gray-900">Flessione</h3>
               <p className="mt-2 text-2xl font-bold text-gray-900">
                 Utilizzo {round(result.bendingUtilization, 1)} %
               </p>
@@ -497,9 +449,7 @@ export default function ConcreteBeamVerification() {
               </p>
             </div>
             <div className="calculator-result">
-              <h3 className="text-lg font-semibold text-gray-900">
-                Taglio
-              </h3>
+              <h3 className="text-lg font-semibold text-gray-900">Taglio</h3>
               <p className="mt-2 text-2xl font-bold text-gray-900">
                 Utilizzo {round(result.shearUtilization, 1)} %
               </p>
@@ -508,9 +458,7 @@ export default function ConcreteBeamVerification() {
               </p>
             </div>
             <div className="calculator-result">
-              <h3 className="text-lg font-semibold text-gray-900">
-                Freccia
-              </h3>
+              <h3 className="text-lg font-semibold text-gray-900">Freccia</h3>
               <p className="mt-2 text-2xl font-bold text-gray-900">
                 {round(result.deflection * 1000, 2)} mm
               </p>
@@ -524,21 +472,15 @@ export default function ConcreteBeamVerification() {
             <table className="min-w-full divide-y divide-gray-200 text-sm">
               <thead className="bg-gray-50">
                 <tr>
-                  <th className="px-4 py-2 text-left font-semibold text-gray-700">
-                    Parametro
-                  </th>
-                  <th className="px-4 py-2 text-left font-semibold text-gray-700">
-                    Valore
-                  </th>
+                  <th className="px-4 py-2 text-left font-semibold text-gray-700">Parametro</th>
+                  <th className="px-4 py-2 text-left font-semibold text-gray-700">Valore</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-100">
                 {result.summary.map((item) => (
                   <tr key={item.label}>
                     <td className="px-4 py-2 text-gray-700">{item.label}</td>
-                    <td className="px-4 py-2 text-gray-900 font-medium">
-                      {item.value}
-                    </td>
+                    <td className="px-4 py-2 text-gray-900 font-medium">{item.value}</td>
                   </tr>
                 ))}
               </tbody>
@@ -546,89 +488,75 @@ export default function ConcreteBeamVerification() {
           </div>
 
           <div className="rounded-lg border border-gray-200 bg-gray-50 p-4 text-sm text-gray-700">
-            <strong>Nota operativa:</strong> confronta gli utilizzi con i valori di progetto (tipicamente &lt; 90%). In caso di eccessi, incrementa la sezione, migliora la classe del calcestruzzo o modifica l'armatura.
+            <strong>Nota operativa:</strong> mantieni gli utilizzi sotto il 90 % per garantire margine progettuale. In caso contrario, adegua armatura o sezione.
           </div>
         </section>
       )}
 
       <section className="section-card space-y-4">
-        <h2 className="text-2xl font-semibold text-gray-900">
-          Norme, ipotesi e formule
-        </h2>
+        <h2 className="text-2xl font-semibold text-gray-900">Norme, ipotesi e formule</h2>
         <div className="grid gap-4 lg:grid-cols-3">
           <article className="rounded-lg border border-blue-100 bg-blue-50/80 p-4">
-            <h3 className="text-base font-semibold text-blue-900">
-              Riferimenti normativi
-            </h3>
+            <h3 className="text-base font-semibold text-blue-900">Riferimenti normativi</h3>
             <ul className="mt-2 list-disc list-inside text-sm text-blue-900 space-y-1">
-              <li>NTC 2018, Capitolo 4.1.2 e 4.1.2.1</li>
+              <li>NTC 2018, Capitolo 4.1.2</li>
               <li>Circolare 7/2019, paragrafi C4.1.2.1 e C4.1.2.2</li>
-              <li>Eurocodice 2 EN 1992-1-1</li>
+              <li>EN 1992-1-1 (Eurocodice 2)</li>
             </ul>
           </article>
           <article className="rounded-lg border border-gray-200 p-4">
-            <h3 className="text-base font-semibold text-gray-900">
-              Ipotesi di calcolo
-            </h3>
+            <h3 className="text-base font-semibold text-gray-900">Ipotesi di calcolo</h3>
             <ul className="mt-2 list-disc list-inside text-sm text-gray-700 space-y-1">
-              <li>Trave semplicemente appoggiata con carico distribuito.</li>
+              <li>Trave semplicemente appoggiata con carico uniforme.</li>
               <li>Sezione rettangolare omogenea, comportamento elastico lineare.</li>
               <li>Armatura tesa principale, compressa opzionale.</li>
-              <li>Fattori di sicurezza gamma C e gamma S impostati dall'utente.</li>
+              <li>Coefficienti di sicurezza impostati dall'utente.</li>
             </ul>
           </article>
           <article className="rounded-lg border border-gray-200 p-4">
-            <h3 className="text-base font-semibold text-gray-900">
-              Limitazioni e raccomandazioni
-            </h3>
+            <h3 className="text-base font-semibold text-gray-900">Limitazioni e raccomandazioni</h3>
             <ul className="mt-2 list-disc list-inside text-sm text-gray-700 space-y-1">
-              <li>Integra con verifica a taglio puntuale e fessurazione secondo NTC/EC2.</li>
-              <li>Per carichi non uniformi o travi continue usare modelli avanzati.</li>
-              <li>Controlla le larghezze d'inflessione e i dettagli costruttivi (ancoraggi, staffe).</li>
+              <li>Integra con verifiche di taglio locale, fessurazione e punzonamento.</li>
+              <li>Per travi continue o carichi concentrati usa modelli avanzati.</li>
+              <li>Controlla dettagli costruttivi: staffe, ancoraggi, copriferri.</li>
             </ul>
           </article>
         </div>
 
         <div className="rounded-lg border border-gray-200 bg-white p-4 text-sm text-gray-800">
-          <h3 className="text-base font-semibold text-gray-900">
-            Formule principali
-          </h3>
+          <h3 className="text-base font-semibold text-gray-900">Formule principali</h3>
           <p className="mt-2">
-            M = q * L^2 / 8; V = q * L / 2. Resistenza flessione: Md,Rd = As * fyd * (d - x/2) / 10^6 con x = As * fyd / (0.85 * fcd * b). Freccia elastica: f = 5 * q * L^4 / (384 * E * I).
+            M = q * L^2 / 8, V = q * L / 2. Resistenza flessione: Md,Rd = As * fyd * (d - x/2) / 10^6 con x = As * fyd / (0.85 * fcd * b). Freccia elastica: f = 5 * q * L^4 / (384 * E * I).
           </p>
         </div>
 
         <div className="rounded-lg border border-gray-200 bg-gray-50 p-4 text-sm text-gray-700">
-          <strong>Disclaimer professionale:</strong> il calcolo fornisce una verifica preliminare. Effettua sempre il progetto completo (fessurazione, duttilita, dettagli costruttivi) secondo NTC 2018 e Eurocodice 2.
+          <strong>Disclaimer professionale:</strong> il calcolo fornisce una verifica preliminare. Completa il progetto con controlli di fessurazione, duttilita e dettagli costruttivi come richiesto dalle NTC 2018 e dall'Eurocodice 2.
         </div>
       </section>
 
       <section className="section-card space-y-4">
-        <h2 className="text-2xl font-semibold text-gray-900">
-          Procedura operativa consigliata
-        </h2>
+        <h2 className="text-2xl font-semibold text-gray-900">Procedura operativa consigliata</h2>
         <ol className="list-decimal list-inside space-y-2 text-sm text-gray-700">
-          <li>Definisci carichi permanenti e variabili dalle combinazioni NTC 2018.</li>
-          <li>Inserisci geometria e copriferro, scegliendo un'armatura di prova.</li>
-          <li>Verifica flessione, taglio e freccia; modifica la soluzione fino ad avere utilizzo &lt; 90%.</li>
-          <li>Controlla le verifiche aggiuntive (fessurazione, punzonamento, ancoraggi) con tool dedicati.</li>
-          <li>Riporta il quadro delle verifiche nella relazione tecnica con riferimenti normativi e ipotesi adottate.</li>
+          <li>Definisci i carichi permanenti e variabili dalle combinazioni NTC 2018.</li>
+          <li>Inserisci geometria, copriferro e un'armatura iniziale.</li>
+          <li>Verifica flessione, taglio e freccia; adegua armature o sezione se necessario.</li>
+          <li>Integra con verifiche aggiuntive (fessurazione, punzonamento, ancoraggi).</li>
+          <li>Documenta il quadro delle verifiche nella relazione tecnica con norme e ipotesi adottate.</li>
         </ol>
       </section>
 
       <section className="section-card space-y-3">
-        <h2 className="text-2xl font-semibold text-gray-900">
-          Feedback dai progettisti
-        </h2>
+        <h2 className="text-2xl font-semibold text-gray-900">Feedback dai progettisti</h2>
         <ul className="space-y-3 text-sm text-gray-700">
           <li className="rounded-lg border border-gray-200 p-4">
-            "Perfetto per confrontare rapidamente soluzioni di travi secondarie con carichi diversi."
+            "Perfetto per confrontare rapidamente travi secondarie con carichi differenti."
             <span className="mt-1 block text-xs uppercase tracking-wide text-gray-500">
-              Ing. Laura M., studio strutture CA
+              Ing. Laura M., studio strutture C.A.
             </span>
           </li>
           <li className="rounded-lg border border-gray-200 p-4">
-            "Il riepilogo normativo e delle formule mi consente di allegare subito il calcolo al fascicolo digitale."
+            "Il riepilogo normativo facilita l'inserimento del calcolo nel fascicolo digitale."
             <span className="mt-1 block text-xs uppercase tracking-wide text-gray-500">
               Ing. Paolo T., direttore lavori
             </span>
@@ -645,4 +573,3 @@ export default function ConcreteBeamVerification() {
     </div>
   );
 }
-
