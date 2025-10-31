@@ -28,6 +28,7 @@ import LaterocementoSlabCalculator from '@/components/LaterocementoSlabCalculato
 import WoodBeamSLUCalculator from '@/components/WoodBeamSLUCalculator';
 import SeismicBaseShearCalculator from '@/components/SeismicBaseShearCalculator';
 import ConcreteBeamVerification from '@/components/ConcreteBeamVerification';
+import CableSizingCalculator from '@/components/CableSizingCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -86,6 +87,18 @@ const faqContentBySlug: Record<
       question: 'Posso valutare la selettività delle protezioni?',
       answer:
         'Vengono forniti suggerimenti sulla selettività magnetica e termica tra interruttori consecutivi con controllo della corrente di corto circuito presunta.',
+    },
+  ],
+  'calcolo-sezione-cavo-portata': [
+    {
+      question: 'Come viene determinata la portata Iz consigliata?',
+      answer:
+        'Il calcolatore applica i coefficienti correttivi CEI 64-8 per il metodo di posa, la temperatura ambiente e il numero di conduttori attivi restituendo la portata disponibile per la sezione selezionata.',
+    },
+    {
+      question: 'È inclusa la verifica della caduta di tensione?',
+      answer:
+        'Sì, oltre alla sezione minima viene calcolata la caduta di tensione percentuale e confrontata con il limite impostato, suggerendo eventuali adeguamenti della sezione.',
     },
   ],
   'dimensionamento-rete-fognaria': [
@@ -264,6 +277,24 @@ const howToContentBySlug: Record<
       },
     ],
   },
+  'calcolo-sezione-cavo-portata': {
+    name: 'Come Calcolare la Sezione Minima del Cavo',
+    description: 'Metodo passo-passo per dimensionare la sezione del cavo sulla base della portata Iz e della caduta di tensione.',
+    steps: [
+      {
+        name: 'Stima la corrente di progetto',
+        text: 'Inserisci potenza, fattore di potenza, rendimento o la corrente nominale disponibile per ottenere la corrente di progetto Ib.',
+      },
+      {
+        name: 'Imposta materiale e posa',
+        text: 'Scegli rame o alluminio, il metodo di posa e il numero di conduttori attivi per applicare i coefficienti correttivi CEI 64-8.',
+      },
+      {
+        name: 'Confronta portata e caduta',
+        text: 'Verifica la sezione suggerita, la portata corrispondente e la caduta di tensione rispetto al limite inserito, valutando eventuali sezioni alternative.',
+      },
+    ],
+  },
   'dimensionamento-rete-fognaria': {
     name: 'Come Dimensionare una Condotta Fognaria',
     description: 'Metodo per dimensionare reti fognarie pluviali e miste.',
@@ -411,6 +442,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'verifica-trave-legno-slu': WoodBeamSLUCalculator,
   'calcolo-taglio-sismico-statica': SeismicBaseShearCalculator,
   'verifica-trave-ca': ConcreteBeamVerification,
+  'calcolo-sezione-cavo-portata': CableSizingCalculator,
   'calcolo-trave-appoggiata': SimplySupportedBeamCalculator,
   'calcolo-roi-return-on-investment': ROICalculator,
 };

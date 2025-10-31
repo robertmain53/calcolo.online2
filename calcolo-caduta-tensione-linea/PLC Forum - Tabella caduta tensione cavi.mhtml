@@ -1,0 +1,1646 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.plcforum.it/didattica/caduta_tensione.html
+Subject: PLC Forum - Tabella caduta tensione cavi
+Date: Fri, 31 Oct 2025 06:28:41 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--4vIAGqcgFQua2sNFCCyJZuq83qqUuuZIU97my4hDWX----"
+
+
+------MultipartBoundary--4vIAGqcgFQua2sNFCCyJZuq83qqUuuZIU97my4hDWX----
+Content-Type: text/html
+Content-ID: <frame-B649AC38C472A8F2B523D430A9120B44@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.plcforum.it/didattica/caduta_tensione.html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml"><!-- InstanceBegin template=3D"/Templates/page_modello.dwt"=
+ codeOutsideHTMLIsLocked=3D"false" --><head><meta http-equiv=3D"Content-Typ=
+e" content=3D"text/html; charset=3Dwindows-1252"><link rel=3D"stylesheet" t=
+ype=3D"text/css" href=3D"cid:css-93fc7cb2-ddfc-4bea-8384-ae2fadd8185e@mhtml=
+.blink" />
+
+<meta name=3D"TITLE" content=3D"PLC Forum">
+<meta name=3D"Description" content=3D"Il forum di riferimento italiano dedi=
+cato al PLC ed automazione industriale">
+<meta name=3D"Keywords" content=3D"PLC;HMI;siemens;step7;step5;scada;automa=
+zione industriale;computer;elettronica industriale;schemi elettrici">
+<meta name=3D"OWNER" content=3D"Associazione PLC FORUM">
+<meta name=3D"AUTHOR" content=3D"Associazione PLC FORUM">
+<meta http-equiv=3D"Expires" content=3D"">
+<meta http-equiv=3D"CHARSET" content=3D"ISO-8859-1">
+<meta name=3D"LANGUAGE" content=3D"Italian it">
+<meta name=3D"COPYRIGHT" content=3D"Associazione PLC FORUM">
+<meta name=3D"CLASSIFICATION" content=3D"Engineering">
+<meta name=3D"RATING" content=3D"General">
+<meta name=3D"ROBOTS" content=3D"index,follow">
+<meta name=3D"REVISIT-AFTER" content=3D"1 days">
+<!-- InstanceBeginEditable name=3D"doctitle" -->
+<title>PLC Forum - Tabella caduta tensione cavi</title>
+<!-- InstanceEndEditable --><!-- InstanceBeginEditable name=3D"head" -->
+
+<!-- InstanceEndEditable -->
+
+<link href=3D"https://www.plcforum.it/style.css" rel=3D"stylesheet" type=3D=
+"text/css">
+</head>
+<body>
+<table width=3D"1006" border=3D"0" align=3D"center" cellpadding=3D"0" cells=
+pacing=3D"0">
+  <tbody><tr>
+    <td>
+      </td>
+  </tr>
+</tbody></table>
+<table width=3D"1006" border=3D"0" align=3D"center" cellpadding=3D"0" cells=
+pacing=3D"0">
+  <tbody><tr>
+    <td height=3D"13" background=3D"https://www.plcforum.it/images/up.gif">=
+</td>
+  </tr>
+</tbody></table>
+<table width=3D"1006" border=3D"0" align=3D"center" cellpadding=3D"0" cells=
+pacing=3D"0">
+  <tbody><tr>
+    <td width=3D"13" background=3D"https://www.plcforum.it/images/sx.gif">&=
+nbsp;</td>
+    <td width=3D"980"><table width=3D"980" border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0">
+        <tbody><tr>
+          <td width=3D"490" height=3D"60" valign=3D"bottom"><div align=3D"c=
+enter">
+             =20
+             =20
+            </div></td>
+          <td width=3D"490" height=3D"60" valign=3D"bottom"><div align=3D"c=
+enter">
+             =20
+             =20
+            </div></td>
+        </tr>
+      </tbody></table>
+      <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+">
+        <tbody><tr>
+          <td width=3D"194" valign=3D"top"><table width=3D"100%" border=3D"=
+0" cellpadding=3D"2" cellspacing=3D"5">
+              <tbody><tr>
+                <td bgcolor=3D"#DDE0E7" class=3D"Stile1"><div align=3D"cent=
+er">Sezioni principali </div></td>
+              </tr>
+              <tr>
+                <td><span class=3D"Stile8"><img src=3D"https://www.plcforum=
+.it/images/freccia_dx.gif" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"=
+http://www.plcforum.it/forums/index.php">Forum automazione</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/fo=
+rums2/index.php">Forum elettronica</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"https://www.plcforum.it/v=
+ecchio_forum.html">Vecchio forum</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/di=
+dattica/index.htm">Didattica</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/as=
+sistenza.htm">Assistenza</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/fa=
+q.htm">FAQ</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/ar=
+chivio_file.html">Archivio files</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"https://www.plcforum.it/u=
+p_download.html">Up/download files</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"https://www.plcforum.it/a=
+rchivio_aziende.html">Archivio aziende</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/fo=
+rsale/index.php">Mercatino</a></span></td>
+              </tr>
+            </tbody></table>
+            <table width=3D"100%" border=3D"0" cellpadding=3D"2" cellspacin=
+g=3D"5">
+              <tbody><tr>
+                <td bgcolor=3D"#DDE0E7" class=3D"Stile1"><div align=3D"cent=
+er">Altre sezioni</div></td>
+              </tr>
+              <tr>
+                <td><span class=3D"Stile8"><img src=3D"https://www.plcforum=
+.it/images/freccia_dx.gif" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"=
+https://www.plcforum.it/recensioni.html">Recensioni</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"https://www.plcforum.it/n=
+slu2.html">NSLU2</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"https://www.plcforum.it/l=
+ink.html">Link</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"https://www.plcforum.it/h=
+ardware_book.html">Hardware Book</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"https://www.plcforum.it/c=
+alcolatore_pcb.html">Calcolo piste PCB</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/co=
+llaborare.html">Collabora con PLC Forum</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"https://www.plcforum.it/g=
+alleria.html">Galleria fotografica</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/Im=
+magini_plcforum.htm">Immagini PLC Forum</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/fo=
+rm/form.php">Diventa nostro sponsor</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/al=
+tre_regole.htm">Regolamento</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/di=
+sclaimer.html">Disclaimer</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"https://www.plcforum.it/n=
+ewsletter.htm">Newsletter PLC Forum</a> </span></td>
+              </tr>
+            </tbody></table>
+            <table width=3D"100%" border=3D"0" cellpadding=3D"2" cellspacin=
+g=3D"5">
+              <tbody><tr>
+                <td bgcolor=3D"#DDE0E7" class=3D"Stile1"><div align=3D"cent=
+er">Servizi Forum Card </div></td>
+              </tr>
+              <tr>
+                <td><span class=3D"Stile8"><img src=3D"https://www.plcforum=
+.it/images/freccia_dx.gif" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"=
+http://www.plcforum.it/tesseramento.html">Forum Card</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/co=
+nvenzioni.html">Convenzioni</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"https://www.plcforum.it/s=
+chemari.html">Schemari</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"https://www.plcforum.it/c=
+orsi.html">Corsi</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/ma=
+il.html">Email plcforum.info</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"https://www.plcforum.it/a=
+rchivio_file_tv.html">Archivio files TV</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/fo=
+rums/index.php?showforum=3D71">Annunci</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/fo=
+rums/index.php?showforum=3D45">Progetti on-line</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/fo=
+rums/index.php?showforum=3D53">Comunicazioni</a></span></td>
+              </tr>
+            </tbody></table>
+            <table width=3D"100%" border=3D"0" cellpadding=3D"2" cellspacin=
+g=3D"5">
+              <tbody><tr>
+                <td bgcolor=3D"#DDE0E7" class=3D"Stile1"><div align=3D"cent=
+er">Chi siamo </div></td>
+              </tr>
+              <tr>
+                <td><span class=3D"Stile8"><img src=3D"https://www.plcforum=
+.it/images/freccia_dx.gif" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"=
+http://www.plcforum.it/staff.htm">Lo staff</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/ri=
+conoscimenti.htm">Riconoscimenti</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/fo=
+rums/index.php?&amp;act=3DMembers">Utenti registrati</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/st=
+atistiche.html">Statistiche accessi</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.plcforum.it/sp=
+onsor.html">I nostri sponsor</a></span></td>
+              </tr>
+            </tbody></table>
+            <table width=3D"100%" border=3D"0" cellpadding=3D"2" cellspacin=
+g=3D"5">
+              <tbody><tr>
+                <td bgcolor=3D"#DDE0E7" class=3D"Stile1"><div align=3D"cent=
+er">Link aziende </div></td>
+              </tr>
+              <tr>
+                <td><span class=3D"Stile8"><strong> ................. Sieme=
+ns</strong> <strong>.................</strong><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://support.automation=
+.siemens.com/WW/llisapi.dll?func=3Dcslib.csinfo&amp;nav0=3Dtree&amp;lang=3D=
+it&amp;siteid=3Dcseus&amp;aktprim=3D0&amp;extranet=3Dstandard&amp;objid=3D4=
+000024&amp;DataKey=3D4000024&amp;treeLang=3Dit">Siemens support</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"https://mall.automation.s=
+iemens.com/IT/guest/index.asp?aktPrim=3D0&amp;nodeID=3D5000005&amp;lang=3Di=
+t">Catalogo</a><br>
+                  <strong> .................. Omron </strong><strong>......=
+.............</strong><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.omron-industri=
+al.com/it_it/home/">Home </a><br>
+                  <strong>................ Schneider</strong><strong>......=
+..........</strong><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://eclipse.modicon.co=
+m/">Download center</a><br>
+                  <strong>................ SSD Drives </strong><strong>....=
+............</strong><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.eurothermdrive=
+s.it/inverter/inverter.htm">AC Drives</a><br>
+                  <img src=3D"https://www.plcforum.it/images/freccia_dx.gif=
+" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"http://www.eurothermdrive=
+s.it/convertitori/convertitori.htm">DC Drive</a></span><a href=3D"http://ww=
+w.eurothermdrives.it/convertitori/convertitori.htm">s</a><br>
+                  <span class=3D"Stile8"><img src=3D"https://www.plcforum.i=
+t/images/freccia_dx.gif" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"ht=
+tp://www.eurothermdrives.it/support/download.htm">Download</a></span><br>
+                  <span class=3D"Stile8"><img src=3D"https://www.plcforum.i=
+t/images/freccia_dx.gif" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"ht=
+tp://www.eurothermdrives.it/manuali/manuali.htm">Manuali prodotti</a></span=
+><br>
+                  <span class=3D"Stile8"><img src=3D"https://www.plcforum.i=
+t/images/freccia_dx.gif" alt=3D"- " width=3D"4" height=3D"8"> <a href=3D"ht=
+tp://www.eurothermdrives.it/brushless/brushless.htm">Servo drives</a></span=
+></td>
+              </tr>
+            </tbody></table>
+            <!-- InstanceBeginRepeat name=3D"AreeSx" --><!-- InstanceBeginR=
+epeatEntry -->
+            <table width=3D"100%" border=3D"0" cellpadding=3D"2" cellspacin=
+g=3D"5">
+              <tbody><tr>
+                <td bgcolor=3D"#DDE0E7" class=3D"Stile1"><div align=3D"cent=
+er"><!-- InstanceBeginEditable name=3D"EditRegion10" --><!-- InstanceEndEdi=
+table --></div></td>
+              </tr>
+              <tr>
+                <td><!-- InstanceBeginEditable name=3D"EditRegion11" --><!-=
+- InstanceEndEditable --></td>
+              </tr>
+            </tbody></table>
+            <!-- InstanceEndRepeatEntry --><!-- InstanceEndRepeat -->
+            <p>&nbsp;</p></td>
+          <td valign=3D"top"><table width=3D"100%" border=3D"0" cellspacing=
+=3D"5" cellpadding=3D"2">
+              <tbody><tr>
+                <td bgcolor=3D"#DDE0E7"><div align=3D"center" class=3D"Stil=
+e1"><!-- InstanceBeginEditable name=3D"EditRegion6" -->Tabella caduta di te=
+nsione dei cavi<!-- InstanceEndEditable --></div></td>
+              </tr>
+              <tr> </tr>
+            </tbody></table>
+            <!-- InstanceBeginEditable name=3D"EditRegion5" -->
+            <div id=3D"TABELLE_15450" align=3D"center">
+              <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"640" style=3D"border-collapse:
+ collapse;table-layout:fixed;width:480pt">
+                <colgroup><col width=3D"64" span=3D"10" style=3D"width:48pt=
+">
+                </colgroup><tbody><tr height=3D"18" style=3D"height:13.5pt"=
+>
+                  <td height=3D"18" class=3D"xl1515450" width=3D"64" style=
+=3D"height:13.5pt;width:48pt"></td>
+                  <td colspan=3D"8" class=3D"xl6115450" width=3D"512" style=
+=3D"border-right:1.0pt solid black;
+  width:384pt">Caduta di tensione</td>
+                  <td class=3D"xl1515450" width=3D"64" style=3D"width:48pt"=
+></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl4315450"></td>
+                  <td class=3D"xl4315450"></td>
+                  <td class=3D"xl4315450"></td>
+                  <td class=3D"xl4315450"></td>
+                  <td class=3D"xl4315450"></td>
+                  <td class=3D"xl4315450"></td>
+                  <td class=3D"xl4315450"></td>
+                  <td class=3D"xl4315450"></td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td colspan=3D"8" class=3D"xl6015450">Caduta di tensione =
+unitaria <font class=3D"font515450">(u)</font><font class=3D"font015450"> p=
+er</font><font class=3D"font515450"> cavi unipolari</font></td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl4415450" style=3D"border-top:none">&nbsp;<=
+/td>
+                  <td colspan=3D"7" class=3D"xl6415450" style=3D"border-rig=
+ht:1.0pt solid black;
+  border-left:none">Cavi unipolari</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl3915450">Sezione</td>
+                  <td rowspan=3D"3" class=3D"xl7215450" style=3D"border-bot=
+tom:1.0pt solid black;
+  border-top:none">Corrente<br>
+                    continua</td>
+                  <td colspan=3D"6" class=3D"xl6715450" style=3D"border-rig=
+ht:1.0pt solid black;
+  border-left:none">Corrente alternata</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl3915450">&nbsp;</td>
+                  <td colspan=3D"3" class=3D"xl6915450" style=3D"border-rig=
+ht:1.0pt solid black;
+  border-left:none">Monofase</td>
+                  <td colspan=3D"3" class=3D"xl6915450" style=3D"border-rig=
+ht:1.0pt solid black;
+  border-left:none">Trifase</td>
+                  <td class=3D"xl2515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl4915450">&nbsp;</td>
+                  <td class=3D"xl4615450" style=3D"border-left:none">cos&#9=
+66;=3D1</td>
+                  <td class=3D"xl4715450" style=3D"border-left:none">cos&#9=
+66;=3D0,9</td>
+                  <td class=3D"xl4815450" style=3D"border-left:none">cos&#9=
+66;=3D0,8</td>
+                  <td class=3D"xl4615450" style=3D"border-left:none">cos&#9=
+66;=3D1</td>
+                  <td class=3D"xl4715450" style=3D"border-left:none">cos&#9=
+66;=3D0,9</td>
+                  <td class=3D"xl4815450" style=3D"border-left:none">cos&#9=
+66;=3D0,8</td>
+                  <td class=3D"xl2515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl3815450" style=3D"border-top:none">mm=B2</=
+td>
+                  <td class=3D"xl3815450" style=3D"border-top:none;border-l=
+eft:none">mV/A*m</td>
+                  <td class=3D"xl4615450" style=3D"border-left:none">mV/A*m=
+</td>
+                  <td class=3D"xl4715450" style=3D"border-left:none">mV/A*m=
+</td>
+                  <td class=3D"xl4815450" style=3D"border-left:none">mV/A*m=
+</td>
+                  <td class=3D"xl4615450" style=3D"border-left:none">mV/A*m=
+</td>
+                  <td class=3D"xl4715450" style=3D"border-left:none">mV/A*m=
+</td>
+                  <td class=3D"xl4815450" style=3D"border-left:none">mV/A*m=
+</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2615450">1</td>
+                  <td class=3D"xl2615450">44,2</td>
+                  <td class=3D"xl3015450">44,2</td>
+                  <td class=3D"xl3115450" style=3D"border-left:none">39,9</=
+td>
+                  <td class=3D"xl3215450" style=3D"border-left:none">35,6</=
+td>
+                  <td class=3D"xl3015450" style=3D"border-left:none">38,3</=
+td>
+                  <td class=3D"xl3115450" style=3D"border-left:none">34,6</=
+td>
+                  <td class=3D"xl3215450" style=3D"border-left:none">30,8</=
+td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2715450" style=3D"border-top:none">1,5</td=
+>
+                  <td class=3D"xl2715450" style=3D"border-top:none">29,7</t=
+d>
+                  <td class=3D"xl3315450" style=3D"border-top:none">29,7</t=
+d>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">26,8</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">23,9</td>
+                  <td class=3D"xl3315450" style=3D"border-top:none;border-l=
+eft:none">25,7</td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">23,2</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">20,7</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">2,5</td=
+>
+                  <td class=3D"xl2815450" style=3D"border-top:none">17,8</t=
+d>
+                  <td class=3D"xl3515450" style=3D"border-top:none">17,8</t=
+d>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">16,2</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">14,4</td>
+                  <td class=3D"xl3515450" style=3D"border-top:none;border-l=
+eft:none">15,4</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">14</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">12,5</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2615450" style=3D"border-top:none">4</td>
+                  <td class=3D"xl2615450" style=3D"border-top:none">11,1</t=
+d>
+                  <td class=3D"xl3015450" style=3D"border-top:none">11,1</t=
+d>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">10,2</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">9,08</td>
+                  <td class=3D"xl3015450" style=3D"border-top:none;border-l=
+eft:none">9,65</td>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">8,8</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">7,87</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2715450" style=3D"border-top:none">6</td>
+                  <td class=3D"xl2715450" style=3D"border-top:none">7,41</t=
+d>
+                  <td class=3D"xl3315450" style=3D"border-top:none">7,41</t=
+d>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">6,8</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">6,1</td>
+                  <td class=3D"xl3315450" style=3D"border-top:none;border-l=
+eft:none">6,42</td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">5,89</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">5,28</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">10</td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">4,47</t=
+d>
+                  <td class=3D"xl3515450" style=3D"border-top:none">4,47</t=
+d>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">4,14</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">3,72</td>
+                  <td class=3D"xl3515450" style=3D"border-top:none;border-l=
+eft:none">3,87</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">3,58</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">3,22</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2615450" style=3D"border-top:none">16</td>
+                  <td class=3D"xl2615450" style=3D"border-top:none">2,82</t=
+d>
+                  <td class=3D"xl3015450" style=3D"border-top:none">2,82</t=
+d>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">2,64</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">2,39</td>
+                  <td class=3D"xl3015450" style=3D"border-top:none;border-l=
+eft:none">2,44</td>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">2,28</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">2,07</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2715450" style=3D"border-top:none">25</td>
+                  <td class=3D"xl2715450" style=3D"border-top:none">1,78</t=
+d>
+                  <td class=3D"xl3315450" style=3D"border-top:none">1,78</t=
+d>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">1,69</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">1,55</td>
+                  <td class=3D"xl3315450" style=3D"border-top:none;border-l=
+eft:none">1,54</td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">1,47</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">1,34</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">35</td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">1,28</t=
+d>
+                  <td class=3D"xl3515450" style=3D"border-top:none">1,28</t=
+d>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">1,24</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">1,15</td>
+                  <td class=3D"xl3515450" style=3D"border-top:none;border-l=
+eft:none">1,11</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">1,08</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,993</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2615450" style=3D"border-top:none">50</td>
+                  <td class=3D"xl2615450" style=3D"border-top:none">0,947</=
+td>
+                  <td class=3D"xl3015450" style=3D"border-top:none">0,947</=
+td>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">0,939</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">0,878</td>
+                  <td class=3D"xl3015450" style=3D"border-top:none;border-l=
+eft:none">0,82</td>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">0,814</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">0,76</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2715450" style=3D"border-top:none">70</td>
+                  <td class=3D"xl2715450" style=3D"border-top:none">0,655</=
+td>
+                  <td class=3D"xl3315450" style=3D"border-top:none">0,656</=
+td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">0,674</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">0,641</td>
+                  <td class=3D"xl3315450" style=3D"border-top:none;border-l=
+eft:none">0,568</td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">0,584</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">0,555</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">95</td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">0,472</=
+td>
+                  <td class=3D"xl3515450" style=3D"border-top:none">0,473</=
+td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">0,509</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,494</td>
+                  <td class=3D"xl3515450" style=3D"border-top:none;border-l=
+eft:none">0,41</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">0,441</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,428</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2615450" style=3D"border-top:none">120</td=
+>
+                  <td class=3D"xl2615450" style=3D"border-top:none">0,373</=
+td>
+                  <td class=3D"xl3015450" style=3D"border-top:none">0,375</=
+td>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">0,42</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">0,413</td>
+                  <td class=3D"xl3015450" style=3D"border-top:none;border-l=
+eft:none">0,325</td>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">0,364</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">0,358</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2715450" style=3D"border-top:none">150</td=
+>
+                  <td class=3D"xl2715450" style=3D"border-top:none">0,304</=
+td>
+                  <td class=3D"xl3315450" style=3D"border-top:none">0,306</=
+td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">0,356</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">0,356</td>
+                  <td class=3D"xl3315450" style=3D"border-top:none;border-l=
+eft:none">0,265</td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">0,308</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">0,308</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">185</td=
+>
+                  <td class=3D"xl2815450" style=3D"border-top:none">0,243</=
+td>
+                  <td class=3D"xl3515450" style=3D"border-top:none">0,246</=
+td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">0,301</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,306</td>
+                  <td class=3D"xl3515450" style=3D"border-top:none;border-l=
+eft:none">0,213</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">0,26</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,265</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2615450" style=3D"border-top:none">240</td=
+>
+                  <td class=3D"xl2615450" style=3D"border-top:none">0,185</=
+td>
+                  <td class=3D"xl3015450" style=3D"border-top:none">0,189</=
+td>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">0,248</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">0,259</td>
+                  <td class=3D"xl3015450" style=3D"border-top:none;border-l=
+eft:none">0,163</td>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">0,215</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">0,224</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2715450" style=3D"border-top:none">300</td=
+>
+                  <td class=3D"xl2715450" style=3D"border-top:none">0,147</=
+td>
+                  <td class=3D"xl3315450" style=3D"border-top:none">0,152</=
+td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">0,215</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">0,229</td>
+                  <td class=3D"xl3315450" style=3D"border-top:none;border-l=
+eft:none">0,132</td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">0,186</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">0,198</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">400</td=
+>
+                  <td class=3D"xl2815450" style=3D"border-top:none">0,115</=
+td>
+                  <td class=3D"xl3515450" style=3D"border-top:none">0,121</=
+td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">0,186</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,202</td>
+                  <td class=3D"xl3515450" style=3D"border-top:none;border-l=
+eft:none">0,105</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">0,161</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,175</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl5015450">500</td>
+                  <td class=3D"xl5015450">0,0192</td>
+                  <td class=3D"xl5115450">0,0992</td>
+                  <td class=3D"xl5215450" style=3D"border-left:none">0,165<=
+/td>
+                  <td class=3D"xl5315450" style=3D"border-left:none">0,183<=
+/td>
+                  <td class=3D"xl5115450" style=3D"border-left:none">0,0859=
+</td>
+                  <td class=3D"xl5215450" style=3D"border-left:none">0,143<=
+/td>
+                  <td class=3D"xl5315450" style=3D"border-left:none">0,159<=
+/td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">630</td=
+>
+                  <td class=3D"xl2815450" style=3D"border-top:none">0,0707<=
+/td>
+                  <td class=3D"xl3515450" style=3D"border-top:none">0,0805<=
+/td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">0,148</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,168</td>
+                  <td class=3D"xl3515450" style=3D"border-top:none;border-l=
+eft:none">0,0697</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">0,128</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,146</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl1515450"></td>
+                  <td class=3D"xl1515450"></td>
+                  <td class=3D"xl1515450"></td>
+                  <td class=3D"xl1515450"></td>
+                  <td class=3D"xl1515450"></td>
+                  <td class=3D"xl1515450"></td>
+                  <td class=3D"xl1515450"></td>
+                  <td class=3D"xl1515450"></td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl1515450"></td>
+                  <td class=3D"xl1515450"></td>
+                  <td class=3D"xl1515450"></td>
+                  <td class=3D"xl1515450"></td>
+                  <td class=3D"xl1515450"></td>
+                  <td class=3D"xl1515450"></td>
+                  <td class=3D"xl1515450"></td>
+                  <td class=3D"xl1515450"></td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td colspan=3D"8" class=3D"xl6015450">Caduta di tensione =
+unitaria <font class=3D"font515450">(u)</font><font class=3D"font015450"> p=
+er</font><font class=3D"font515450"> cavi bipolari e tripolari</font></td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl4415450" style=3D"border-top:none">&nbsp;<=
+/td>
+                  <td colspan=3D"4" class=3D"xl6415450" style=3D"border-rig=
+ht:1.0pt solid black;
+  border-left:none">Cavi bipolari</td>
+                  <td colspan=3D"3" class=3D"xl6415450" style=3D"border-rig=
+ht:1.0pt solid black;
+  border-left:none">Cavi tripolari</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl3915450">Sezione</td>
+                  <td rowspan=3D"3" class=3D"xl7215450" style=3D"border-bot=
+tom:1.0pt solid black;
+  border-top:none">Corrente<br>
+                    continua</td>
+                  <td colspan=3D"6" class=3D"xl6715450" style=3D"border-rig=
+ht:1.0pt solid black;
+  border-left:none">Corrente alternata</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl3915450">&nbsp;</td>
+                  <td colspan=3D"3" class=3D"xl6915450" style=3D"border-rig=
+ht:1.0pt solid black;
+  border-left:none">Monofase</td>
+                  <td colspan=3D"3" class=3D"xl6915450" style=3D"border-rig=
+ht:1.0pt solid black;
+  border-left:none">Trifase</td>
+                  <td class=3D"xl2515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl4915450">&nbsp;</td>
+                  <td class=3D"xl4615450" style=3D"border-left:none">cos&#9=
+66;=3D1</td>
+                  <td class=3D"xl4715450" style=3D"border-left:none">cos&#9=
+66;=3D0,9</td>
+                  <td class=3D"xl4815450" style=3D"border-left:none">cos&#9=
+66;=3D0,8</td>
+                  <td class=3D"xl4615450" style=3D"border-left:none">cos&#9=
+66;=3D1</td>
+                  <td class=3D"xl4715450" style=3D"border-left:none">cos&#9=
+66;=3D0,9</td>
+                  <td class=3D"xl4815450" style=3D"border-left:none">cos&#9=
+66;=3D0,8</td>
+                  <td class=3D"xl2515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl3815450" style=3D"border-top:none">mm=B2</=
+td>
+                  <td class=3D"xl3815450" style=3D"border-top:none;border-l=
+eft:none">mV/A*m</td>
+                  <td class=3D"xl4615450" style=3D"border-left:none">mV/A*m=
+</td>
+                  <td class=3D"xl4715450" style=3D"border-left:none">mV/A*m=
+</td>
+                  <td class=3D"xl4815450" style=3D"border-left:none">mV/A*m=
+</td>
+                  <td class=3D"xl4615450" style=3D"border-left:none">mV/A*m=
+</td>
+                  <td class=3D"xl4715450" style=3D"border-left:none">mV/A*m=
+</td>
+                  <td class=3D"xl4815450" style=3D"border-left:none">mV/A*m=
+</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2615450">1</td>
+                  <td class=3D"xl4015450">45</td>
+                  <td class=3D"xl4015450" style=3D"border-left:none">45</td=
+>
+                  <td class=3D"xl3115450">40,6</td>
+                  <td class=3D"xl3215450" style=3D"border-left:none">36,1</=
+td>
+                  <td class=3D"xl3015450" style=3D"border-left:none">39</td=
+>
+                  <td class=3D"xl3115450" style=3D"border-left:none">35,2</=
+td>
+                  <td class=3D"xl3215450" style=3D"border-left:none">31,3</=
+td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2715450" style=3D"border-top:none">1,5</td=
+>
+                  <td class=3D"xl4115450" style=3D"border-top:none">30,2</t=
+d>
+                  <td class=3D"xl4115450" style=3D"border-top:none;border-l=
+eft:none">30,2</td>
+                  <td class=3D"xl2915450" style=3D"border-top:none">27,3</t=
+d>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">24,3</td>
+                  <td class=3D"xl3315450" style=3D"border-top:none;border-l=
+eft:none">26,1</td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">23,6</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">21</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">2,5</td=
+>
+                  <td class=3D"xl4215450" style=3D"border-top:none">18,2</t=
+d>
+                  <td class=3D"xl4215450" style=3D"border-top:none;border-l=
+eft:none">18,2</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none">16,4</t=
+d>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">14,7</td>
+                  <td class=3D"xl3515450" style=3D"border-top:none;border-l=
+eft:none">15,7</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">14,2</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">12,7</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2615450" style=3D"border-top:none">4</td>
+                  <td class=3D"xl4015450" style=3D"border-top:none">11,4</t=
+d>
+                  <td class=3D"xl4015450" style=3D"border-top:none;border-l=
+eft:none">11,4</td>
+                  <td class=3D"xl3115450" style=3D"border-top:none">10,3</t=
+d>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">9,21</td>
+                  <td class=3D"xl3015450" style=3D"border-top:none;border-l=
+eft:none">9,85</td>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">8,93</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">7,98</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2715450" style=3D"border-top:none">6</td>
+                  <td class=3D"xl4115450" style=3D"border-top:none">7,56</t=
+d>
+                  <td class=3D"xl4115450" style=3D"border-top:none;border-l=
+eft:none">7,56</td>
+                  <td class=3D"xl2915450" style=3D"border-top:none">6,89</t=
+d>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">6,16</td>
+                  <td class=3D"xl3315450" style=3D"border-top:none;border-l=
+eft:none">6,54</td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">5,96</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">5,34</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">10</td>
+                  <td class=3D"xl4215450" style=3D"border-top:none">4,55</t=
+d>
+                  <td class=3D"xl4215450" style=3D"border-top:none;border-l=
+eft:none">4,55</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none">4,16</t=
+d>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">3,73</td>
+                  <td class=3D"xl3515450" style=3D"border-top:none;border-l=
+eft:none">3,94</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">3,6</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">3,24</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2615450" style=3D"border-top:none">16</td>
+                  <td class=3D"xl4015450" style=3D"border-top:none">2,87</t=
+d>
+                  <td class=3D"xl4015450" style=3D"border-top:none;border-l=
+eft:none">2,87</td>
+                  <td class=3D"xl3115450" style=3D"border-top:none">2,65</t=
+d>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">2,39</td>
+                  <td class=3D"xl3015450" style=3D"border-top:none;border-l=
+eft:none">2,48</td>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">2,29</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">2,07</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2715450" style=3D"border-top:none">25</td>
+                  <td class=3D"xl4115450" style=3D"border-top:none">1,81</t=
+d>
+                  <td class=3D"xl4115450" style=3D"border-top:none;border-l=
+eft:none">1,81</td>
+                  <td class=3D"xl2915450" style=3D"border-top:none">1,7</td=
+>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">1,55</td>
+                  <td class=3D"xl3315450" style=3D"border-top:none;border-l=
+eft:none">1,57</td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">1,48</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">1,34</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">35</td>
+                  <td class=3D"xl4215450" style=3D"border-top:none">1,31</t=
+d>
+                  <td class=3D"xl4215450" style=3D"border-top:none;border-l=
+eft:none">1,31</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none">1,25</t=
+d>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">1,14</td>
+                  <td class=3D"xl3515450" style=3D"border-top:none;border-l=
+eft:none">1,13</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">1,08</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,988</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2615450" style=3D"border-top:none">50</td>
+                  <td class=3D"xl4015450" style=3D"border-top:none">0,966</=
+td>
+                  <td class=3D"xl5415450" style=3D"border-top:none">0,967</=
+td>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">0,937</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">0,866</td>
+                  <td class=3D"xl3015450" style=3D"border-top:none;border-l=
+eft:none">0,838</td>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">0,812</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">0,75</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2715450" style=3D"border-top:none">70</td>
+                  <td class=3D"xl4115450" style=3D"border-top:none">0,667</=
+td>
+                  <td class=3D"xl4515450" style=3D"border-top:none">0,669</=
+td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">0,667</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">0,624</td>
+                  <td class=3D"xl3315450" style=3D"border-top:none;border-l=
+eft:none">0,579</td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">0,577</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">0,541</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">95</td>
+                  <td class=3D"xl4215450" style=3D"border-top:none">0,482</=
+td>
+                  <td class=3D"xl5515450" style=3D"border-top:none">0,484</=
+td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">0,5</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,476</td>
+                  <td class=3D"xl3515450" style=3D"border-top:none;border-l=
+eft:none">0,419</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">0,433</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,412</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2615450" style=3D"border-top:none">120</td=
+>
+                  <td class=3D"xl4015450" style=3D"border-top:none">0,381</=
+td>
+                  <td class=3D"xl5415450" style=3D"border-top:none">0,383</=
+td>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">0,408</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">0,394</td>
+                  <td class=3D"xl3015450" style=3D"border-top:none;border-l=
+eft:none">0,332</td>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">0,354</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">0,342</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2715450" style=3D"border-top:none">150</td=
+>
+                  <td class=3D"xl4115450" style=3D"border-top:none">0,311</=
+td>
+                  <td class=3D"xl4515450" style=3D"border-top:none">0,314</=
+td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">0,347</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">0,341</td>
+                  <td class=3D"xl3315450" style=3D"border-top:none;border-l=
+eft:none">0,272</td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">0,031</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">0,295</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">185</td=
+>
+                  <td class=3D"xl4215450" style=3D"border-top:none">0,247</=
+td>
+                  <td class=3D"xl5515450" style=3D"border-top:none">0,251</=
+td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">0,29</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,289</td>
+                  <td class=3D"xl3515450" style=3D"border-top:none;border-l=
+eft:none">0,217</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">0,251</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,25</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2615450" style=3D"border-top:none">240</td=
+>
+                  <td class=3D"xl4015450" style=3D"border-top:none">0,188</=
+td>
+                  <td class=3D"xl5415450" style=3D"border-top:none">0,193</=
+td>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">0,239</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">0,245</td>
+                  <td class=3D"xl3015450" style=3D"border-top:none;border-l=
+eft:none">0,167</td>
+                  <td class=3D"xl3115450" style=3D"border-top:none;border-l=
+eft:none">0,207</td>
+                  <td class=3D"xl3215450" style=3D"border-top:none;border-l=
+eft:none">0,212</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl2715450" style=3D"border-top:none">300</td=
+>
+                  <td class=3D"xl4115450" style=3D"border-top:none">0,15</t=
+d>
+                  <td class=3D"xl4515450" style=3D"border-top:none">0,156</=
+td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">0,206</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">0,215</td>
+                  <td class=3D"xl3315450" style=3D"border-top:none;border-l=
+eft:none">0,135</td>
+                  <td class=3D"xl2915450" style=3D"border-top:none;border-l=
+eft:none">0,178</td>
+                  <td class=3D"xl3415450" style=3D"border-top:none;border-l=
+eft:none">0,186</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">400</td=
+>
+                  <td class=3D"xl4215450" style=3D"border-top:none">0,117</=
+td>
+                  <td class=3D"xl5515450" style=3D"border-top:none">0,125</=
+td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">0,177</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,189</td>
+                  <td class=3D"xl3515450" style=3D"border-top:none;border-l=
+eft:none">0,108</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">0,153</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,164</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"17" style=3D"height:12.75pt">
+                  <td height=3D"17" class=3D"xl1515450" style=3D"height:12.=
+75pt"></td>
+                  <td class=3D"xl5015450">500</td>
+                  <td class=3D"xl4015450" style=3D"border-top:none">0,0932<=
+/td>
+                  <td class=3D"xl5615450">0,102</td>
+                  <td class=3D"xl5215450" style=3D"border-left:none">0,157<=
+/td>
+                  <td class=3D"xl5315450" style=3D"border-left:none">0,171<=
+/td>
+                  <td class=3D"xl5115450" style=3D"border-left:none">0,0887=
+</td>
+                  <td class=3D"xl5215450" style=3D"border-left:none">0,136<=
+/td>
+                  <td class=3D"xl5315450" style=3D"border-left:none">0,148<=
+/td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"18" style=3D"height:13.5pt">
+                  <td height=3D"18" class=3D"xl1515450" style=3D"height:13.=
+5pt"></td>
+                  <td class=3D"xl2815450" style=3D"border-top:none">630</td=
+>
+                  <td class=3D"xl4215450" style=3D"border-top:none">0,0722<=
+/td>
+                  <td class=3D"xl5515450" style=3D"border-top:none">0,0834<=
+/td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">0,14</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,157</td>
+                  <td class=3D"xl3515450" style=3D"border-top:none;border-l=
+eft:none">0,0722</td>
+                  <td class=3D"xl3615450" style=3D"border-top:none;border-l=
+eft:none">0,122</td>
+                  <td class=3D"xl3715450" style=3D"border-top:none;border-l=
+eft:none">0,136</td>
+                  <td class=3D"xl1515450"></td>
+                </tr>
+                <tr height=3D"0" style=3D"display:none">
+                  <td width=3D"64" style=3D"width:48pt"></td>
+                  <td width=3D"64" style=3D"width:48pt"></td>
+                  <td width=3D"64" style=3D"width:48pt"></td>
+                  <td width=3D"64" style=3D"width:48pt"></td>
+                  <td width=3D"64" style=3D"width:48pt"></td>
+                  <td width=3D"64" style=3D"width:48pt"></td>
+                  <td width=3D"64" style=3D"width:48pt"></td>
+                  <td width=3D"64" style=3D"width:48pt"></td>
+                  <td width=3D"64" style=3D"width:48pt"></td>
+                  <td width=3D"64" style=3D"width:48pt"></td>
+                </tr>
+              </tbody></table>
+            </div>
+            <!-- InstanceEndEditable --></td>
+        </tr>
+      </tbody></table>
+      <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+">
+        <tbody><tr>
+          <td width=3D"15">&nbsp;</td>
+          <td align=3D"left"><a href=3D"http://www.plcforum.it/disclaimer.h=
+tml" class=3D"Stile4">Disclaimer - Copyright - Privacy</a></td>
+          <td align=3D"right">e-mail: <img src=3D"https://www.plcforum.it/i=
+mages/email.png" alt=3D"email" width=3D"106" height=3D"18"> =A9 <em><span c=
+lass=3D"Stile10"> PLC Forum </span>(Marchio depositato)</em></td>
+          <td width=3D"15">&nbsp;</td>
+        </tr>
+      </tbody></table></td>
+    <td width=3D"13" background=3D"https://www.plcforum.it/images/dx.gif">&=
+nbsp;</td>
+  </tr>
+</tbody></table>
+<table width=3D"1006" border=3D"0" align=3D"center" cellpadding=3D"0" cells=
+pacing=3D"0" background=3D"https://www.plcforum.it/images/dw.gif">
+  <tbody><tr>
+    <td height=3D"13"></td>
+  </tr>
+</tbody></table>
+
+
+
+
+</body><!-- InstanceEnd --></html>
+------MultipartBoundary--4vIAGqcgFQua2sNFCCyJZuq83qqUuuZIU97my4hDWX----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.plcforum.it/style.css
+
+@charset "windows-1252";
+=0A
+------MultipartBoundary--4vIAGqcgFQua2sNFCCyJZuq83qqUuuZIU97my4hDWX----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-93fc7cb2-ddfc-4bea-8384-ae2fadd8185e@mhtml.blink
+
+@charset "windows-1252";
+
+.font515450 { color: windowtext; font-size: 10pt; font-weight: 700; font-st=
+yle: normal; text-decoration: none; font-family: Arial, sans-serif; }
+
+.xl1515450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; vertical-align: bottom; white-space: n=
+owrap; }
+
+.xl2515450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; white-space: nowrap; }
+
+.xl2615450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: 1pt solid windowtext; border-right: none; border-bottom: =
+0.5pt solid windowtext; border-left: 1pt solid windowtext; white-space: now=
+rap; }
+
+.xl2715450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: 0.5pt solid windowtext; border-right: none; border-bottom=
+: 0.5pt solid windowtext; border-left: 1pt solid windowtext; white-space: n=
+owrap; }
+
+.xl2815450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: 0.5pt solid windowtext; border-right: none; border-bottom=
+: 1pt solid windowtext; border-left: 1pt solid windowtext; white-space: now=
+rap; }
+
+.xl2915450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border: 0.5pt solid windowtext; white-space: nowrap; }
+
+.xl3015450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-width: 1pt 0.5pt 0.5pt 1pt; border-style: solid; border-color:=
+ windowtext; white-space: nowrap; }
+
+.xl3115450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-width: 1pt 0.5pt 0.5pt; border-style: solid; border-color: win=
+dowtext; white-space: nowrap; }
+
+.xl3215450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-width: 1pt 1pt 0.5pt 0.5pt; border-style: solid; border-color:=
+ windowtext; white-space: nowrap; }
+
+.xl3315450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-width: 0.5pt 0.5pt 0.5pt 1pt; border-style: solid; border-colo=
+r: windowtext; white-space: nowrap; }
+
+.xl3415450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-width: 0.5pt 1pt 0.5pt 0.5pt; border-style: solid; border-colo=
+r: windowtext; white-space: nowrap; }
+
+.xl3515450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-width: 0.5pt 0.5pt 1pt 1pt; border-style: solid; border-color:=
+ windowtext; white-space: nowrap; }
+
+.xl3615450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-width: 0.5pt 0.5pt 1pt; border-style: solid; border-color: win=
+dowtext; white-space: nowrap; }
+
+.xl3715450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-width: 0.5pt 1pt 1pt 0.5pt; border-style: solid; border-color:=
+ windowtext; white-space: nowrap; }
+
+.xl3815450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext;=
+ border-bottom: none; border-left: 1pt solid windowtext; white-space: nowra=
+p; }
+
+.xl3915450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: none; border-right: 1pt solid windowtext; border-bottom: =
+none; border-left: 1pt solid windowtext; white-space: nowrap; }
+
+.xl4015450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-width: 1pt 1pt 0.5pt; border-style: solid; border-color: windo=
+wtext; white-space: nowrap; }
+
+.xl4115450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-width: 0.5pt 1pt; border-style: solid; border-color: windowtex=
+t; white-space: nowrap; }
+
+.xl4215450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-width: 0.5pt 1pt 1pt; border-style: solid; border-color: windo=
+wtext; white-space: nowrap; }
+
+.xl4315450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: blue; font-size: 10pt; font-weight: 700; font-style: italic; text-decorat=
+ion: none; font-family: Arial, sans-serif; text-align: center; vertical-ali=
+gn: bottom; white-space: nowrap; }
+
+.xl4415450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; vertical-align: bottom; border-top: 1p=
+t solid windowtext; border-right: 1pt solid windowtext; border-bottom: none=
+; border-left: 1pt solid windowtext; white-space: nowrap; }
+
+.xl4515450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: 0.5pt solid windowtext; border-right: 0.5pt solid windowt=
+ext; border-bottom: 0.5pt solid windowtext; border-left: none; white-space:=
+ nowrap; }
+
+.xl4615450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: 1pt solid windowtext; border-right: 0.5pt solid windowtex=
+t; border-bottom: none; border-left: 1pt solid windowtext; white-space: now=
+rap; }
+
+.xl4715450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: 1pt solid windowtext; border-right: 0.5pt solid windowtex=
+t; border-bottom: none; border-left: 0.5pt solid windowtext; white-space: n=
+owrap; }
+
+.xl4815450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext;=
+ border-bottom: none; border-left: 0.5pt solid windowtext; white-space: now=
+rap; }
+
+.xl4915450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; vertical-align: bottom; border-top: no=
+ne; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext=
+; border-left: 1pt solid windowtext; white-space: nowrap; }
+
+.xl5015450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: none; border-right: none; border-bottom: 0.5pt solid wind=
+owtext; border-left: 1pt solid windowtext; white-space: nowrap; }
+
+.xl5115450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: none; border-right: 0.5pt solid windowtext; border-bottom=
+: 0.5pt solid windowtext; border-left: 1pt solid windowtext; white-space: n=
+owrap; }
+
+.xl5215450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: none; border-right: 0.5pt solid windowtext; border-bottom=
+: 0.5pt solid windowtext; border-left: 0.5pt solid windowtext; white-space:=
+ nowrap; }
+
+.xl5315450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: none; border-right: 1pt solid windowtext; border-bottom: =
+0.5pt solid windowtext; border-left: 0.5pt solid windowtext; white-space: n=
+owrap; }
+
+.xl5415450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: 1pt solid windowtext; border-right: 0.5pt solid windowtex=
+t; border-bottom: 0.5pt solid windowtext; border-left: none; white-space: n=
+owrap; }
+
+.xl5515450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: 0.5pt solid windowtext; border-right: 0.5pt solid windowt=
+ext; border-bottom: 1pt solid windowtext; border-left: none; white-space: n=
+owrap; }
+
+.xl5615450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: none; border-right: 0.5pt solid windowtext; border-bottom=
+: 0.5pt solid windowtext; border-left: none; white-space: nowrap; }
+
+.xl6015450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: none; border-right: none; border-bottom: 1pt solid window=
+text; border-left: none; white-space: nowrap; }
+
+.xl6115450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: blue; font-size: 10pt; font-weight: 700; font-style: italic; text-decorat=
+ion: none; font-family: Arial, sans-serif; text-align: center; vertical-ali=
+gn: bottom; border-top: 1pt solid windowtext; border-right: none; border-bo=
+ttom: 1pt solid windowtext; border-left: 1pt solid windowtext; white-space:=
+ nowrap; }
+
+.xl6415450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 700; font-style: normal; text-d=
+ecoration: none; font-family: Arial, sans-serif; text-align: center; vertic=
+al-align: bottom; border-top: 1pt solid windowtext; border-right: none; bor=
+der-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; white-=
+space: nowrap; }
+
+.xl6715450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; vertical-align: bo=
+ttom; border-top: 1pt solid windowtext; border-right: none; border-bottom: =
+1pt solid windowtext; border-left: 1pt solid windowtext; white-space: nowra=
+p; }
+
+.xl6915450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: red; font-size: 10pt; font-weight: 400; font-style: normal; text-decorati=
+on: none; font-family: Arial, sans-serif; text-align: center; vertical-alig=
+n: bottom; border-top: 1pt solid windowtext; border-right: none; border-bot=
+tom: none; border-left: 1pt solid windowtext; white-space: nowrap; }
+
+.xl7215450 { padding-top: 1px; padding-right: 1px; padding-left: 1px; color=
+: windowtext; font-size: 10pt; font-weight: 400; font-style: normal; text-d=
+ecoration: none; font-family: Arial; text-align: center; border-top: 1pt so=
+lid windowtext; border-right: 1pt solid windowtext; border-bottom: none; bo=
+rder-left: 1pt solid windowtext; white-space: nowrap; }
+------MultipartBoundary--4vIAGqcgFQua2sNFCCyJZuq83qqUuuZIU97my4hDWX------

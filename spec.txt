@@ -1,6 +1,6 @@
 The website is a highly specialized, professional resource for engineers, architects, and technicians. This places it firmly in Google's YMYL (Your Money or Your Life) category, as the calculations (e.g., structural, safety, electrical) have high-stakes implications. Here is how to apply E-E-A-T to your content:
 
-Experience (The ""Who"")
+## Experience (The ""Who"")
 
 Do not be anonymous. Introduce the people (engineers, architects) who built and validate the tools.
 
@@ -8,7 +8,7 @@ Include their full names, professional qualifications (e.g., ""Ing."", ""Arch.""
 
 Link to their professional profiles (like LinkedIn) or registration with a professional order (e.g., Albo degli Ingegneri).
 
-Expertise (The ""How"")
+## Expertise (The ""How"")
 On-Page Transparency (Per-Calculator Basis): This is non-negotiable. Every single calculator page must clearly state:
 
 The specific regulations used: (e.g., ""Calculation performed according to NTC 2018, Capitolo 7.2""). The site claims this; it must be highly visible.
@@ -19,7 +19,7 @@ Assumptions and Limitations: Clearly state what the calculator does and does not
 
 Date of Last Update: Especially for tools based on regulations, show ""Last validated against [Regulation Name] on [Date].""
 
-Authoritativeness (The ""Proof"")
+## Authoritativeness (The ""Proof"")
 Author Bios: For any blog posts or guides, each article must have a clear author bio box at the top or bottom, linking back to their detailed profile on the ""About Us"" page.
 
 Testimonials: Add a ""Used By"" or ""Testimonials"" section featuring quotes from other named professionals (engineers, firms) who use your tools.
@@ -29,7 +29,7 @@ Structured Data (Schema): Use Person schema for your authors/experts to explicit
 Disclaimer: It should clearly state that the tools are for professional use, as an aid, and should not replace independent professional verification.
 ""The website is a highly specialized, professional resource for engineers, architects, and technicians. This places it firmly in Google's YMYL (Your Money or Your Life) category, as the calculations (e.g., structural, safety, electrical) have high-stakes implications. Here is how to apply E-E-A-T to your content:
 
-Experience (The ""Who"")
+## Experience (The ""Who"")
 
 Do not be anonymous. Introduce the people (engineers, architects) who built and validate the tools.
 
@@ -37,7 +37,7 @@ Include their full names, professional qualifications (e.g., ""Ing."", ""Arch.""
 
 Link to their professional profiles (like LinkedIn) or registration with a professional order (e.g., Albo degli Ingegneri).
 
-Expertise (The ""How"")
+## Expertise (The ""How"")
 On-Page Transparency (Per-Calculator Basis): This is non-negotiable. Every single calculator page must clearly state:
 
 The specific regulations used: (e.g., ""Calculation performed according to NTC 2018, Capitolo 7.2""). The site claims this; it must be highly visible.
@@ -48,7 +48,7 @@ Assumptions and Limitations: Clearly state what the calculator does and does not
 
 Date of Last Update: Especially for tools based on regulations, show ""Last validated against [Regulation Name] on [Date].""
 
-Authoritativeness (The ""Proof"")
+## Authoritativeness (The ""Proof"")
 Author Bios: For any blog posts or guides, each article must have a clear author bio box at the top or bottom, linking back to their detailed profile on the ""About Us"" page.
 
 Testimonials: Add a ""Used By"" or ""Testimonials"" section featuring quotes from other named professionals (engineers, firms) who use your tools.
@@ -56,3 +56,12 @@ Testimonials: Add a ""Used By"" or ""Testimonials"" section featuring quotes fro
 Structured Data (Schema): Use Person schema for your authors/experts to explicitly tell Google who they are and what their credentials are.
 
 Disclaimer: It should clearly state that the tools are for professional use, as an aid, and should not replace independent professional verification.
+
+
+
+## Schema JSON-LD le Pagine CALCOLATORE
+Questo è il modello più importante. Usiamo lo schema WebPage che ha come mainEntity (entità principale) uno SoftwareApplication (il calcolatore).
+
+Pagina Esempio: /ingegneria-strutturale/calcolo-trave-appoggiata Da implementare in: pages/ingegneria-strutturale/calcolo-trave-appoggiata.js (o file equivalente)
+
+Questo codice va inserito nel componente <Head> della sua pagina Next.js.
