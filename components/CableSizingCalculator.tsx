@@ -217,6 +217,19 @@ export default function CableSizingCalculator() {
     nConductors,
   ]);
 
+  const alternativeSections = useMemo(() => {
+    if (!result) {
+      return [];
+    }
+    return standardSections
+      .filter((section) =>
+        material === 'copper'
+          ? section.copperAmpacity >= result.adjustedAmpacity
+          : section.aluminumAmpacity >= result.adjustedAmpacity
+      )
+      .slice(0, 5);
+  }, [result, material]);
+
   return (
     <div className="calculator-widget space-y-10">
       <section className="section-card border-blue-100">
@@ -406,3 +419,148 @@ export default function CableSizingCalculator() {
                     <option key={key} value={key}>
                       {data.label}
                     </option>
+                  ))}
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {result ? (
+        <>
+          <section className="section-card border-green-100">
+            <h2 className="text-2xl font-semibold text-gray-900">
+              Risultati principali
+            </h2>
+            <p className="mt-1 text-sm text-gray-600">
+              La sezione suggerita rispetta la portata Iz corretta per il metodo di posa scelto e
+              confronta la caduta di tensione con il limite impostato.
+            </p>
+            <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+              {result.summary.map((item) => (
+                <div
+                  key={item.label}
+                  className="rounded-lg border border-green-100 bg-green-50 p-4 text-sm text-green-900"
+                >
+                  <p className="font-semibold">{item.label}</p>
+                  <p className="mt-1 text-base font-medium">{item.value}</p>
+                </div>
+              ))}
+            </div>
+
+            {result.warnings.length > 0 && (
+              <div className="mt-6 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
+                <h3 className="text-lg font-semibold">Attenzioni progettuali</h3>
+                <ul className="mt-2 list-disc list-inside space-y-1">
+                  {result.warnings.map((warning) => (
+                    <li key={warning}>{warning}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </section>
+
+          <section className="section-card">
+            <h2 className="text-2xl font-semibold text-gray-900">
+              Tabelle di verifica sezioni disponibili
+            </h2>
+            <p className="mt-1 text-sm text-gray-600">
+              Le sezioni sotto riportate derivano dalle tabelle CEI 64-8 per conduttori unipolari.
+              Applica ulteriori coefficienti nel caso di posa di più circuiti affiancati o temperatura
+              ambiente anomala.
+            </p>
+
+            <div className="mt-6 overflow-x-auto">
+              <table className="min-w-full divide-y divide-gray-200 text-sm">
+                <thead className="bg-gray-50 text-gray-700">
+                  <tr>
+                    <th className="px-4 py-3 text-left font-semibold">Sezione (mm²)</th>
+                    <th className="px-4 py-3 text-left font-semibold">Portata rame (A)</th>
+                    <th className="px-4 py-3 text-left font-semibold">Portata alluminio (A)</th>
+                    <th className="px-4 py-3 text-left font-semibold">Idoneità</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200 text-gray-700">
+                  {alternativeSections.map((section) => {
+                    const copperCheck = section.copperAmpacity >= result.adjustedAmpacity;
+                    const aluminumCheck = section.aluminumAmpacity >= result.adjustedAmpacity;
+                    const isRecommended =
+                      result.recommendedSection &&
+                      result.recommendedSection.section === section.section;
+                    return (
+                      <tr
+                        key={section.section}
+                        className={isRecommended ? 'bg-green-50' : undefined}
+                      >
+                        <td className="px-4 py-3 font-medium">
+                          {section.section} mm²
+                          {isRecommended && (
+                            <span className="ml-2 rounded-full bg-green-200 px-2 py-0.5 text-xs font-semibold text-green-900">
+                              Consigliata
+                            </span>
+                          )}
+                        </td>
+                        <td className="px-4 py-3">{section.copperAmpacity} A</td>
+                        <td className="px-4 py-3">{section.aluminumAmpacity} A</td>
+                        <td className="px-4 py-3">
+                          {material === 'copper'
+                            ? copperCheck
+                              ? 'Sì'
+                              : 'No'
+                            : aluminumCheck
+                            ? 'Sì'
+                            : 'No'}
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+
+            <div className="mt-6 rounded-lg border border-gray-200 bg-gray-50 p-4 text-sm text-gray-700">
+              <h3 className="text-base font-semibold text-gray-900">
+                Suggerimento professionale
+              </h3>
+              <p className="mt-2">
+                Mantieni un margine di sicurezza sulla portata progettuale e verifica la coordinazione
+                con le protezioni magnetotermiche. Se la caduta di tensione è elevata valuta sezioni
+                superiori, l&apos;uso del rame o la distribuzione dei carichi su più linee.
+              </p>
+            </div>
+          </section>
+        </>
+      ) : (
+        <section className="section-card border border-dashed border-gray-200 bg-gray-50">
+          <h2 className="text-2xl font-semibold text-gray-900">
+            Inserisci i dati per avviare il dimensionamento
+          </h2>
+          <p className="mt-2 text-sm text-gray-600">
+            Compila tensione, potenza o corrente e scegli il metodo di posa per ottenere la sezione
+            minima del cavo e la verifica della caduta di tensione secondo CEI 64-8.
+          </p>
+        </section>
+      )}
+
+      <section className="section-card space-y-3">
+        <h2 className="text-2xl font-semibold text-gray-900">
+          Norme e riferimenti tecnici
+        </h2>
+        <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
+          <li>CEI 64-8, Cap. 52 — Scelta e posa dei componenti elettrici.</li>
+          <li>CEI UNEL 35024 — Portata dei cavi isolati in PVC per posa fissa.</li>
+          <li>Guida CEI 64-50 — Limiti di caduta di tensione negli impianti BT.</li>
+          <li>DM 37/2008 — Dichiarazione di conformità degli impianti elettrici.</li>
+        </ul>
+      </section>
+
+      <AuthorReviewerBox
+        writtenBy="Team di Calcolo.online - Sezione Elettrotecnica"
+        reviewedBy="Ing. Ugo Candido (Ordine Udine n. 2389)"
+        lastReviewDate="2025-03-09"
+        referenceStandard="CEI 64-8, CEI UNEL 35024, DM 37/2008"
+      />
+    </div>
+  );
+}
