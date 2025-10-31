@@ -203,17 +203,22 @@ function computeResult(params: {
   }
 
   const alternativeBreakers = breakerRatings.map((rating) => {
-    const thermalOk = 1.45 * rating <= thermalLimit + 1e-6 && rating <= adjustedCapacity + 1e-6;
+    const thermalOk =
+      1.45 * rating <= thermalLimit + 1e-6 && rating <= adjustedCapacity + 1e-6;
     const withinDesign = designCurrent <= rating + 1e-6;
     const minMag = instantSettings.minMultiple * rating;
     const maxMag = instantSettings.maxMultiple * rating;
-    const magStatus =
-      ik < minMag ? 'low' : ik > maxMag ? 'high' : ('ok' as const);
+    let magneticStatus: 'ok' | 'low' | 'high' = 'ok';
+    if (ik < minMag) {
+      magneticStatus = 'low';
+    } else if (ik > maxMag) {
+      magneticStatus = 'high';
+    }
     return {
       rating,
       compliant: thermalOk && withinDesign,
       thermalCheckOk: thermalOk,
-      magneticCheckStatus: magStatus,
+      magneticCheckStatus: magneticStatus,
     };
   });
 
