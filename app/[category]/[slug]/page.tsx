@@ -36,6 +36,7 @@ import ConduitSizingCalculator from '@/components/ConduitSizingCalculator';
 import EarthResistanceCalculator from '@/components/EarthResistanceCalculator';
 import PowerFactorCorrectionCalculator from '@/components/PowerFactorCorrectionCalculator';
 import OhmsLawPowerCalculator from '@/components/OhmsLawPowerCalculator';
+import IlluminanceLampsCalculator from '@/components/IlluminanceLampsCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -195,6 +196,23 @@ const faqContentBySlug: Record<
       question: 'Posso usare il risultato per dimensionare protezioni e cavi?',
       answer:
         'Sì. Una volta determinati Ib, S e cos φ puoi confrontarli con i limiti CEI 64-8 per le protezioni (art. 433) e, integrandoli con la caduta di tensione, scegliere sezione e interruttore. In fase di progetto allega comunque le verifiche di caduta e corto circuito dedicate.',
+    },
+  ],
+  'calcolo-illuminotecnico-numero-lampade': [
+    {
+      question: 'Quale metodo di calcolo utilizza per stimare il numero di lampade?',
+      answer:
+        'Il tool applica il metodo del flusso totale (cavità zonale) previsto da UNI EN 12464-1 e UNI 10380, utilizzando il fattore di utilizzazione UF e il maintenance factor MF impostati dal progettista o stimati a partire dalle riflettanze del locale.',
+    },
+    {
+      question: 'Posso stimare il fattore di utilizzazione senza le curve fotometriche del costruttore?',
+      answer:
+        'Sì, attivando la modalità “Calcola da riflettanze” il calcolatore ricava un UF indicativo in funzione dell’indice del locale K e delle riflettanze di soffitto, pareti e pavimento. Per la progettazione esecutiva è comunque raccomandato utilizzare i dati IES/ULD del produttore.',
+    },
+    {
+      question: 'Come verifico uniformità e controllo dell’abbagliamento?',
+      answer:
+        'Il risultato fornisce la spaziatura consigliata e segnala quando il rapporto interasse/altezza supera 1,5. Per il controllo di UGR e uniformità U₀ è necessario un calcolo fotometrico dettagliato (Dialux/Relux) secondo UNI EN 12464-1 allegato B.',
     },
   ],
   'dimensionamento-rete-fognaria': [
@@ -425,6 +443,25 @@ const howToContentBySlug: Record<
       {
         name: 'Analizza i risultati',
         text: 'Verifica corrente Ib, potenze P-Q-S, cos φ e impedenza ottenuti confrontandoli con i limiti CEI 64-8 per il dimensionamento di cavi e protezioni.',
+      },
+    ],
+  },
+  'calcolo-illuminotecnico-numero-lampade': {
+    name: 'Come dimensionare il numero di corpi illuminanti',
+    description:
+      'Sequenza operativa per calcolare le lampade necessarie con il metodo del flusso totale conforme alla UNI EN 12464-1.',
+    steps: [
+      {
+        name: 'Definisci il locale e il compito visivo',
+        text: 'Inserisci lunghezza, larghezza, altezza di montaggio e seleziona lo scenario UNI EN 12464-1 per caricare il valore di illuminamento richiesto.',
+      },
+      {
+        name: 'Imposta i dati dell’apparecchio',
+        text: 'Indica il flusso luminoso per apparecchio, il maintenance factor previsto dal piano di manutenzione e, se disponibile, l’efficienza luminosa per stimare l’assorbimento.',
+      },
+      {
+        name: 'Verifica UF e distribuzione',
+        text: 'Stima il fattore di utilizzazione dalle riflettanze oppure inserisci quello fornito dal costruttore, quindi controlla spaziatura e lux ottenuti prima di esportare il risultato nel report illuminotecnico.',
       },
     ],
   },
@@ -675,6 +712,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'calcolo-trave-appoggiata': SimplySupportedBeamCalculator,
   'calcolo-roi-return-on-investment': ROICalculator,
   'calcolatore-legge-ohm-potenza': OhmsLawPowerCalculator,
+  'calcolo-illuminotecnico-numero-lampade': IlluminanceLampsCalculator,
 };
 
 function normalizeCategoryParam(param: string | undefined): string {

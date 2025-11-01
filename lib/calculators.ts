@@ -547,18 +547,22 @@ export const calculators: Calculator[] = [
     slug: 'calcolo-illuminotecnico-numero-lampade',
     title: 'Calcolo Illuminotecnico (Lux)',
     description:
-      'Calcola il numero di apparecchi illuminanti necessari per raggiungere il livello di illuminamento richiesto tramite il metodo del flusso totale.',
+      'Dimensiona il numero di corpi illuminanti con il metodo del flusso totale (cavità zonale) applicando UF, MF e valori di lux previsti dalla UNI EN 12464-1.',
     metaDescription:
-      'Calcolo illuminotecnico con metodo del flusso totale: numero di lampade e lux richiesti secondo UNI EN 12464-1.',
+      'Calcolatore illuminotecnico professionale per stimare numero di lampade, flusso totale e potenza con metodo del flusso totale secondo UNI EN 12464-1 e UNI 10380.',
     category: 'elettrotecnica',
     keywords: [
       'calcolo lux',
       'illuminazione lavoro',
       'UNI EN 12464-1',
+      'fattore di utilizzazione',
+      'maintenance factor',
+      'numero lampade',
+      'UNI 10380',
     ],
     author: defaultAuthors.ugoCandido,
     datePublished: '2024-11-28',
-    dateModified: '2025-03-04',
+    dateModified: '2025-03-06',
     schema: 'SoftwareApplication',
   },
   {
