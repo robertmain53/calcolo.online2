@@ -1,0 +1,477 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.edutecnica.it/apps/pre/pre.htm
+Subject: =?utf-8?Q?Conversione=20unit=C3=A0=20di=20misura=20pressione?=
+Date: Sat, 1 Nov 2025 18:11:34 +0100
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--J81ncGnTtMw1mMGAfT53hUVVf22nShh8GMuxBM8M3S----"
+
+
+------MultipartBoundary--J81ncGnTtMw1mMGAfT53hUVVf22nShh8GMuxBM8M3S----
+Content-Type: text/html
+Content-ID: <frame-F5CD969EC4B7C48A062BD818DA468C75@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.edutecnica.it/apps/pre/pre.htm
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3Dwindows-1252"><link rel=3D"stylesheet" type=3D"text/css" =
+href=3D"cid:css-9725ddde-b034-4cdb-9381-01e8fa6c3593@mhtml.blink" />
+<title>Conversione unit=E0 di misura pressione</title>
+
+<meta http-equiv=3D"Content-Language" content=3D"it">
+<meta name=3D"Robots" content=3D"All">
+<meta name=3D"Description" content=3D"Conversione unit=E0 di misura di pres=
+sione, da bar a atm, da pascal a bar, da bar a pascal, da pascal a bar, da =
+atm a mmHg">
+<meta name=3D"Keywords" content=3D"bar,atm,pascal,mmHg,torr,kPa,mca,mmHg">
+
+
+
+
+
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<meta http-equiv=3D"imagetoolbar" content=3D"no">
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<header>
+<a href=3D"https://www.edutecnica.it/apps/pre/index.php"><img src=3D"https:=
+//www.edutecnica.it/apps/pre/logus.jpg" width=3D"40px" height=3D"37px" styl=
+e=3D"margin-left:13px;" align=3D"absmiddle" border=3D"0"></a><font style=3D=
+"color:#D0D9CA;margin-left:10px">edutecnica </font>
+
+<div class=3D"dropdown">
+<div class=3D"conta">
+  <div class=3D"bar1"></div>
+  <div class=3D"bar2"></div>
+  <div class=3D"bar3"></div>
+</div>
+
+  <div class=3D"dropdown-content" id=3D"dop" style=3D"display:none;">
+    <a href=3D"https://www.edutecnica.it/elettrotecnica.htm">Elettrotecnica=
+</a>
+    <a href=3D"https://www.edutecnica.it/elettronica.htm">Elettronica</a>
+    <a href=3D"https://www.edutecnica.it/chimica.htm">Chimica</a>
+    <a href=3D"https://www.edutecnica.it/informatica.htm">Informatica</a>
+    <a href=3D"https://www.edutecnica.it/math.htm">Matematica</a>
+    <a href=3D"https://www.edutecnica.it/calcolo.htm">Calcolo</a>
+    <a href=3D"https://www.edutecnica.it/meccanica.htm">Meccanica</a>
+    <a href=3D"https://www.edutecnica.it/macchine.htm">Macchine</a>
+    <a href=3D"https://www.edutecnica.it/chimica.htm">Chimica</a>
+    <a href=3D"https://www.edutecnica.it/maturita.htm">Esami di stato</a>
+    <a href=3D"https://www.edutecnica.it/play.htm">Play</a>
+    <a href=3D"https://www.edutecnica.it/apps.htm">Apps</a>
+    <a href=3D"https://www.edutecnica.it/info.htm">Contatto</a>
+  </div>
+</div>
+
+
+</header>=20
+
+<div class=3D"navbar">=20
+<a href=3D"https://www.edutecnica.it/index.php">Index</a>=20
+<a href=3D"https://www.edutecnica.it/apps.htm">Applicazioni</a> =20
+</div>
+<div class=3D"container" style=3D"background:DarkSeaGreen;">
+<div class=3D"main">
+
+
+
+<br>
+    <h1>Unit=E0 di misura di pressione</h1>
+<hr style=3D"height:2px;border-width:0;color:#454;background-color:#454;max=
+-width:90%;">
+
+
+
+
+<div id=3D"tor">
+
+  =20
+<form action=3D"https://www.edutecnica.it/apps/pre/pre.htm" method=3D"post"=
+ name=3D"calc_form">
+      <table width=3D"100%" border=3D"0" style=3D"min-width:300px;" cellspa=
+cing=3D"0" cellpadding=3D"4">
+        <tbody><tr>=20
+          <td bgcolor=3D"#FFFFCC">=20
+            <div align=3D"right">pascal : </div>
+          </td>
+          <td bgcolor=3D"#FFFFCC">=20
+            <input type=3D"number" name=3D"mPascal" size=3D"10">
+            P</td>
+        </tr>
+        <tr>=20
+          <td bgcolor=3D"#CCFFCC">=20
+            <div align=3D"right">kilo pascal : </div>
+          </td>
+          <td bgcolor=3D"#CCFFCC">=20
+            <input type=3D"number" name=3D"mKilopascal" size=3D"10">
+            kPa</td>
+        </tr>
+        <tr>=20
+          <td bgcolor=3D"#FFFFCC">=20
+            <div align=3D"right">mega pascal : </div>
+          </td>
+          <td bgcolor=3D"#FFFFCC">=20
+            <input type=3D"number" name=3D"mMpa" size=3D"10">
+            MPa</td>
+        </tr>
+        <tr>=20
+          <td bgcolor=3D"#CCFFCC">=20
+            <div align=3D"right">bar : </div>
+          </td>
+          <td bgcolor=3D"#CCFFCC">=20
+            <input type=3D"number" name=3D"mBar" size=3D"10">
+            bar</td>
+        </tr>
+        <tr>=20
+          <td bgcolor=3D"#FFFFCC">=20
+              <div align=3D"right">metri col. d'acqua : </div>
+          </td>
+          <td bgcolor=3D"#FFFFCC">=20
+            <input type=3D"number" name=3D"mMH2O" size=3D"10">
+            m.c.a.</td>
+        </tr>
+        <tr>=20
+          <td bgcolor=3D"#CCFFCC">=20
+              <div align=3D"right">mm di mercurio : </div>
+          </td>
+          <td bgcolor=3D"#CCFFCC">=20
+            <input type=3D"number" name=3D"mmHg" size=3D"10">
+            mm Hg</td>
+        </tr>
+        <tr>=20
+          <td bgcolor=3D"#FFFFCC">=20
+              <div align=3D"right">newton/cm=B2 : </div>
+          </td>
+          <td bgcolor=3D"#FFFFCC">=20
+            <input type=3D"number" name=3D"mNcm2" size=3D"10">
+            N/cm=B2</td>
+        </tr>
+        <tr>=20
+          <td bgcolor=3D"#CCFFCC">=20
+              <div align=3D"right">atmosfera : </div>
+          </td>
+          <td bgcolor=3D"#CCFFCC">=20
+            <input type=3D"number" name=3D"mAtm" size=3D"10">
+            atm</td>
+        </tr>
+        <tr>=20
+          <td bgcolor=3D"#FFFFCC">=20
+            <div align=3D"right">kilogrammo/cm=B2 : </div>
+          </td>
+          <td bgcolor=3D"#FFFFCC">=20
+            <input type=3D"number" name=3D"mkgcm2" size=3D"10">
+            kg/cm=B2</td>
+        </tr>
+        <tr>=20
+          <td bgcolor=3D"#CCFFCC">=20
+            <div align=3D"right">pound / inch=B2 : </div>
+          </td>
+          <td bgcolor=3D"#CCFFCC">=20
+            <input type=3D"number" name=3D"mpsi" size=3D"10">
+            psi</td>
+        </tr>
+        <tr>=20
+          <td bgcolor=3D"#FFFFCC">=20
+            <div align=3D"right">pound / foot=B2 : </div>
+          </td>
+          <td bgcolor=3D"#FFFFCC">=20
+            <input type=3D"number" name=3D"lbfft2" size=3D"10">
+            lbf/ft=B2</td>
+        </tr>
+        <tr>=20
+          <td bgcolor=3D"#CCFFCC">=20
+            <div align=3D"right">foot of water : </div>
+          </td>
+          <td bgcolor=3D"#CCFFCC">=20
+            <input type=3D"number" name=3D"ftH2O" size=3D"10">
+            ft H<font size=3D"-2">2</font>O</td>
+        </tr>
+        <tr>=20
+          <td>=20
+            <div align=3D"right">
+              <input name=3D"submit" type=3D"button" value=3D"Calcola" styl=
+e=3D"background:lightgrey;">
+            </div>
+          </td>
+          <td>
+            <input type=3D"reset" name=3D"Reset" value=3D"  Reset  " style=
+=3D"background:lightgrey;">
+          </td>
+        </tr>
+      </tbody></table>
+</form>
+</div><!-- ###### fine tor ##### -->
+
+    <p>La pressione =E8 una grandezza fisica <span class=3D"ASOTTOLINEATO">=
+scalare</span>=20
+      definita come il rapporto tra il modulo della forza <span class=3D"AE=
+VIDENZIATO">perpendicolare</span>=20
+      alla superficie e l'area della superficie stessa</p>
+    <p><img src=3D"https://www.edutecnica.it/apps/pre/formula.png" width=3D=
+"48" height=3D"53" align=3D"absmiddle" class=3D"ARIQUADRO">=20
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pa=3DN/m<sup>2</sup>]</p>
+    <p>Nel sistema internazionale delle unit=E0 di misura la presssione =E8=
+=20
+      espressa in pascal [Pa].</p>
+<div style=3D"overflow-x:auto;">
+      <table width=3D"350" border=3D"0" cellspacing=3D"0" cellpadding=3D"2"=
+>
+        <tbody><tr>=20
+    <td width=3D"44">&nbsp;</td>
+    <td bgcolor=3D"teal" width=3D"59"><font color=3D"white">Pa</font></td>
+    <td bgcolor=3D"teal" width=3D"76"><font color=3D"white">bar</font></td>
+    <td bgcolor=3D"teal" width=3D"76"><font color=3D"white">atm</font></td>
+    <td bgcolor=3D"teal" width=3D"56"><font color=3D"white">torr</font></td=
+>
+  </tr>
+  <tr bgcolor=3D"#FFFFCC">=20
+    <td width=3D"44">1 Pa</td>
+    <td width=3D"59">1</td>
+    <td width=3D"76">10<sup>-5</sup></td>
+    <td width=3D"76">9,87=B710<sup>-6</sup></td>
+    <td width=3D"56">7,5=B710<sup>-3</sup></td>
+  </tr>
+  <tr bgcolor=3D"#CCFFCC">=20
+    <td width=3D"44">1 bar</td>
+    <td width=3D"59">10<sup>5</sup></td>
+    <td width=3D"76">1</td>
+    <td width=3D"76">0,987</td>
+    <td width=3D"56">750,064</td>
+  </tr>
+  <tr bgcolor=3D"#FFFFCC">=20
+    <td width=3D"44">1 atm</td>
+    <td width=3D"59">101325</td>
+    <td width=3D"76">1,01325</td>
+    <td width=3D"76">1</td>
+    <td width=3D"56">760</td>
+  </tr>
+  <tr bgcolor=3D"#CCFFCC">=20
+    <td width=3D"44">1 torr</td>
+    <td width=3D"59">133,332</td>
+    <td width=3D"76">1,333=B710<sup>-3</sup></td>
+    <td width=3D"76">1,315=B710<sup>-3</sup></td>
+    <td width=3D"56">1</td>
+  </tr>
+</tbody></table>
+</div>
+<p>1 torr &#8801; 1 mm Hg</p>
+<br><div id=3D"ads"></div><br>
+
+
+
+
+</div><!-- fine main -->
+</div><!-- fine container -->
+<div class=3D"navbar" style=3D"margin-top:-20px;">
+<a href=3D"https://www.edutecnica.it/index.php">Index</a>=20
+<a href=3D"https://www.edutecnica.it/apps.htm">Applicazioni</a> =20
+</div>
+
+
+
+<div id=3D"cookieChoiceInfo" style=3D"position: fixed; width: 100%; margin:=
+ 0px; left: 0px; top: 0px; padding: 4px; z-index: 1000; text-align: center;=
+ color: black; font: 12px verdana; background: rgba(255, 255, 255, 0.5); te=
+xt-decoration: none;"><span>Questo sito fa uso di cookie.Proseguendo nella =
+navigazione si accetta l=92uso di cookie.</span><a href=3D"http://www.garan=
+teprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/3881513" target=
+=3D"_blank" style=3D"margin-left: 8px; text-decoration: none; color: red;">=
+INFORMAZIONI</a><a id=3D"cookieChoiceDismiss" href=3D"https://www.edutecnic=
+a.it/apps/pre/pre.htm#" style=3D"margin-left: 24px; text-decoration: none; =
+color: red;">CHIUDI</a></div></body></html>
+------MultipartBoundary--J81ncGnTtMw1mMGAfT53hUVVf22nShh8GMuxBM8M3S----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.edutecnica.it/apps/pre/formula.png
+
+iVBORw0KGgoAAAANSUhEUgAAADAAAAA1CAIAAAH/qs/1AAAD9UlEQVRYhd1YMW/bOhA+BV7SJQay
+PiP14tXSL7AMrw0gL+1YezIyRUG3oEBkwOiWV3l5gadQY7tERrwGlZZ4LDVWSyWoqwBqiUZ1oMvI
+sp3ItKsY75so4nj8dDweP1JIkhHMYw8WsKIrimIA6PcntEt43le1er7EKsdAxwlKc0OEXpKM9gDA
+90PKgDoRZLn27duHNd0vt1rEknEMjEhuT90uYt/N5mWzebk2J9t2n+LUbl8BQKNRy8Vp4xDkMhKE
+3vNGolih3LfHqUTnVhTx5uaEJe3FxZusUZKMKEfL+rHUaGNOuUKQJCPDmD5jBAAI3W+D0yO5PJ7y
+INdsf9cRDTStU/yO2u2rTEx4HEVR7HkhbR8c7M8IbivYJTaJqn65vu6cnX1V1dbR0eGqASwHs/2z
+Oir0kmTUbl/d3JzwMdoDgPEYI9QBgLW8VKvntu2Ox5hWRP4YSdJAlmufP7+ln6WnrVfBtt3v3z/C
+n5hsxMi2XVGsbH/5/0+bdvccSdIg3eB01O9PEHoPAFEUm+YJcK+aIPQ07ZiQB5bZnIzK5VcXF29k
+ufbomoPReIw9Lzw9bc1x5HBUrZ7//Pkp07l7mT0rI/3+hC4BKwuGMWUVHhZUwyLmSm26sXLAspot
+y7USawGAbbuWNRPAZ2dfMQ6YKRPGq6YpAYDjBIoiRlFsWS77BZZpOSEkyajZvMwocQ7sAYBluesO
+i6K420W27bKQzZTduo4U5T+EOkdHhyymnAkZRXG5rKbHcibkwcE+IXo6FXgc+X5IfSmK6DgBvyNd
+v2Pter1CGzwxoow8L2w0NqtHS7EDp0gGW/u1bWFrf7Yt7BwhTgHJB8cJNG1imhj+VHYKWg0x/liv
+VwolVK9XVLVlmljX32ZO++Hwju79opNakgaEPDDV0O0iXX/H5DUUvGSGMcU4QKhj265luaaJVbWV
+ZgMFR4i9d9DPKIozbKDIXUbfu+iFkGKRDRQTId8PTRMTEgOALNfSd7KXIbQW5pLacQKMfyF0r6ot
+QmLL+uF5oaKImS36V5GNkCQNMA487xN9gOj3J5p2a1kf0kd7Ri1n8Kx4XoOQYUw7HcTYAEC1ev76
+9eHm6jQ/5naZpt1q2jFjI0kDRRGLZAPpHBoO7wiJRfEf+igqyzX63FEwZktGdbKmHW+YAXng+yFC
+U0IePC9U1VajURsO79i+mV2GCImp9vf98In3tM3R7SKEpuk0NYwpLVGPhJjELgCiWAGYatrt9XWH
+9iiKmK6TRQu009MWITrGvwShR5P1JQ/X9GnqOIEs/1su72ceMIqLENUe7JOKNc8L2eM3RXF6CKF7
+mryKIgIAIQ8YB4ToL7lkebBzt46dI/QbGP4d1E6JpEwAAAAASUVORK5CYII=
+
+------MultipartBoundary--J81ncGnTtMw1mMGAfT53hUVVf22nShh8GMuxBM8M3S----
+Content-Type: image/jpeg
+Content-Transfer-Encoding: base64
+Content-Location: https://www.edutecnica.it/apps/pre/logus.jpg
+
+/9j/4AAQSkZJRgABAQEABwAHAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEB
+AQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAAlACgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9LNY8
+FeOPE3xN0z4efC6S60jw/H4T8JarpM1jfz6To40O98M6NdXvi3WbixcR3F1qF9PM+oXnl3F5dXoW
+xhWaSKGOutttL+EXw4t794tDPxx8SxmaLUPFHiGQW/gdLlJre31BPDNsi39z4i+x3cyQ3mp3bJo8
+E7Qp/wAJFptxqMFtdepeBtJuZfg58NPhlqHi638N+JvixppuYNQltEGp3Pw807XH1C48H22qRL9p
+We70LX7jUPDiXSzxSy3Os6KjWtvNDIvJaBYQGL/hIp9NfTi3hD4h+PLXR2t5oX8O+FvA3inTPBXh
+bQYbZys9snhXTbrxJ4reJUa/ufERtNWvXn1ezhkg/LlTUbVIqLlUXtG5pTVBTUGqcKbvFShGpB3m
+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
+
+------MultipartBoundary--J81ncGnTtMw1mMGAfT53hUVVf22nShh8GMuxBM8M3S----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-9725ddde-b034-4cdb-9381-01e8fa6c3593@mhtml.blink
+
+@charset "windows-1252";
+
+body { margin: 0px; background-color: rgb(134, 153, 120); }
+
+header { font-family: Georgia, "Times New Roman", Times, serif; font-size: =
+16px; font-weight: bold; letter-spacing: 1px; color: rgb(208, 217, 202); te=
+xt-decoration: none; font-variant: small-caps; text-transform: capitalize; =
+background-color: rgb(134, 153, 120); height: 44px; line-height: 40px; bord=
+er-bottom: 1px solid rgb(204, 255, 0); }
+
+.navbar { overflow: hidden; background-color: rgb(134, 153, 120); top: 40px=
+; width: 100%; font: small-caps bold 14px Georgia, "Times New Roman", Times=
+, serif; letter-spacing: 1px; }
+
+.navbar a { float: left; display: block; color: rgb(208, 217, 202); text-al=
+ign: center; padding: 10px 16px; text-decoration: none; font-size: 17px; }
+
+.navbar a:hover { background: rgb(51, 102, 102); color: white; }
+
+.main { padding-left: 20px; max-width: 1000px; background: white; margin-le=
+ft: auto; margin-right: auto; padding-right: 20px; }
+
+img { max-width: 100%; height: auto; }
+
+p, .x { font-family: Lusitana, serif, Georgia, "Palatino Linotype", Times; =
+font-size: 17px; color: rgb(0, 0, 0); font-weight: normal; line-height: 150=
+%; margin-right: 10px; }
+
+.dropdown { position: absolute; top: 0px; right: 0px; display: inline-block=
+; width: 43px; z-index: 1; float: right; }
+
+.conta { display: inline-block; cursor: pointer; }
+
+.bar1, .bar2, .bar3 { width: 35px; height: 5px; background-color: rgb(208, =
+217, 202); margin: 6px 0px; transition: 0.4s; }
+
+.change .bar1 { transform: rotate(-45deg) translate(-9px, 6px); }
+
+.change .bar2 { opacity: 0; }
+
+.change .bar3 { transform: rotate(45deg) translate(-8px, -8px); }
+
+.dropdown-content { font: small-caps bold 14px Georgia, "Times New Roman", =
+Times, serif; letter-spacing: 1px; border: 1px solid rgb(204, 255, 0); posi=
+tion: absolute; background-color: rgb(134, 153, 120); min-width: 220px; z-i=
+ndex: 2; right: 0px; top: 44px; display: none; }
+
+.dropdown-content a { color: rgb(208, 217, 202); padding: 12px 10px; text-d=
+ecoration: none; display: block; }
+
+.dropdown-content a:hover { background-color: rgb(51, 102, 102); color: whi=
+te; }
+
+img.p4 { padding-bottom: 6px; }
+
+img.p6 { padding-bottom: 6px; }
+
+img.p8 { padding-bottom: 8px; }
+
+img.p10 { padding-bottom: 10px; }
+
+img.p12 { padding-bottom: 10px; }
+
+.titolo { font-family: Georgia, "Times New Roman", Times, serif; font-size:=
+ 11pt; letter-spacing: 2px; color: indianred; font-weight: bold; text-align=
+: justify; border-bottom: 2px solid indianred; font-variant: small-caps; te=
+xt-decoration: underline; }
+
+.AES { background: rgb(255, 255, 153); padding: 3px; border-bottom: 2px sol=
+id black; }
+
+img.ARIQUADRO { border: 2px solid indianred; padding: 8px; background: rgb(=
+255, 255, 153); }
+
+img.AFORMULA { vertical-align: middle; padding-bottom: 8px; }
+
+.AEVIDENZIATO { background: rgb(255, 255, 153); padding: 3px; }
+
+.ASOTTOLINEATO { border-bottom: 2px solid black; }
+
+h1 { font-family: "Times New Roman", Times, serif; font-weight: bold; text-=
+align: center; font-size: 13pt; letter-spacing: 3px; color: rgb(68, 85, 68)=
+; }
+
+a { text-decoration: none; }
+
+a.jk:link { color: red; text-decoration: none; }
+
+a.jk:visited { color: red; text-decoration: none; }
+
+a.jk:hover { color: red; border-bottom: 3px solid red; }
+
+.q, td, input { font: bold 14px arial, sans; }
+
+@media only screen and (max-width: 480px) {
+  .main { padding-left: 3px; padding-right: 3px; }
+  #tor, input, td { font: 12px verdana, arial; }
+}
+
+input[type=3D"number"] { width: 100px; }
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { appear=
+ance: none; }
+------MultipartBoundary--J81ncGnTtMw1mMGAfT53hUVVf22nShh8GMuxBM8M3S------

@@ -969,18 +969,22 @@ export const calculators: Calculator[] = [
     slug: 'convertitore-pressione-bar-psi-pa',
     title: 'Convertitore Pressione',
     description:
-      'Converti rapidamente tra Pascal, bar, atmosfere, psi, Torr e metri colonna d’acqua per applicazioni industriali.',
+      'Converti pressioni in pochi secondi tra unità SI e tecniche (Pa, bar, psi, atm, Torr, colonna d’acqua) con gestione di pressioni assolute e relative.',
     metaDescription:
-      'Convertitore di pressione online: Pascal, bar, atm, psi, Torr e metri colonna d’acqua.',
+      'Convertitore di pressione professionale: Pascal, bar, psi, atm, Torr, inH₂O e kgf/cm² con supporto a pressioni gauge e assolute.',
     category: 'convertitori-tecnici',
     keywords: [
       'convertitore pressione',
       'bar psi',
       'pascal atm',
+      'torr mmHg',
+      'colonna d acqua',
+      'pressione assoluta',
+      'pressione relativa',
     ],
     author: defaultAuthors.ugoCandido,
     datePublished: '2024-12-28',
-    dateModified: '2025-03-28',
+    dateModified: '2025-03-30',
     schema: 'SoftwareApplication',
   },
   {

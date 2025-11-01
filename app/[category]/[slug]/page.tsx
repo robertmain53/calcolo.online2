@@ -39,6 +39,7 @@ import OhmsLawPowerCalculator from '@/components/OhmsLawPowerCalculator';
 import IlluminanceLampsCalculator from '@/components/IlluminanceLampsCalculator';
 import MotorInrushCalculator from '@/components/MotorInrushCalculator';
 import LowVoltageCableCalculator from '@/components/LowVoltageCableCalculator';
+import PressureConverter from '@/components/PressureConverter';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -304,16 +305,21 @@ const faqContentBySlug: Record<
         'È possibile caricare punti da file CSV o DXF, elaborare la trasformazione in batch e scaricare il risultato con gli scarti residui.',
     },
   ],
-  'convertitore-unita-pressione': [
+  'convertitore-pressione-bar-psi-pa': [
     {
-      question: 'Quali unità di pressione sono disponibili?',
+      question: 'Qual è la differenza tra pressione assoluta e relativa (gauge)?',
       answer:
-        'Il convertitore gestisce Pascal, bar, psi, atmosfere tecniche, mmHg, kPa e torr, con precisione configurabile fino a 6 cifre decimali.',
+        'La pressione assoluta è misurata rispetto al vuoto (Pa assoluti), mentre la pressione gauge è misurata rispetto alla pressione atmosferica. Il convertitore consente di impostare il dato come gauge aggiungendo automaticamente l’atmosfera di riferimento.',
     },
     {
-      question: 'È possibile salvare le conversioni frequenti?',
+      question: 'Posso modificare la pressione atmosferica di riferimento?',
       answer:
-        'Puoi aggiungere ai preferiti le conversioni più utilizzate e accedervi rapidamente da qualsiasi dispositivo autenticato.',
+        'Sì. Nelle impostazioni avanzate imposti la pressione atmosferica locale (ad esempio 95 kPa per siti in quota) così da ottenere conversioni accurate tra gauge e valori assoluti.',
+    },
+    {
+      question: 'Quali unità supporta il convertitore?',
+      answer:
+        'Sono incluse le principali unità: Pascal, kPa, MPa, bar, mbar, psi, atm, Torr, pollici e millimetri di colonna d’acqua, e kgf/cm² con fattori conformi a ISO 80000-4 e tabelle NIST.',
     },
   ],
   'gestione-scadenze-cantiere': [
@@ -691,21 +697,22 @@ const howToContentBySlug: Record<
       },
     ],
   },
-  'convertitore-unita-pressione': {
-    name: 'Come Convertire un\'Unità di Pressione',
-    description: 'Passi essenziali per convertire pressioni tra sistemi internazionali e imperiali.',
+  'convertitore-pressione-bar-psi-pa': {
+    name: 'Come convertire correttamente le pressioni tecniche',
+    description:
+      'Procedura guidata per passare da pressioni assolute o relative alle unità richieste nei progetti e nei collaudi.',
     steps: [
       {
-        name: 'Seleziona le unità di partenza e arrivo',
-        text: 'Scegli l\'unità di origine e quella di destinazione tra le opzioni disponibili.',
+        name: 'Imposta valore e unità di partenza',
+        text: 'Inserisci il valore da convertire e seleziona l’unità di origine (bar, psi, Pa, ecc.).',
       },
       {
-        name: 'Inserisci il valore',
-        text: 'Digita il valore da convertire e definisci il numero di cifre decimali desiderate.',
+        name: 'Definisci il tipo di pressione',
+        text: 'Scegli se il dato è assoluto o relativo (gauge) e, in quest’ultimo caso, imposta la pressione atmosferica locale.',
       },
       {
-        name: 'Salva la conversione',
-        text: 'Opzionalmente aggiungi la conversione ai preferiti per riutilizzarla rapidamente.',
+        name: 'Leggi i valori convertiti',
+        text: 'Consulta la tabella per ottenere tutti i corrispondenti nelle unità richieste e utilizza i riferimenti rapidi per verificare la plausibilità del risultato.',
       },
     ],
   },
@@ -753,6 +760,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'calcolatore-legge-ohm-potenza': OhmsLawPowerCalculator,
   'calcolo-illuminotecnico-numero-lampade': IlluminanceLampsCalculator,
   'calcolo-corrente-spunto-motore': MotorInrushCalculator,
+  'convertitore-pressione-bar-psi-pa': PressureConverter,
 };
 
 function normalizeCategoryParam(param: string | undefined): string {
