@@ -569,18 +569,22 @@ export const calculators: Calculator[] = [
     slug: 'calcolo-corrente-spunto-motore',
     title: 'Calcolo Corrente di Spunto (Motori)',
     description:
-      'Calcola la corrente di spunto di motori asincroni trifase per selezionare correttamente le protezioni e gli avviatori.',
+      'Stima la corrente di spunto di un motore asincrono in funzione della strategia di avviamento (DOL, stella-triangolo, soft starter, inverter) e fornisce suggerimenti su tarature e impatti di rete.',
     metaDescription:
-      'Calcolo della corrente di spunto dei motori asincroni per la scelta di protezioni curva D e dispositivi di avviamento.',
+      'Calcolatore per la corrente di spunto dei motori asincroni: corrente nominale, Iavv/In, kVA assorbiti, caduta di tensione e tarature consigliate secondo CEI EN 60034-12.',
     category: 'elettrotecnica',
     keywords: [
       'corrente di spunto',
       'motore asincrono',
       'protezione motore',
+      'avviamento diretto',
+      'stella triangolo',
+      'soft starter',
+      'inverter',
     ],
     author: defaultAuthors.ugoCandido,
     datePublished: '2024-11-28',
-    dateModified: '2025-03-04',
+    dateModified: '2025-03-06',
     schema: 'SoftwareApplication',
   },
   {

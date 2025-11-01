@@ -37,6 +37,7 @@ import EarthResistanceCalculator from '@/components/EarthResistanceCalculator';
 import PowerFactorCorrectionCalculator from '@/components/PowerFactorCorrectionCalculator';
 import OhmsLawPowerCalculator from '@/components/OhmsLawPowerCalculator';
 import IlluminanceLampsCalculator from '@/components/IlluminanceLampsCalculator';
+import MotorInrushCalculator from '@/components/MotorInrushCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -213,6 +214,23 @@ const faqContentBySlug: Record<
       question: 'Come verifico uniformità e controllo dell’abbagliamento?',
       answer:
         'Il risultato fornisce la spaziatura consigliata e segnala quando il rapporto interasse/altezza supera 1,5. Per il controllo di UGR e uniformità U₀ è necessario un calcolo fotometrico dettagliato (Dialux/Relux) secondo UNI EN 12464-1 allegato B.',
+    },
+  ],
+  'calcolo-corrente-spunto-motore': [
+    {
+      question: 'Come viene calcolata la corrente di spunto del motore?',
+      answer:
+        'Il calcolatore ricava la corrente nominale In dalla potenza di targa (P = √3 · V · I · η · cosφ) e la moltiplica per il rapporto Iavv/In impostato secondo il metodo di avviamento scelto, in accordo con le curve CEI EN 60034-12.',
+    },
+    {
+      question: 'Posso stimare l’impatto della corrente di spunto sulla rete di alimentazione?',
+      answer:
+        'Inserendo la potenza di corto circuito Sk disponibile sul quadro il tool calcola la caduta di tensione percentuale (ΔV ≈ Iavv/Ik · 100), evidenziando se supera i limiti di CEI EN 61000-3-11.',
+    },
+    {
+      question: 'Quando conviene passare da avviamento diretto a soluzioni ridotte?',
+      answer:
+        'Il riepilogo segnala rapporti di spunto elevati e fornisce note operative: se Iavv supera 6·In o la caduta di tensione è >15% valuta stella-triangolo, soft starter, autotrasformatore o inverter per contenere i transitori.',
     },
   ],
   'dimensionamento-rete-fognaria': [
@@ -465,6 +483,25 @@ const howToContentBySlug: Record<
       },
     ],
   },
+  'calcolo-corrente-spunto-motore': {
+    name: 'Come verificare la corrente di spunto di un motore asincrono',
+    description:
+      'Procedura guidata per stimare corrente, potenza di spunto e tarature di protezione in base al metodo di avviamento scelto.',
+    steps: [
+      {
+        name: 'Raccogli i dati di targa',
+        text: 'Inserisci potenza nominale, tensione, rendimento e cos φ riportati sulla targhetta o nel catalogo IEC del costruttore.',
+      },
+      {
+        name: 'Seleziona il metodo di avviamento',
+        text: 'Scegli tra DOL, stella-triangolo, autotrasformatore, soft starter o inverter e imposta il rapporto Iavv/In fornito dal costruttore.',
+      },
+      {
+        name: 'Analizza correnti e protezioni',
+        text: 'Valuta i kVA assorbiti, la caduta di tensione rispetto alla potenza di corto circuito disponibile e regola le protezioni termiche e magnetiche.',
+      },
+    ],
+  },
   'dimensionamento-interruttore-magnetotermico': {
     name: 'Come Dimensionare l\'Interruttore Magnetotermico',
     description: 'Procedura guidata per scegliere la taglia dell\'interruttore automatico in accordo con la CEI 64-8.',
@@ -713,6 +750,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'calcolo-roi-return-on-investment': ROICalculator,
   'calcolatore-legge-ohm-potenza': OhmsLawPowerCalculator,
   'calcolo-illuminotecnico-numero-lampade': IlluminanceLampsCalculator,
+  'calcolo-corrente-spunto-motore': MotorInrushCalculator,
 };
 
 function normalizeCategoryParam(param: string | undefined): string {
