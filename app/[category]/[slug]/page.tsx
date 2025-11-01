@@ -38,6 +38,7 @@ import PowerFactorCorrectionCalculator from '@/components/PowerFactorCorrectionC
 import OhmsLawPowerCalculator from '@/components/OhmsLawPowerCalculator';
 import IlluminanceLampsCalculator from '@/components/IlluminanceLampsCalculator';
 import MotorInrushCalculator from '@/components/MotorInrushCalculator';
+import LowVoltageCableCalculator from '@/components/LowVoltageCableCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -90,12 +91,12 @@ const faqContentBySlug: Record<
     {
       question: 'Considera le tabelle CEI 64-8 per il dimensionamento?',
       answer:
-        'Sì, il software utilizza le tabelle CEI 64-8 per calcolare la portata in funzione della posa, della temperatura e del numero di circuiti affiancati.',
+        'Sì, il tool applica le tabelle CEI 64-8/CEI UNEL 35024-1 combinando fattori di posa, temperatura e raggruppamento per restituire la portata Iz corretta del cavo.',
     },
     {
-      question: 'Posso valutare la selettività delle protezioni?',
+      question: 'Posso verificare protezioni e corto circuito?',
       answer:
-        'Vengono forniti suggerimenti sulla selettività magnetica e termica tra interruttori consecutivi con controllo della corrente di corto circuito presunta.',
+        'Il calcolatore controlla Ib ≤ In ≤ Iz, stima la caduta di tensione e confronta la corrente di corto circuito impostata con la capacità termica del cavo (S ≥ Icc·√t/k) evidenziando gli scostamenti critici.',
     },
   ],
   'calcolo-sezione-cavo-portata': [
@@ -405,7 +406,7 @@ const howToContentBySlug: Record<
       },
       {
         name: 'Consulta la scheda tecnica',
-        text: 'Analizza portata, caduta di tensione e suggerimenti sulle protezioni magnetotermiche.',
+        text: 'Analizza portata corretta Iz, caduta di tensione, verifica Ib ≤ In ≤ Iz e controlla l’idoneità al corto circuito impostato.',
       },
     ],
   },
@@ -740,6 +741,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'calcolo-taglio-sismico-statica': SeismicBaseShearCalculator,
   'verifica-trave-ca': ConcreteBeamVerification,
   'calcolo-sezione-cavo-portata': CableSizingCalculator,
+  'dimensionamento-cavi-bt': LowVoltageCableCalculator,
   'calcolo-caduta-tensione-linea': VoltageDropCalculator,
   'dimensionamento-interruttore-magnetotermico': MagnetothermicBreakerCalculator,
   'calcolo-corrente-corto-circuito-icc': ShortCircuitCurrentCalculator,

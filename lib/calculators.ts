@@ -2603,9 +2603,9 @@ export const calculators: Calculator[] = [
     slug: 'dimensionamento-cavi-bt',
     title: 'Dimensionamento Cavi BT',
     description:
-      'Dimensiona cavi elettrici in bassa tensione con verifica portata, caduta di tensione, protezioni magnetotermiche e coordinamento.',
+      'Dimensiona cavi elettrici in bassa tensione con applicazione dei fattori correttivi CEI 64-8, verifica della caduta di tensione, delle protezioni e della tenuta al corto circuito.',
     metaDescription:
-      'Calcolatore per il dimensionamento dei cavi elettrici BT secondo CEI 64-8. Valuta sezione, caduta V, corrente ammissibile e protezioni automatiche.',
+      'Calcolatore professionale per il dimensionamento dei cavi BT secondo CEI 64-8: sezione minima, fattori di posa e temperatura, caduta di tensione, Ib ≤ In ≤ Iz e verifica termica al corto circuito.',
     category: 'elettrotecnica',
     keywords: [
       'dimensionamento cavi',
@@ -2614,6 +2614,8 @@ export const calculators: Calculator[] = [
       'impianti elettrici',
       'protezioni magnetotermiche',
       'corrente ammissibile',
+      'fattori correttivi',
+      'corto circuito',
     ],
     author: defaultAuthors.ugoCandido,
     datePublished: '2024-02-14',
