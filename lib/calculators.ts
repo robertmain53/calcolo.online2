@@ -490,18 +490,21 @@ export const calculators: Calculator[] = [
     slug: 'calcolatore-legge-ohm-potenza',
     title: 'Legge di Ohm e Potenze (P, Q, S)',
     description:
-      'Calcola tensione, corrente, resistenza e potenze attiva, reattiva e apparente in circuiti in corrente continua, monofase e trifase.',
+      'Calcola in modo professionale tensione, corrente, impedenza e potenze P-Q-S in circuiti in corrente continua, monofase e trifase, gestendo fattori di potenza induttivi o capacitivi.',
     metaDescription:
-      'Calcolatrice per la legge di Ohm e per le potenze elettriche in sistemi DC, AC monofase e trifase.',
+      'Calcolatrice avanzata per la legge di Ohm: determina tensione, corrente, impedenza e potenze attiva, reattiva e apparente in sistemi DC, monofase e trifase secondo CEI 64-8 e CEI EN 50160.',
     category: 'elettrotecnica',
     keywords: [
       'legge di ohm',
       'potenza elettrica',
-      'trifase',
+      'fattore di potenza',
+      'potenza apparente',
+      'impedenza',
+      'calcolo trifase',
     ],
     author: defaultAuthors.ugoCandido,
     datePublished: '2024-11-28',
-    dateModified: '2025-03-04',
+    dateModified: '2025-03-06',
     schema: 'SoftwareApplication',
   },
   {

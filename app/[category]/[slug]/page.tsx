@@ -35,6 +35,7 @@ import ShortCircuitCurrentCalculator from '@/components/ShortCircuitCurrentCalcu
 import ConduitSizingCalculator from '@/components/ConduitSizingCalculator';
 import EarthResistanceCalculator from '@/components/EarthResistanceCalculator';
 import PowerFactorCorrectionCalculator from '@/components/PowerFactorCorrectionCalculator';
+import OhmsLawPowerCalculator from '@/components/OhmsLawPowerCalculator';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -177,6 +178,23 @@ const faqContentBySlug: Record<
       question: 'Come sono calcolati i gradini della batteria di condensatori?',
       answer:
         'La suddivisione avviene usando le taglie standard (5-100 kVAR). Puoi aggiungere un gradino custom se il valore calcolato non coincide con quelli commerciali.',
+    },
+  ],
+  'calcolatore-legge-ohm-potenza': [
+    {
+      question: 'Quali grandezze elettriche posso determinare con il calcolatore?',
+      answer:
+        'Lo strumento fornisce tensione, corrente, impedenza, potenze attiva/reactive/apparente e fattore di potenza per circuiti in DC, monofase e trifase equilibrato. I calcoli seguono le relazioni CEI 64-8 capitolo 2 con precisione numerica meglio di 1‰ grazie all’uso di valori RMS coerenti.',
+    },
+    {
+      question: 'Come gestisce il fattore di potenza per carichi induttivi o capacitivi?',
+      answer:
+        'Puoi inserire cos φ con segno oppure direttamente Q con segno: il motore assegna automaticamente la natura induttiva/capacitiva al carico e calcola le componenti R ed X della impedenza come richiesto da CEI EN 50160 e dalle guide ARERA sul rifasamento.',
+    },
+    {
+      question: 'Posso usare il risultato per dimensionare protezioni e cavi?',
+      answer:
+        'Sì. Una volta determinati Ib, S e cos φ puoi confrontarli con i limiti CEI 64-8 per le protezioni (art. 433) e, integrandoli con la caduta di tensione, scegliere sezione e interruttore. In fase di progetto allega comunque le verifiche di caduta e corto circuito dedicate.',
     },
   ],
   'dimensionamento-rete-fognaria': [
@@ -388,6 +406,25 @@ const howToContentBySlug: Record<
       {
         name: 'Confronta con il limite',
         text: 'Analizza la caduta ΔV rispetto al limite scelto e valuta la lunghezza massima ammessa o le sezioni alternative proposte.',
+      },
+    ],
+  },
+  'calcolatore-legge-ohm-potenza': {
+    name: 'Come determinare P, Q, S e cos φ con la legge di Ohm',
+    description:
+      'Procedura guidata per ricavare tutte le grandezze elettriche fondamentali a partire da due dati di targa o di misura.',
+    steps: [
+      {
+        name: 'Seleziona il tipo di circuito',
+        text: 'Indica se il circuito è in corrente continua, monofase o trifase e specifica se la tensione immessa è linea-linea o linea-neutro.',
+      },
+      {
+        name: 'Inserisci due grandezze note',
+        text: 'Compila almeno due campi tra tensione, corrente, |Z|, potenza attiva o apparente e il fattore di potenza, rispettando le unità utilizzate in campo.',
+      },
+      {
+        name: 'Analizza i risultati',
+        text: 'Verifica corrente Ib, potenze P-Q-S, cos φ e impedenza ottenuti confrontandoli con i limiti CEI 64-8 per il dimensionamento di cavi e protezioni.',
       },
     ],
   },
@@ -637,6 +674,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'calcolo-rifasamento-cos-phi': PowerFactorCorrectionCalculator,
   'calcolo-trave-appoggiata': SimplySupportedBeamCalculator,
   'calcolo-roi-return-on-investment': ROICalculator,
+  'calcolatore-legge-ohm-potenza': OhmsLawPowerCalculator,
 };
 
 function normalizeCategoryParam(param: string | undefined): string {
