@@ -40,6 +40,7 @@ import IlluminanceLampsCalculator from '@/components/IlluminanceLampsCalculator'
 import MotorInrushCalculator from '@/components/MotorInrushCalculator';
 import LowVoltageCableCalculator from '@/components/LowVoltageCableCalculator';
 import PressureConverter from '@/components/PressureConverter';
+import PowerConverter from '@/components/PowerConverter';
 
 interface CalculatorPageProps {
   params: Promise<{
@@ -233,6 +234,23 @@ const faqContentBySlug: Record<
       question: 'Quando conviene passare da avviamento diretto a soluzioni ridotte?',
       answer:
         'Il riepilogo segnala rapporti di spunto elevati e fornisce note operative: se Iavv supera 6·In o la caduta di tensione è >15% valuta stella-triangolo, soft starter, autotrasformatore o inverter per contenere i transitori.',
+    },
+  ],
+  'convertitore-potenza-kw-hp-cv': [
+    {
+      question: 'Qual è la differenza tra HP, CV e kW?',
+      answer:
+        '1 HP (horsepower SAE) vale 745,7 W, 1 CV (cavallo vapore metrico) vale 735,5 W, mentre 1 kW corrisponde a 1 000 W. Il convertitore utilizza i fattori ISO/NIST per confrontare le unità in modo coerente.',
+    },
+    {
+      question: 'Posso stimare la potenza assorbita da un motore?',
+      answer:
+        'Sì. Inserendo l’efficienza η il tool calcola automaticamente la potenza assorbita (Pinput = Poutput/η) e suggerisce la coppia all’albero in funzione dei giri impostati.',
+    },
+    {
+      question: 'Sono supportati i sistemi HVAC?',
+      answer:
+        'Oltre a kW e HP, il convertitore gestisce BTU/h e tonnellate di refrigerazione (1 TR = 3,517 kW) per confrontare chiller e unità di climatizzazione industriale.',
     },
   ],
   'dimensionamento-rete-fognaria': [
@@ -716,6 +734,25 @@ const howToContentBySlug: Record<
       },
     ],
   },
+  'convertitore-potenza-kw-hp-cv': {
+    name: 'Come convertire la potenza tra kW, HP e CV',
+    description:
+      'Passi fondamentali per confrontare motori elettrici, termici e unità HVAC, tenendo conto di efficienza e coppia.',
+    steps: [
+      {
+        name: 'Definisci valore e unità',
+        text: 'Inserisci la potenza nota e seleziona l’unità di origine (kW, HP, CV, BTU/h, ecc.).',
+      },
+      {
+        name: 'Imposta parametri operativi',
+        text: 'Se desideri stimare potenza assorbita e coppia, imposta efficienza e numero di giri/minuto.',
+      },
+      {
+        name: 'Analizza le conversioni',
+        text: 'Utilizza la tabella per leggere le equivalenze e confronta i risultati con le schede tecniche del costruttore.',
+      },
+    ],
+  },
   'gestione-scadenze-cantiere': {
     name: 'Come Organizzare le Scadenze di Cantiere',
     description: 'Procedura per gestire in modo efficiente scadenze e permessi di un cantiere.',
@@ -761,6 +798,7 @@ const calculatorComponents: Record<string, ComponentType | undefined> = {
   'calcolo-illuminotecnico-numero-lampade': IlluminanceLampsCalculator,
   'calcolo-corrente-spunto-motore': MotorInrushCalculator,
   'convertitore-pressione-bar-psi-pa': PressureConverter,
+  'convertitore-potenza-kw-hp-cv': PowerConverter,
 };
 
 function normalizeCategoryParam(param: string | undefined): string {

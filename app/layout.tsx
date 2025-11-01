@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { siteConfig } from '@/lib/config';
 import { generateOrganizationSchema, generateWebSiteSchema } from '@/lib/structured-data';
 import './globals.css';
+import SearchForm from '@/components/SearchForm';
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -117,6 +118,9 @@ export default function RootLayout({
             <p className="text-sm text-gray-600">
               Calcolatori Professionali Certificati
             </p>
+            <div className="mt-4">
+              <SearchForm />
+            </div>
           </div>
         </header>
         
@@ -143,9 +147,10 @@ export default function RootLayout({
               <div>
                 <h3 className="font-semibold mb-2">Risorse</h3>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li><a href="/azienda" className="hover:text-blue-600">Azienda</a></li>
-                  <li><a href="/privacy" className="hover:text-blue-600">Privacy Policy</a></li>
+                  <li><a href="/autore" className="hover:text-blue-600">Autore e Revisori</a></li>
+                  <li><a href="/privacy" className="hover:text-blue-600">Informativa Privacy</a></li>
                   <li><a href="/termini" className="hover:text-blue-600">Termini di Servizio</a></li>
+                  <li><a href="/cookie" className="hover:text-blue-600">Informativa Cookie</a></li>
                 </ul>
               </div>
             </div>

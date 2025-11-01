@@ -991,18 +991,21 @@ export const calculators: Calculator[] = [
     slug: 'convertitore-potenza-kw-hp-cv',
     title: 'Convertitore Potenza',
     description:
-      'Converti potenze tra Watt, kilowatt, cavalli vapore, cavalli elettrici e BTU/h per confrontare motori e impianti.',
+      'Converti la potenza tra Watt, kW, cavalli (HP/CV), BTU/h e tonnellate di refrigerazione con analisi di efficienza e coppia all’albero.',
     metaDescription:
-      'Convertitore di potenza: da Watt a kW, HP, CV e BTU/h con supporto per cavalli elettrici.',
+      'Convertitore di potenza professionale: kW ↔ HP ↔ CV, BTU/h e TR con calcolo potenza assorbita, efficienza e coppia per motori elettrici e HVAC.',
     category: 'convertitori-tecnici',
     keywords: [
       'convertitore potenza',
       'kW HP',
       'cavalli vapore',
+      'BTU/h',
+      'tonnellata refrigerazione',
+      'coppia motore',
     ],
     author: defaultAuthors.ugoCandido,
     datePublished: '2024-12-28',
-    dateModified: '2025-03-28',
+    dateModified: '2025-03-30',
     schema: 'SoftwareApplication',
   },
   {
